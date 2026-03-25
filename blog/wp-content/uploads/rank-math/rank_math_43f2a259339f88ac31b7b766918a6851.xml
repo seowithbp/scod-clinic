@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//scodclinic.com/blog/main-sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>https://scodclinic.com/blog/post-sitemap.xml</loc>
+		<lastmod>2026-03-24T12:14:16+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://scodclinic.com/blog/category-sitemap.xml</loc>
+		<lastmod>2026-03-24T12:14:16+00:00</lastmod>
+	</sitemap>
+</sitemapindex>

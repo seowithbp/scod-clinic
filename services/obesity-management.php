@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dietician in Delhi | Nutrition Counselling - Dr. Arush Sabharwal</title>
+    <meta name="description"
+        content="Seeking expert dietician in Delhi? Get personalized nutrition counselling with Dr. Arush Sabharwal for weight management and healthy eating plans.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>tailwind.config = { theme: { extend: { colors: { scod: '#1876AA' }, fontFamily: { sans: ['"Nunito Sans"', 'sans-serif'] } } } }</script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="../css/custom.css">
+    <style>
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+        .scrollbar-hide {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        .phase-btn.active {
+            background-color: white;
+            border-color: #1876AA;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        .phase-btn.active .icon-box {
+            background-color: #1876AA;
+            color: white;
+        }
+        .phase-btn.active h4 {
+            color: #111827;
+        }
+        .bmi-tab-btn.active {
+            background-color: #1876AA;
+            color: white;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-white text-gray-900 pt-20">
+    <!-- NAVBAR -->
+    <?php $path_prefix = '../'; include '../includes/header.php'; ?>
+    <!-- HERO -->
+    <section class="relative h-[500px] flex items-center bg-gray-900 text-white overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://brandingpioneers.co.in/scod/scod-breadcrumbs/Diet,Nutrition & Counselling,.webp"
+                alt="Healthy Nutrition" class="w-full h-full object-cover object-center opacity-40">
+            <div class="absolute inset-0 bg-gradient-to-r from-scod/95 via-scod/80 to-transparent"></div>
+        </div>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+            <div class="max-w-3xl observe-animate" data-animation="fade-in-left">
+                <div
+                    class="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full mb-6 border border-white/20">
+                    <i data-feather="heart" class="w-5 h-5 text-emerald-300"></i><span
+                        class="text-sm font-bold tracking-wide uppercase">Holistic Care</span>
+                </div>
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight text-white">Diet, Nutrition & <br><span
+                        class="text-emerald-300">Counselling</span></h1>
+                <p class="text-lg md:text-xl text-blue-100 max-w-2xl leading-relaxed mb-8">Surgery is the tool;
+                    nutrition is the fuel. Our comprehensive program combines medical nutrition therapy with behavioral
+                    counselling to ensure lifelong success.</p>
+                <div class="flex flex-col sm:flex-row gap-5">
+                    <a href="../contact.php"
+                        class="bg-white text-scod px-8 py-3 rounded-full font-bold text-base hover:bg-gray-100 transition-all shadow-lg flex items-center justify-center space-x-2"><i
+                            data-feather="clipboard" class="w-5 h-5"></i><span>Book Diet Consult</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- THE ROLE OF DIET -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="observe-animate" data-animation="fade-in-left">
+                    <div class="flex items-center space-x-4 mb-6">
+                        <div class="h-px w-12 bg-scod"></div><span
+                            class="uppercase tracking-widest text-sm font-bold text-scod">The Foundation</span>
+                    </div>
+                    <h2 class="text-4xl font-bold text-gray-900 mb-6 leading-tight">More Than Just <br><span
+                            class="text-scod">Calories In, Calories Out</span></h2>
+                    <p class="text-lg text-gray-600 mb-6 leading-relaxed">For patients with obesity and diabetes, food
+                        acts as a hormonal signal. The right nutrition can lower insulin resistance, reduce
+                        inflammation, and enhance surgical outcomes.</p>
+                    <p class="text-lg text-gray-600 mb-8 leading-relaxed">At SCOD, we don't believe in "dieting" in the
+                        traditional sense. We teach <strong>Metabolic Nutrition</strong>—eating to fuel your body's
+                        recovery and maintain a healthy weight set-point long-term.</p>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div
+                                class="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600 mt-1">
+                                <i data-feather="check" class="w-5 h-5"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="font-bold text-gray-900">Pre-Op Optimization</h4>
+                                <p class="text-sm text-gray-500">Liver-shrinking diet to ensure surgical safety.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div
+                                class="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600 mt-1">
+                                <i data-feather="check" class="w-5 h-5"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="font-bold text-gray-900">Post-Op Recovery</h4>
+                                <p class="text-sm text-gray-500">Phased reintroduction of foods to protect the stomach.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative observe-animate" data-animation="scale-in">
+                    <div class="rounded-3xl overflow-hidden shadow-2xl border-8 border-gray-50"><img
+                            src="../assets/scod/treatment/medical management/Lifestyle Medicine.webp"
+                            alt="Healthy Food and Lifestyle" class="w-full h-auto object-cover"></div>
+                    <div
+                        class="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-xl border border-gray-100 max-w-xs hidden md:block">
+                        <p class="text-scod font-bold text-4xl mb-1">80g</p>
+                        <p class="text-gray-600 text-sm">Daily protein target for optimal recovery.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- POST-OP DIET PHASES -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16"><span class="text-scod font-bold tracking-widest uppercase text-sm">Recovery
+                    Roadmap</span>
+                <h2 class="text-4xl font-bold text-gray-900 mt-2">Post-Surgery Diet Phases</h2>
+                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Your stomach needs time to heal. We guide you through a
+                    structured 4-phase progression from liquids to solids.</p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+                <!-- Navigation -->
+                <div class="lg:col-span-4 space-y-3" id="phase-nav-container">
+                    <!-- Buttons will be injected here -->
+                </div>
+                <!-- Content Area -->
+                <div class="lg:col-span-8">
+                    <div id="phase-content-area"
+                        class="bg-white rounded-3xl p-8 shadow-lg border border-gray-100 h-full opacity-0 translate-y-4 transition-all duration-300">
+                        <!-- Content will be injected here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PROTEIN & HYDRATION TARGETS -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl p-8 text-white shadow-lg observe-animate"
+                    data-animation="fade-in-up">
+                    <div
+                        class="bg-white/20 w-12 h-12 rounded-xl flex items-center justify-center mb-6 backdrop-blur-sm">
+                        <i data-feather="activity" class="w-6 h-6 text-white"></i>
+                    </div>
+                    <h3 class="text-4xl font-bold mb-2">60-80g</h3>
+                    <p class="text-blue-100 font-medium mb-4">Daily Protein Goal</p>
+                    <p class="text-sm text-blue-50 opacity-90">Essential for wound healing and preserving muscle mass
+                        during rapid weight loss.</p>
+                </div>
+                <div class="bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-2xl p-8 text-white shadow-lg observe-animate delay-100"
+                    data-animation="fade-in-up">
+                    <div
+                        class="bg-white/20 w-12 h-12 rounded-xl flex items-center justify-center mb-6 backdrop-blur-sm">
+                        <i data-feather="droplet" class="w-6 h-6 text-white"></i>
+                    </div>
+                    <h3 class="text-4xl font-bold mb-2">2.5 L</h3>
+                    <p class="text-emerald-100 font-medium mb-4">Daily Water Intake</p>
+                    <p class="text-sm text-emerald-50 opacity-90">Dehydration is the #1 cause of re-admission. Sip
+                        constantly throughout the day.</p>
+                </div>
+                <div class="bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl p-8 text-white shadow-lg observe-animate delay-200"
+                    data-animation="fade-in-up">
+                    <div
+                        class="bg-white/20 w-12 h-12 rounded-xl flex items-center justify-center mb-6 backdrop-blur-sm">
+                        <i data-feather="pie-chart" class="w-6 h-6 text-white"></i>
+                    </div>
+                    <h3 class="text-4xl font-bold mb-2">Daily</h3>
+                    <p class="text-purple-100 font-medium mb-4">Vitamins & Minerals</p>
+                    <p class="text-sm text-purple-50 opacity-90">Multivitamins, Calcium, and Iron are non-negotiable for
+                        lifelong health.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SAMPLE MENU & SNACKS -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900">Sample Menu: Solid Phase</h2>
+                <p class="text-gray-600 mt-2">A balanced day of eating for long-term weight maintenance.</p>
+            </div>
+            <div class="space-y-4" id="sample-menu-container">
+                <!-- Menu items injected by JS -->
+            </div>
+            <div class="mt-8 text-center">
+                <p class="text-sm text-gray-500 italic">* Portion sizes will vary based on individual tolerance and
+                    stage
+                    of recovery.</p>
+            </div>
+        </div>
+    </section>
+    <!-- COUNSELLING -->
+    <section class="py-20 bg-orange-50 border-y border-orange-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <div
+                        class="inline-flex items-center space-x-2 bg-white px-4 py-2 rounded-full mb-6 border border-orange-100 shadow-sm">
+                        <i data-feather="smile" class="w-5 h-5 text-orange-500"></i><span
+                            class="text-sm font-bold text-orange-700 uppercase tracking-wide">Mind & Behavior</span>
+                    </div>
+                    <h2 class="text-4xl font-bold text-gray-900 mb-6">Healing Your Relationship <br>with Food</h2>
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">Surgery changes your stomach, but not your
+                        brain. Emotional eating, stress triggers, and old habits can resurface. Our behavioural
+                        counselling is designed to build mental resilience.</p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start"><i data-feather="check"
+                                class="w-6 h-6 text-orange-500 mr-3 flex-shrink-0"></i><span
+                                class="text-gray-700">Identifying emotional triggers vs. physical hunger</span></li>
+                        <li class="flex items-start"><i data-feather="check"
+                                class="w-6 h-6 text-orange-500 mr-3 flex-shrink-0"></i><span
+                                class="text-gray-700">Managing stress without using food as a coping mechanism</span>
+                        </li>
+                        <li class="flex items-start"><i data-feather="check"
+                                class="w-6 h-6 text-orange-500 mr-3 flex-shrink-0"></i><span
+                                class="text-gray-700">Support groups to share experiences and stay motivated</span></li>
+                    </ul>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-orange-100"><i data-feather="users"
+                            class="w-10 h-10 text-orange-500 mb-4"></i>
+                        <h4 class="font-bold text-gray-900">Group Support</h4>
+                        <p class="text-sm text-gray-500 mt-2">Weekly meetings with fellow patients.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-orange-100 translate-y-8"><i
+                            data-feather="heart" class="w-10 h-10 text-orange-500 mb-4"></i>
+                        <h4 class="font-bold text-gray-900">1-on-1 Therapy</h4>
+                        <p class="text-sm text-gray-500 mt-2">Private sessions with psychologists.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- MEDICAL AWARENESS SLIDER -->
+    <section class="py-12 bg-white relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full overflow-hidden z-0 pointer-events-none">
+            <div
+                class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-blue-50 rounded-full blur-[100px] opacity-60">
+            </div>
+            <div
+                class="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-emerald-50 rounded-full blur-[100px] opacity-60">
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-8 gap-6">
+                <div class="text-left">
+                    <div class="flex items-center space-x-4 mb-4">
+                        <div class="h-px w-10 bg-scod"></div><span
+                            class="uppercase tracking-widest text-sm font-bold text-scod">Expert Insights</span>
+                    </div>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Medical <span
+                            class="text-scod">Awareness</span></h2>
+                    <p class="text-base text-gray-600 max-w-2xl">Empowering you with knowledge. Watch Dr. Arush
+                        Sabharwal explain complex medical topics in simple terms.</p>
+                </div>
+                <div class="flex flex-col items-end gap-6 mb-4 md:mb-0">
+                    <div class="flex items-center gap-3">
+                        <button id="awareness-prev-btn"
+                            class="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-all duration-300 shadow-sm hover:shadow-md bg-white"><i
+                                data-feather="chevron-left" class="w-5 h-5"></i></button>
+                        <button id="awareness-next-btn"
+                            class="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-all duration-300 shadow-sm hover:shadow-md bg-white"><i
+                                data-feather="chevron-right" class="w-5 h-5"></i></button>
+                    </div>
+                    <a href="https://www.youtube.com/@drarushsabharwal" target="_blank" rel="noopener noreferrer"
+                        class="group flex items-center gap-2 text-scod font-bold text-base hover:text-blue-700 transition-all"><span>Visit
+                            YouTube Channel</span><i data-feather="youtube"
+                            class="w-5 h-5 group-hover:translate-x-1 transition-transform"></i></a>
+                </div>
+            </div>
+            <div class="-mx-4 overflow-hidden">
+                <div id="awareness-slider" class="flex transition-transform duration-500 ease-out">
+                    <!-- Slides injected by JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BMI INFO SECTION -->
+    <section class="py-16 bg-gradient-to-br from-blue-50 via-white to-blue-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <div class="flex items-center justify-center space-x-4 mb-4">
+                    <div class="h-px w-12 bg-scod"></div><span
+                        class="uppercase tracking-widest text-sm font-bold text-scod">Health Metrics</span>
+                    <div class="h-px w-12 bg-scod"></div>
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">Understanding Your <span
+                        class="text-scod">Body Metrics</span></h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">Learn about Body Mass Index (BMI) and how it relates
+                    to your overall health and weight management goals</p>
+            </div>
+            <div class="flex justify-center mb-12">
+                <div class="inline-flex bg-white rounded-full p-2 shadow-lg border border-gray-100">
+                    <button id="tab-bmi"
+                        class="bmi-tab-btn active flex items-center space-x-2 px-8 py-3 rounded-full font-semibold transition-all duration-300 text-gray-600 hover:text-scod"><i
+                            data-feather="info" class="w-5 h-5"></i><span>Understanding BMI</span></button>
+                    <button id="tab-categories"
+                        class="bmi-tab-btn flex items-center space-x-2 px-8 py-3 rounded-full font-semibold transition-all duration-300 text-gray-600 hover:text-scod"><i
+                            data-feather="activity" class="w-5 h-5"></i><span>BMI Categories</span></button>
+                </div>
+            </div>
+            <div id="bmi-content-area">
+                <!-- BMI content injected -->
+            </div>
+        </div>
+    </section>
+    <!-- CTA -->
+    <section class="py-20 bg-scod text-white">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-6">Need Expert Guidance?</h2>
+            <p class="text-xl text-blue-100 mb-8">Whether you are preparing for surgery or need help getting back on
+                track, our nutritionists and counsellors are here for you.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="../contact.php"
+                    class="bg-white text-scod px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all shadow-xl hover:-translate-y-1 flex items-center justify-center space-x-2"><i
+                        data-feather="calendar" class="w-5 h-5"></i><span>Book Nutrition Consult</span></a>
+                <a href="../contact.php"
+                    class="bg-transparent border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white/10 transition-all shadow-lg flex items-center justify-center space-x-2"><i
+                        data-feather="users" class="w-5 h-5"></i><span>Join Support Group</span></a>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <?php include '../includes/footer.php'; ?>
+    </div>
+    <script>
+        // DIET PHASES
+        const phases = [
+            {
+                id: 0,
+                title: "Phase 1: Clear Liquids",
+                duration: "Days 1-2 Post-Op",
+                icon: "droplet",
+                focus: "Hydration & Healing",
+                allowed: ["Water", "Clear Broth", "Sugar-free Gelatin", "Diluted Fruit Juice"],
+                avoid: ["Carbonated drinks", "Caffeine", "Sugary drinks", "Solid food"],
+                tip: "Sip slowly. Aim for 30ml every 15 minutes."
+            },
+            {
+                id: 1,
+                title: "Phase 2: Full Liquids",
+                duration: "Days 3-14 Post-Op",
+                icon: "coffee",
+                focus: "Protein Intake",
+                allowed: ["Protein Shakes", "Skim Milk", "Thin Low-fat Yogurt", "Strained Cream Soup"],
+                avoid: ["Chunks of food", "seeds", "skins", "High-fat liquids"],
+                tip: "Protein is priority. Aim for 60g daily via shakes."
+            },
+            {
+                id: 2,
+                title: "Phase 3: Pureed/Soft",
+                duration: "Weeks 3-4 Post-Op",
+                icon: "pie-chart",
+                focus: "Texture Adaptation",
+                allowed: ["Scrambled Eggs", "Cottage Cheese", "Pureed Chicken/Fish", "Mashed Soft Fruit"],
+                avoid: ["Bread", "Rice", "Raw Vegetables", "Tough Meats"],
+                tip: "Chew thoroughly. Consistency should be like baby food."
+            },
+            {
+                id: 3,
+                title: "Phase 4: Solid Foods",
+                duration: "Week 5 Onwards",
+                icon: "activity",
+                focus: "Long-term Maintenance",
+                allowed: ["Lean Meats", "Cooked Vegetables", "Whole Grains", "Fruits"],
+                avoid: ["Processed Sugars", "Fried Foods", "Grazing/Snacking"],
+                tip: "Eat small portions. Stop before you feel full."
+            }
+        ];
+        let activePhaseIndex = 0;
+        function renderPhases() {
+            const navContainer = document.getElementById('phase-nav-container');
+            const contentArea = document.getElementById('phase-content-area');
+            // Render Nav
+            navContainer.innerHTML = phases.map((phase, idx) => `
+                <button onclick="setActivePhase(${idx})" 
+                    class="phase-btn w-full text-left p-5 rounded-xl transition-all duration-300 flex items-center border-2 ${idx === activePhaseIndex ? 'active bg-white border-scod shadow-md' : 'bg-white/50 border-transparent hover:bg-white hover:border-gray-200'}">
+                    <div class="icon-box w-10 h-10 rounded-full flex items-center justify-center mr-4 ${idx === activePhaseIndex ? 'bg-scod text-white' : 'bg-gray-100 text-gray-400'}">
+                        <i data-feather="${phase.icon}" class="w-5 h-5"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold ${idx === activePhaseIndex ? 'text-gray-900' : 'text-gray-500'}">${phase.title}</h4>
+                        <p class="text-xs text-gray-400">${phase.duration}</p>
+                    </div>
+                    ${idx === activePhaseIndex ? '<i data-feather="arrow-right" class="ml-auto text-scod w-5 h-5"></i>' : ''}
+                </button>
+            `).join('');
+            // Render Content
+            const activePhase = phases[activePhaseIndex];
+            contentArea.innerHTML = `
+                <div class="flex items-center justify-between mb-6 flex-wrap gap-4">
+                    <div>
+                        <h3 class="text-3xl font-bold text-gray-900">${activePhase.title}</h3>
+                        <p class="text-scod font-medium">${activePhase.duration}</p>
+                    </div>
+                    <div class="px-4 py-2 bg-emerald-50 text-emerald-700 rounded-full text-sm font-bold border border-emerald-100">
+                        Focus: ${activePhase.focus}
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                    <div>
+                        <h4 class="font-bold text-gray-900 mb-4 flex items-center">
+                            <i data-feather="check" class="text-emerald-500 mr-2 w-5 h-5"></i> Allowed Foods
+                        </h4>
+                        <ul class="space-y-2">
+                            ${activePhase.allowed.map(item => `
+                                <li class="flex items-center text-gray-600 bg-gray-50 px-3 py-2 rounded-lg text-sm">
+                                    <span class="w-1.5 h-1.5 bg-emerald-400 rounded-full mr-2"></span>${item}
+                                </li>
+                            `).join('')}
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-gray-900 mb-4 flex items-center">
+                            <i data-feather="alert-circle" class="text-red-500 mr-2 w-5 h-5"></i> Foods to Avoid
+                        </h4>
+                        <ul class="space-y-2">
+                            ${activePhase.avoid.map(item => `
+                                <li class="flex items-center text-gray-600 bg-red-50 px-3 py-2 rounded-lg text-sm">
+                                    <span class="w-1.5 h-1.5 bg-red-400 rounded-full mr-2"></span>${item}
+                                </li>
+                            `).join('')}
+                        </ul>
+                    </div>
+                </div>
+                <div class="bg-blue-50 border-l-4 border-scod p-4 rounded-r-lg">
+                    <p class="text-blue-800 text-sm font-medium flex items-start">
+                        <i data-feather="book-open" class="w-5 h-5 mr-2 flex-shrink-0 mt-0.5"></i>
+                        <strong>Doctor's Tip:</strong>&nbsp;${activePhase.tip}
+                    </p>
+                </div>
+            `;
+            feather.replace();
+            // Fade in content
+            contentArea.classList.remove('opacity-0', 'translate-y-4');
+        }
+        function setActivePhase(index) {
+            const contentArea = document.getElementById('phase-content-area');
+            contentArea.classList.add('opacity-0', 'translate-y-4');
+            setTimeout(() => {
+                activePhaseIndex = index;
+                renderPhases();
+            }, 300);
+        }
+        // SAMPLE MENU
+        const sampleMenu = [
+            { time: "8:00 AM", meal: "Breakfast", item: "1 Scrambled Egg + 1/2 slice Whole Wheat Toast" },
+            { time: "11:00 AM", meal: "Snack", item: "High-Protein Yogurt or Protein Shake" },
+            { time: "1:30 PM", meal: "Lunch", item: "Grilled Chicken Breast (3oz) + Steamed Broccoli" },
+            { time: "4:30 PM", meal: "Snack", item: "Cottage Cheese or Apple Slices" },
+            { time: "7:30 PM", meal: "Dinner", item: "Baked Fish + Quinoa + Green Beans" }
+        ];
+        document.getElementById('sample-menu-container').innerHTML = sampleMenu.map((slot, idx) => `
+            <div class="observe-animate bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col sm:flex-row items-center justify-between hover:shadow-md transition-shadow" style="transition-delay: ${idx * 100}ms" data-animation="fade-in-left">
+                <div class="flex items-center space-x-4 mb-2 sm:mb-0 w-full sm:w-auto">
+                    <div class="px-3 py-1 bg-blue-50 text-scod rounded text-sm font-bold w-24 text-center">${slot.time}</div>
+                    <span class="font-bold text-gray-900">${slot.meal}</span>
+                </div>
+                <div class="text-gray-600 text-sm sm:text-right w-full sm:w-auto pl-4 sm:pl-0 border-l-2 sm:border-l-0 border-gray-100 sm:border-transparent">
+                    ${slot.item}
+                </div>
+            </div>
+        `).join('');
+        // BMI INFO SECTION
+        const bmiCategories = [
+            { range: 'Below 18.5', category: 'Underweight', color: 'bg-blue-100 text-blue-800' },
+            { range: '18.5 - 24.9', category: 'Normal Weight', color: 'bg-green-100 text-green-800' },
+            { range: '25.0 - 29.9', category: 'Overweight', color: 'bg-yellow-100 text-yellow-800' },
+            { range: '30.0 - 34.9', category: 'Obesity Class I', color: 'bg-orange-100 text-orange-800' },
+            { range: '35.0 - 39.9', category: 'Obesity Class II', color: 'bg-red-100 text-red-800' },
+            { range: '40.0 and above', category: 'Obesity Class III', color: 'bg-purple-100 text-purple-800' },
+        ];
+        let activeBMITab = 'bmi';
+        function renderBMIContent() {
+            const contentArea = document.getElementById('bmi-content-area');
+            const tabBmiFn = document.getElementById('tab-bmi');
+            const tabCatFn = document.getElementById('tab-categories');
+            if (activeBMITab === 'bmi') {
+                tabBmiFn.classList.add('active', 'bg-scod', 'text-white', 'shadow-md');
+                tabBmiFn.classList.remove('text-gray-600');
+                tabCatFn.classList.remove('active', 'bg-scod', 'text-white', 'shadow-md');
+                tabCatFn.classList.add('text-gray-600');
+                contentArea.innerHTML = `
+                    <div class="animate-fade-in-up">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+                            <div class="bg-white p-8 rounded-3xl shadow-lg border border-gray-100 group">
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:bg-scod group-hover:scale-110 transition-all duration-300">
+                                        <i data-feather="activity" class="w-8 h-8 text-scod group-hover:text-white transition-colors"></i>
+                                    </div>
+                                    <div class="flex-grow">
+                                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Body Mass Index (BMI)</h3>
+                                        <p class="text-gray-600 leading-relaxed mb-4">BMI is a measure of body fat based on height and weight. It helps determine if you are at a healthy weight for your height.</p>
+                                        <div class="bg-blue-50 px-4 py-3 rounded-xl border-l-4 border-scod">
+                                            <p class="text-sm font-mono text-gray-700">BMI = Weight (kg) / Height² (m²)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="bg-white p-8 rounded-3xl shadow-lg border border-gray-100 group">
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:bg-scod group-hover:scale-110 transition-all duration-300">
+                                        <i data-feather="trending-up" class="w-8 h-8 text-scod group-hover:text-white transition-colors"></i>
+                                    </div>
+                                    <div class="flex-grow">
+                                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Healthy Weight Range</h3>
+                                        <p class="text-gray-600 leading-relaxed mb-4">Maintaining a healthy weight reduces the risk of chronic diseases like diabetes, heart disease, and certain cancers.</p>
+                                        <div class="bg-blue-50 px-4 py-3 rounded-xl border-l-4 border-scod">
+                                            <p class="text-sm font-mono text-gray-700">Ideal Weight varies by individual factors</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="bg-gradient-to-br from-scod to-blue-700 p-10 rounded-3xl shadow-2xl text-white">
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+                                <div class="text-center">
+                                    <div class="w-20 h-20 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                                        <span class="text-3xl font-bold">📏</span>
+                                    </div>
+                                    <h4 class="text-lg font-bold mb-2">Height</h4>
+                                    <p class="text-blue-100 text-sm">Measured in meters or feet</p>
+                                </div>
+                                <div class="text-center">
+                                    <div class="w-20 h-20 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                                        <span class="text-3xl font-bold">⚖️</span>
+                                    </div>
+                                    <h4 class="text-lg font-bold mb-2">Weight</h4>
+                                    <p class="text-blue-100 text-sm">Measured in kilograms or pounds</p>
+                                </div>
+                                <div class="text-center">
+                                    <div class="w-20 h-20 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                                        <span class="text-3xl font-bold">📊</span>
+                                    </div>
+                                    <h4 class="text-lg font-bold mb-2">BMI Result</h4>
+                                    <p class="text-blue-100 text-sm">Your body mass index score</p>
+                                </div>
+                            </div>
+                            <div class="mt-8 text-center">
+                                <p class="text-blue-100 text-sm mb-4">Ready to calculate your BMI?</p>
+                                <a href="../contact.php" class="inline-flex items-center space-x-2 bg-white text-scod px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all shadow-lg">
+                                    <span>Consult Our Experts</span><i data-feather="check-circle" class="w-5 h-5"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            } else {
+                tabBmiFn.classList.remove('active', 'bg-scod', 'text-white', 'shadow-md');
+                tabBmiFn.classList.add('text-gray-600');
+                tabCatFn.classList.add('active', 'bg-scod', 'text-white', 'shadow-md');
+                tabCatFn.classList.remove('text-gray-600');
+                contentArea.innerHTML = `
+                   <div class="animate-fade-in-up">
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+                            ${bmiCategories.map(cat => `
+                                <div class="bg-white p-6 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl hover:scale-105 transition-all duration-300">
+                                    <div class="flex items-center justify-between mb-4">
+                                        <span class="px-4 py-2 rounded-full text-sm font-bold ${cat.color}">BMI ${cat.range}</span>
+                                    </div>
+                                    <h3 class="text-xl font-bold text-gray-900 mb-2">${cat.category}</h3>
+                                    <div class="h-2 bg-gray-100 rounded-full overflow-hidden">
+                                        <div class="h-full ${cat.color.split(' ')[0].replace('100', '500')} transition-all duration-1000" style="width: 100%"></div>
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                        <div class="bg-blue-50 border-l-4 border-scod p-8 rounded-2xl">
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-scod rounded-xl flex items-center justify-center flex-shrink-0">
+                                    <i data-feather="info" class="w-6 h-6 text-white"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-bold text-gray-900 mb-3">Important Information</h4>
+                                    <p class="text-gray-700 leading-relaxed mb-4">BMI is a useful screening tool, but it doesn't directly measure body fat or account for muscle mass, bone density, and other individual factors. A comprehensive health assessment by our medical professionals will provide a complete picture of your health status.</p>
+                                    <ul class="space-y-2">
+                                        <li class="flex items-start space-x-2">
+                                            <i data-feather="check-circle" class="w-5 h-5 text-scod flex-shrink-0 mt-0.5"></i>
+                                            <span class="text-gray-700">BMI may not accurately reflect health for athletes with high muscle mass</span>
+                                        </li>
+                                         <li class="flex items-start space-x-2">
+                                            <i data-feather="check-circle" class="w-5 h-5 text-scod flex-shrink-0 mt-0.5"></i>
+                                            <span class="text-gray-700">Individual factors like age, gender, and ethnicity should be considered</span>
+                                        </li>
+                                         <li class="flex items-start space-x-2">
+                                            <i data-feather="check-circle" class="w-5 h-5 text-scod flex-shrink-0 mt-0.5"></i>
+                                            <span class="text-gray-700">Consult with healthcare professionals for personalized advice</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                `;
+            }
+            feather.replace();
+        }
+        document.getElementById('tab-bmi').addEventListener('click', () => { activeBMITab = 'bmi'; renderBMIContent(); });
+        document.getElementById('tab-categories').addEventListener('click', () => { activeBMITab = 'categories'; renderBMIContent(); });
+        // MEDICAL AWARENESS VIDEOS
+        const awarenessVideos = [
+            { id: 1, title: "Weightloss Experience with Bariatric Surgery and Options for weight regain explained with GLP1", category: "Awareness", thumbnail: "https://img.youtube.com/vi/TaOuNUjv_Dc/hqdefault.jpg", videoId: "TaOuNUjv_Dc" },
+            { id: 2, title: "Shri Durgiana Temple, Amritsar is the oldest temple of lord hanuman", category: "Awareness", thumbnail: "https://img.youtube.com/vi/G4Cqz8ZMGts/hqdefault.jpg", videoId: "G4Cqz8ZMGts" },
+            { id: 3, title: "A New Beginning Post-Surgery at SCOD Clinic Associated Hospital, New Delhi", category: "Recovery", thumbnail: "https://img.youtube.com/vi/JPaK5uLhBsw/hqdefault.jpg", videoId: "JPaK5uLhBsw" },
+            { id: 4, title: "Happy Diwali to you and your loved ones from SCOD Family", category: "Festive", thumbnail: "https://img.youtube.com/vi/SKy44XwIORo/hqdefault.jpg", videoId: "SKy44XwIORo" },
+            { id: 5, title: "Enjoy festive feast without any guilt!", category: "Festive", thumbnail: "https://img.youtube.com/vi/XOm8ba9_h4M/hqdefault.jpg", videoId: "XOm8ba9_h4M" },
+            { id: 6, title: "Types of weight loss surgeries", category: "Education", thumbnail: "https://img.youtube.com/vi/rEd-4Pov_iw/hqdefault.jpg", videoId: "rEd-4Pov_iw" },
+            { id: 7, title: "The truth about diabetes!", category: "Diabetes", thumbnail: "https://img.youtube.com/vi/V-gaaGIaKGw/hqdefault.jpg", videoId: "V-gaaGIaKGw" },
+            { id: 8, title: "OMAD- Shortcut or Setback?", category: "Lifestyle", thumbnail: "https://img.youtube.com/vi/c0s3MIIC4Nc/hqdefault.jpg", videoId: "c0s3MIIC4Nc" },
+            { id: 9, title: "How Bariatric Surgery is done?", category: "Education", thumbnail: "https://img.youtube.com/vi/bNoFXoLDnEc/hqdefault.jpg", videoId: "bNoFXoLDnEc" },
+            { id: 10, title: "Is Bariatric Surgery covered in Insurance?", category: "Insurance", thumbnail: "https://img.youtube.com/vi/wBhZyyHeWtI/hqdefault.jpg", videoId: "wBhZyyHeWtI" },
+            { id: 11, title: "PM targets obesity crisis", category: "Awareness", thumbnail: "https://img.youtube.com/vi/xeHuxyORptg/hqdefault.jpg", videoId: "xeHuxyORptg" },
+            { id: 12, title: "Changes after Bariatric Surgery!", category: "Post-Surgery", thumbnail: "https://img.youtube.com/vi/vs2gB7Zyuks/hqdefault.jpg", videoId: "vs2gB7Zyuks" },
+            { id: 13, title: "TIPS FOR GUT HEALTH!", category: "Gut Health", thumbnail: "https://img.youtube.com/vi/RxVX8HEQULc/hqdefault.jpg", videoId: "RxVX8HEQULc" },
+            { id: 14, title: "Amit Shah beats diabetes: Dr. Arush’s take!", category: "Diabetes", thumbnail: "https://img.youtube.com/vi/RXYX-e51hsA/hqdefault.jpg", videoId: "RXYX-e51hsA" },
+            { id: 15, title: "Is Bariatric Surgery cheating?", category: "Myths", thumbnail: "https://img.youtube.com/vi/N1eoPQnLlis/hqdefault.jpg", videoId: "N1eoPQnLlis" }
+        ];
+        let awarenessIndex = 0;
+        let awarenessItemsPerView = 3;
+        function updateAwarenessItemsPerView() {
+            if (window.innerWidth >= 1024) awarenessItemsPerView = 3;
+            else if (window.innerWidth >= 768) awarenessItemsPerView = 2;
+            else awarenessItemsPerView = 1;
+            renderAwarenessSlider(); // Re-render to adjust widths
+        }
+        function renderAwarenessSlider() {
+            const slider = document.getElementById('awareness-slider');
+            slider.innerHTML = awarenessVideos.map(video => `
+                <div class="flex-shrink-0 px-4" style="width: ${100 / awarenessItemsPerView}%">
+                    <div class="group h-full flex flex-col">
+                        <div class="relative rounded-2xl overflow-hidden aspect-video mb-4 shadow-sm cursor-pointer group-hover:shadow-md transition-all duration-300 border border-gray-100 bg-gray-100" onclick="openAwarenessModal('${video.videoId}')">
+                             <img src="${video.thumbnail}" alt="${video.title}" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                             <div class="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
+                                <div class="w-14 h-14 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-sm">
+                                    <i data-feather="play" class="w-5 h-5 text-scod fill-current ml-1"></i>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="flex-grow">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="text-gray-500 text-xs font-bold uppercase tracking-wider bg-gray-100 px-2 py-1 rounded">${video.category}</span>
+                            </div>
+                            <h3 class="text-lg font-bold text-gray-900 mb-2 group-hover:text-scod transition-colors line-clamp-2" title="${video.title}">${video.title}</h3>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+            feather.replace();
+            updateAwarenessSliderPosition();
+        }
+        function updateAwarenessSliderPosition() {
+            const slider = document.getElementById('awareness-slider');
+            slider.style.transform = `translateX(-${awarenessIndex * (100 / awarenessItemsPerView)}%)`;
+        }
+        document.getElementById('awareness-next-btn').addEventListener('click', () => {
+            if (awarenessIndex < awarenessVideos.length - awarenessItemsPerView) {
+                awarenessIndex++;
+            } else {
+                awarenessIndex = 0;
+            }
+            updateAwarenessSliderPosition();
+        });
+        document.getElementById('awareness-prev-btn').addEventListener('click', () => {
+            if (awarenessIndex > 0) {
+                awarenessIndex--;
+            } else {
+                awarenessIndex = awarenessVideos.length - awarenessItemsPerView;
+            }
+            updateAwarenessSliderPosition();
+        });
+        // Video Modal Logic (Reusable)
+        const modal = document.getElementById('video-modal');
+        const modalContent = document.getElementById('video-modal-content');
+        const videoContainer = document.getElementById('video-container');
+        const closeModalBtn = document.getElementById('close-video-modal');
+        function openAwarenessModal(videoId) {
+            videoContainer.innerHTML = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/${videoId}?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w-full h-full"></iframe>`;
+            modal.classList.remove('hidden');
+            // Small delay to allow display block to apply before opacity transition
+            setTimeout(() => {
+                modal.classList.remove('opacity-0');
+                modalContent.classList.remove('scale-95');
+                modalContent.classList.add('scale-100');
+            }, 10);
+        }
+        function closeModal() {
+            modal.classList.add('opacity-0');
+            modalContent.classList.remove('scale-100');
+            modalContent.classList.add('scale-95');
+            setTimeout(() => {
+                modal.classList.add('hidden');
+                videoContainer.innerHTML = '';
+            }, 300);
+        }
+        closeModalBtn.addEventListener('click', closeModal);
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) closeModal();
+        });
+        // Initialization
+        window.addEventListener('resize', updateAwarenessItemsPerView);
+        renderPhases();
+        renderBMIContent();
+        updateAwarenessItemsPerView(); // Calls renderAwarenessSlider
+        feather.replace();
+    </script>
+</body>
+</html>
