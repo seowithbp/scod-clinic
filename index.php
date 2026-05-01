@@ -566,7 +566,7 @@
           <div
             class="testimonial-card absolute w-[300px] md:w-[600px] h-[350px] md:h-[400px] rounded-2xl shadow-2xl overflow-hidden bg-gray-900 cursor-pointer"
             data-video-id="R_1SeIg3FaQ"
-            style="background-image:url('https://img.youtube.com/vi/NnSd1zg_Ndk/maxresdefault.jpg');background-size:cover">
+            style="background-image:url('https://img.youtube.com/vi/R_1SeIg3FaQ/maxresdefault.jpg');background-size:cover">
             <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent opacity-90"></div>
             <div class="absolute inset-0 flex flex-col justify-between p-8">
               <div class="flex-1 flex items-center justify-center">
@@ -607,7 +607,7 @@
           <div
             class="testimonial-card absolute w-[300px] md:w-[600px] h-[350px] md:h-[400px] rounded-2xl shadow-2xl overflow-hidden bg-gray-900 cursor-pointer"
             data-video-id="1QnINDPc1WU"
-            style="background-image:url('https://img.youtube.com/vi/1GjE_mEZMBM/maxresdefault.jpg');background-size:cover">
+            style="background-image:url('https://img.youtube.com/vi/1QnINDPc1WU/maxresdefault.jpg');background-size:cover">
             <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent opacity-90"></div>
             <div class="absolute inset-0 flex flex-col justify-between p-8">
               <div class="flex-1 flex items-center justify-center">
@@ -714,9 +714,6 @@
           <p class="text-gray-600">We are proud to be recognized by leading national organizations for our commitment to
             safety, quality, and patient outcomes.</p>
         </div>
-        <div class="flex-shrink-0 mb-2 md:mb-0"><a href="about.php"
-            class="group flex items-center gap-2 text-scod font-bold text-lg hover:gap-3 transition-all"><span>View All
-              Awards</span><i data-feather="arrow-right" class="w-5 h-5"></i></a></div>
       </div>
       <div
         class="flex overflow-x-auto snap-x snap-mandatory gap-4 pb-6 -mx-4 px-4 md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-8 md:pb-0 md:mx-0 md:px-0 scrollbar-hidden">

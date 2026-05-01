@@ -90,8 +90,7 @@ if (!isset($path_prefix)) {
                                 </p>
                             </div>
                         </div>
-                        <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.3344885842643!2d77.15318687549895!3d28.58871418606939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1dbe87c8c90b%3A0x7b6c7c7c7c7c7c7c!2s87%2C%20Paschimi%20Marg%2C%20Block%20D%2C%20Vasant%20Vihar%2C%20New%20Delhi%2C%20Delhi%20110057!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
-                            target="_blank" rel="noopener noreferrer"
+                        <a href="https://maps.app.goo.gl/g8LvvV2SuTfJihyJ6" target="_blank" rel="noopener noreferrer"
                             class="inline-flex items-center space-x-2 text-sm font-semibold text-scod hover:text-blue-400 transition-colors ml-8">
                             <i data-feather="map-pin" class="w-4 h-4"></i>
                             <span>Get Directions</span>
