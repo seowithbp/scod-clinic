@@ -1,0 +1,26 @@
+# WordPress files to ignore
+blog/error_log
+blog/wp-admin/error_log
+blog/wp-config-sample.php
+blog/wp-content/uploads/
+blog/.htaccess
+blog/license.txt
+blog/readme.html
+blog/wp-activate.php
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
