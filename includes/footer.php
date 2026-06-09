@@ -8,7 +8,7 @@ if (!isset($path_prefix)) {
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 mb-16">
             <!-- Brand -->
             <div class="lg:col-span-5 space-y-6">
-                <a href="<?php echo $path_prefix; ?>index.php"
+                <a href="/index.php"
                     class="inline-block bg-white/5 p-3 rounded-xl backdrop-blur-sm">
                     <img src="https://brandingpioneers.co.in/scod/Scod-Logo-Big-Size-180x74.webp" alt="SCOD Logo"
                         class="h-10 w-auto object-contain brightness-0 invert">
@@ -33,42 +33,42 @@ if (!isset($path_prefix)) {
                 <h3 class="text-white font-bold text-lg mb-6 relative inline-block">Quick Links<span
                         class="absolute -bottom-2 left-0 w-8 h-1 bg-scod rounded-full"></span></h3>
                 <ul class="space-y-3">
-                    <li><a href="<?php echo $path_prefix; ?>index.php"
+                    <li><a href="/index.php"
                             class="text-slate-400 hover:text-scod transition-colors flex items-center group text-sm"><i
                                 data-feather="arrow-right"
                                 class="w-3 h-3 mr-2 opacity-0 -ml-5 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300"></i>Home</a>
                     </li>
-                    <li><a href="<?php echo $path_prefix; ?>about-clinic.php"
+                    <li><a href="/about-clinic.php"
                             class="text-slate-400 hover:text-scod transition-colors flex items-center group text-sm"><i
                                 data-feather="arrow-right"
                                 class="w-3 h-3 mr-2 opacity-0 -ml-5 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300"></i>About
                             SCOD Clinic</a></li>
-                    <li><a href="<?php echo $path_prefix; ?>services/index.php"
+                    <li><a href="/services/index.php"
                             class="text-slate-400 hover:text-scod transition-colors flex items-center group text-sm"><i
                                 data-feather="arrow-right"
                                 class="w-3 h-3 mr-2 opacity-0 -ml-5 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300"></i>Treatments</a>
                     </li>
-                    <li><a href="<?php echo $path_prefix; ?>feel-great-system.php"
+                    <li><a href="/feel-great-system.php"
                             class="text-slate-400 hover:text-scod transition-colors flex items-center group text-sm"><i
                                 data-feather="arrow-right"
                                 class="w-3 h-3 mr-2 opacity-0 -ml-5 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300"></i>Plant-Based
                             Nutrition (FGS)</a></li>
-                    <li><a href="<?php echo $path_prefix; ?>patient-journey.php"
+                    <li><a href="/patient-journey.php"
                             class="text-slate-400 hover:text-scod transition-colors flex items-center group text-sm"><i
                                 data-feather="arrow-right"
                                 class="w-3 h-3 mr-2 opacity-0 -ml-5 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300"></i>Patient
                             Journey</a></li>
-                    <li><a href="<?php echo $path_prefix; ?>resources.php"
+                    <li><a href="/resources.php"
                             class="text-slate-400 hover:text-scod transition-colors flex items-center group text-sm"><i
                                 data-feather="arrow-right"
                                 class="w-3 h-3 mr-2 opacity-0 -ml-5 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300"></i>Resources
                             & FAQ</a></li>
-                    <li><a href="<?php echo $path_prefix; ?>testimonials.php"
+                    <li><a href="/testimonials.php"
                             class="text-slate-400 hover:text-scod transition-colors flex items-center group text-sm"><i
                                 data-feather="arrow-right"
                                 class="w-3 h-3 mr-2 opacity-0 -ml-5 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300"></i>Success
                             Stories</a></li>
-                    <li><a href="<?php echo $path_prefix; ?>contact.php"
+                    <li><a href="/contact.php"
                             class="text-slate-400 hover:text-scod transition-colors flex items-center group text-sm"><i
                                 data-feather="arrow-right"
                                 class="w-3 h-3 mr-2 opacity-0 -ml-5 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300"></i>Contact
@@ -191,7 +191,7 @@ if (!isset($path_prefix)) {
                     class="hover:text-white transition-colors">Branding Pioneers</a>
             </div>
             <div class="flex flex-wrap justify-center gap-6 text-sm"><a
-                    href="<?php echo $path_prefix; ?>privacy-policy.php"
+                    href="/privacy-policy.php"
                     class="text-slate-500 hover:text-white transition-colors cursor-pointer">Privacy Policy</a></div>
         </div>
     </div>

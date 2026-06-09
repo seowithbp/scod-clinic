@@ -62,14 +62,14 @@ $mobile_btn_class = $is_home ? 'text-white' : 'text-gray-700';
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-20">
             <!-- Logo -->
-            <a href="<?php echo $path_prefix; ?>index.php" class="flex items-center z-50">
+            <a href="/index.php" class="flex items-center z-50">
                 <img src="https://brandingpioneers.co.in/scod/Scod-Logo-Big-Size-180x74.webp" alt="SCOD Logo"
                     class="nav-logo h-12 md:h-14 w-auto object-contain transition-all duration-300 <?php echo $logo_class; ?>">
             </a>
 
             <!-- Desktop Nav -->
             <div class="hidden lg:flex items-center space-x-6">
-                <a href="<?php echo $path_prefix; ?>index.php"
+                <a href="/index.php"
                     class="nav-link relative font-medium <?php echo $text_class . ' ' . $hover_class; ?> transition-colors duration-300">Home</a>
 
                 <!-- About Dropdown -->
@@ -81,17 +81,17 @@ $mobile_btn_class = $is_home ? 'text-white' : 'text-gray-700';
                     </button>
                     <div
                         class="dropdown-menu absolute top-full left-0 mt-2 w-64 bg-white rounded-xl shadow-xl border-t-4 border-scod ring-1 ring-black/5 overflow-hidden">
-                        <a href="<?php echo $path_prefix; ?>about.php"
+                        <a href="/about.php"
                             class="flex items-center px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-scod transition-colors"><i
                                 data-feather="user" class="w-4 h-4 mr-3 text-gray-400"></i><span class="text-sm">About
                                 Dr.
                                 Arush</span></a>
-                        <a href="<?php echo $path_prefix; ?>dr-shivani-sabharwal.php"
+                        <a href="/dr-shivani-sabharwal.php"
                             class="flex items-center px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-scod transition-colors"><i
                                 data-feather="heart" class="w-4 h-4 mr-3 text-gray-400"></i><span class="text-sm">About
                                 Dr.
                                 Shivani</span></a>
-                        <a href="<?php echo $path_prefix; ?>about-clinic.php"
+                        <a href="/about-clinic.php"
                             class="flex items-center px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-scod transition-colors"><i
                                 data-feather="activity" class="w-4 h-4 mr-3 text-gray-400"></i><span
                                 class="text-sm">About SCOD
@@ -108,25 +108,25 @@ $mobile_btn_class = $is_home ? 'text-white' : 'text-gray-700';
                     </button>
                     <div
                         class="dropdown-menu absolute top-full left-0 mt-2 w-72 bg-white rounded-xl shadow-xl border-t-4 border-scod ring-1 ring-black/5 overflow-hidden">
-                        <a href="<?php echo $path_prefix; ?>services/index.php"
+                        <a href="/services/index.php"
                             class="flex items-center px-4 py-3 text-gray-900 font-medium border-b border-gray-100 hover:bg-gray-50 hover:text-scod transition-colors"><i
                                 data-feather="activity" class="w-4 h-4 mr-3 text-scod"></i><span class="text-sm">Surgery
                                 Overview</span></a>
-                        <a href="<?php echo $path_prefix; ?>services/bariatric-surgery.php"
+                        <a href="/services/bariatric-surgery.php"
                             class="flex items-center px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-scod transition-colors"><i
                                 data-feather="trending-up" class="w-4 h-4 mr-3 text-gray-400"></i><span
                                 class="text-sm">Bariatric
                                 Surgery</span></a>
-                        <a href="<?php echo $path_prefix; ?>services/laparoscopic-surgery.php"
+                        <a href="/services/laparoscopic-surgery.php"
                             class="flex items-center px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-scod transition-colors"><i
                                 data-feather="activity" class="w-4 h-4 mr-3 text-gray-400"></i><span
                                 class="text-sm">Laparoscopic
                                 Surgery</span></a>
-                        <a href="<?php echo $path_prefix; ?>services/body-contouring.php"
+                        <a href="/services/body-contouring.php"
                             class="flex items-center px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-scod transition-colors"><i
                                 data-feather="users" class="w-4 h-4 mr-3 text-gray-400"></i><span class="text-sm">Body
                                 Contouring</span></a>
-                        <a href="<?php echo $path_prefix; ?>feel-great-system.php"
+                        <a href="/feel-great-system.php"
                             class="flex items-center px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-scod transition-colors"><i
                                 data-feather="zap" class="w-4 h-4 mr-3 text-gray-400"></i><span
                                 class="text-sm">Plant-Based Nutrition
@@ -143,21 +143,21 @@ $mobile_btn_class = $is_home ? 'text-white' : 'text-gray-700';
                     </button>
                     <div
                         class="dropdown-menu absolute top-full left-0 mt-2 w-80 bg-white rounded-xl shadow-xl border-t-4 border-scod ring-1 ring-black/5 overflow-hidden">
-                        <a href="<?php echo $path_prefix; ?>services/metabolic-surgery.php"
+                        <a href="/services/metabolic-surgery.php"
                             class="flex items-center px-4 py-3 text-gray-900 font-medium border-b border-gray-100 hover:bg-gray-50 hover:text-scod transition-colors"><i
                                 data-feather="shield" class="w-4 h-4 mr-3 text-scod"></i><span
                                 class="text-sm">Metabolic
                                 Management</span></a>
-                        <a href="<?php echo $path_prefix; ?>services/weight-loss-injectables.php"
+                        <a href="/services/weight-loss-injectables.php"
                             class="flex items-center px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-scod transition-colors"><i
                                 data-feather="activity" class="w-4 h-4 mr-3 text-gray-400"></i><span
                                 class="text-sm">Weight Loss
                                 Injectables</span></a>
-                        <a href="<?php echo $path_prefix; ?>services/obesity-management.php"
+                        <a href="/services/obesity-management.php"
                             class="flex items-center px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-scod transition-colors"><i
                                 data-feather="heart" class="w-4 h-4 mr-3 text-gray-400"></i><span class="text-sm">Diet &
                                 Counselling</span></a>
-                        <a href="<?php echo $path_prefix; ?>services/weight-regain.php"
+                        <a href="/services/weight-regain.php"
                             class="flex items-center px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-scod transition-colors"><i
                                 data-feather="trending-up" class="w-4 h-4 mr-3 text-gray-400"></i><span
                                 class="text-sm">Weight Regain
@@ -174,17 +174,17 @@ $mobile_btn_class = $is_home ? 'text-white' : 'text-gray-700';
                     </button>
                     <div
                         class="dropdown-menu absolute top-full left-0 mt-2 w-72 bg-white rounded-xl shadow-xl border-t-4 border-scod ring-1 ring-black/5 overflow-hidden">
-                        <a href="<?php echo $path_prefix; ?>international-patients.php"
+                        <a href="/international-patients.php"
                             class="flex items-center px-4 py-3 text-gray-900 font-medium border-b border-gray-100 hover:bg-gray-50 hover:text-scod transition-colors"><i
                                 data-feather="globe" class="w-4 h-4 mr-3 text-scod"></i><span class="text-sm">Overseas
                                 Patient
                                 Guide</span></a>
-                        <a href="<?php echo $path_prefix; ?>international-bariatric.php"
+                        <a href="/international-bariatric.php"
                             class="flex items-center px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-scod transition-colors"><i
                                 data-feather="navigation" class="w-4 h-4 mr-3 text-gray-400"></i><span
                                 class="text-sm">Bariatric
                                 Medical Travel</span></a>
-                        <a href="<?php echo $path_prefix; ?>patient-journey.php"
+                        <a href="/patient-journey.php"
                             class="flex items-center px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-scod transition-colors"><i
                                 data-feather="activity" class="w-4 h-4 mr-3 text-gray-400"></i><span
                                 class="text-sm">International
@@ -201,12 +201,12 @@ $mobile_btn_class = $is_home ? 'text-white' : 'text-gray-700';
                     </button>
                     <div
                         class="dropdown-menu absolute top-full left-0 mt-2 w-72 bg-white rounded-xl shadow-xl border-t-4 border-scod ring-1 ring-black/5 overflow-hidden">
-                        <a href="<?php echo $path_prefix; ?>resources.php"
+                        <a href="/resources.php"
                             class="flex items-center px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-scod transition-colors"><i
                                 data-feather="help-circle" class="w-4 h-4 mr-3 text-gray-400"></i><span
                                 class="text-sm">FAQs &
                                 Guides</span></a>
-                        <a href="<?php echo $path_prefix; ?>testimonials.php"
+                        <a href="/testimonials.php"
                             class="flex items-center px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-scod transition-colors"><i
                                 data-feather="users" class="w-4 h-4 mr-3 text-gray-400"></i><span class="text-sm">Success
                                 Stories</span></a>
@@ -217,7 +217,7 @@ $mobile_btn_class = $is_home ? 'text-white' : 'text-gray-700';
                     </div>
                 </div>
 
-                <a href="<?php echo $path_prefix; ?>contact.php"
+                <a href="/contact.php"
                     class="nav-link relative font-medium <?php echo $text_class . ' ' . $hover_class; ?> transition-colors duration-300">Contact</a>
             </div>
 
@@ -245,7 +245,7 @@ $mobile_btn_class = $is_home ? 'text-white' : 'text-gray-700';
         <div id="mobile-menu"
             class="mobile-menu lg:hidden absolute top-20 left-0 w-full bg-white shadow-2xl border-t border-gray-100 rounded-b-2xl overflow-hidden max-h-[85vh] overflow-y-auto z-50">
             <div class="px-4 py-6 space-y-2">
-                <a href="<?php echo $path_prefix; ?>index.php"
+                <a href="/index.php"
                     class="block font-bold text-lg px-2 py-2 rounded-lg text-gray-700 hover:text-scod">Home</a>
 
                 <!-- About Accordion -->
@@ -255,12 +255,12 @@ $mobile_btn_class = $is_home ? 'text-white' : 'text-gray-700';
                         <i data-feather="plus" class="accordion-icon w-5 h-5 transition-transform"></i>
                     </button>
                     <div class="mobile-submenu overflow-hidden pl-4 space-y-1 bg-gray-50 rounded-lg mb-2">
-                        <a href="<?php echo $path_prefix; ?>about.php" class="block px-3 py-3 text-gray-600 font-medium">About Dr.
+                        <a href="/about.php" class="block px-3 py-3 text-gray-600 font-medium">About Dr.
                             Arush</a>
-                        <a href="<?php echo $path_prefix; ?>dr-shivani-sabharwal.php"
+                        <a href="/dr-shivani-sabharwal.php"
                             class="block px-3 py-3 text-gray-600 font-medium">About Dr.
                             Shivani</a>
-                        <a href="<?php echo $path_prefix; ?>about-clinic.php"
+                        <a href="/about-clinic.php"
                             class="block px-3 py-3 text-gray-600 font-medium">About SCOD Clinic</a>
                     </div>
                 </div>
@@ -272,17 +272,17 @@ $mobile_btn_class = $is_home ? 'text-white' : 'text-gray-700';
                         <i data-feather="plus" class="accordion-icon w-5 h-5 transition-transform"></i>
                     </button>
                     <div class="mobile-submenu overflow-hidden pl-4 space-y-1 bg-gray-50 rounded-lg mb-2">
-                        <a href="<?php echo $path_prefix; ?>services/index.php"
+                        <a href="/services/index.php"
                             class="block px-3 py-3 text-gray-600 font-medium">Surgery Overview</a>
-                        <a href="<?php echo $path_prefix; ?>services/bariatric-surgery.php"
+                        <a href="/services/bariatric-surgery.php"
                             class="block px-3 py-3 text-gray-600 font-medium">Bariatric
                             Surgery</a>
-                        <a href="<?php echo $path_prefix; ?>services/laparoscopic-surgery.php"
+                        <a href="/services/laparoscopic-surgery.php"
                             class="block px-3 py-3 text-gray-600 font-medium">Laparoscopic Surgery</a>
-                        <a href="<?php echo $path_prefix; ?>services/body-contouring.php"
+                        <a href="/services/body-contouring.php"
                             class="block px-3 py-3 text-gray-600 font-medium">Body
                             Contouring</a>
-                        <a href="<?php echo $path_prefix; ?>feel-great-system.php"
+                        <a href="/feel-great-system.php"
                             class="block px-3 py-3 text-gray-600 font-medium">Plant-Based Nutrition
                             (FGS)</a>
                     </div>
@@ -295,16 +295,16 @@ $mobile_btn_class = $is_home ? 'text-white' : 'text-gray-700';
                         <i data-feather="plus" class="accordion-icon w-5 h-5 transition-transform"></i>
                     </button>
                     <div class="mobile-submenu overflow-hidden pl-4 space-y-1 bg-gray-50 rounded-lg mb-2">
-                        <a href="<?php echo $path_prefix; ?>services/metabolic-surgery.php"
+                        <a href="/services/metabolic-surgery.php"
                             class="block px-3 py-3 text-gray-600 font-medium">Metabolic
                             Management</a>
-                        <a href="<?php echo $path_prefix; ?>services/weight-loss-injectables.php"
+                        <a href="/services/weight-loss-injectables.php"
                             class="block px-3 py-3 text-gray-600 font-medium">Weight
                             Loss Injectables</a>
-                        <a href="<?php echo $path_prefix; ?>services/obesity-management.php"
+                        <a href="/services/obesity-management.php"
                             class="block px-3 py-3 text-gray-600 font-medium">Diet &
                             Counselling</a>
-                        <a href="<?php echo $path_prefix; ?>services/weight-regain.php"
+                        <a href="/services/weight-regain.php"
                             class="block px-3 py-3 text-gray-600 font-medium">Weight Regain
                             Support</a>
                     </div>
@@ -317,13 +317,13 @@ $mobile_btn_class = $is_home ? 'text-white' : 'text-gray-700';
                         <i data-feather="plus" class="accordion-icon w-5 h-5 transition-transform"></i>
                     </button>
                     <div class="mobile-submenu overflow-hidden pl-4 space-y-1 bg-gray-50 rounded-lg mb-2">
-                        <a href="<?php echo $path_prefix; ?>international-patients.php"
+                        <a href="/international-patients.php"
                             class="block px-3 py-3 text-gray-600 font-medium">Overseas Patient
                             Guide</a>
-                        <a href="<?php echo $path_prefix; ?>international-bariatric.php"
+                        <a href="/international-bariatric.php"
                             class="block px-3 py-3 text-gray-600 font-medium">Bariatric Medical
                             Travel</a>
-                        <a href="<?php echo $path_prefix; ?>patient-journey.php"
+                        <a href="/patient-journey.php"
                             class="block px-3 py-3 text-gray-600 font-medium">International Patient
                             Journey</a>
                     </div>
@@ -336,14 +336,14 @@ $mobile_btn_class = $is_home ? 'text-white' : 'text-gray-700';
                         <i data-feather="plus" class="accordion-icon w-5 h-5 transition-transform"></i>
                     </button>
                     <div class="mobile-submenu overflow-hidden pl-4 space-y-1 bg-gray-50 rounded-lg mb-2">
-                        <a href="<?php echo $path_prefix; ?>resources.php"
+                        <a href="/resources.php"
                             class="block px-3 py-3 text-gray-600 font-medium">FAQs & Guides</a>
-                        <a href="<?php echo $path_prefix; ?>testimonials.php"
+                        <a href="/testimonials.php"
                             class="block px-3 py-3 text-gray-600 font-medium">Success Stories</a>
                     </div>
                 </div>
 
-                <a href="<?php echo $path_prefix; ?>contact.php"
+                <a href="/contact.php"
                     class="block font-bold text-lg px-2 py-3 rounded-lg text-gray-700">Contact</a>
 
                 <div class="pt-4">
