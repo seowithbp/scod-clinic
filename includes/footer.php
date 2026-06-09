@@ -223,7 +223,10 @@ if (!isset($path_prefix)) {
 </div>
 
 <!-- Scripts -->
-<script src="<?php echo $path_prefix; ?>js/main.js"></script>
+<script src="<?php echo isset($path_prefix) && $path_prefix !== '' ? '../' : ''; ?>js/main.js"></script>
 <script>
 feather.replace();
 </script>
+</footer>
+</body>
+</html>

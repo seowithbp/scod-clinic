@@ -12,8 +12,25 @@
     <link rel="apple-touch-icon" href="https://res.cloudinary.com/damfndmrm/image/upload/v1769501375/scod-favicon_pjl3a7.png">
     <link rel="shortcut icon" href="https://res.cloudinary.com/damfndmrm/image/upload/v1769501375/scod-favicon_pjl3a7.png" type="image/png">
 
-    <!-- Tailwind / Main CSS -->
-    <link rel="stylesheet" href="/assets/css/output.css">
+    <!-- Tailwind via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/typography@0.5.10/dist/typography.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { scod: '#1876AA' },
+                    fontFamily: { sans: ['Nunito Sans', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/css/blog-content.css">
 
     <!-- Feather Icons -->
     <script src="https://unpkg.com/feather-icons"></script>
@@ -193,7 +210,7 @@ $mobile_btn_class = $is_home ? 'text-white' : 'text-gray-700';
                             class="flex items-center px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-scod transition-colors"><i
                                 data-feather="users" class="w-4 h-4 mr-3 text-gray-400"></i><span class="text-sm">Success
                                 Stories</span></a>
-                        <a href="<?php echo $path_prefix; ?>blog/"
+                        <a href="/blog/"
                             class="flex items-center px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-scod transition-colors"><i
                                 data-feather="help-circle" class="w-4 h-4 mr-3 text-gray-400"></i><span
                                 class="text-sm">Blog</span></a>
@@ -340,5 +357,74 @@ $mobile_btn_class = $is_home ? 'text-white' : 'text-gray-700';
         </div>
     </div>
 </nav>
-</body>
-</html>
+
+    <!-- Mobile Menu & Dropdown Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            if (mobileMenuBtn && mobileMenu) {
+                mobileMenuBtn.addEventListener('click', function() {
+                    mobileMenu.classList.toggle('hidden');
+                });
+            }
+
+            // Close mobile menu when clicking outside
+            document.addEventListener('click', function(e) {
+                if (mobileMenu && !mobileMenu.classList.contains('hidden') &&
+                    !mobileMenu.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
+                    mobileMenu.classList.add('hidden');
+                }
+            });
+
+            // Dropdown functionality
+            const dropdowns = document.querySelectorAll('.dropdown');
+            dropdowns.forEach(dropdown => {
+                const btn = dropdown.querySelector('button');
+                const menu = dropdown.querySelector('.dropdown-menu');
+                if (btn && menu) {
+                    let timeout;
+
+                    const showMenu = () => {
+                        clearTimeout(timeout);
+                        menu.classList.remove('hidden');
+                    };
+
+                    const hideMenu = () => {
+                        timeout = setTimeout(() => {
+                            menu.classList.add('hidden');
+                        }, 200);
+                    };
+
+                    // Desktop: hover
+                    dropdown.addEventListener('mouseenter', showMenu);
+                    dropdown.addEventListener('mouseleave', hideMenu);
+
+                    // Mobile: click toggle
+                    btn.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        if (window.innerWidth < 1024) {
+                            menu.classList.toggle('hidden');
+                        }
+                    });
+
+                    // Keep menu open when hovering on it
+                    menu.addEventListener('mouseenter', showMenu);
+                    menu.addEventListener('mouseleave', hideMenu);
+                }
+            });
+
+            // Navbar scroll effect
+            const navbar = document.getElementById('navbar');
+            if (navbar && !navbar.classList.contains('navbar-transparent')) {
+                window.addEventListener('scroll', () => {
+                    if (window.scrollY > 50) {
+                        navbar.classList.add('shadow-md');
+                    } else {
+                        navbar.classList.remove('shadow-md');
+                    }
+                });
+            }
+        });
+    </script>

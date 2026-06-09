@@ -1,0 +1,296 @@
+/* ===================================
+   Blog Post Content Styles
+   =================================== */
+
+/* Article Content - Using standard Tailwind classes */
+.blog-content {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #374151;
+}
+
+.blog-content p {
+  margin-bottom: 1.25em;
+  color: #4b5563;
+}
+
+.blog-content h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #1f2937;
+  margin: 1.5em 0 0.5em;
+  line-height: 1.2;
+}
+
+.blog-content h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 2em 0 0.6em;
+  line-height: 1.3;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.blog-content h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 1.5em 0 0.5em;
+  line-height: 1.4;
+}
+
+.blog-content h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 1.2em 0 0.4em;
+}
+
+.blog-content h5 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 1em 0 0.3em;
+}
+
+.blog-content h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 1em 0 0.3em;
+}
+
+.blog-content ul,
+.blog-content ol {
+  margin: 1.25em 0;
+  padding-left: 1.75em;
+}
+
+.blog-content ul {
+  list-style: disc;
+}
+
+.blog-content ol {
+  list-style: decimal;
+}
+
+.blog-content li {
+  margin-bottom: 0.5em;
+  color: #4b5563;
+  line-height: 1.7;
+}
+
+.blog-content ul li::marker {
+  color: #1876AA;
+}
+
+.blog-content ol li::marker {
+  color: #1876AA;
+  font-weight: 600;
+}
+
+.blog-content strong {
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.blog-content em {
+  font-style: italic;
+  color: #4b5563;
+}
+
+.blog-content a {
+  color: #1876AA;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.blog-content a:hover {
+  color: #145A85;
+  text-decoration: underline;
+}
+
+.blog-content blockquote {
+  border-left: 4px solid #1876AA;
+  padding: 0.75em 1em;
+  margin: 1.5em 0;
+  background: #f3f4f6;
+  font-style: italic;
+  color: #4b5563;
+  border-radius: 0 8px 8px 0;
+}
+
+.blog-content code {
+  background: #f3f4f6;
+  padding: 0.125em 0.375em;
+  border-radius: 4px;
+  font-size: 0.9em;
+  color: #1876AA;
+  font-family: monospace;
+}
+
+.blog-content pre {
+  background: #1f2937;
+  color: #f3f4f6;
+  padding: 1em;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 1.5em 0;
+}
+
+.blog-content pre code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+}
+
+.blog-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 1.5em 0;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.blog-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.blog-content th {
+  background: #1876AA;
+  color: white;
+  padding: 0.75em 1em;
+  text-align: left;
+  font-weight: 600;
+}
+
+.blog-content td {
+  padding: 0.75em 1em;
+  border-bottom: 1px solid #e5e7eb;
+  color: #4b5563;
+}
+
+.blog-content tr:last-child td {
+  border-bottom: none;
+}
+
+.blog-content tr:hover {
+  background: #f9fafb;
+}
+
+.blog-content hr {
+  border: none;
+  border-top: 2px solid #e5e7eb;
+  margin: 2em 0;
+}
+
+/* FAQ Section */
+.blog-content .wp-block-rank-math-faq-block {
+  background: #f9fafb;
+  border-radius: 16px;
+  padding: 24px;
+  margin: 40px 0;
+  border: 1px solid #e5e7eb;
+}
+
+.blog-content .rank-math-faq-item {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.blog-content .rank-math-faq-item:last-child {
+  margin-bottom: 0;
+}
+
+.blog-content .rank-math-question {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.blog-content .rank-math-answer {
+  color: #4b5563;
+  line-height: 1.7;
+  display: block;
+}
+
+/* CTA Buttons in old content */
+.blog-content .pigmentation-cta-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 1.5em 0 0.5em;
+  display: block;
+}
+
+.blog-content .pigmentation-cta-text {
+  color: #4b5563;
+  margin-bottom: 1em;
+  display: block;
+}
+
+.blog-content .pigmentation-cta-button {
+  display: inline-block;
+  background: #1876AA;
+  color: white;
+  padding: 0.75em 1.5em;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0.5em 0 1em;
+  transition: background 0.2s;
+}
+
+.blog-content .pigmentation-cta-button:hover {
+  background: #145A85;
+  color: white;
+}
+
+/* WordPress Block Classes - Make them look like normal elements */
+.blog-content .wp-block-heading {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 2em 0 0.6em;
+  display: block;
+  line-height: 1.3;
+}
+
+.blog-content .wp-block-list {
+  list-style: disc;
+  padding-left: 1.75em;
+  margin: 1.25em 0;
+}
+
+.blog-content .wp-block-list li {
+  margin-bottom: 0.5em;
+  color: #4b5563;
+  line-height: 1.7;
+}
+
+/* Make sure paragraphs in content are visible */
+.blog-content p:empty {
+  display: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .blog-content h1 { font-size: 2rem; }
+  .blog-content h2 { font-size: 1.5rem; }
+  .blog-content h3 { font-size: 1.25rem; }
+  .blog-content { font-size: 16px; }
+}
