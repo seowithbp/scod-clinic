@@ -1,66 +1,130 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
-<url>
-  <loc>http://scodclinic.com/</loc>
-</url>
-<url>
-  <loc>http://scodclinic.com/about.php</loc>
-</url>
-<url>
-  <loc>http://scodclinic.com/dr-shivani-sabharwal.php</loc>
-</url>
-<url>
-  <loc>http://scodclinic.com/services/bariatric-surgery.php</loc>
-</url>
-<url>
-  <loc>http://scodclinic.com/services/laparoscopic-surgery.php</loc>
-</url>
-<url>
-  <loc>http://scodclinic.com/services/body-contouring.php</loc>
-</url>
-<url>
-  <loc>http://scodclinic.com/feel-great-system.php</loc>
-</url>
-<url>
-  <loc>http://scodclinic.com/services/metabolic-surgery.php</loc>
-</url>
-<url>
-  <loc>http://scodclinic.com/services/weight-loss-injectables.php</loc>
-</url>
-<url>
-  <loc>http://scodclinic.com/services/obesity-management.php</loc>
-</url>
-<url>
-  <loc>http://scodclinic.com/services/weight-regain.php</loc>
-</url>
-<url>
-  <loc>http://scodclinic.com/international-patients.php</loc>
-</url>
-<url>
-  <loc>http://scodclinic.com/international-bariatric.php</loc>
-</url>
-<url>
-  <loc>http://scodclinic.com/patient-journey.php</loc>
-</url>
-<url>
-  <loc>http://scodclinic.com/resources.php</loc>
-</url>
-<url>
-  <loc>http://scodclinic.com/testimonials.php</loc>
-</url>
-<url>
-  <loc>http://scodclinic.com/contact.php</loc>
-</url>
-<url>
-  <loc>http://scodclinic.com/privacy-policy.php</loc>
-</url>
-<url>
-  <loc>http://scodclinic.com/bariatric-surgery.php</loc>
-</url>
-<url>
-  <loc>http://scodclinic.com/laparoscopic-surgery.php</loc>
-</url>
-<url>
-  <loc>http://scodclinic.com/body-contouring.php</loc>
-</url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main Pages -->
+  <url>
+    <loc>https://scodclinic.com/</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/about</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/about-clinic</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/dr-shivani-sabharwal</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/feel-great-system</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/international-patients</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/international-bariatric</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/patient-journey</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/resources</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/testimonials</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/contact</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/privacy-policy</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/surgery-overview</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/risks-costs</loc>
+  </url>
+
+  <!-- Service Pages -->
+  <url>
+    <loc>https://scodclinic.com/services</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/services/bariatric-surgery</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/services/body-contouring</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/services/laparoscopic-surgery</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/services/metabolic-surgery</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/services/obesity-management</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/services/weight-loss-injectables</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/services/weight-regain</loc>
+  </url>
+
+  <!-- Blog Index & Pagination -->
+  <url>
+    <loc>https://scodclinic.com/blog</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/page-2</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/page-3</loc>
+  </url>
+
+  <!-- Blog Posts -->
+  <url>
+    <loc>https://scodclinic.com/blog/does-bariatric-surgery-cure-type-2-diabetes</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/what-is-the-minimum-weight-for-bariatric-surgery</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/are-weight-loss-injections-safe</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/how-do-you-lose-weight-after-bariatric-surgery</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/is-ozempic-used-for-weight-loss</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/does-bariatric-surgery-lower-blood-pressure</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/how-does-gastric-bypass-work</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/when-is-bariatric-surgery-recommended</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/can-bariatric-surgery-reverse-diabetes</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/top-10-bariatric-surgeons-in-delhi</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/how-long-does-laparoscopic-appendectomy-surgery-take</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/how-long-is-robotic-gallbladder-surgery</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/can-you-smoke-after-bariatric-surgery</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/can-a-person-drink-alcohol-after-bariatric-surgery</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/can-bariatric-surgery-be-done-twice</loc>
+  </url>
 </urlset>
