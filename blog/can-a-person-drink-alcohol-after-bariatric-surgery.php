@@ -36,7 +36,7 @@ include __DIR__ . '/../includes/header.php';
 
             <!-- Featured Image -->
             <figure class="mb-10">
-                <img src="/blog/media/images/Bariatric Surgery.webp" alt="Can a Person Drink Alcohol after Bariatric Surgery?" class="w-full rounded-2xl shadow-lg">
+                <img src="/blog/media/images/can-a-person-drink-alcohol-after-bariatric-surgery.jpg" alt="Can a Person Drink Alcohol after Bariatric Surgery?" class="w-full rounded-2xl shadow-lg">
             </figure>
 
             <!-- Article Content -->
