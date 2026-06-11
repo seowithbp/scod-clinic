@@ -2,7 +2,7 @@
 $path_prefix = '../';
 $is_home = false;
 $page_title = 'Top 10 Bariatric Surgeons in Delhi {2026 Guide}';
-include '../../includes/header.php';
+include __DIR__ . '/../includes/header.php';
 ?>
 
     <!-- Blog Post Content -->
@@ -266,8 +266,8 @@ include '../../includes/header.php';
     
 
     
-      <a href="blog__when-is-bariatric-surgery-recommended.php"> Previous: When is Bariatric Surgery Recommended?</a>
-      <a href="blog__can-you-smoke-after-bariatric-surgery.php">Next: Can You Smoke After还是会 Bariatric Surgery? {Key Facts} </a>
+      <a href="when-is-bariatric-surgery-recommended"> Previous: When is Bariatric Surgery Recommended?</a>
+      <a href="can-you-smoke-after-bariatric-surgery">Next: Can You Smoke After还是会 Bariatric Surgery? {Key Facts} </a>
     
   
 
@@ -286,7 +286,7 @@ include '../../includes/header.php';
         </article>
     </main>
 
-<?php include '../../includes/footer.php'; ?>
+<?php include __DIR__ . '/../includes/footer.php'; ?>
 
     <script>feather.replace();</script>
 </body>

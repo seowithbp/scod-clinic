@@ -2,7 +2,7 @@
 $path_prefix = '../';
 $is_home = false;
 $page_title = 'How Long is Robotic Gallbladder Surgery? {Doctor Guide}';
-include '../../includes/header.php';
+include __DIR__ . '/../includes/header.php';
 ?>
 
     <!-- Blog Post Content -->
@@ -256,8 +256,8 @@ include '../../includes/header.php';
     
 
     
-      <a href="blog__can-bariatric-surgery-reverse-diabetes.php"> Previous: Can Bariatric Surgery Reverse Diabetes? {Surgeon Guide}</a>
-      <a href="blog__how-long-does-laparoscopic-appendectomy-surgery-take.php">Next: How Long Does Laparoscopic Appendectomy Surgery Take? </a>
+      <a href="can-bariatric-surgery-reverse-diabetes"> Previous: Can Bariatric Surgery Reverse Diabetes? {Surgeon Guide}</a>
+      <a href="how-long-does-laparoscopic-appendectomy-surgery-take">Next: How Long Does Laparoscopic Appendectomy Surgery Take? </a>
     
   
 
@@ -276,7 +276,7 @@ include '../../includes/header.php';
         </article>
     </main>
 
-<?php include '../../includes/footer.php'; ?>
+<?php include __DIR__ . '/../includes/footer.php'; ?>
 
     <script>feather.replace();</script>
 </body>

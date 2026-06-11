@@ -2,7 +2,7 @@
 $path_prefix = '../';
 $is_home = false;
 $page_title = 'When is Bariatric Surgery Recommended?';
-include '../../includes/header.php';
+include __DIR__ . '/../includes/header.php';
 ?>
 
     <!-- Blog Post Content -->
@@ -322,8 +322,8 @@ include '../../includes/header.php';
     
 
     
-      <a href="blog__does-bariatric-surgery-lower-blood-pressure.php"> Previous: Does Bariatric Surgery Lower Blood Pressure?</a>
-      <a href="blog__top-10-bariatric-surgeons-in-delhi.php">Next: Top 10 Bariatric Surgeons in Delhi {2026 Guide} </a>
+      <a href="does-bariatric-surgery-lower-blood-pressure"> Previous: Does Bariatric Surgery Lower Blood Pressure?</a>
+      <a href="top-10-bariatric-surgeons-in-delhi">Next: Top 10 Bariatric Surgeons in Delhi {2026 Guide} </a>
     
   
 
@@ -342,7 +342,7 @@ include '../../includes/header.php';
         </article>
     </main>
 
-<?php include '../../includes/footer.php'; ?>
+<?php include __DIR__ . '/../includes/footer.php'; ?>
 
     <script>feather.replace();</script>
 </body>

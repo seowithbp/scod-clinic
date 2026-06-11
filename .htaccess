@@ -1,5 +1,8 @@
 RewriteEngine On
 
+# Redirect old blog page URLs to new clean URLs
+RewriteRule ^blog/pages/blog__(.+?)(\.php)?$ /blog/$1 [R=301,L,NC]
+
 # Externally redirect /foo.php to /foo (clean URLs)
 RewriteCond %{REQUEST_METHOD} !POST
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php[\s?] [NC]

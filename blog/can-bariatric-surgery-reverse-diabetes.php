@@ -2,7 +2,7 @@
 $path_prefix = '../';
 $is_home = false;
 $page_title = 'Can Bariatric Surgery Reverse Diabetes? {Surgeon Guide}';
-include '../../includes/header.php';
+include __DIR__ . '/../includes/header.php';
 ?>
 
     <!-- Blog Post Content -->
@@ -214,8 +214,8 @@ include '../../includes/header.php';
     
 
     
-      <a href="blog__how-does-gastric-bypass-work.php"> Previous: How Does Gastric Bypass Work?</a>
-      <a href="blog__how-long-is-robotic-gallbladder-surgery.php">Next: How Long is Robotic Gallbladder Surgery? {Doctor's Guide} </a>
+      <a href="how-does-gastric-bypass-work"> Previous: How Does Gastric Bypass Work?</a>
+      <a href="how-long-is-robotic-gallbladder-surgery">Next: How Long is Robotic Gallbladder Surgery? {Doctor's Guide} </a>
     
   
 
@@ -234,7 +234,7 @@ include '../../includes/header.php';
         </article>
     </main>
 
-<?php include '../../includes/footer.php'; ?>
+<?php include __DIR__ . '/../includes/footer.php'; ?>
 
     <script>feather.replace();</script>
 </body>

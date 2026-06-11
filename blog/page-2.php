@@ -1,7 +1,7 @@
 <?php
 $path_prefix = '../';
 $is_home = false;
-include '../../includes/header.php';
+include __DIR__ . '/../includes/header.php';
 ?>
 
     <!-- Hero Section -->
@@ -26,12 +26,12 @@ include '../../includes/header.php';
                         March 25, 2026
                     </div>
                     <h2 class="text-xl font-bold text-gray-900 mb-3 hover:text-scod transition-colors">
-                        <a href="blog__can-you-smoke-after-bariatric-surgery.php">Can You Smoke After Bariatric Surgery?</a>
+                        <a href="can-you-smoke-after-bariatric-surgery">Can You Smoke After Bariatric Surgery?</a>
                     </h2>
                     <p class="text-gray-600 text-sm mb-4 line-clamp-3">Smoking after bariatric surgery can have serious consequences. Learn why it's important to quit smoking before and after weight loss surgery...</p>
                     <div class="flex justify-between items-center pt-4 border-t border-gray-100">
                         <span class="text-xs text-gray-400 font-bold uppercase tracking-wider">By SCOD Clinic</span>
-                        <a href="blog__can-you-smoke-after-bariatric-surgery.php" class="flex items-center gap-2 text-scod text-sm font-semibold hover:text-blue-700 transition-colors">
+                        <a href="can-you-smoke-after-bariatric-surgery" class="flex items-center gap-2 text-scod text-sm font-semibold hover:text-blue-700 transition-colors">
                             Read More <i data-feather="arrow-right" class="w-4 h-4"></i>
                         </a>
                     </div>
@@ -49,12 +49,12 @@ include '../../includes/header.php';
                         March 18, 2026
                     </div>
                     <h2 class="text-xl font-bold text-gray-900 mb-3 hover:text-scod transition-colors">
-                        <a href="blog__how-does-gastric-bypass-work.php">How Does Gastric Bypass Work?</a>
+                        <a href="how-does-gastric-bypass-work">How Does Gastric Bypass Work?</a>
                     </h2>
                     <p class="text-gray-600 text-sm mb-4 line-clamp-3">Gastric bypass is one of the most commonly performed bariatric surgeries worldwide. It helps patients lose weight by changing how the stomach...</p>
                     <div class="flex justify-between items-center pt-4 border-t border-gray-100">
                         <span class="text-xs text-gray-400 font-bold uppercase tracking-wider">By SCOD Clinic</span>
-                        <a href="blog__how-does-gastric-bypass-work.php" class="flex items-center gap-2 text-scod text-sm font-semibold hover:text-blue-700 transition-colors">
+                        <a href="how-does-gastric-bypass-work" class="flex items-center gap-2 text-scod text-sm font-semibold hover:text-blue-700 transition-colors">
                             Read More <i data-feather="arrow-right" class="w-4 h-4"></i>
                         </a>
                     </div>
@@ -72,12 +72,12 @@ include '../../includes/header.php';
                         March 10, 2026
                     </div>
                     <h2 class="text-xl font-bold text-gray-900 mb-3 hover:text-scod transition-colors">
-                        <a href="blog__when-is-bariatric-surgery-recommended.php">When is Bariatric Surgery Recommended?</a>
+                        <a href="when-is-bariatric-surgery-recommended">When is Bariatric Surgery Recommended?</a>
                     </h2>
                     <p class="text-gray-600 text-sm mb-4 line-clamp-3">Bariatric surgery is recommended for individuals who have been unable to achieve significant weight loss through diet, exercise, or medication...</p>
                     <div class="flex justify-between items-center pt-4 border-t border-gray-100">
                         <span class="text-xs text-gray-400 font-bold uppercase tracking-wider">By SCOD Clinic</span>
-                        <a href="blog__when-is-bariatric-surgery-recommended.php" class="flex items-center gap-2 text-scod text-sm font-semibold hover:text-blue-700 transition-colors">
+                        <a href="when-is-bariatric-surgery-recommended" class="flex items-center gap-2 text-scod text-sm font-semibold hover:text-blue-700 transition-colors">
                             Read More <i data-feather="arrow-right" class="w-4 h-4"></i>
                         </a>
                     </div>
@@ -93,12 +93,12 @@ include '../../includes/header.php';
         </a>
         <a href="/blog/index.php" class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-colors font-semibold">1</a>
         <span class="w-10 h-10 flex items-center justify-center rounded-lg bg-scod text-white font-semibold">2</span>
-        <a href="blog__page__3.php" class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-colors font-semibold">3</a>
-        <a href="blog__page__3.php" class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-colors">
+        <a href="page-3" class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-colors font-semibold">3</a>
+        <a href="page-3" class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-colors">
             <i data-feather="chevron-right" class="w-4 h-4"></i>
         </a>
     </div>
 
-<?php include '../../includes/footer.php'; ?>
+<?php include __DIR__ . '/../includes/footer.php'; ?>
 </body>
 </html>

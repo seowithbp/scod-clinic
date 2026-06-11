@@ -2,7 +2,7 @@
 $path_prefix = '../';
 $is_home = false;
 $page_title = 'Are Weight Loss Injections Safe? {Complete Guide}';
-include '../../includes/header.php';
+include __DIR__ . '/../includes/header.php';
 ?>
 
     <!-- Blog Post Content -->
@@ -160,11 +160,11 @@ include '../../includes/header.php';
 
                 <!-- Post Navigation -->
                 <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">
-                    <a href="blog__what-is-the-minimum-weight-for-bariatric-surgery.php" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
+                    <a href="what-is-the-minimum-weight-for-bariatric-surgery" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>
                         Previous: What is the Minimum Weight for Bariatric Surgery?
                     </a>
-                    <a href="blog__is-ozempic-used-for-weight-loss.php" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
+                    <a href="is-ozempic-used-for-weight-loss" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
                         Next: Is Ozempic Used for Weight Loss?
                         <i data-feather="arrow-right" class="w-4 h-4"></i>
                     </a>
@@ -173,7 +173,7 @@ include '../../includes/header.php';
         </article>
     </main>
 
-<?php include '../../includes/footer.php'; ?>
+<?php include __DIR__ . '/../includes/footer.php'; ?>
 
     <!-- Initialize Feather Icons -->
     <script>feather.replace();</script>

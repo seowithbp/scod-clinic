@@ -2,7 +2,7 @@
 $path_prefix = '../';
 $is_home = false;
 $page_title = 'Can You Smoke After Bariatric Surgery? {Key Facts}';
-include '../../includes/header.php';
+include __DIR__ . '/../includes/header.php';
 ?>
 
     <!-- Blog Post Content -->
@@ -254,8 +254,8 @@ include '../../includes/header.php';
     
 
     
-      <a href="blog__top-10-bariatric-surgeons-in-delhi.php"> Previous: Top 10 Bariatric Surgeons in Delhi {2026 Guide}</a>
-      <a href="blog__how-does-gastric-bypass-work.php">Next: How Does Gastric Bypass Work? </a>
+      <a href="top-10-bariatric-surgeons-in-delhi"> Previous: Top 10 Bariatric Surgeons in Delhi {2026 Guide}</a>
+      <a href="how-does-gastric-bypass-work">Next: How Does Gastric Bypass Work? </a>
     
   
 
@@ -274,7 +274,7 @@ include '../../includes/header.php';
         </article>
     </main>
 
-<?php include '../../includes/footer.php'; ?>
+<?php include __DIR__ . '/../includes/footer.php'; ?>
 
     <script>feather.replace();</script>
 </body>

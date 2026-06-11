@@ -2,7 +2,7 @@
 $path_prefix = '../';
 $is_home = false;
 $page_title = 'How Does Gastric Bypass Work?';
-include '../../includes/header.php';
+include __DIR__ . '/../includes/header.php';
 ?>
 
     <!-- Blog Post Content -->
@@ -320,8 +320,8 @@ include '../../includes/header.php';
     
 
     
-      <a href="blog__can-you-smoke-after-bariatric-surgery.php"> Previous: Can You Smoke After Bariatric Surgery? {Key Facts}</a>
-      <a href="blog__can-bariatric-surgery-reverse-diabetes.php">Next: Can Bariatric Surgery Reverse Diabetes? {Surgeon Guide} </a>
+      <a href="can-you-smoke-after-bariatric-surgery"> Previous: Can You Smoke After Bariatric Surgery? {Key Facts}</a>
+      <a href="can-bariatric-surgery-reverse-diabetes">Next: Can Bariatric Surgery Reverse Diabetes? {Surgeon Guide} </a>
     
   
 
@@ -340,7 +340,7 @@ include '../../includes/header.php';
         </article>
     </main>
 
-<?php include '../../includes/footer.php'; ?>
+<?php include __DIR__ . '/../includes/footer.php'; ?>
 
     <script>feather.replace();</script>
 </body>

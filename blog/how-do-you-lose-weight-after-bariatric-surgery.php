@@ -2,7 +2,7 @@
 $path_prefix = '../';
 $is_home = false;
 $page_title = 'How Do You Lose Weight After Bariatric Surgery?';
-include '../../includes/header.php';
+include __DIR__ . '/../includes/header.php';
 ?>
 
     <!-- Blog Post Content -->
@@ -294,8 +294,8 @@ include '../../includes/header.php';
     
 
     
-      <a href="blog__are-weight-loss-injections-safe.php"> Previous: Are Weight Loss Injections Safe? {Complete Guide}</a>
-      <a href="blog__is-ozempic-used-for-weight-loss.php">Next: Is Ozempic Used for Weight Loss? {Key Insights} </a>
+      <a href="are-weight-loss-injections-safe"> Previous: Are Weight Loss Injections Safe? {Complete Guide}</a>
+      <a href="is-ozempic-used-for-weight-loss">Next: Is Ozempic Used for Weight Loss? {Key Insights} </a>
     
   
 
@@ -314,7 +314,7 @@ include '../../includes/header.php';
         </article>
     </main>
 
-<?php include '../../includes/footer.php'; ?>
+<?php include __DIR__ . '/../includes/footer.php'; ?>
 
     <script>feather.replace();</script>
 </body>

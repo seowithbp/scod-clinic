@@ -1,7 +1,7 @@
 <?php
 $path_prefix = '../';
 $is_home = false;
-include '../../includes/header.php';
+include __DIR__ . '/../includes/header.php';
 ?>
 
     <!-- Hero Section -->
@@ -32,14 +32,14 @@ include '../../includes/header.php';
 
     <!-- Pagination -->
     <div class="max-w-7xl mx-auto px-4 py-8 flex justify-center gap-2">
-        <a href="blog__page__2.php" class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-colors">
+        <a href="page-2" class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-colors">
             <i data-feather="chevron-left" class="w-4 h-4"></i>
         </a>
         <a href="/blog/index.php" class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-colors font-semibold">1</a>
-        <a href="blog__page__2.php" class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-colors font-semibold">2</a>
+        <a href="page-2" class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-colors font-semibold">2</a>
         <span class="w-10 h-10 flex items-center justify-center rounded-lg bg-scod text-white font-semibold">3</span>
     </div>
 
-<?php include '../../includes/footer.php'; ?>
+<?php include __DIR__ . '/../includes/footer.php'; ?>
 </body>
 </html>

@@ -2,7 +2,7 @@
 $path_prefix = '../';
 $is_home = false;
 $page_title = 'What is the Minimum Weight for Bariatric Surgery?';
-include '../../includes/header.php';
+include __DIR__ . '/../includes/header.php';
 ?>
 
     <!-- Blog Post Content -->
@@ -204,8 +204,8 @@ include '../../includes/header.php';
     
 
     
-      <a href="blog__does-bariatric-surgery-cure-type-2-diabetes.php"> Previous: Does Bariatric Surgery Cure Type 2 Diabetes?</a>
-      <a href="blog__are-weight-loss-injections-safe.php">Next: Are Weight Loss Injections Safe? {Complete Guide} </a>
+      <a href="does-bariatric-surgery-cure-type-2-diabetes"> Previous: Does Bariatric Surgery Cure Type 2 Diabetes?</a>
+      <a href="are-weight-loss-injections-safe">Next: Are Weight Loss Injections Safe? {Complete Guide} </a>
     
   
 
@@ -224,7 +224,7 @@ include '../../includes/header.php';
         </article>
     </main>
 
-<?php include '../../includes/footer.php'; ?>
+<?php include __DIR__ . '/../includes/footer.php'; ?>
 
     <script>feather.replace();</script>
 </body>

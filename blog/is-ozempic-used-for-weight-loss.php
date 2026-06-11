@@ -2,7 +2,7 @@
 $path_prefix = '../';
 $is_home = false;
 $page_title = 'Is Ozempic Used for Weight Loss? {Key Insights}';
-include '../../includes/header.php';
+include __DIR__ . '/../includes/header.php';
 ?>
 
     <!-- Blog Post Content -->
@@ -252,8 +252,8 @@ include '../../includes/header.php';
     
 
     
-      <a href="blog__how-do-you-lose-weight-after-bariatric-surgery.php"> Previous: How Do You Lose Weight After Bariatric Surgery?</a>
-      <a href="blog__does-bariatric-surgery-lower-blood-pressure.php">Next: Does Bariatric Surgery Lower Blood Pressure? </a>
+      <a href="how-do-you-lose-weight-after-bariatric-surgery"> Previous: How Do You Lose Weight After Bariatric Surgery?</a>
+      <a href="does-bariatric-surgery-lower-blood-pressure">Next: Does Bariatric Surgery Lower Blood Pressure? </a>
     
   
 
@@ -272,7 +272,7 @@ include '../../includes/header.php';
         </article>
     </main>
 
-<?php include '../../includes/footer.php'; ?>
+<?php include __DIR__ . '/../includes/footer.php'; ?>
 
     <script>feather.replace();</script>
 </body>
