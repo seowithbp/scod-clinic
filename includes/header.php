@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>SCOD Clinic</title>
+    <title><?php echo isset($meta_title) ? $meta_title : 'SCOD Clinic'; ?></title>
+    <?php if (isset($meta_description)): ?>
+    <meta name="description" content="<?php echo htmlspecialchars($meta_description); ?>">
+    <?php endif; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- ===================== -->
