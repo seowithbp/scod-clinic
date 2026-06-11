@@ -53,6 +53,31 @@ include __DIR__ . '/../includes/header.php';
             </article>
 
             <!-- Blog Card 2 -->
+            <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="bariatric-surgery">
+                <div class="relative aspect-video overflow-hidden bg-blue-50">
+                    <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-xs font-bold text-gray-600 uppercase tracking-wider border shadow-sm z-10">Bariatric Surgery</div>
+                    <img src="/blog/media/images/can-bariatric-surgery-be-done-twice.jpg" alt="Can Bariatric Surgery be Done Twice?" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center gap-3 text-xs text-gray-400 font-semibold uppercase tracking-wider mb-4">
+                        <i data-feather="calendar" class="w-3 h-3"></i>
+                        June 5, 2026
+                    </div>
+                    <h2 class="text-xl font-bold text-gray-900 mb-3 hover:text-scod transition-colors">
+                        <a href="/blog/can-bariatric-surgery-be-done-twice">Can Bariatric Surgery be Done Twice?</a>
+                    </h2>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-3">Wondering if bariatric surgery can be done twice? Explore the clinical reasons, eligibility criteria, revision procedure options, risks, and recovery expectations.</p>
+                    <div class="flex justify-between items-center pt-4 border-t border-gray-100">
+                        <span class="text-xs text-gray-400 font-bold uppercase tracking-wider">By SCOD Clinic</span>
+                        <a href="/blog/can-bariatric-surgery-be-done-twice" class="flex items-center gap-2 text-scod text-sm font-semibold hover:text-blue-700 transition-colors">
+                            Read More
+                            <i data-feather="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Blog Card 3 -->
             <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="diabetes">
                 <div class="relative aspect-video overflow-hidden bg-blue-50">
                     <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-xs font-bold text-gray-600 uppercase tracking-wider border shadow-sm z-10">Diabetes</div>
@@ -77,7 +102,7 @@ include __DIR__ . '/../includes/header.php';
                 </div>
             </article>
 
-            <!-- Blog Card 3 -->
+            <!-- Blog Card 4 -->
             <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="bariatric-surgery">
                 <div class="relative aspect-video overflow-hidden bg-blue-50">
                     <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-xs font-bold text-gray-600 uppercase tracking-wider border shadow-sm z-10">Bariatric Surgery</div>
@@ -102,7 +127,7 @@ include __DIR__ . '/../includes/header.php';
                 </div>
             </article>
 
-            <!-- Blog Card 4 -->
+            <!-- Blog Card 5 -->
             <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="weight-loss">
                 <div class="relative aspect-video overflow-hidden bg-blue-50">
                     <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-xs font-bold text-gray-600 uppercase tracking-wider border shadow-sm z-10">Weight Loss</div>
@@ -127,7 +152,7 @@ include __DIR__ . '/../includes/header.php';
                 </div>
             </article>
 
-            <!-- Blog Card 5 -->
+            <!-- Blog Card 6 -->
             <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="bariatric-surgery">
                 <div class="relative aspect-video overflow-hidden bg-blue-50">
                     <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-xs font-bold text-gray-600 uppercase tracking-wider border shadow-sm z-10">Bariatric Surgery</div>
@@ -152,7 +177,7 @@ include __DIR__ . '/../includes/header.php';
                 </div>
             </article>
 
-            <!-- Blog Card 6 -->
+            <!-- Blog Card 7 -->
             <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="weight-loss">
                 <div class="relative aspect-video overflow-hidden bg-blue-50">
                     <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-xs font-bold text-gray-600 uppercase tracking-wider border shadow-sm z-10">Weight Loss</div>
@@ -177,7 +202,7 @@ include __DIR__ . '/../includes/header.php';
                 </div>
             </article>
 
-            <!-- Blog Card 7 -->
+            <!-- Blog Card 8 -->
             <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="bariatric-surgery">
                 <div class="relative aspect-video overflow-hidden bg-blue-50">
                     <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-xs font-bold text-gray-600 uppercase tracking-wider border shadow-sm z-10">Bariatric Surgery</div>
@@ -202,7 +227,7 @@ include __DIR__ . '/../includes/header.php';
                 </div>
             </article>
 
-            <!-- Blog Card 8 -->
+            <!-- Blog Card 9 -->
             <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="bariatric-surgery">
                 <div class="relative aspect-video overflow-hidden bg-blue-50">
                     <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-xs font-bold text-gray-600 uppercase tracking-wider border shadow-sm z-10">Bariatric Surgery</div>
@@ -227,7 +252,7 @@ include __DIR__ . '/../includes/header.php';
                 </div>
             </article>
 
-            <!-- Blog Card 9 -->
+            <!-- Blog Card 10 -->
             <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="bariatric-surgery">
                 <div class="relative aspect-video overflow-hidden bg-blue-50">
                     <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-xs font-bold text-gray-600 uppercase tracking-wider border shadow-sm z-10">Bariatric Surgery</div>
@@ -252,7 +277,7 @@ include __DIR__ . '/../includes/header.php';
                 </div>
             </article>
 
-            <!-- Blog Card 10 -->
+            <!-- Blog Card 11 -->
             <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="diabetes">
                 <div class="relative aspect-video overflow-hidden bg-blue-50">
                     <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-xs font-bold text-gray-600 uppercase tracking-wider border shadow-sm z-10">Diabetes</div>
@@ -277,7 +302,7 @@ include __DIR__ . '/../includes/header.php';
                 </div>
             </article>
 
-            <!-- Blog Card 11 -->
+            <!-- Blog Card 12 -->
             <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="bariatric-surgery">
                 <div class="relative aspect-video overflow-hidden bg-blue-50">
                     <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-xs font-bold text-gray-600 uppercase tracking-wider border shadow-sm z-10">Bariatric Surgery</div>
@@ -302,30 +327,7 @@ include __DIR__ . '/../includes/header.php';
                 </div>
             </article>
 
-            <!-- Blog Card 12 -->
-            <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="laparoscopic">
-                <div class="relative aspect-video overflow-hidden bg-blue-50">
-                    <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-xs font-bold text-gray-600 uppercase tracking-wider border shadow-sm z-10">Laparoscopic</div>
-                    <img src="/blog/media/images/Laparoscopic Surgery.webp" alt="How Long Does Laparoscopic Appendectomy Surgery Take?" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
-                </div>
-                <div class="p-6">
-                    <div class="flex items-center gap-3 text-xs text-gray-400 font-semibold uppercase tracking-wider mb-4">
-                        <i data-feather="calendar" class="w-3 h-3"></i>
-                        March 15, 2026
-                    </div>
-                    <h2 class="text-xl font-bold text-gray-900 mb-3 hover:text-scod transition-colors">
-                        <a href="/blog/how-long-does-laparoscopic-appendectomy-surgery-take">How Long Does Laparoscopic Appendectomy Surgery Take?</a>
-                    </h2>
-                    <p class="text-gray-600 text-sm mb-4 line-clamp-3">Laparoscopic appendectomy is a minimally invasive surgery to remove the appendix. The procedure typically takes 30 to 60 minutes, depending on the complexity of the case...</p>
-                    <div class="flex justify-between items-center pt-4 border-t border-gray-100">
-                        <span class="text-xs text-gray-400 font-bold uppercase tracking-wider">By SCOD Clinic</span>
-                        <a href="/blog/how-long-does-laparoscopic-appendectomy-surgery-take" class="flex items-center gap-2 text-scod text-sm font-semibold hover:text-blue-700 transition-colors">
-                            Read More
-                            <i data-feather="arrow-right" class="w-4 h-4"></i>
-                        </a>
-                    </div>
-                </div>
-            </article>
+
 
 
         </div>
