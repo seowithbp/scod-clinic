@@ -1,5 +1,9 @@
 RewriteEngine On
 
+# Redirect /index or /index.php to root
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/index(\.php)?[\s?] [NC]
+RewriteRule ^ / [R=301,L]
+
 # Redirect old blog page URLs to new clean URLs
 RewriteRule ^blog/pages/blog__(.+?)(\.php)?$ /blog/$1 [R=301,L,NC]
 

@@ -7,6 +7,12 @@
 
 $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
+// Redirect /index or /index.php to root
+if ($uri === '/index' || $uri === '/index.php') {
+    header("Location: /", true, 301);
+    exit;
+}
+
 // If the file or directory exists as-is, let the server handle it
 if ($uri !== '/' && file_exists(__DIR__ . $uri)) {
     return false;
