@@ -27,7 +27,7 @@
                     <div class="flex items-center space-x-4 mb-6">
                         <div class="h-px w-12 bg-scod"></div><span
                             class="uppercase tracking-widest text-sm font-bold text-scod">Founder & Chairman,
-                            SCOD</span>
+                            SCOD </span>
                     </div>
                     <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight text-gray-900">Dr. Arush <br><span
                             class="text-scod">Sabharwal</span></h1>
