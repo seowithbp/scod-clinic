@@ -1,5 +1,9 @@
 RewriteEngine On
 
+# Redirect /blog/index or /blog/index.php to /blog/
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/blog/index(\.php)?[\s?] [NC]
+RewriteRule ^ /blog/ [R=301,L]
+
 # Redirect /index or /index.php to root
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/index(\.php)?[\s?] [NC]
 RewriteRule ^ / [R=301,L]
