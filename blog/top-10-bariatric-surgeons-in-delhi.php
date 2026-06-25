@@ -35,7 +35,7 @@ include __DIR__ . '/../includes/header.php';
 
             <!-- Featured Image -->
             <figure class="mb-10">
-                <img src="/blog/media/images/Top-10-Bariatric-Sugeons-in-Delhi.jpg" alt="Top 10 Bariatric Surgeons in Delhi {2026 Guide}" class="w-full rounded-2xl shadow-lg">
+                <img src="/blog/media/images/Top-10-Bariatric-Surgeons-in-Delhi.jpg" alt="Top 10 Bariatric Surgeons in Delhi {2026 Guide}" class="w-full rounded-2xl shadow-lg">
             </figure>
 
             <!-- Article Content -->
