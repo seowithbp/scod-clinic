@@ -105,7 +105,7 @@ include __DIR__ . '/../includes/header.php';
             <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="diabetes">
                 <div class="relative aspect-video overflow-hidden bg-blue-50">
                     <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-xs font-bold text-gray-600 uppercase tracking-wider border shadow-sm z-10">Diabetes</div>
-                    <img src="/blog/media/images/Bariatric Surgery.webp" alt="Does Bariatric Surgery Cure Type 2 Diabetes?" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
+                    <img src="/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg" alt="Does Bariatric Surgery Cure Type 2 Diabetes?" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
                 </div>
                 <div class="p-6">
                     <div class="flex items-center gap-3 text-xs text-gray-400 font-semibold uppercase tracking-wider mb-4">
