@@ -35,7 +35,7 @@ include __DIR__ . '/../includes/header.php';
 
             <!-- Featured Image -->
             <figure class="mb-10">
-                <img src="/blog/media/images/Bariatric Surgery.webp" alt="When is Bariatric Surgery Recommended?" class="w-full rounded-2xl shadow-lg">
+                <img src="/blog/media/images/Bariatric-Surgery-Recommended.jpg" alt="When is Bariatric Surgery Recommended?" class="w-full rounded-2xl shadow-lg">
             </figure>
 
             <!-- Article Content -->
