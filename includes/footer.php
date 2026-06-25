@@ -2,6 +2,45 @@
 if (!isset($path_prefix)) {
     $path_prefix = '';
 }
+
+$footer_locations = [
+    'Adarsh Nagar' => 'adarsh-nagar',
+    'Badarpur' => 'badarpur',
+    'Bawana' => 'bawana',
+    'Bijwasan' => 'bijwasan',
+    'Burari' => 'burari',
+    'Chandni Chowk' => 'chandni-chowk',
+    'Chhatarpur' => 'chhatarpur',
+    'Deoli' => 'deoli',
+    'Dwarka' => 'dwarka',
+    'Gandhi Nagar' => 'gandhi-nagar',
+    'Gokal Puri' => 'gokal-puri',
+    'Janakpuri' => 'janakpuri',
+    'Jangpura' => 'jangpura',
+    'Kalkaji' => 'kalkaji',
+    'Karawal Nagar' => 'karawal-nagar',
+    'Karol Bagh' => 'karol-bagh',
+    'Kirari' => 'kirari',
+    'Malviya Nagar' => 'malviya-nagar',
+    'Matiala' => 'matiala',
+    'Mehrauli' => 'mehrauli',
+    'Model Town' => 'model-town',
+    'Mundka' => 'mundka',
+    'Najafgarh' => 'najafgarh',
+    'Nangloi Jat' => 'nangloi-jat',
+    'Narela' => 'narela',
+    'Patel Nagar' => 'patel-nagar',
+    'Patparganj' => 'patparganj',
+    'Rajouri Garden' => 'rajouri-garden',
+    'Rohini' => 'rohini',
+    'Sadar Bazar' => 'sadar-bazar',
+    'Shahdara' => 'shahdara',
+    'Shakur Basti' => 'shakur-basti',
+    'Shalimar Bagh' => 'shalimar-bagh',
+    'Vikaspuri' => 'vikaspuri',
+    'Vishwas Nagar' => 'vishwas-nagar',
+    'Yamuna Vihar' => 'yamuna-vihar'
+];
 ?>
 <footer class="bg-slate-900 text-slate-300 pt-20 pb-10 border-t-4 border-scod font-sans">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -171,6 +210,24 @@ if (!isset($path_prefix)) {
                         class="w-full">
                     </iframe>
                 </div>
+            </div>
+        </div>
+
+        <!-- Locations We Serve -->
+        <div class="py-8 border-t border-slate-800">
+            <h3 class="text-white font-bold text-sm mb-4">Bariatric Surgery Services by Location</h3>
+            <div class="flex flex-wrap gap-x-4 gap-y-2 text-xs text-slate-400">
+                <?php 
+                $loc_count = count($footer_locations);
+                $i = 0;
+                foreach ($footer_locations as $loc_name => $loc_slug): 
+                    $i++;
+                ?>
+                    <a href="/bariatric-surgeon-in-<?php echo $loc_slug; ?>" class="hover:text-scod transition-colors"><?php echo htmlspecialchars($loc_name); ?></a>
+                    <?php if ($i < $loc_count): ?>
+                        <span class="text-slate-600">|</span>
+                    <?php endif; ?>
+                <?php endforeach; ?>
             </div>
         </div>
 

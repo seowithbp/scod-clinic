@@ -1,3 +1,10 @@
+<?php
+if (!isset($location) || !isset($slug)) {
+    header("HTTP/1.1 301 Moved Permanently");
+    header("Location: /services/bariatric-surgery");
+    exit();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
