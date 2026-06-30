@@ -52,8 +52,13 @@
                 <div class="relative hidden lg:block observe-animate" data-animation="fade-in-right">
                     <div
                         class="relative rounded-3xl overflow-hidden shadow-2xl border-8 border-white aspect-video bg-black">
-                        <video src="https://brandingpioneers.co.in/scod/Dr-Arush-Video-2.mp4"
-                            class="w-full h-full object-cover" autoplay loop muted playsinline controls></video>
+                        <iframe
+                            loading="lazy" title="Gumlet video player"
+                            src="https://play.gumlet.io/embed/6a43aa4ce81b019c97f4ddf0?background=false&autoplay=false&loop=false&disable_player_controls=false"
+                            style="border:none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+                            referrerpolicy="origin"
+                            allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;clipboard-write;">
+                        </iframe>
                     </div>
                 </div>
             </div>
@@ -509,7 +514,7 @@
         document.getElementById('hero-video-btn')?.addEventListener('click', () => {
             const modal = document.getElementById('video-modal');
             const iframe = document.getElementById('video-iframe');
-            iframe.src = 'https://brandingpioneers.co.in/scod/Dr-Arush-Video-2.mp4';
+            iframe.src = 'https://play.gumlet.io/embed/6a43aa4ce81b019c97f4ddf0?background=false&autoplay=true&loop=false&disable_player_controls=false';
             modal.classList.add('active');
         });
     </script>
