@@ -36,7 +36,7 @@ include __DIR__ . '/../includes/header.php';
                 <div class="p-6">
                     <div class="flex items-center gap-3 text-xs text-gray-400 font-semibold uppercase tracking-wider mb-4">
                         <i data-feather="calendar" class="w-3 h-3"></i>
-                        July 1, 2026
+                        June 27, 2026
                     </div>
                     <h2 class="text-xl font-bold text-gray-900 mb-3 hover:text-scod transition-colors">
                         <a href="/blog/is-bariatric-surgery-covered-by-insurance">Is Bariatric Surgery Covered by Insurance?</a>

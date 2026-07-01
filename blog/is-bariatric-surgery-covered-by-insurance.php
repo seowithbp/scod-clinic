@@ -25,7 +25,7 @@ include __DIR__ . '/../includes/header.php';
                 <div class="flex items-center gap-6 text-gray-500 text-sm">
                     <span class="flex items-center gap-2">
                         <i data-feather="calendar" class="w-4 h-4"></i>
-                        July 1, 2026
+                        June 27, 2026
                     </span>
                     <span class="flex items-center gap-2">
                         <i data-feather="user" class="w-4 h-4"></i>
