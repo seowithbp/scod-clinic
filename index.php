@@ -93,36 +93,15 @@
         </div>
         <!-- Center Column - Video -->
         <div class="lg:col-span-4 relative mt-12 lg:mt-0 observe-animate" data-animation="scale-in">
-          <div class="relative rounded-2xl overflow-hidden h-[500px] w-full shadow-2xl bg-gray-100 group">
-            <video id="about-video" src="https://brandingpioneers.co.in/scod/Intro-Web-Scod.mp4"
-              class="w-full h-full object-cover cursor-pointer" loop playsinline></video>
-            <!-- Desktop Play Badge -->
-            <div id="video-play-btn" class="absolute top-1/2 -left-12 transform -translate-y-1/2 hidden md:block z-20">
-              <div
-                class="relative w-32 h-32 bg-white rounded-full flex items-center justify-center cursor-pointer shadow-xl group border border-gray-100">
-                <div id="rotating-text" class="absolute inset-0 p-1">
-                  <svg viewBox="0 0 100 100" width="100%" height="100%" class="overflow-visible">
-                    <defs>
-                      <path id="circle" d="M 50,50 m -37,0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" />
-                    </defs>
-                    <text font-size="11.5" font-weight="bold" fill="#111827" letter-spacing="1.5">
-                      <textPath href="#circle">• CLICK TO PLAY • WATCH VIDEO</textPath>
-                    </text>
-                  </svg>
-                </div>
-                <div class="w-12 h-12 bg-scod rounded-full flex items-center justify-center text-white shadow-lg">
-                  <i id="play-icon" data-feather="play" class="w-5 h-5 ml-1"></i>
-                  <i id="pause-icon" data-feather="pause" class="w-5 h-5 hidden"></i>
-                </div>
-              </div>
-            </div>
-            <!-- Mobile Play Overlay -->
-            <div class="absolute inset-0 flex items-center justify-center md:hidden z-20 bg-black/30"
-              onclick="document.getElementById('about-video').paused ? document.getElementById('about-video').play() : document.getElementById('about-video').pause(); this.classList.toggle('bg-transparent')">
-              <div
-                class="w-16 h-16 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg">
-                <i data-feather="play" class="w-6 h-6 text-scod ml-1"></i>
-              </div>
+          <div class="relative rounded-2xl overflow-hidden shadow-2xl bg-gray-100">
+            <div style="position:relative;aspect-ratio:9/16;">
+              <iframe
+                loading="lazy" title="Gumlet video player"
+                src="https://play.gumlet.io/embed/6a48a17e18d11bffd5578f33"
+                style="border:none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+                referrerpolicy="origin"
+                allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;clipboard-write;">
+              </iframe>
             </div>
           </div>
         </div>
