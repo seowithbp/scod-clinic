@@ -93,14 +93,14 @@
         </div>
         <!-- Center Column - Video -->
         <div class="lg:col-span-4 relative mt-12 lg:mt-0 observe-animate" data-animation="scale-in">
-          <div class="relative rounded-2xl overflow-hidden shadow-2xl bg-gray-100">
+          <div class="relative rounded-2xl overflow-hidden shadow-2xl bg-gray-100 w-full max-w-[320px] mx-auto">
             <div style="position:relative;aspect-ratio:9/16;">
               <iframe
-                loading="lazy" title="Gumlet video player"
-                src="https://play.gumlet.io/embed/6a48a17e18d11bffd5578f33"
-                style="border:none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
-                referrerpolicy="origin"
-                allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;clipboard-write;">
+                    loading="lazy" title="Gumlet video player"
+                    src="https://play.gumlet.io/embed/6a48a17e18d11bffd5578f33"
+                    style="border:none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+                  referrerpolicy="origin"
+                  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;clipboard-write;">
               </iframe>
             </div>
           </div>

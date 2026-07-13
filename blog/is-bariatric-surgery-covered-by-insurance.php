@@ -195,6 +195,10 @@ include __DIR__ . '/../includes/header.php';
                         <i data-feather="arrow-left" class="w-4 h-4"></i>
                         Previous: Can Bariatric Surgery Cause Kidney Failure?
                     </a>
+                    <a href="can-bariatric-surgery-cause-death" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
+                        Next: Can Bariatric Surgery Cause Death?
+                        <i data-feather="arrow-right" class="w-4 h-4"></i>
+                    </a>
                 </nav>
             </div>
         </article>
