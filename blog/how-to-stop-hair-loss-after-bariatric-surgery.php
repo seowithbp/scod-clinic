@@ -140,6 +140,10 @@ include __DIR__ . '/../includes/header.php';
                         <i data-feather="arrow-left" class="w-4 h-4"></i>
                         Previous: Can Bariatric Surgery Cause Death?
                     </a>
+                    <a href="how-to-get-rid-of-co2-after-laparoscopic-surgery" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
+                        Next: How To Get Rid of CO2 After Laparoscopic Surgery?
+                        <i data-feather="arrow-right" class="w-4 h-4"></i>
+                    </a>
                 </nav>
             </div>
         </article>
