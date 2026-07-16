@@ -28,6 +28,15 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/custom.css">
   <meta name="google-site-verification" content="GLkFsz0h0ZT-0nlbHwOQgDHU7kGsxp7VFZZ7toZ75p4" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QSFNH7WW4S"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-QSFNH7WW4S');
+  </script>
 </head>
 <body class="min-h-screen bg-white text-gray-900 home-page">
   <!-- ===================== NAVBAR ===================== -->
