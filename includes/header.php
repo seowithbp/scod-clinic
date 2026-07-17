@@ -8,12 +8,9 @@
     <?php endif; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- ===================== -->
-    <!-- FAVICON (CORRECT WAY) -->
-    <!-- ===================== -->
-    <link rel="icon" href="https://res.cloudinary.com/damfndmrm/image/upload/v1769501375/scod-favicon_pjl3a7.png" type="image/png">
-    <link rel="apple-touch-icon" href="https://res.cloudinary.com/damfndmrm/image/upload/v1769501375/scod-favicon_pjl3a7.png">
-    <link rel="shortcut icon" href="https://res.cloudinary.com/damfndmrm/image/upload/v1769501375/scod-favicon_pjl3a7.png" type="image/png">
+    <link rel="icon" href="/assets/scod/favicon/scod-favicon.PNG" type="image/png">
+    <link rel="apple-touch-icon" href="/assets/scod/favicon/scod-favicon.PNG">
+    <link rel="shortcut icon" href="/assets/scod/favicon/scod-favicon.PNG" type="image/png">
 
     <!-- Tailwind via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
