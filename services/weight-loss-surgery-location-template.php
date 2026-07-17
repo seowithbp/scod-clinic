@@ -10,9 +10,9 @@ if (!isset($location) || !isset($slug)) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Weight Loss Surgery in <?php echo htmlspecialchars($location); ?>, Delhi | Dr. Arush Sabharwal</title>
+    <title>Weight Loss Surgery/Doctor in <?php echo htmlspecialchars($location); ?> | Dr. Arush Sabharwal</title>
     <meta name="description"
-        content="Looking for the best weight loss surgery in <?php echo htmlspecialchars($location); ?>, Delhi? Dr. Arush Sabharwal offers advanced, safe, and minimally invasive weight loss procedures.">
+        content="Seeking expert weight loss surgery in <?php echo htmlspecialchars($location); ?>? Consult Dr. Arush Sabharwal for advanced bariatric treatments, personalized care, and weight management results.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700;800&display=swap"

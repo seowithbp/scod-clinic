@@ -231,6 +231,23 @@ $footer_locations = [
             </div>
         </div>
 
+        <div class="py-8 border-t border-slate-800">
+            <h3 class="text-white font-bold text-sm mb-4">Weight Loss Surgery Services by Location</h3>
+            <div class="flex flex-wrap gap-x-4 gap-y-2 text-xs text-slate-400">
+                <?php 
+                $loc_count = count($footer_locations);
+                $i = 0;
+                foreach ($footer_locations as $loc_name => $loc_slug): 
+                    $i++;
+                ?>
+                    <a href="/weight-loss-surgery-in-<?php echo $loc_slug; ?>" class="hover:text-scod transition-colors"><?php echo htmlspecialchars($loc_name); ?></a>
+                    <?php if ($i < $loc_count): ?>
+                        <span class="text-slate-600">|</span>
+                    <?php endif; ?>
+                <?php endforeach; ?>
+            </div>
+        </div>
+
         <!-- Disclaimer -->
         <div class="py-6 border-t border-slate-800 text-[11px] text-slate-500 leading-relaxed italic">
             <p><strong>FGS Disclaimer:</strong> The Feel Great System is a nutrition-based metabolic support program. It
