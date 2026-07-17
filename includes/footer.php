@@ -284,6 +284,7 @@ $footer_locations = [
 <script>
 feather.replace();
 </script>
+<script defer src="https://app.wacrs.com/install-widget/bundle.js?key=38216f1f-3e32-4677-9975-f76d1c14b48b"></script>
 </footer>
 </body>
 </html>
