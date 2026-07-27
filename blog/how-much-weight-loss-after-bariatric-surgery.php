@@ -1,8 +1,9 @@
 <?php
 $path_prefix = '../';
 $is_home = false;
-$meta_title = 'How Much Weight Loss After Bariatric Surgery? {Expected Results} - SCOD Clinic';
-$meta_description = 'Wondering how much weight loss after bariatric surgery to expect? Discover average weight loss timelines, excess weight loss percentages, procedure comparisons, precautions, and expert insights from SCOD Clinic.';
+$meta_title = 'How Much Weight Loss After Bariatric Surgery? - SCOD';
+$meta_description = 'Wondering how much weight loss after bariatric surgery to expect? Learn average timelines, excess weight loss percentages, and safety tips from SCOD Clinic.';
+$canonical_url = 'https://scodclinic.com/blog/how-much-weight-loss-after-bariatric-surgery';
 include __DIR__ . '/../includes/header.php';
 ?>
 

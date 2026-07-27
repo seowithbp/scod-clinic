@@ -6,6 +6,11 @@
     <?php if (isset($meta_description)): ?>
     <meta name="description" content="<?php echo htmlspecialchars($meta_description); ?>">
     <?php endif; ?>
+    <?php if (isset($canonical_url)): ?>
+    <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url); ?>">
+    <?php elseif (isset($canonical)): ?>
+    <link rel="canonical" href="<?php echo htmlspecialchars($canonical); ?>">
+    <?php endif; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" href="/assets/scod/favicon/scod-favicon.PNG" type="image/png">
