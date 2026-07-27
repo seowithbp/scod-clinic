@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Main Pages -->
   <url>
     <loc>https://scodclinic.com/</loc>
   </url>
@@ -43,8 +42,9 @@
   <url>
     <loc>https://scodclinic.com/risks-costs</loc>
   </url>
-
-  <!-- Service Pages -->
+  <url>
+    <loc>https://scodclinic.com/thank-you</loc>
+  </url>
   <url>
     <loc>https://scodclinic.com/services</loc>
   </url>
@@ -118,16 +118,16 @@
     <loc>https://scodclinic.com/bariatric-surgeon-in-bawana</loc>
   </url>
   <url>
-    <loc>https://scodclinic.com/bariatric-surgeon-in-chhatarpur</loc>
+    <loc>https://scodclinic.com/bariatric-surgeon-in-badarpur</loc>
   </url>
   <url>
-    <loc>https://scodclinic.com/bariatric-surgeon-in-malviya-nagar</loc>
+    <loc>https://scodclinic.com/bariatric-surgeon-in-bijwasan</loc>
   </url>
   <url>
     <loc>https://scodclinic.com/bariatric-surgeon-in-deoli</loc>
   </url>
   <url>
-    <loc>https://scodclinic.com/bariatric-surgeon-in-mehrauli</loc>
+    <loc>https://scodclinic.com/bariatric-surgeon-in-chhatarpur</loc>
   </url>
   <url>
     <loc>https://scodclinic.com/bariatric-surgeon-in-jangpura</loc>
@@ -136,28 +136,28 @@
     <loc>https://scodclinic.com/bariatric-surgeon-in-kalkaji</loc>
   </url>
   <url>
-    <loc>https://scodclinic.com/bariatric-surgeon-in-badarpur</loc>
+    <loc>https://scodclinic.com/bariatric-surgeon-in-malviya-nagar</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/bariatric-surgeon-in-mehrauli</loc>
   </url>
   <url>
     <loc>https://scodclinic.com/bariatric-surgeon-in-najafgarh</loc>
   </url>
   <url>
-    <loc>https://scodclinic.com/bariatric-surgeon-in-matiala</loc>
-  </url>
-  <url>
-    <loc>https://scodclinic.com/bariatric-surgeon-in-dwarka</loc>
-  </url>
-  <url>
-    <loc>https://scodclinic.com/bariatric-surgeon-in-bijwasan</loc>
-  </url>
-  <url>
-    <loc>https://scodclinic.com/bariatric-surgeon-in-vikaspuri</loc>
+    <loc>https://scodclinic.com/bariatric-surgeon-in-rajouri-garden</loc>
   </url>
   <url>
     <loc>https://scodclinic.com/bariatric-surgeon-in-janakpuri</loc>
   </url>
   <url>
-    <loc>https://scodclinic.com/bariatric-surgeon-in-rajouri-garden</loc>
+    <loc>https://scodclinic.com/bariatric-surgeon-in-vikaspuri</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/bariatric-surgeon-in-dwarka</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/bariatric-surgeon-in-matiala</loc>
   </url>
   <url>
     <loc>https://scodclinic.com/weight-loss-surgery-in-patel-nagar</loc>
@@ -226,16 +226,16 @@
     <loc>https://scodclinic.com/weight-loss-surgery-in-bawana</loc>
   </url>
   <url>
-    <loc>https://scodclinic.com/weight-loss-surgery-in-chhatarpur</loc>
+    <loc>https://scodclinic.com/weight-loss-surgery-in-badarpur</loc>
   </url>
   <url>
-    <loc>https://scodclinic.com/weight-loss-surgery-in-malviya-nagar</loc>
+    <loc>https://scodclinic.com/weight-loss-surgery-in-bijwasan</loc>
   </url>
   <url>
     <loc>https://scodclinic.com/weight-loss-surgery-in-deoli</loc>
   </url>
   <url>
-    <loc>https://scodclinic.com/weight-loss-surgery-in-mehrauli</loc>
+    <loc>https://scodclinic.com/weight-loss-surgery-in-chhatarpur</loc>
   </url>
   <url>
     <loc>https://scodclinic.com/weight-loss-surgery-in-jangpura</loc>
@@ -244,101 +244,34 @@
     <loc>https://scodclinic.com/weight-loss-surgery-in-kalkaji</loc>
   </url>
   <url>
-    <loc>https://scodclinic.com/weight-loss-surgery-in-badarpur</loc>
+    <loc>https://scodclinic.com/weight-loss-surgery-in-malviya-nagar</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/weight-loss-surgery-in-mehrauli</loc>
   </url>
   <url>
     <loc>https://scodclinic.com/weight-loss-surgery-in-najafgarh</loc>
   </url>
   <url>
-    <loc>https://scodclinic.com/weight-loss-surgery-in-matiala</loc>
-  </url>
-  <url>
-    <loc>https://scodclinic.com/weight-loss-surgery-in-dwarka</loc>
-  </url>
-  <url>
-    <loc>https://scodclinic.com/weight-loss-surgery-in-bijwasan</loc>
-  </url>
-  <url>
-    <loc>https://scodclinic.com/weight-loss-surgery-in-vikaspuri</loc>
+    <loc>https://scodclinic.com/weight-loss-surgery-in-rajouri-garden</loc>
   </url>
   <url>
     <loc>https://scodclinic.com/weight-loss-surgery-in-janakpuri</loc>
   </url>
   <url>
-    <loc>https://scodclinic.com/weight-loss-surgery-in-rajouri-garden</loc>
+    <loc>https://scodclinic.com/weight-loss-surgery-in-vikaspuri</loc>
   </url>
   <url>
-    <loc>https://scodclinic.com/services/body-contouring</loc>
+    <loc>https://scodclinic.com/weight-loss-surgery-in-dwarka</loc>
   </url>
   <url>
-    <loc>https://scodclinic.com/services/laparoscopic-surgery</loc>
+    <loc>https://scodclinic.com/weight-loss-surgery-in-matiala</loc>
   </url>
-  <url>
-    <loc>https://scodclinic.com/services/metabolic-surgery</loc>
-  </url>
-  <url>
-    <loc>https://scodclinic.com/services/obesity-management</loc>
-  </url>
-  <url>
-    <loc>https://scodclinic.com/services/weight-loss-injectables</loc>
-  </url>
-  <url>
-    <loc>https://scodclinic.com/services/weight-regain</loc>
-  </url>
-
-  <!-- Blog Index & Pagination -->
   <url>
     <loc>https://scodclinic.com/blog</loc>
   </url>
   <url>
-    <loc>https://scodclinic.com/blog/page-2</loc>
-  </url>
-  <url>
-    <loc>https://scodclinic.com/blog/page-3</loc>
-  </url>
-
-  <!-- Blog Posts -->
-  <url>
-    <loc>https://scodclinic.com/blog/can-bariatric-surgery-cause-kidney-failure</loc>
-  </url>
-  <url>
-    <loc>https://scodclinic.com/blog/does-bariatric-surgery-cure-type-2-diabetes</loc>
-  </url>
-  <url>
-    <loc>https://scodclinic.com/blog/what-is-the-minimum-weight-for-bariatric-surgery</loc>
-  </url>
-  <url>
     <loc>https://scodclinic.com/blog/are-weight-loss-injections-safe</loc>
-  </url>
-  <url>
-    <loc>https://scodclinic.com/blog/how-do-you-lose-weight-after-bariatric-surgery</loc>
-  </url>
-  <url>
-    <loc>https://scodclinic.com/blog/is-ozempic-used-for-weight-loss</loc>
-  </url>
-  <url>
-    <loc>https://scodclinic.com/blog/does-bariatric-surgery-lower-blood-pressure</loc>
-  </url>
-  <url>
-    <loc>https://scodclinic.com/blog/how-does-gastric-bypass-work</loc>
-  </url>
-  <url>
-    <loc>https://scodclinic.com/blog/when-is-bariatric-surgery-recommended</loc>
-  </url>
-  <url>
-    <loc>https://scodclinic.com/blog/can-bariatric-surgery-reverse-diabetes</loc>
-  </url>
-  <url>
-    <loc>https://scodclinic.com/blog/top-10-bariatric-surgeons-in-delhi</loc>
-  </url>
-  <url>
-    <loc>https://scodclinic.com/blog/how-long-does-laparoscopic-appendectomy-surgery-take</loc>
-  </url>
-  <url>
-    <loc>https://scodclinic.com/blog/how-long-is-robotic-gallbladder-surgery</loc>
-  </url>
-  <url>
-    <loc>https://scodclinic.com/blog/can-you-smoke-after-bariatric-surgery</loc>
   </url>
   <url>
     <loc>https://scodclinic.com/blog/can-a-person-drink-alcohol-after-bariatric-surgery</loc>
@@ -347,21 +280,60 @@
     <loc>https://scodclinic.com/blog/can-bariatric-surgery-be-done-twice</loc>
   </url>
   <url>
-    <loc>https://scodclinic.com/blog/is-bariatric-surgery-covered-by-insurance</loc>
-  </url>
-  <url>
     <loc>https://scodclinic.com/blog/can-bariatric-surgery-cause-death</loc>
   </url>
   <url>
-    <loc>https://scodclinic.com/blog/how-to-stop-hair-loss-after-bariatric-surgery</loc>
+    <loc>https://scodclinic.com/blog/can-bariatric-surgery-cause-kidney-failure</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/can-bariatric-surgery-reverse-diabetes</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/can-you-smoke-after-bariatric-surgery</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/does-bariatric-surgery-cure-type-2-diabetes</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/does-bariatric-surgery-lower-blood-pressure</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/how-do-you-lose-weight-after-bariatric-surgery</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/how-does-gastric-bypass-work</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/how-long-does-laparoscopic-appendectomy-surgery-take</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/how-long-is-robotic-gallbladder-surgery</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/how-much-weight-loss-after-bariatric-surgery</loc>
   </url>
   <url>
     <loc>https://scodclinic.com/blog/how-to-get-rid-of-co2-after-laparoscopic-surgery</loc>
   </url>
   <url>
+    <loc>https://scodclinic.com/blog/how-to-stop-hair-loss-after-bariatric-surgery</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/is-bariatric-surgery-covered-by-insurance</loc>
+  </url>
+  <url>
     <loc>https://scodclinic.com/blog/is-laparoscopic-surgery-safe</loc>
   </url>
   <url>
-    <loc>https://scodclinic.com/blog/how-much-weight-loss-after-bariatric-surgery</loc>
+    <loc>https://scodclinic.com/blog/is-ozempic-used-for-weight-loss</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/top-10-bariatric-surgeons-in-delhi</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/what-is-the-minimum-weight-for-bariatric-surgery</loc>
+  </url>
+  <url>
+    <loc>https://scodclinic.com/blog/when-is-bariatric-surgery-recommended</loc>
   </url>
 </urlset>
