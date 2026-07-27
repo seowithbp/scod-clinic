@@ -493,13 +493,13 @@ include __DIR__ . '/../includes/header.php';
             </div>
         </div>
     </section>
-    <!-- Bariatric Surgery Near Me -->
-    <section class="py-16 bg-white border-t border-gray-100" id="bariatric-surgery-near-me">
+    <!-- Weight Loss Surgery Near Me -->
+    <section class="py-16 bg-white border-t border-gray-100" id="weight-loss-surgery-near-me">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
                 <span class="uppercase tracking-widest text-sm font-bold text-scod">Location Services</span>
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-2">Bariatric Surgery <span class="text-scod">Near Me</span></h2>
-                <p class="text-gray-600 mt-3 max-w-2xl mx-auto">Explore top-rated weight loss and bariatric surgery services available across neighboring locations in Delhi NCR.</p>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-2">Weight Loss Surgery <span class="text-scod">Near Me</span></h2>
+                <p class="text-gray-600 mt-3 max-w-2xl mx-auto">Explore top-rated weight loss surgery services available across neighboring locations in Delhi NCR.</p>
             </div>
             
             <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
