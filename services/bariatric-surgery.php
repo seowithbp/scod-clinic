@@ -481,6 +481,67 @@
             </div>
         </div>
     </section>
+    <!-- Bariatric Surgery Near Me -->
+    <section class="py-16 bg-white border-t border-gray-100" id="bariatric-surgery-near-me">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="uppercase tracking-widest text-sm font-bold text-scod">Location Services</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-2">Bariatric Surgery <span class="text-scod">Near Me</span></h2>
+                <p class="text-gray-600 mt-3 max-w-2xl mx-auto">Explore top-rated bariatric surgery services and specialist consultations available near your location in Delhi NCR.</p>
+            </div>
+            
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                <?php
+                $bariatric_locations = [
+                    'Adarsh Nagar' => 'adarsh-nagar',
+                    'Badarpur' => 'badarpur',
+                    'Bawana' => 'bawana',
+                    'Bijwasan' => 'bijwasan',
+                    'Burari' => 'burari',
+                    'Chandni Chowk' => 'chandni-chowk',
+                    'Chhatarpur' => 'chhatarpur',
+                    'Deoli' => 'deoli',
+                    'Dwarka' => 'dwarka',
+                    'Gandhi Nagar' => 'gandhi-nagar',
+                    'Gokal Puri' => 'gokal-puri',
+                    'Janakpuri' => 'janakpuri',
+                    'Jangpura' => 'jangpura',
+                    'Kalkaji' => 'kalkaji',
+                    'Karawal Nagar' => 'karawal-nagar',
+                    'Karol Bagh' => 'karol-bagh',
+                    'Kirari' => 'kirari',
+                    'Malviya Nagar' => 'malviya-nagar',
+                    'Matiala' => 'matiala',
+                    'Mehrauli' => 'mehrauli',
+                    'Model Town' => 'model-town',
+                    'Mundka' => 'mundka',
+                    'Najafgarh' => 'najafgarh',
+                    'Nangloi Jat' => 'nangloi-jat',
+                    'Narela' => 'narela',
+                    'Patel Nagar' => 'patel-nagar',
+                    'Patparganj' => 'patparganj',
+                    'Rajouri Garden' => 'rajouri-garden',
+                    'Rohini' => 'rohini',
+                    'Sadar Bazar' => 'sadar-bazar',
+                    'Shahdara' => 'shahdara',
+                    'Shakur Basti' => 'shakur-basti',
+                    'Shalimar Bagh' => 'shalimar-bagh',
+                    'Vikaspuri' => 'vikaspuri',
+                    'Vishwas Nagar' => 'vishwas-nagar',
+                    'Yamuna Vihar' => 'yamuna-vihar'
+                ];
+                foreach ($bariatric_locations as $loc_name => $loc_slug):
+                ?>
+                    <a href="/bariatric-surgeon-in-<?php echo $loc_slug; ?>" 
+                       class="group bg-gray-50 hover:bg-scod border border-gray-200 hover:border-scod rounded-xl p-4 flex items-center gap-3 transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-0.5">
+                        <i data-feather="map-pin" class="w-4 h-4 text-scod group-hover:text-white shrink-0 transition-colors"></i>
+                        <span class="text-xs font-semibold text-gray-700 group-hover:text-white transition-colors line-clamp-1"><?php echo htmlspecialchars($loc_name); ?></span>
+                    </a>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </section>
+
     <!-- FAQs -->
     <section class="py-12 bg-gray-50">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
