@@ -26,7 +26,31 @@ include __DIR__ . '/../includes/header.php';
 
     <!-- Blog Grid -->
     <main class="max-w-7xl mx-auto px-4 py-12 md:py-16">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Blog Card: Can Bariatric Surgery Cause Heart Problems? -->
+            <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="bariatric-surgery">
+                <div class="relative aspect-video overflow-hidden bg-blue-50">
+                    <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-xs font-bold text-gray-600 uppercase tracking-wider border shadow-sm z-10">Bariatric Surgery</div>
+                    <img src="/blog/media/images/can-bariatric-surgery-cause-heart-problems.jpg" alt="Can Bariatric Surgery Cause Heart Problems?" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center gap-3 text-xs text-gray-400 font-semibold uppercase tracking-wider mb-4">
+                        <i data-feather="calendar" class="w-3 h-3"></i>
+                        August 3, 2026
+                    </div>
+                    <h2 class="text-xl font-bold text-gray-900 mb-3 hover:text-scod transition-colors">
+                        <a href="/blog/can-bariatric-surgery-cause-heart-problems">Can Bariatric Surgery Cause Heart Problems? {2026 Guide}</a>
+                    </h2>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-3">Does bariatric surgery cause heart problems? Learn the facts about weight loss surgery and heart health, cardiovascular benefits, temporary symptoms like heart palpitations, and prevention tips.</p>
+                    <div class="flex justify-between items-center pt-4 border-t border-gray-100">
+                        <span class="text-xs text-gray-400 font-bold uppercase tracking-wider">By SCOD Clinic</span>
+                        <a href="/blog/can-bariatric-surgery-cause-heart-problems" class="flex items-center gap-2 text-scod text-sm font-semibold hover:text-blue-700 transition-colors">
+                            Read More
+                            <i data-feather="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
             <!-- Blog Card: How Much Weight Loss After Bariatric Surgery? -->
             <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="bariatric-surgery">
                 <div class="relative aspect-video overflow-hidden bg-blue-50">
