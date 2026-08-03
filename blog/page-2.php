@@ -138,17 +138,15 @@ include __DIR__ . '/../includes/header.php';
 
     <!-- Pagination -->
     <div class="max-w-7xl mx-auto px-4 py-8 flex justify-center gap-2">
-        <a href="/blog/index.php" class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-colors">
+        <a href="/blog/" class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-colors">
             <i data-feather="chevron-left" class="w-4 h-4"></i>
         </a>
-        <a href="/blog/index.php" class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-colors font-semibold">1</a>
+        <a href="/blog/" class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-colors font-semibold">1</a>
         <span class="w-10 h-10 flex items-center justify-center rounded-lg bg-scod text-white font-semibold">2</span>
-        <a href="page-3" class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-colors font-semibold">3</a>
-        <a href="page-3" class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-colors">
+        <a href="/blog/page-3" class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-colors font-semibold">3</a>
+        <a href="/blog/page-3" class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-colors">
             <i data-feather="chevron-right" class="w-4 h-4"></i>
         </a>
     </div>
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>
-</body>
-</html>

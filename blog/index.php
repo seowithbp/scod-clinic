@@ -26,6 +26,7 @@ include __DIR__ . '/../includes/header.php';
 
     <!-- Blog Grid -->
     <main class="max-w-7xl mx-auto px-4 py-12 md:py-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Blog Card: Can Bariatric Surgery Cause Heart Problems? -->
             <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="bariatric-surgery">
                 <div class="relative aspect-video overflow-hidden bg-blue-50">
@@ -544,8 +545,6 @@ include __DIR__ . '/../includes/header.php';
         </a>
     </div>
 
-<?php include __DIR__ . '/../includes/footer.php'; ?>
-
     <!-- Filter Script -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -568,7 +567,7 @@ include __DIR__ . '/../includes/header.php';
                     blogCards.forEach(card => {
                         const cardCategory = card.getAttribute('data-category');
                         if (filterValue === 'all' || cardCategory === filterValue) {
-                            card.style.display = 'block';
+                            card.style.display = '';
                         } else {
                             card.style.display = 'none';
                         }
@@ -577,5 +576,5 @@ include __DIR__ . '/../includes/header.php';
             });
         });
     </script>
-</body>
-</html>
+
+<?php include __DIR__ . '/../includes/footer.php'; ?>

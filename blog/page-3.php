@@ -21,7 +21,7 @@ include __DIR__ . '/../includes/header.php';
                     <i data-feather="file-text" class="w-16 h-16 text-scod mx-auto mb-4"></i>
                     <h2 class="text-2xl font-bold text-gray-900 mb-4">More Content Coming Soon</h2>
                     <p class="text-gray-600 mb-6">We're regularly publishing new articles about bariatric surgery, weight management, and healthy living.</p>
-                    <a href="/blog/index.php" class="inline-flex items-center gap-2 bg-scod text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                    <a href="/blog/" class="inline-flex items-center gap-2 bg-scod text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>
                         Back to Blog
                     </a>
@@ -32,14 +32,12 @@ include __DIR__ . '/../includes/header.php';
 
     <!-- Pagination -->
     <div class="max-w-7xl mx-auto px-4 py-8 flex justify-center gap-2">
-        <a href="page-2" class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-colors">
+        <a href="/blog/page-2" class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-colors">
             <i data-feather="chevron-left" class="w-4 h-4"></i>
         </a>
-        <a href="/blog/index.php" class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-colors font-semibold">1</a>
-        <a href="page-2" class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-colors font-semibold">2</a>
+        <a href="/blog/" class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-colors font-semibold">1</a>
+        <a href="/blog/page-2" class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-200 text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-colors font-semibold">2</a>
         <span class="w-10 h-10 flex items-center justify-center rounded-lg bg-scod text-white font-semibold">3</span>
     </div>
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>
-</body>
-</html>
