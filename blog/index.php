@@ -18,6 +18,7 @@ include __DIR__ . '/../includes/header.php';
             <button class="filter-tab active bg-scod text-white px-6 py-2.5 rounded-full text-sm font-semibold transition-all hover:bg-blue-700 shadow-md" data-filter="all">All</button>
             <button class="filter-tab bg-gray-100 text-gray-600 px-6 py-2.5 rounded-full text-sm font-semibold transition-all hover:bg-scod hover:text-white" data-filter="bariatric-surgery">Bariatric Surgery</button>
             <button class="filter-tab bg-gray-100 text-gray-600 px-6 py-2.5 rounded-full text-sm font-semibold transition-all hover:bg-scod hover:text-white" data-filter="weight-loss">Weight Loss</button>
+            <button class="filter-tab bg-gray-100 text-gray-600 px-6 py-2.5 rounded-full text-sm font-semibold transition-all hover:bg-scod hover:text-white" data-filter="body-contouring">Body Contouring</button>
             <button class="filter-tab bg-gray-100 text-gray-600 px-6 py-2.5 rounded-full text-sm font-semibold transition-all hover:bg-scod hover:text-white" data-filter="diabetes">Diabetes</button>
             <button class="filter-tab bg-gray-100 text-gray-600 px-6 py-2.5 rounded-full text-sm font-semibold transition-all hover:bg-scod hover:text-white" data-filter="laparoscopic">Laparoscopic</button>
             <button class="filter-tab bg-gray-100 text-gray-600 px-6 py-2.5 rounded-full text-sm font-semibold transition-all hover:bg-scod hover:text-white" data-filter="recovery">Recovery Tips</button>
@@ -27,6 +28,30 @@ include __DIR__ . '/../includes/header.php';
     <!-- Blog Grid -->
     <main class="max-w-7xl mx-auto px-4 py-12 md:py-16">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Blog Card: Does Body Contouring Really Work? -->
+            <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="body-contouring">
+                <div class="relative aspect-video overflow-hidden bg-blue-50">
+                    <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-xs font-bold text-gray-600 uppercase tracking-wider border shadow-sm z-10">Body Contouring</div>
+                    <img src="/blog/media/images/does-body-contouring-really-work.jpg" alt="Does Body Contouring Really Work?" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center gap-3 text-xs text-gray-400 font-semibold uppercase tracking-wider mb-4">
+                        <i data-feather="calendar" class="w-3 h-3"></i>
+                        August 8, 2025
+                    </div>
+                    <h2 class="text-xl font-bold text-gray-900 mb-3 hover:text-scod transition-colors">
+                        <a href="/blog/does-body-contouring-really-work">Does Body Contouring Really Work? {2025 Guide}</a>
+                    </h2>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-3">Does body contouring really work? Discover how body contouring works, surgical vs non-surgical options, cost, recovery, and results in our complete 2025 guide.</p>
+                    <div class="flex justify-between items-center pt-4 border-t border-gray-100">
+                        <span class="text-xs text-gray-400 font-bold uppercase tracking-wider">By SCOD Clinic</span>
+                        <a href="/blog/does-body-contouring-really-work" class="flex items-center gap-2 text-scod text-sm font-semibold hover:text-blue-700 transition-colors">
+                            Read More
+                            <i data-feather="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
             <!-- Blog Card: Can Bariatric Surgery Cause Heart Problems? -->
             <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="bariatric-surgery">
                 <div class="relative aspect-video overflow-hidden bg-blue-50">
