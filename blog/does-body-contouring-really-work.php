@@ -1,8 +1,8 @@
 <?php
 $path_prefix = '../';
 $is_home = false;
-$meta_title = 'Does Body Contouring Really Work? {2025 Complete Guide}';
-$meta_description = 'Does body contouring really work? Discover how body contouring works, surgical vs non-surgical options, cost, recovery, and results in our complete 2025 guide.';
+$meta_title = 'Does Body Contouring Really Work? {2026 Complete Guide}';
+$meta_description = 'Does body contouring really work? Discover how body contouring works, surgical vs non-surgical options, cost, recovery, and results in our complete 2026 guide.';
 $canonical_url = 'https://scodclinic.com/blog/does-body-contouring-really-work';
 include __DIR__ . '/../includes/header.php';
 ?>
@@ -108,7 +108,7 @@ include __DIR__ . '/../includes/header.php';
         <article>
             <header class="mb-10">
                 <span class="inline-block bg-scod text-white text-xs font-bold px-3 py-1 rounded-full mb-4">Body Contouring</span>
-                <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Does Body Contouring Really Work? {Complete 2025 Guide}</h1>
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Does Body Contouring Really Work? {Complete 2026 Guide}</h1>
                 <div class="flex items-center gap-6 text-gray-500 text-sm">
                     <span class="flex items-center gap-2">
                         <i data-feather="calendar" class="w-4 h-4"></i>

@@ -40,9 +40,9 @@ include __DIR__ . '/../includes/header.php';
                         August 8, 2025
                     </div>
                     <h2 class="text-xl font-bold text-gray-900 mb-3 hover:text-scod transition-colors">
-                        <a href="/blog/does-body-contouring-really-work">Does Body Contouring Really Work? {2025 Guide}</a>
+                        <a href="/blog/does-body-contouring-really-work">Does Body Contouring Really Work? {2026 Guide}</a>
                     </h2>
-                    <p class="text-gray-600 text-sm mb-4 line-clamp-3">Does body contouring really work? Discover how body contouring works, surgical vs non-surgical options, cost, recovery, and results in our complete 2025 guide.</p>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-3">Does body contouring really work? Discover how body contouring works, surgical vs non-surgical options, cost, recovery, and results in our complete 2026 guide.</p>
                     <div class="flex justify-between items-center pt-4 border-t border-gray-100">
                         <span class="text-xs text-gray-400 font-bold uppercase tracking-wider">By SCOD Clinic</span>
                         <a href="/blog/does-body-contouring-really-work" class="flex items-center gap-2 text-scod text-sm font-semibold hover:text-blue-700 transition-colors">
