@@ -977,13 +977,14 @@
       </div>
       <div class="overflow-hidden -mx-4">
         <div id="awareness-slider" class="flex transition-transform duration-500 ease-out">
-          <!-- Video 1: BMI & Metabolic Health -->
+          <!-- Video 1: Childhood Obesity -->
           <div class="w-full md:w-1/2 lg:w-1/3 px-4 flex-shrink-0 cursor-pointer group"
-            data-video-id="A1KzV9lJ65w">
+            data-video-id="TaOuNUjv_Dc">
             <div
               class="relative rounded-2xl overflow-hidden aspect-video mb-6 shadow-lg group-hover:shadow-xl transition-all duration-300 border border-gray-100 bg-gray-100">
-              <img src="https://img.youtube.com/vi/A1KzV9lJ65w/hqdefault.jpg" alt="Understanding Body Mass Index BMI"
-                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+              <img src="https://i.ytimg.com/vi/TaOuNUjv_Dc/hqdefault.jpg" alt="Childhood Obesity & Healthy Indian Diet"
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                loading="lazy">
               <div
                 class="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
                 <div
@@ -993,18 +994,19 @@
               </div>
             </div>
             <div>
-              <span class="text-scod text-sm font-bold uppercase tracking-wider">Metabolic Health</span>
+              <span class="text-scod text-sm font-bold uppercase tracking-wider">Public Health</span>
               <h3 class="text-xl font-bold text-gray-900 mt-2 group-hover:text-scod transition-colors line-clamp-2">
-                What Does Your BMI (Body Mass Index) Really Mean for Your Health & Surgery Eligibility?</h3>
+                India Ranks #2 in Childhood Obesity! Is Your Healthy Indian Diet Making Your Child Obese?</h3>
             </div>
           </div>
-          <!-- Video 2: PSRI Hospital Clinic Launch -->
+          <!-- Video 2: Weight Loss Injections -->
           <div class="w-full md:w-1/2 lg:w-1/3 px-4 flex-shrink-0 cursor-pointer group"
-            data-video-id="S80058Jd5eM">
+            data-video-id="rEd-4Pov_iw">
             <div
               class="relative rounded-2xl overflow-hidden aspect-video mb-6 shadow-lg group-hover:shadow-xl transition-all duration-300 border border-gray-100 bg-gray-100">
-              <img src="https://img.youtube.com/vi/S80058Jd5eM/hqdefault.jpg" alt="PSRI Hospital Bariatric Clinic Announcement"
-                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+              <img src="https://i.ytimg.com/vi/rEd-4Pov_iw/hqdefault.jpg" alt="Weight Loss Injections Side Effects"
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                loading="lazy">
               <div
                 class="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
                 <div
@@ -1014,18 +1016,19 @@
               </div>
             </div>
             <div>
-              <span class="text-scod text-sm font-bold uppercase tracking-wider">Obesity Care</span>
+              <span class="text-scod text-sm font-bold uppercase tracking-wider">Weight Management</span>
               <h3 class="text-xl font-bold text-gray-900 mt-2 group-hover:text-scod transition-colors line-clamp-2">
-                Big Announcement: Dr. Arush Sabharwal Leads Comprehensive Obesity Clinic at PSRI Hospital</h3>
+                Weight Loss Injections के Side Effects | Obesity | Diet & Exercise Tips</h3>
             </div>
           </div>
-          <!-- Video 3: Painless Sleeve Gastrectomy -->
+          <!-- Video 3: Types of Bariatric Surgeries -->
           <div class="w-full md:w-1/2 lg:w-1/3 px-4 flex-shrink-0 cursor-pointer group"
-            data-video-id="aG-Y9-m7S_w">
+            data-video-id="bNoFXoLDnEc">
             <div
               class="relative rounded-2xl overflow-hidden aspect-video mb-6 shadow-lg group-hover:shadow-xl transition-all duration-300 border border-gray-100 bg-gray-100">
-              <img src="https://img.youtube.com/vi/aG-Y9-m7S_w/hqdefault.jpg" alt="Painless Sleeve Gastrectomy Surgery"
-                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+              <img src="https://i.ytimg.com/vi/bNoFXoLDnEc/hqdefault.jpg" alt="Types of Weight Loss Surgeries"
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                loading="lazy">
               <div
                 class="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
                 <div
@@ -1035,18 +1038,19 @@
               </div>
             </div>
             <div>
-              <span class="text-scod text-sm font-bold uppercase tracking-wider">Minimally Invasive</span>
+              <span class="text-scod text-sm font-bold uppercase tracking-wider">Bariatric Education</span>
               <h3 class="text-xl font-bold text-gray-900 mt-2 group-hover:text-scod transition-colors line-clamp-2">
-                Painless Laparoscopic Sleeve Gastrectomy & Fast Recovery Options at SCOD Clinic</h3>
+                Types of Weight Loss Surgeries & How Sleeve Gastrectomy is Performed</h3>
             </div>
           </div>
-          <!-- Video 4: Protein Diets vs Metabolism -->
+          <!-- Video 4: Insurance Coverage -->
           <div class="w-full md:w-1/2 lg:w-1/3 px-4 flex-shrink-0 cursor-pointer group"
-            data-video-id="8qJ1-T5lB5w">
+            data-video-id="wBhZyyHeWtI">
             <div
               class="relative rounded-2xl overflow-hidden aspect-video mb-6 shadow-lg group-hover:shadow-xl transition-all duration-300 border border-gray-100 bg-gray-100">
-              <img src="https://img.youtube.com/vi/8qJ1-T5lB5w/hqdefault.jpg" alt="Protein Rich Diets and Metabolism"
-                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+              <img src="https://i.ytimg.com/vi/wBhZyyHeWtI/hqdefault.jpg" alt="Bariatric Surgery Insurance Coverage"
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                loading="lazy">
               <div
                 class="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
                 <div
@@ -1056,18 +1060,19 @@
               </div>
             </div>
             <div>
-              <span class="text-scod text-sm font-bold uppercase tracking-wider">Nutritional Science</span>
+              <span class="text-scod text-sm font-bold uppercase tracking-wider">Insurance & Panels</span>
               <h3 class="text-xl font-bold text-gray-900 mt-2 group-hover:text-scod transition-colors line-clamp-2">
-                Protein-Rich Diets vs. Crash Starvation: How Your Metabolism Reacts to Weight Loss</h3>
+                Is Bariatric & Obesity Surgery Covered in Health Insurance & CGHS?</h3>
             </div>
           </div>
-          <!-- Video 5: Why SCOD Clinic -->
+          <!-- Video 5: Diabetes Reversal -->
           <div class="w-full md:w-1/2 lg:w-1/3 px-4 flex-shrink-0 cursor-pointer group"
-            data-video-id="H77s_32jG3I">
+            data-video-id="V-gaaGIaKGw">
             <div
               class="relative rounded-2xl overflow-hidden aspect-video mb-6 shadow-lg group-hover:shadow-xl transition-all duration-300 border border-gray-100 bg-gray-100">
-              <img src="https://img.youtube.com/vi/H77s_32jG3I/hqdefault.jpg" alt="Why Choose SCOD Clinic"
-                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+              <img src="https://i.ytimg.com/vi/V-gaaGIaKGw/hqdefault.jpg" alt="Truth About Diabetes Reversal"
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                loading="lazy">
               <div
                 class="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
                 <div
@@ -1077,18 +1082,19 @@
               </div>
             </div>
             <div>
-              <span class="text-scod text-sm font-bold uppercase tracking-wider">Clinic Philosophy</span>
+              <span class="text-scod text-sm font-bold uppercase tracking-wider">Diabetes Care</span>
               <h3 class="text-xl font-bold text-gray-900 mt-2 group-hover:text-scod transition-colors line-clamp-2">
-                Why SCOD Clinic? Multidisciplinary Obesity & Diabetes Care in Delhi</h3>
+                The Truth About Type 2 Diabetes Reversal Through Surgery</h3>
             </div>
           </div>
-          <!-- Video 6: Medical Heritage & 100 Year Legacy -->
+          <!-- Video 6: Post-Surgery Transformations -->
           <div class="w-full md:w-1/2 lg:w-1/3 px-4 flex-shrink-0 cursor-pointer group"
-            data-video-id="f9NqYh12f_Y">
+            data-video-id="vs2gB7Zyuks">
             <div
               class="relative rounded-2xl overflow-hidden aspect-video mb-6 shadow-lg group-hover:shadow-xl transition-all duration-300 border border-gray-100 bg-gray-100">
-              <img src="https://img.youtube.com/vi/f9NqYh12f_Y/hqdefault.jpg" alt="Dr Arush Sabharwal Medical Journey and Legacy"
-                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+              <img src="https://i.ytimg.com/vi/vs2gB7Zyuks/hqdefault.jpg" alt="Changes After Bariatric Surgery"
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                loading="lazy">
               <div
                 class="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
                 <div
@@ -1098,9 +1104,9 @@
               </div>
             </div>
             <div>
-              <span class="text-scod text-sm font-bold uppercase tracking-wider">Medical Heritage</span>
+              <span class="text-scod text-sm font-bold uppercase tracking-wider">Post-Op Recovery</span>
               <h3 class="text-xl font-bold text-gray-900 mt-2 group-hover:text-scod transition-colors line-clamp-2">
-                Dr. Arush Sabharwal's Medical Journey & 100-Year Family Legacy in Surgery</h3>
+                Life-Changing Transformations & Body Changes After Bariatric Surgery</h3>
             </div>
           </div>
         </div>
