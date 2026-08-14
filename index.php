@@ -977,7 +977,7 @@
       </div>
       <div class="overflow-hidden -mx-4">
         <div id="awareness-slider" class="flex transition-transform duration-500 ease-out">
-          <!-- Video 1: PSRI Announcement -->
+          <!-- Video 1: Dr. Arush & Patient at PSRI Hospital -->
           <div class="w-full md:w-1/2 lg:w-1/3 px-4 flex-shrink-0 cursor-pointer group"
             data-video-id="OVVY-KnABX0">
             <div
@@ -999,12 +999,12 @@
                 Big Announcement: Dr. Arush Sabharwal Joins PSRI Hospital | Comprehensive Obesity Clinic</h3>
             </div>
           </div>
-          <!-- Video 2: Mini Gastric Bypass Technique -->
+          <!-- Video 2: Dr. Arush in OT holding Laparoscopic Stapler -->
           <div class="w-full md:w-1/2 lg:w-1/3 px-4 flex-shrink-0 cursor-pointer group"
-            data-video-id="73UMgvj8RBE">
+            data-video-id="5oj6Y9XNn8M">
             <div
               class="relative rounded-2xl overflow-hidden aspect-video mb-6 shadow-lg group-hover:shadow-xl transition-all duration-300 border border-gray-100 bg-gray-100">
-              <img src="https://i.ytimg.com/vi/73UMgvj8RBE/hqdefault.jpg" alt="Mini Gastric Bypass Surgical Technique"
+              <img src="https://i.ytimg.com/vi/5oj6Y9XNn8M/hqdefault.jpg" alt="Insurance & Bariatric Surgery Truth"
                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy">
               <div
@@ -1016,56 +1016,12 @@
               </div>
             </div>
             <div>
-              <span class="text-scod text-sm font-bold uppercase tracking-wider">Surgical Technique</span>
+              <span class="text-scod text-sm font-bold uppercase tracking-wider">Insurance Coverage</span>
               <h3 class="text-xl font-bold text-gray-900 mt-2 group-hover:text-scod transition-colors line-clamp-2">
-                Laparoscopic Mini Gastric Bypass (MGB/OAGB): Step-by-Step Technique by Dr. Arush Sabharwal</h3>
+                Free Weight Loss Surgery? The Truth About Insurance Coverage & Panels</h3>
             </div>
           </div>
-          <!-- Video 3: Weight Loss Injections Dangers -->
-          <div class="w-full md:w-1/2 lg:w-1/3 px-4 flex-shrink-0 cursor-pointer group"
-            data-video-id="lI6QyCPN6zE">
-            <div
-              class="relative rounded-2xl overflow-hidden aspect-video mb-6 shadow-lg group-hover:shadow-xl transition-all duration-300 border border-gray-100 bg-gray-100">
-              <img src="https://i.ytimg.com/vi/lI6QyCPN6zE/hqdefault.jpg" alt="Dangers of Weight Loss Injections and Ozempic Face"
-                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                loading="lazy">
-              <div
-                class="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
-                <div
-                  class="w-16 h-16 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
-                  <i data-feather="play" class="w-6 h-6 text-scod ml-1"></i>
-                </div>
-              </div>
-            </div>
-            <div>
-              <span class="text-scod text-sm font-bold uppercase tracking-wider">Weight Loss Injections</span>
-              <h3 class="text-xl font-bold text-gray-900 mt-2 group-hover:text-scod transition-colors line-clamp-2">
-                The Dark Side of Weight Loss Injections! Ozempic Face & Risks Exposed by Dr. Arush</h3>
-            </div>
-          </div>
-          <!-- Video 4: Liposuction vs Bariatric Surgery -->
-          <div class="w-full md:w-1/2 lg:w-1/3 px-4 flex-shrink-0 cursor-pointer group"
-            data-video-id="tnOQ01fX76E">
-            <div
-              class="relative rounded-2xl overflow-hidden aspect-video mb-6 shadow-lg group-hover:shadow-xl transition-all duration-300 border border-gray-100 bg-gray-100">
-              <img src="https://i.ytimg.com/vi/tnOQ01fX76E/hqdefault.jpg" alt="Liposuction vs Bariatric Surgery"
-                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                loading="lazy">
-              <div
-                class="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
-                <div
-                  class="w-16 h-16 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
-                  <i data-feather="play" class="w-6 h-6 text-scod ml-1"></i>
-                </div>
-              </div>
-            </div>
-            <div>
-              <span class="text-scod text-sm font-bold uppercase tracking-wider">Medical Truth</span>
-              <h3 class="text-xl font-bold text-gray-900 mt-2 group-hover:text-scod transition-colors line-clamp-2">
-                Liposuction vs. Bariatric Surgery | The Unfiltered Truth About Obesity & Your Body</h3>
-            </div>
-          </div>
-          <!-- Video 5: Cost of Obesity -->
+          <!-- Video 3: Dr. Arush in Suit at Hospital -->
           <div class="w-full md:w-1/2 lg:w-1/3 px-4 flex-shrink-0 cursor-pointer group"
             data-video-id="Flciyyru3ho">
             <div
@@ -1087,12 +1043,12 @@
                 The Real Cost of Obesity: Bariatric Surgery vs. Lifetime Medicines</h3>
             </div>
           </div>
-          <!-- Video 6: Diet After Surgery -->
+          <!-- Video 4: Dr. Arush in OT Scrubs -->
           <div class="w-full md:w-1/2 lg:w-1/3 px-4 flex-shrink-0 cursor-pointer group"
             data-video-id="Pv2GUfa0r5U">
             <div
               class="relative rounded-2xl overflow-hidden aspect-video mb-6 shadow-lg group-hover:shadow-xl transition-all duration-300 border border-gray-100 bg-gray-100">
-              <img src="https://i.ytimg.com/vi/Pv2GUfa0r5U/hqdefault.jpg" alt="Diet After Bariatric Surgery"
+              <img src="https://i.ytimg.com/vi/Pv2GUfa0r5U/hqdefault.jpg" alt="Diet After Bariatric Surgery Guide"
                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy">
               <div
@@ -1107,6 +1063,50 @@
               <span class="text-scod text-sm font-bold uppercase tracking-wider">Post-Op Diet</span>
               <h3 class="text-xl font-bold text-gray-900 mt-2 group-hover:text-scod transition-colors line-clamp-2">
                 What and How to Eat After Bariatric Surgery: Complete Post-Op Nutrition Guide</h3>
+            </div>
+          </div>
+          <!-- Video 5: Dr. Arush Medical Verdict -->
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4 flex-shrink-0 cursor-pointer group"
+            data-video-id="3nF1VsP7EEI">
+            <div
+              class="relative rounded-2xl overflow-hidden aspect-video mb-6 shadow-lg group-hover:shadow-xl transition-all duration-300 border border-gray-100 bg-gray-100">
+              <img src="https://i.ytimg.com/vi/3nF1VsP7EEI/hqdefault.jpg" alt="Doctor Verdict on Vaping and Cigarettes"
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                loading="lazy">
+              <div
+                class="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
+                <div
+                  class="w-16 h-16 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                  <i data-feather="play" class="w-6 h-6 text-scod ml-1"></i>
+                </div>
+              </div>
+            </div>
+            <div>
+              <span class="text-scod text-sm font-bold uppercase tracking-wider">Health Awareness</span>
+              <h3 class="text-xl font-bold text-gray-900 mt-2 group-hover:text-scod transition-colors line-clamp-2">
+                Cigarettes vs. E-Cigarettes & Vaping: The Doctor's Verdict</h3>
+            </div>
+          </div>
+          <!-- Video 6: Patient & Dr. Arush Transformation -->
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4 flex-shrink-0 cursor-pointer group"
+            data-video-id="sAiPiHU7eT4">
+            <div
+              class="relative rounded-2xl overflow-hidden aspect-video mb-6 shadow-lg group-hover:shadow-xl transition-all duration-300 border border-gray-100 bg-gray-100">
+              <img src="https://i.ytimg.com/vi/sAiPiHU7eT4/hqdefault.jpg" alt="Patient Transformation After Bariatric Surgery"
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                loading="lazy">
+              <div
+                class="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
+                <div
+                  class="w-16 h-16 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                  <i data-feather="play" class="w-6 h-6 text-scod ml-1"></i>
+                </div>
+              </div>
+            </div>
+            <div>
+              <span class="text-scod text-sm font-bold uppercase tracking-wider">Patient Journey</span>
+              <h3 class="text-xl font-bold text-gray-900 mt-2 group-hover:text-scod transition-colors line-clamp-2">
+                Changes After Bariatric Surgery: Life-Changing Patient Transformation</h3>
             </div>
           </div>
         </div>
