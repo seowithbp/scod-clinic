@@ -1,9 +1,105 @@
 <?php
 $path_prefix = '../';
 $is_home = false;
-$page_title = 'Can B12 Injections Cause Weight Loss?';
+$meta_title = 'Can B12 Injections Cause Weight Loss? - SCOD Clinic';
+$meta_description = 'Can B12 injections cause weight loss? Learn the science behind Vitamin B12 shots, how B12 affects metabolism, deficiency symptoms, oral vs injectable B12, and expert advice.';
+$canonical_url = 'https://scodclinic.com/blog/can-b12-injections-cause-weight-loss';
 include __DIR__ . '/../includes/header.php';
 ?>
+
+    <!-- Blog & FAQ JSON-LD Schema for Answer Engine Optimization (AEO) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Can B12 Injections Cause Weight Loss?",
+      "description": "An in-depth, evidence-based clinical guide explaining whether Vitamin B12 injections cause weight loss, cellular energy mechanics, deficiency symptoms, oral vs injectable B12, and medical weight management options.",
+      "image": "https://scodclinic.com/blog/media/images/can-b12-injections-cause-weight-loss.jpg",
+      "datePublished": "2026-08-14",
+      "dateModified": "2026-08-14",
+      "author": {
+        "@type": "Organization",
+        "name": "SCOD Clinic",
+        "url": "https://scodclinic.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "SCOD Clinic",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://scodclinic.com/assets/scod/logo/scod-logo.png"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://scodclinic.com/blog/can-b12-injections-cause-weight-loss"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can B12 injections cause weight loss directly?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, B12 injections do not burn body fat directly. They restore energy in people with B12 deficiency, enabling them to exercise and burn calories effectively."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will B12 injections cause weight loss if my B12 levels are normal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. If your B12 levels are normal, extra injections will not boost metabolism or cause weight loss. The extra vitamin is excreted in urine."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do b12 injections help with weight loss if you are tired all the time?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If your tiredness is caused by a B12 deficiency, injections will restore your stamina, making physical activity easier so you can burn calories and lose weight."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly do B12 shots boost energy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most individuals with a deficiency feel an improvement in energy and focus within 24 to 72 hours after receiving an intramuscular B12 shot."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between B12 shots and Weight Loss Injections in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "B12 shots are nutrient supplements for deficiency. Weight Loss Injections in Delhi are prescription medications that suppress appetite and regulate blood sugar for direct weight loss."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are B12 injections safe to take regularly?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, B12 injections are safe when prescribed by a doctor, as the body safely flushes out unused amounts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who should see Dr. Arush Sabharwal for weight loss treatment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Anyone dealing with obesity, slow metabolism, or difficulty losing weight can consult Dr. Arush Sabharwal at SCOD Clinic for personalized treatment options."
+          }
+        }
+      ]
+    }
+    </script>
 
     <!-- Blog Post Content -->
     <main class="max-w-4xl mx-auto px-4 py-12 md:py-16 mt-20">
