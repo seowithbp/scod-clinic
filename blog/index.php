@@ -40,7 +40,7 @@ include __DIR__ . '/../includes/header.php';
                         August 14, 2026
                     </div>
                     <h2 class="text-xl font-bold text-gray-900 mb-3 hover:text-scod transition-colors">
-                        <a href="/blog/can-b12-injections-cause-weight-loss">Can B12 Injections Cause Weight Loss? {2026 Truth & Guide}</a>
+                        <a href="/blog/can-b12-injections-cause-weight-loss">Can B12 Injections Cause Weight Loss?</a>
                     </h2>
                     <p class="text-gray-600 text-sm mb-4 line-clamp-3">Can B12 injections cause weight loss? Learn the science, how B12 affects metabolism, deficiency symptoms, oral vs injectable B12, and expert weight management insights.</p>
                     <div class="flex justify-between items-center pt-4 border-t border-gray-100">

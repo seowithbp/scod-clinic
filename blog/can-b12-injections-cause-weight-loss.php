@@ -1,7 +1,7 @@
 <?php
 $path_prefix = '../';
 $is_home = false;
-$page_title = 'Can B12 Injections Cause Weight Loss? {2026 Truth & Guide}';
+$page_title = 'Can B12 Injections Cause Weight Loss?';
 include __DIR__ . '/../includes/header.php';
 ?>
 
