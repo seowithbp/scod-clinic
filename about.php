@@ -247,13 +247,13 @@
                 </div>
             </div>
             <div class="overflow-hidden">
-                <div id="podcast-slider" class="flex transition-transform duration-300" style="width: 166.66%;">
-                    <div class="w-1/5 px-4 flex-shrink-0">
+                <div id="podcast-slider" class="flex transition-transform duration-300" style="width: 200%;">
+                    <div class="w-1/6 px-4 flex-shrink-0">
                         <div class="group cursor-pointer bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 h-full flex flex-col"
-                            data-video-id="TaOuNUjv_Dc">
+                            data-video-id="OVVY-KnABX0">
                             <div class="relative aspect-video overflow-hidden">
-                                <img src="https://img.youtube.com/vi/TaOuNUjv_Dc/maxresdefault.jpg" alt="Video"
-                                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                                <img src="https://i.ytimg.com/vi/OVVY-KnABX0/hqdefault.jpg" alt="Dr Arush Sabharwal Joins PSRI Hospital Bariatric Clinic"
+                                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
                                 <div
                                     class="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/10 transition-colors">
                                     <div
@@ -261,26 +261,22 @@
                                         <i data-feather="play" class="w-6 h-6 text-white ml-1"></i>
                                     </div>
                                 </div>
-                                <div
-                                    class="absolute bottom-2 right-2 bg-black/80 text-white text-xs font-bold px-2 py-1 rounded flex items-center">
-                                    <i data-feather="clock" class="w-3 h-3 mr-1"></i>15:20
-                                </div>
                             </div>
                             <div class="p-5 flex-grow">
                                 <h3
                                     class="text-lg font-bold mb-2 text-gray-900 group-hover:text-scod transition-colors line-clamp-2 leading-tight">
-                                    Weightloss Experience with Bariatric Surgery</h3>
+                                    Big Announcement: Dr. Arush Sabharwal Joins PSRI Hospital | Comprehensive Obesity Clinic</h3>
                                 <p class="text-gray-500 text-sm font-medium flex items-center mt-3"><span
                                         class="text-scod mr-2">●</span>Watch Video Podcast</p>
                             </div>
                         </div>
                     </div>
-                    <div class="w-1/5 px-4 flex-shrink-0">
+                    <div class="w-1/6 px-4 flex-shrink-0">
                         <div class="group cursor-pointer bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 h-full flex flex-col"
-                            data-video-id="V-gaaGIaKGw">
+                            data-video-id="5oj6Y9XNn8M">
                             <div class="relative aspect-video overflow-hidden">
-                                <img src="https://img.youtube.com/vi/V-gaaGIaKGw/maxresdefault.jpg" alt="Video"
-                                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                                <img src="https://i.ytimg.com/vi/5oj6Y9XNn8M/hqdefault.jpg" alt="Insurance & Bariatric Surgery Truth"
+                                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
                                 <div
                                     class="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/10 transition-colors">
                                     <div
@@ -288,26 +284,22 @@
                                         <i data-feather="play" class="w-6 h-6 text-white ml-1"></i>
                                     </div>
                                 </div>
-                                <div
-                                    class="absolute bottom-2 right-2 bg-black/80 text-white text-xs font-bold px-2 py-1 rounded flex items-center">
-                                    <i data-feather="clock" class="w-3 h-3 mr-1"></i>12:45
-                                </div>
                             </div>
                             <div class="p-5 flex-grow">
                                 <h3
                                     class="text-lg font-bold mb-2 text-gray-900 group-hover:text-scod transition-colors line-clamp-2 leading-tight">
-                                    The Truth About Diabetes & Metabolic Surgery</h3>
+                                    Free Weight Loss Surgery? The Truth About Insurance Coverage & Panels</h3>
                                 <p class="text-gray-500 text-sm font-medium flex items-center mt-3"><span
                                         class="text-scod mr-2">●</span>Watch Video Podcast</p>
                             </div>
                         </div>
                     </div>
-                    <div class="w-1/5 px-4 flex-shrink-0">
+                    <div class="w-1/6 px-4 flex-shrink-0">
                         <div class="group cursor-pointer bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 h-full flex flex-col"
-                            data-video-id="rEd-4Pov_iw">
+                            data-video-id="Flciyyru3ho">
                             <div class="relative aspect-video overflow-hidden">
-                                <img src="https://img.youtube.com/vi/rEd-4Pov_iw/maxresdefault.jpg" alt="Video"
-                                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                                <img src="https://i.ytimg.com/vi/Flciyyru3ho/hqdefault.jpg" alt="Bariatric Surgery vs Lifetime Medicines"
+                                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
                                 <div
                                     class="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/10 transition-colors">
                                     <div
@@ -315,26 +307,22 @@
                                         <i data-feather="play" class="w-6 h-6 text-white ml-1"></i>
                                     </div>
                                 </div>
-                                <div
-                                    class="absolute bottom-2 right-2 bg-black/80 text-white text-xs font-bold px-2 py-1 rounded flex items-center">
-                                    <i data-feather="clock" class="w-3 h-3 mr-1"></i>18:30
-                                </div>
                             </div>
                             <div class="p-5 flex-grow">
                                 <h3
                                     class="text-lg font-bold mb-2 text-gray-900 group-hover:text-scod transition-colors line-clamp-2 leading-tight">
-                                    Types of Weight Loss Surgeries Explained</h3>
+                                    The Real Cost of Obesity: Bariatric Surgery vs. Lifetime Medicines</h3>
                                 <p class="text-gray-500 text-sm font-medium flex items-center mt-3"><span
                                         class="text-scod mr-2">●</span>Watch Video Podcast</p>
                             </div>
                         </div>
                     </div>
-                    <div class="w-1/5 px-4 flex-shrink-0">
+                    <div class="w-1/6 px-4 flex-shrink-0">
                         <div class="group cursor-pointer bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 h-full flex flex-col"
-                            data-video-id="bNoFXoLDnEc">
+                            data-video-id="Pv2GUfa0r5U">
                             <div class="relative aspect-video overflow-hidden">
-                                <img src="https://img.youtube.com/vi/bNoFXoLDnEc/maxresdefault.jpg" alt="Video"
-                                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                                <img src="https://i.ytimg.com/vi/Pv2GUfa0r5U/hqdefault.jpg" alt="Diet After Bariatric Surgery Guide"
+                                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
                                 <div
                                     class="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/10 transition-colors">
                                     <div
@@ -342,26 +330,22 @@
                                         <i data-feather="play" class="w-6 h-6 text-white ml-1"></i>
                                     </div>
                                 </div>
-                                <div
-                                    class="absolute bottom-2 right-2 bg-black/80 text-white text-xs font-bold px-2 py-1 rounded flex items-center">
-                                    <i data-feather="clock" class="w-3 h-3 mr-1"></i>10:15
-                                </div>
                             </div>
                             <div class="p-5 flex-grow">
                                 <h3
                                     class="text-lg font-bold mb-2 text-gray-900 group-hover:text-scod transition-colors line-clamp-2 leading-tight">
-                                    Bariatric Surgery & Type 2 Diabetes Remission</h3>
+                                    What and How to Eat After Bariatric Surgery: Complete Post-Op Nutrition Guide</h3>
                                 <p class="text-gray-500 text-sm font-medium flex items-center mt-3"><span
                                         class="text-scod mr-2">●</span>Watch Video Podcast</p>
                             </div>
                         </div>
                     </div>
-                    <div class="w-1/5 px-4 flex-shrink-0">
+                    <div class="w-1/6 px-4 flex-shrink-0">
                         <div class="group cursor-pointer bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 h-full flex flex-col"
-                            data-video-id="vs2gB7Zyuks">
+                            data-video-id="3nF1VsP7EEI">
                             <div class="relative aspect-video overflow-hidden">
-                                <img src="https://img.youtube.com/vi/vs2gB7Zyuks/maxresdefault.jpg" alt="Video"
-                                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                                <img src="https://i.ytimg.com/vi/3nF1VsP7EEI/hqdefault.jpg" alt="Doctor Verdict on Vaping and Cigarettes"
+                                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
                                 <div
                                     class="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/10 transition-colors">
                                     <div
@@ -369,15 +353,34 @@
                                         <i data-feather="play" class="w-6 h-6 text-white ml-1"></i>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="p-5 flex-grow">
+                                <h3
+                                    class="text-lg font-bold mb-2 text-gray-900 group-hover:text-scod transition-colors line-clamp-2 leading-tight">
+                                    Cigarettes vs. E-Cigarettes & Vaping: The Doctor's Verdict</h3>
+                                <p class="text-gray-500 text-sm font-medium flex items-center mt-3"><span
+                                        class="text-scod mr-2">●</span>Watch Video Podcast</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-1/6 px-4 flex-shrink-0">
+                        <div class="group cursor-pointer bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 h-full flex flex-col"
+                            data-video-id="sAiPiHU7eT4">
+                            <div class="relative aspect-video overflow-hidden">
+                                <img src="https://i.ytimg.com/vi/sAiPiHU7eT4/hqdefault.jpg" alt="Patient Transformation After Bariatric Surgery"
+                                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
                                 <div
-                                    class="absolute bottom-2 right-2 bg-black/80 text-white text-xs font-bold px-2 py-1 rounded flex items-center">
-                                    <i data-feather="clock" class="w-3 h-3 mr-1"></i>08:45
+                                    class="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/10 transition-colors">
+                                    <div
+                                        class="w-14 h-14 bg-scod rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                                        <i data-feather="play" class="w-6 h-6 text-white ml-1"></i>
+                                    </div>
                                 </div>
                             </div>
                             <div class="p-5 flex-grow">
                                 <h3
                                     class="text-lg font-bold mb-2 text-gray-900 group-hover:text-scod transition-colors line-clamp-2 leading-tight">
-                                    Patient Success Story: Life After Surgery</h3>
+                                    Changes After Bariatric Surgery: Life-Changing Patient Transformation</h3>
                                 <p class="text-gray-500 text-sm font-medium flex items-center mt-3"><span
                                         class="text-scod mr-2">●</span>Watch Video Podcast</p>
                             </div>

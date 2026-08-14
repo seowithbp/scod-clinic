@@ -359,21 +359,12 @@
             { id: 16, title: "Patient Success Story 11", author: "Verified Patient", videoId: "69539c6dd73a53e69e2691c8", type: "gumlet", thumbnail: "https://video.gumlet.io/6553f91b3699cbd2c01ab6a9/69539c6dd73a53e69e2691c8/thumbnail-1-0.png", quote: "Sustainable results and a brand new lifestyle. A powerful account of the SCOD surgical experience." }
         ];
         const awarenessVideos = [
-            { id: 1, title: "Weightloss Experience with Bariatric Surgery and Options for weight regain explained with GLP1", category: "Awareness", thumbnail: "https://img.youtube.com/vi/TaOuNUjv_Dc/hqdefault.jpg", videoId: "TaOuNUjv_Dc" },
-            { id: 2, title: "Shri Durgiana Temple, Amritsar is the oldest temple of lord hanuman", category: "Awareness", thumbnail: "https://img.youtube.com/vi/G4Cqz8ZMGts/hqdefault.jpg", videoId: "G4Cqz8ZMGts" },
-            { id: 3, title: "A New Beginning Post-Surgery at SCOD Clinic Associated Hospital, New Delhi", category: "Recovery", thumbnail: "https://img.youtube.com/vi/JPaK5uLhBsw/hqdefault.jpg", videoId: "JPaK5uLhBsw" },
-            { id: 4, title: "Happy Diwali to you and your loved ones from SCOD Family", category: "Festive", thumbnail: "https://img.youtube.com/vi/SKy44XwIORo/hqdefault.jpg", videoId: "SKy44XwIORo" },
-            { id: 5, title: "Enjoy festive feast without any guilt!", category: "Festive", thumbnail: "https://img.youtube.com/vi/XOm8ba9_h4M/hqdefault.jpg", videoId: "XOm8ba9_h4M" },
-            { id: 6, title: "Types of weight loss surgeries", category: "Education", thumbnail: "https://img.youtube.com/vi/rEd-4Pov_iw/hqdefault.jpg", videoId: "rEd-4Pov_iw" },
-            { id: 7, title: "The truth about diabetes!", category: "Diabetes", thumbnail: "https://img.youtube.com/vi/V-gaaGIaKGw/hqdefault.jpg", videoId: "V-gaaGIaKGw" },
-            { id: 8, title: "OMAD- Shortcut or Setback?", category: "Lifestyle", thumbnail: "https://img.youtube.com/vi/c0s3MIIC4Nc/hqdefault.jpg", videoId: "c0s3MIIC4Nc" },
-            { id: 9, title: "How Bariatric Surgery is done?", category: "Education", thumbnail: "https://img.youtube.com/vi/bNoFXoLDnEc/hqdefault.jpg", videoId: "bNoFXoLDnEc" },
-            { id: 10, title: "Is Bariatric Surgery covered in Insurance?", category: "Insurance", thumbnail: "https://img.youtube.com/vi/wBhZyyHeWtI/hqdefault.jpg", videoId: "wBhZyyHeWtI" },
-            { id: 11, title: "PM targets obesity crisis", category: "Awareness", thumbnail: "https://img.youtube.com/vi/xeHuxyORptg/hqdefault.jpg", videoId: "xeHuxyORptg" },
-            { id: 12, title: "Changes after Bariatric Surgery!", category: "Post-Surgery", thumbnail: "https://img.youtube.com/vi/vs2gB7Zyuks/hqdefault.jpg", videoId: "vs2gB7Zyuks" },
-            { id: 13, title: "TIPS FOR GUT HEALTH!", category: "Gut Health", thumbnail: "https://img.youtube.com/vi/RxVX8HEQULc/hqdefault.jpg", videoId: "RxVX8HEQULc" },
-            { id: 14, title: "Amit Shah beats diabetes: Dr. Arush’s take!", category: "Diabetes", thumbnail: "https://img.youtube.com/vi/RXYX-e51hsA/hqdefault.jpg", videoId: "RXYX-e51hsA" },
-            { id: 15, title: "Is Bariatric Surgery cheating?", category: "Myths", thumbnail: "https://img.youtube.com/vi/N1eoPQnLlis/hqdefault.jpg", videoId: "N1eoPQnLlis" }
+            { id: 1, title: "Big Announcement: Dr. Arush Sabharwal Joins PSRI Hospital | Comprehensive Obesity Clinic", category: "Clinic Update", thumbnail: "https://i.ytimg.com/vi/OVVY-KnABX0/hqdefault.jpg", videoId: "OVVY-KnABX0" },
+            { id: 2, title: "Free Weight Loss Surgery? The Truth About Insurance Coverage & Panels", category: "Insurance", thumbnail: "https://i.ytimg.com/vi/5oj6Y9XNn8M/hqdefault.jpg", videoId: "5oj6Y9XNn8M" },
+            { id: 3, title: "The Real Cost of Obesity: Bariatric Surgery vs. Lifetime Medicines", category: "Financial", thumbnail: "https://i.ytimg.com/vi/Flciyyru3ho/hqdefault.jpg", videoId: "Flciyyru3ho" },
+            { id: 4, title: "What and How to Eat After Bariatric Surgery: Complete Post-Op Nutrition Guide", category: "Post-Op Diet", thumbnail: "https://i.ytimg.com/vi/Pv2GUfa0r5U/hqdefault.jpg", videoId: "Pv2GUfa0r5U" },
+            { id: 5, title: "Cigarettes vs. E-Cigarettes & Vaping: The Doctor's Verdict", category: "Health", thumbnail: "https://i.ytimg.com/vi/3nF1VsP7EEI/hqdefault.jpg", videoId: "3nF1VsP7EEI" },
+            { id: 6, title: "Changes After Bariatric Surgery: Life-Changing Patient Transformation", category: "Transformation", thumbnail: "https://i.ytimg.com/vi/sAiPiHU7eT4/hqdefault.jpg", videoId: "sAiPiHU7eT4" }
         ];
         const procedures = {
             gallbladder: {
