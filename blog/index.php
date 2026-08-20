@@ -28,6 +28,31 @@ include __DIR__ . '/../includes/header.php';
     <!-- Blog Grid -->
     <main class="max-w-7xl mx-auto px-4 py-12 md:py-16">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Blog Card: Can Umbilical Hernia Be Treated Without Surgery? -->
+            <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="laparoscopic">
+                <div class="relative aspect-video overflow-hidden bg-blue-50">
+                    <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-xs font-bold text-gray-600 uppercase tracking-wider border shadow-sm z-10">Laparoscopic</div>
+                    <img src="/blog/media/images/can-umbilical-hernia-be-treated-without-surgery.jpg" alt="Can Umbilical Hernia Be Treated Without Surgery?" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center gap-3 text-xs text-gray-400 font-semibold uppercase tracking-wider mb-4">
+                        <i data-feather="calendar" class="w-3 h-3"></i>
+                        August 20, 2026
+                    </div>
+                    <h2 class="text-xl font-bold text-gray-900 mb-3 hover:text-scod transition-colors">
+                        <a href="/blog/can-umbilical-hernia-be-treated-without-surgery">Can Umbilical Hernia Be Treated Without Surgery?</a>
+                    </h2>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-3">Can an umbilical hernia be treated or cured without surgery? Discover non-surgical facts, home remedy myths, complications, and modern laparoscopic solutions.</p>
+                    <div class="flex justify-between items-center pt-4 border-t border-gray-100">
+                        <span class="text-xs text-gray-400 font-bold uppercase tracking-wider">By SCOD Clinic</span>
+                        <a href="/blog/can-umbilical-hernia-be-treated-without-surgery" class="flex items-center gap-2 text-scod text-sm font-semibold hover:text-blue-700 transition-colors">
+                            Read More
+                            <i data-feather="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
             <!-- Blog Card: Can B12 Injections Cause Weight Loss? -->
             <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="weight-loss">
                 <div class="relative aspect-video overflow-hidden bg-blue-50">
