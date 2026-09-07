@@ -1,7 +1,7 @@
 <?php
 $path_prefix = '../';
 $is_home = false;
-$meta_title = 'Does Bariatric Surgery Affect Pregnancy? {Key Facts}';
+$meta_title = 'Does Bariatric Surgery Affect Pregnancy?';
 $meta_description = 'Discover how bariatric surgery affects pregnancy, fertility benefits, safe conception timelines, nutritional guidelines, and essential key facts. Expert guide by SCOD Clinic.';
 include __DIR__ . '/../includes/header.php';
 ?>
@@ -95,7 +95,7 @@ include __DIR__ . '/../includes/header.php';
         <article>
             <header class="mb-10">
                 <span class="inline-block bg-scod text-white text-xs font-bold px-3 py-1 rounded-full mb-4">Bariatric Surgery & Women's Health</span>
-                <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Can Bariatric Surgery Improve Lung Capacity? {Key Facts}</h1>
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Does Bariatric Surgery Affect Pregnancy?</h1>
                 <div class="flex items-center gap-6 text-gray-500 text-sm">
                     <span class="flex items-center gap-2">
                         <i data-feather="calendar" class="w-4 h-4"></i>
