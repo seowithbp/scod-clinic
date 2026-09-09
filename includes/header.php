@@ -13,9 +13,11 @@
     <?php endif; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" href="/assets/scod/favicon/scod-favicon.PNG" type="image/png">
-    <link rel="apple-touch-icon" href="/assets/scod/favicon/scod-favicon.PNG">
-    <link rel="shortcut icon" href="/assets/scod/favicon/scod-favicon.PNG" type="image/png">
+    <!-- Favicon -->
+    <?php $prefix = isset($path_prefix) ? $path_prefix : '/'; ?>
+    <link rel="icon" type="image/png" href="<?php echo $prefix; ?>assets/scod/favicon/scod-favicon.PNG">
+    <link rel="shortcut icon" href="<?php echo $prefix; ?>favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="<?php echo $prefix; ?>assets/scod/favicon/scod-favicon.PNG">
 
     <!-- Tailwind via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
