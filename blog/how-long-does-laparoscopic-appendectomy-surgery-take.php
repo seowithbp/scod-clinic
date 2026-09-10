@@ -2,8 +2,67 @@
 $path_prefix = '../';
 $is_home = false;
 $page_title = 'How Long Does Laparoscopic Appendectomy Surgery Take?';
+$meta_title = 'How Long Does Laparoscopic Appendectomy Surgery Take? | SCOD Clinic';
+$meta_description = 'Learn how long a laparoscopic appendectomy takes (30-60 mins), procedure timeline, recovery steps, hospital stay, and expert surgical advice from SCOD Clinic.';
+$canonical_url = 'https://scodclinic.com/blog/how-long-does-laparoscopic-appendectomy-surgery-take/';
+$meta_robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+$og_image = 'https://scodclinic.com/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg';
 include __DIR__ . '/../includes/header.php';
 ?>
+
+    <!-- Schema Markup (BlogPosting & MedicalWebPage) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://scodclinic.com/blog/how-long-does-laparoscopic-appendectomy-surgery-take/"
+      },
+      "headline": "How Long Does Laparoscopic Appendectomy Surgery Take?",
+      "description": "Learn how long a laparoscopic appendectomy takes (30-60 mins), procedure timeline, recovery steps, hospital stay, and expert surgical advice from SCOD Clinic.",
+      "image": "https://scodclinic.com/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg",
+      "author": {
+        "@type": "Organization",
+        "name": "SCOD Clinic",
+        "url": "https://scodclinic.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "SCOD Clinic",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://scodclinic.com/assets/scod/favicon/scod-favicon.PNG"
+        }
+      },
+      "datePublished": "2026-02-13",
+      "dateModified": "2026-02-13"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does a laparoscopic appendectomy take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An uncomplicated laparoscopic appendectomy usually takes between 30 to 60 minutes to perform under general anesthesia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long is the hospital stay after keyhole appendectomy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most patients can go home within 24 hours (same day or next day) following an uncomplicated laparoscopic appendectomy."
+          }
+        }
+      ]
+    }
+    </script>
 
     <!-- Blog Post Content -->
     <main class="max-w-4xl mx-auto px-4 py-12 md:py-16 mt-20">

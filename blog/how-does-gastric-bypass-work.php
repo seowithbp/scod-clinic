@@ -2,8 +2,67 @@
 $path_prefix = '../';
 $is_home = false;
 $page_title = 'How Does Gastric Bypass Work?';
+$meta_title = 'How Does Gastric Bypass Work? | SCOD Clinic';
+$meta_description = 'Learn how gastric bypass surgery works step-by-step, stomach pouch creation, malabsorption mechanisms, weight loss outcomes, and clinical benefits at SCOD Clinic.';
+$canonical_url = 'https://scodclinic.com/blog/how-does-gastric-bypass-work/';
+$meta_robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+$og_image = 'https://scodclinic.com/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg';
 include __DIR__ . '/../includes/header.php';
 ?>
+
+    <!-- Schema Markup (BlogPosting & MedicalWebPage) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://scodclinic.com/blog/how-does-gastric-bypass-work/"
+      },
+      "headline": "How Does Gastric Bypass Work?",
+      "description": "Learn how gastric bypass surgery works step-by-step, stomach pouch creation, malabsorption mechanisms, weight loss outcomes, and clinical benefits at SCOD Clinic.",
+      "image": "https://scodclinic.com/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg",
+      "author": {
+        "@type": "Organization",
+        "name": "SCOD Clinic",
+        "url": "https://scodclinic.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "SCOD Clinic",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://scodclinic.com/assets/scod/favicon/scod-favicon.PNG"
+        }
+      },
+      "datePublished": "2026-01-10",
+      "dateModified": "2026-01-10"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does Roux-en-Y gastric bypass work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Roux-en-Y gastric bypass creates a small stomach pouch to restrict food intake and reroutes a portion of the small intestine to limit calorie and nutrient absorption."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much weight can you lose with gastric bypass?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patients typically lose 60% to 80% of their excess body weight within 12 to 18 months following gastric bypass surgery."
+          }
+        }
+      ]
+    }
+    </script>
 
     <!-- Blog Post Content -->
     <main class="max-w-4xl mx-auto px-4 py-12 md:py-16 mt-20">

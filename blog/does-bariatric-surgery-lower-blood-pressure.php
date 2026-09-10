@@ -2,8 +2,67 @@
 $path_prefix = '../';
 $is_home = false;
 $page_title = 'Does Bariatric Surgery Lower Blood Pressure?';
+$meta_title = 'Does Bariatric Surgery Lower Blood Pressure? | SCOD Clinic';
+$meta_description = 'Discover how bariatric surgery lowers blood pressure, reduces hypertension medication dependence, improves cardiovascular health, and key clinical benefits at SCOD Clinic.';
+$canonical_url = 'https://scodclinic.com/blog/does-bariatric-surgery-lower-blood-pressure/';
+$meta_robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+$og_image = 'https://scodclinic.com/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg';
 include __DIR__ . '/../includes/header.php';
 ?>
+
+    <!-- Schema Markup (BlogPosting & MedicalWebPage) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://scodclinic.com/blog/does-bariatric-surgery-lower-blood-pressure/"
+      },
+      "headline": "Does Bariatric Surgery Lower Blood Pressure?",
+      "description": "Discover how bariatric surgery lowers blood pressure, reduces hypertension medication dependence, improves cardiovascular health, and key clinical benefits at SCOD Clinic.",
+      "image": "https://scodclinic.com/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg",
+      "author": {
+        "@type": "Organization",
+        "name": "SCOD Clinic",
+        "url": "https://scodclinic.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "SCOD Clinic",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://scodclinic.com/assets/scod/favicon/scod-favicon.PNG"
+        }
+      },
+      "datePublished": "2026-01-18",
+      "dateModified": "2026-01-18"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does weight loss surgery cure high blood pressure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bariatric surgery significantly lowers blood pressure and leads to complete remission or significant reduction in hypertension medication for over 60-70% of patients."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly does blood pressure drop after bariatric surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Blood pressure improvements often begin within days to weeks following surgery due to reduced hormonal stress, altered sodium handling, and rapid early weight loss."
+          }
+        }
+      ]
+    }
+    </script>
 
     <!-- Blog Post Content -->
     <main class="max-w-4xl mx-auto px-4 py-12 md:py-16 mt-20">

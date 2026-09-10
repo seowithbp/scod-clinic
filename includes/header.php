@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title><?php echo isset($meta_title) ? $meta_title : 'SCOD Clinic'; ?></title>
+    <title><?php echo isset($meta_title) ? $meta_title : (isset($page_title) ? $page_title . ' | SCOD Clinic' : 'SCOD Clinic'); ?></title>
     <?php if (isset($meta_description)): ?>
     <meta name="description" content="<?php echo htmlspecialchars($meta_description); ?>">
     <?php endif; ?>
@@ -11,6 +11,36 @@
     <?php elseif (isset($canonical)): ?>
     <link rel="canonical" href="<?php echo htmlspecialchars($canonical); ?>">
     <?php endif; ?>
+
+    <!-- Meta Robots -->
+    <meta name="robots" content="<?php echo isset($meta_robots) ? htmlspecialchars($meta_robots) : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'; ?>">
+
+    <!-- Open Graph / Social Metas -->
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="SCOD Clinic">
+    <meta property="og:title" content="<?php echo htmlspecialchars(isset($meta_title) ? $meta_title : (isset($page_title) ? $page_title : 'SCOD Clinic')); ?>">
+    <?php if (isset($meta_description)): ?>
+    <meta property="og:description" content="<?php echo htmlspecialchars($meta_description); ?>">
+    <?php endif; ?>
+    <?php if (isset($canonical_url)): ?>
+    <meta property="og:url" content="<?php echo htmlspecialchars($canonical_url); ?>">
+    <?php elseif (isset($canonical)): ?>
+    <meta property="og:url" content="<?php echo htmlspecialchars($canonical); ?>">
+    <?php endif; ?>
+    <?php if (isset($og_image)): ?>
+    <meta property="og:image" content="<?php echo htmlspecialchars($og_image); ?>">
+    <?php endif; ?>
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<?php echo htmlspecialchars(isset($meta_title) ? $meta_title : (isset($page_title) ? $page_title : 'SCOD Clinic')); ?>">
+    <?php if (isset($meta_description)): ?>
+    <meta name="twitter:description" content="<?php echo htmlspecialchars($meta_description); ?>">
+    <?php endif; ?>
+    <?php if (isset($og_image)): ?>
+    <meta name="twitter:image" content="<?php echo htmlspecialchars($og_image); ?>">
+    <?php endif; ?>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Favicon -->

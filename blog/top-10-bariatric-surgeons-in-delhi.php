@@ -2,8 +2,67 @@
 $path_prefix = '../';
 $is_home = false;
 $page_title = 'Top 10 Bariatric Surgeons in Delhi {2026 Guide}';
+$meta_title = 'Top 10 Bariatric Surgeons in Delhi (2026 Guide) | SCOD Clinic';
+$meta_description = 'Looking for the best bariatric surgeon in Delhi? Explore our guide to top weight loss surgeons, key criteria, patient reviews, and expert insights from SCOD Clinic.';
+$canonical_url = 'https://scodclinic.com/blog/top-10-bariatric-surgeons-in-delhi/';
+$meta_robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+$og_image = 'https://scodclinic.com/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg';
 include __DIR__ . '/../includes/header.php';
 ?>
+
+    <!-- Schema Markup (BlogPosting & MedicalWebPage) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://scodclinic.com/blog/top-10-bariatric-surgeons-in-delhi/"
+      },
+      "headline": "Top 10 Bariatric Surgeons in Delhi (2026 Guide)",
+      "description": "Looking for the best bariatric surgeon in Delhi? Explore our guide to top weight loss surgeons, key criteria, patient reviews, and expert insights from SCOD Clinic.",
+      "image": "https://scodclinic.com/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg",
+      "author": {
+        "@type": "Organization",
+        "name": "SCOD Clinic",
+        "url": "https://scodclinic.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "SCOD Clinic",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://scodclinic.com/assets/scod/favicon/scod-favicon.PNG"
+        }
+      },
+      "datePublished": "2026-02-01",
+      "dateModified": "2026-02-01"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I choose the best bariatric surgeon in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Look for board certification, extensive laparoscopic and robotic surgical experience, hospital affiliations, comprehensive post-operative care, and verified patient reviews."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What bariatric procedures are performed in Delhi NCR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Common procedures include Laparoscopic Sleeve Gastrectomy, Gastric Bypass (Roux-en-Y), Mini Gastric Bypass (MGB), and Revision Bariatric Surgery."
+          }
+        }
+      ]
+    }
+    </script>
 
     <!-- Blog Post Content -->
     <main class="max-w-4xl mx-auto px-4 py-12 md:py-16 mt-20">

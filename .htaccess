@@ -1,5 +1,28 @@
 RewriteEngine On
 
+# 301 Redirection Rules
+RewriteRule ^blog/rabochie-zerkala-kazino-vavada-dlia-dostupa-k-igram/?$ /blog/ [R=301,L]
+RewriteRule ^blog/aplikacja-vavada-dla-graczy-mobilnych-w-2026-roku/?$ /blog/ [R=301,L]
+RewriteRule ^blog/is-laparoscopic-hernia-surgery-painful__trashed/?$ /blog/is-laparoscopic-hernia-surgery-painful/ [R=301,L]
+RewriteRule ^blog/is-laparoscopic-hernia-surgery-painful/?$ /blog/is-laparoscopic-surgery-safe [R=301,L]
+RewriteRule ^blog/mobilas-spelu-platformas-nakotnes-visaptverosa-analize-un-drosibas-prasibas/?$ /blog/ [R=301,L]
+RewriteRule ^category/obesity-and-its-effects/page/4/?$ /blog/ [R=301,L]
+RewriteRule ^wp-login\.php$ /? [R=301,L]
+RewriteRule ^obesity-and-reflux-disease-heart-burn-2-2/?$ /blog/ [R=301,L]
+RewriteRule ^blog/lucky31-casino-retour-sur-les-meilleurs-jackpots-remportes-en-2026/?$ /blog/ [R=301,L]
+RewriteRule ^best-bariatric-surgeon/?$ /services/bariatric-surgery [R=301,L]
+RewriteRule ^tag/male-fertility/?$ /blog/ [R=301,L]
+RewriteRule ^weight-loss-register/?$ /services/bariatric-surgery [R=301,L]
+RewriteRule ^product/most-advance-surgery-course-i-for-international-students/?$ /international-patients [R=301,L]
+RewriteRule ^unraveling-the-impact-of-sleep-deprivation-on-metabolism/?$ /blog/ [R=301,L]
+RewriteRule ^product/basic-general-surgery-course/?$ /surgery-overview [R=301,L]
+RewriteRule ^obesity-and-infertility/?$ /services/bariatric-surgery [R=301,L]
+RewriteRule ^blog/tag/what-is-the-minimum-weight-for-bariatric-surgery/?$ /blog/what-is-the-minimum-weight-for-bariatric-surgery/ [R=301,L]
+RewriteRule ^blog/does-bariatric-surgery-lower-blood-pressure/feed/?$ /blog/does-bariatric-surgery-lower-blood-pressure/ [R=301,L]
+RewriteRule ^(.+?)/feed/?$ /$1/ [R=301,L]
+RewriteCond %{QUERY_STRING} ^s= [NC]
+RewriteRule ^blog/?$ /blog/? [R=301,L]
+
 # Redirect /blog/index or /blog/index.php to /blog/
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/blog/index(\.php)?[\s?] [NC]
 RewriteRule ^ /blog/ [R=301,L]

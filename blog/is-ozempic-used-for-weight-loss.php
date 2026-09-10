@@ -2,8 +2,67 @@
 $path_prefix = '../';
 $is_home = false;
 $page_title = 'Is Ozempic Used for Weight Loss? {Key Insights}';
+$meta_title = 'Is Ozempic Used for Weight Loss? (Key Insights & Facts) | SCOD Clinic';
+$meta_description = 'Is Ozempic effective for weight loss? Learn how semaglutide works, dosage, side effects, comparison with Wegovy and bariatric options at SCOD Clinic.';
+$canonical_url = 'https://scodclinic.com/blog/is-ozempic-used-for-weight-loss/';
+$meta_robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+$og_image = 'https://scodclinic.com/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg';
 include __DIR__ . '/../includes/header.php';
 ?>
+
+    <!-- Schema Markup (BlogPosting & MedicalWebPage) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://scodclinic.com/blog/is-ozempic-used-for-weight-loss/"
+      },
+      "headline": "Is Ozempic Used for Weight Loss?",
+      "description": "Is Ozempic effective for weight loss? Learn how semaglutide works, dosage, side effects, comparison with Wegovy and bariatric options at SCOD Clinic.",
+      "image": "https://scodclinic.com/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg",
+      "author": {
+        "@type": "Organization",
+        "name": "SCOD Clinic",
+        "url": "https://scodclinic.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "SCOD Clinic",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://scodclinic.com/assets/scod/favicon/scod-favicon.PNG"
+        }
+      },
+      "datePublished": "2026-01-25",
+      "dateModified": "2026-01-25"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Ozempic FDA approved specifically for weight loss?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ozempic (semaglutide) is FDA approved for type 2 diabetes management, but it is frequently prescribed off-label for weight loss. Wegovy contains the same active ingredient at a higher dose for chronic weight management."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much weight can you lose on Ozempic?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Clinical studies show average body weight reductions of 10% to 15% over 68 weeks when combined with lifestyle modifications."
+          }
+        }
+      ]
+    }
+    </script>
 
     <!-- Blog Post Content -->
     <main class="max-w-4xl mx-auto px-4 py-12 md:py-16 mt-20">

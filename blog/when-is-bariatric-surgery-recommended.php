@@ -2,8 +2,67 @@
 $path_prefix = '../';
 $is_home = false;
 $page_title = 'When is Bariatric Surgery Recommended?';
+$meta_title = 'When is Bariatric Surgery Recommended? | SCOD Clinic';
+$meta_description = 'Learn when bariatric surgery is recommended, BMI qualification criteria, obesity-related comorbidities, evaluation steps, and clinical guidelines at SCOD Clinic.';
+$canonical_url = 'https://scodclinic.com/blog/when-is-bariatric-surgery-recommended/';
+$meta_robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+$og_image = 'https://scodclinic.com/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg';
 include __DIR__ . '/../includes/header.php';
 ?>
+
+    <!-- Schema Markup (BlogPosting & MedicalWebPage) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://scodclinic.com/blog/when-is-bariatric-surgery-recommended/"
+      },
+      "headline": "When is Bariatric Surgery Recommended?",
+      "description": "Learn when bariatric surgery is recommended, BMI qualification criteria, obesity-related comorbidities, evaluation steps, and clinical guidelines at SCOD Clinic.",
+      "image": "https://scodclinic.com/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg",
+      "author": {
+        "@type": "Organization",
+        "name": "SCOD Clinic",
+        "url": "https://scodclinic.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "SCOD Clinic",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://scodclinic.com/assets/scod/favicon/scod-favicon.PNG"
+        }
+      },
+      "datePublished": "2025-12-08",
+      "dateModified": "2025-12-08"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What BMI qualifies a person for bariatric surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bariatric surgery is typically recommended for individuals with a BMI of 35 or higher, or a BMI of 30+ with severe obesity-related conditions such as Type 2 diabetes or hypertension."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What health conditions qualify you for weight loss surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Conditions include Type 2 diabetes, severe hypertension, obstructive sleep apnea, fatty liver disease, joint pain, hyperlipidemia, and polycystic ovary syndrome (PCOS)."
+          }
+        }
+      ]
+    }
+    </script>
 
     <!-- Blog Post Content -->
     <main class="max-w-4xl mx-auto px-4 py-12 md:py-16 mt-20">

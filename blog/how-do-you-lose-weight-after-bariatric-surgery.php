@@ -2,8 +2,67 @@
 $path_prefix = '../';
 $is_home = false;
 $page_title = 'How Do You Lose Weight After Bariatric Surgery?';
+$meta_title = 'How Do You Lose Weight After Bariatric Surgery? | SCOD Clinic';
+$meta_description = 'Discover how weight loss happens after bariatric surgery, dietary phases, metabolic changes, exercise recommendations, and key recovery tips from SCOD Clinic.';
+$canonical_url = 'https://scodclinic.com/blog/how-do-you-lose-weight-after-bariatric-surgery/';
+$meta_robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+$og_image = 'https://scodclinic.com/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg';
 include __DIR__ . '/../includes/header.php';
 ?>
+
+    <!-- Schema Markup (BlogPosting & MedicalWebPage) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://scodclinic.com/blog/how-do-you-lose-weight-after-bariatric-surgery/"
+      },
+      "headline": "How Do You Lose Weight After Bariatric Surgery?",
+      "description": "Discover how weight loss happens after bariatric surgery, dietary phases, metabolic changes, exercise recommendations, and key recovery tips from SCOD Clinic.",
+      "image": "https://scodclinic.com/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg",
+      "author": {
+        "@type": "Organization",
+        "name": "SCOD Clinic",
+        "url": "https://scodclinic.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "SCOD Clinic",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://scodclinic.com/assets/scod/favicon/scod-favicon.PNG"
+        }
+      },
+      "datePublished": "2026-01-03",
+      "dateModified": "2026-01-03"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How fast do you lose weight after bariatric surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most patients lose 10-15% of their total body weight in the first month, and up to 60-70% of excess body weight over 12-18 months post-surgery."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What mechanisms cause weight loss after bariatric surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Weight loss occurs through physical stomach restriction, suppression of hunger hormones (like ghrelin), increased satiety, and reduced calorie absorption."
+          }
+        }
+      ]
+    }
+    </script>
 
     <!-- Blog Post Content -->
     <main class="max-w-4xl mx-auto px-4 py-12 md:py-16 mt-20">
