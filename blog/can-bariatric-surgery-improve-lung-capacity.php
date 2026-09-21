@@ -1,12 +1,44 @@
 <?php
 $path_prefix = '../';
 $is_home = false;
-$meta_title = 'Can Bariatric Surgery Improve Lung Capacity? {Key Facts}';
-$meta_description = 'Discover how bariatric surgery improves lung capacity, reduces shortness of breath, treats sleep apnea, and boosts overall respiratory health. Key facts & FAQs by SCOD Clinic.';
+$page_title = 'Can Bariatric Surgery improve Lungs capacity?';
+$meta_title = 'Can Bariatric Surgery improve Lungs capacity? | SCOD Clinic';
+$meta_description = 'Learn how bariatric surgery improves lung capacity, treats sleep apnea, reduces shortness of breath, and restores respiratory health. Expert guide by SCOD Clinic.';
+$canonical_url = 'https://scodclinic.com/blog/can-bariatric-surgery-improve-lung-capacity/';
+$meta_robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+$og_image = 'https://scodclinic.com/blog/media/images/can-bariatric-surgery-improve-lung-capacity.jpg';
 include __DIR__ . '/../includes/header.php';
 ?>
 
-    <!-- FAQ Schema Markup for AEO / SEO -->
+    <!-- Schema Markup (BlogPosting & FAQPage) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://scodclinic.com/blog/can-bariatric-surgery-improve-lung-capacity/"
+      },
+      "headline": "Can Bariatric Surgery improve Lungs capacity?",
+      "description": "Learn how bariatric surgery improves lung capacity, treats sleep apnea, reduces shortness of breath, and restores respiratory health. Expert guide by SCOD Clinic.",
+      "image": "https://scodclinic.com/blog/media/images/can-bariatric-surgery-improve-lung-capacity.jpg",
+      "author": {
+        "@type": "Organization",
+        "name": "SCOD Clinic",
+        "url": "https://scodclinic.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "SCOD Clinic",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://scodclinic.com/assets/scod/favicon/scod-favicon.PNG"
+        }
+      },
+      "datePublished": "2026-09-18",
+      "dateModified": "2026-09-18"
+    }
+    </script>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -17,15 +49,15 @@ include __DIR__ . '/../includes/header.php';
           "name": "Can bariatric surgery improve lung capacity?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, bariatric surgery significantly improves lung capacity. By removing excess abdominal fat, the pressure on the diaphragm is reduced, allowing the lungs to expand fully during inhalation. Studies show substantial increases in functional residual capacity (FRC) and overall lung volume following weight loss surgery."
+            "text": "Yes, bariatric surgery significantly improves lung capacity. By removing heavy visceral fat around the abdomen and chest wall, the pressure on the diaphragm is eliminated. This allows the lungs to inflate fully, increasing Functional Residual Capacity (FRC) and Total Lung Capacity (TLC)."
           }
         },
         {
           "@type": "Question",
-          "name": "How quickly does breathing improve after weight loss surgery?",
+          "name": "How soon will my breathing improve after weight loss surgery?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Many patients report noticeable improvements in breathing within 2 to 4 weeks after surgery as initial abdominal pressure decreases. Significant improvements in pulmonary function tests (spirometry) and stamina usually become evident within 3 to 6 months post-surgery."
+            "text": "Noticeable improvements in breathing and ease of respiration typically begin within 2 to 4 weeks post-surgery as initial abdominal fat decreases. Major measurable increases in lung volume and stamina occur progressively over 3 to 6 months."
           }
         },
         {
@@ -33,47 +65,47 @@ include __DIR__ . '/../includes/header.php';
           "name": "Does bariatric surgery cure obstructive sleep apnea?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Bariatric surgery leads to resolution or dramatic improvement of obstructive sleep apnea in up to 80-85% of patients. Reduced neck fat tissue and cleared airways allow many patients to safely stop using CPAP machines under medical supervision."
+            "text": "Bariatric surgery results in complete resolution or dramatic improvement of obstructive sleep apnea in 80% to 85% of patients. Reducing neck and upper airway fat allows many individuals to safely discontinue CPAP machine therapy under doctor supervision."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does obesity cause shortness of breath during routine activities?",
+          "name": "Why does severe obesity cause shortness of breath?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Obesity causes shortness of breath because heavy visceral fat accumulates around the abdomen and chest wall, physically restricting the movement of the diaphragm and reducing the space available for lung expansion. This requires the respiratory muscles to work much harder."
+            "text": "Severe obesity causes shortness of breath because heavy abdominal fat pushes the diaphragm upward into the chest cavity, compressing the lungs and restricting their ability to expand during inhalation. Extra chest wall weight also forces breathing muscles to work much harder."
           }
         },
         {
           "@type": "Question",
-          "name": "What pulmonary function tests are done before bariatric surgery?",
+          "name": "Can weight loss surgery help with obesity hypoventilation syndrome?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Before undergoing bariatric surgery, patients often undergo spirometry, arterial blood gas analysis, pulse oximetry, and sleep studies (polysomnography) to evaluate baseline lung capacity, oxygen levels, and sleep apnea severity."
+            "text": "Yes, bariatric surgery is one of the most effective long-term treatments for Obesity Hypoventilation Syndrome (OHS). Significant weight loss normalizes arterial blood gas levels, increases blood oxygenation, and reduces chronic carbon dioxide retention."
           }
         },
         {
           "@type": "Question",
-          "name": "Can bariatric surgery help people with obesity-related asthma?",
+          "name": "Does bariatric surgery help people with obesity-related asthma?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Weight loss following bariatric surgery decreases systemic inflammation and airway hyperresponsiveness. Many asthma patients experience fewer symptoms, fewer flare-ups, and a reduced need for daily inhaler medications after surgery."
+            "text": "Yes, weight loss following bariatric surgery lowers systemic inflammation and reduces mechanical compression on airways. Many asthma patients experience fewer asthma attacks, less wheezing, and a decreased need for rescue inhalers."
           }
         },
         {
           "@type": "Question",
-          "name": "Is laparoscopic bariatric surgery safe for individuals with low lung capacity?",
+          "name": "Is bariatric surgery safe if I currently have poor lung function?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, modern minimally invasive laparoscopic and robotic procedures are designed to be safe for patients with respiratory limitations. Pre-operative pulmonary optimization and specialized anesthesia protocols minimize surgical risks."
+            "text": "Yes, modern minimally invasive laparoscopic and robotic bariatric procedures are safe for patients with respiratory limitations. Comprehensive pre-operative pulmonary evaluations and specialized anesthesia protocols minimize surgical risks."
           }
         },
         {
           "@type": "Question",
-          "name": "How much weight needs to be lost to see an improvement in lung function?",
+          "name": "How much weight do I need to lose to see better lung function?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Even a modest loss of 10% to 15% of excess body weight yields measurable improvements in lung volumes and oxygenation. As weight loss continues toward 50-70% of excess weight over 12 months, lung capacity approaches normal physiological levels."
+            "text": "Even losing 10% to 15% of excess body weight yields measurable improvements in lung expansion and breathing stamina. As patients shed 50% to 70% of excess weight over 12 months, lung volumes approach normal non-obese levels."
           }
         }
       ]
@@ -84,22 +116,22 @@ include __DIR__ . '/../includes/header.php';
     <main class="max-w-4xl mx-auto px-4 py-12 md:py-16 mt-20">
         <!-- Breadcrumb -->
         <nav class="flex items-center gap-2 text-sm text-gray-500 mb-8">
-            <a href="/index.php" class="hover:text-scod">Home</a>
+            <a href="/index" class="hover:text-scod">Home</a>
             <i data-feather="chevron-right" class="w-4 h-4"></i>
-            <a href="/blog/index.php" class="hover:text-scod">Blog</a>
+            <a href="/blog/" class="hover:text-scod">Blog</a>
             <i data-feather="chevron-right" class="w-4 h-4"></i>
-            <span class="text-scod font-medium">Can Bariatric Surgery Improve Lung Capacity?</span>
+            <span class="text-scod font-medium">Can Bariatric Surgery improve Lungs capacity?</span>
         </nav>
 
         <!-- Article -->
         <article>
             <header class="mb-10">
-                <span class="inline-block bg-scod text-white text-xs font-bold px-3 py-1 rounded-full mb-4">Bariatric Surgery & Pulmonary Health</span>
-                <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Can Bariatric Surgery Improve Lung Capacity? {Key Facts}</h1>
+                <span class="inline-block bg-scod text-white text-xs font-bold px-3 py-1 rounded-full mb-4">Bariatric Surgery</span>
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Can Bariatric Surgery improve Lungs capacity?</h1>
                 <div class="flex items-center gap-6 text-gray-500 text-sm">
                     <span class="flex items-center gap-2">
                         <i data-feather="calendar" class="w-4 h-4"></i>
-                        3 September, 2026
+                        September 18, 2026
                     </span>
                     <span class="flex items-center gap-2">
                         <i data-feather="user" class="w-4 h-4"></i>
@@ -110,201 +142,222 @@ include __DIR__ . '/../includes/header.php';
 
             <!-- Featured Image -->
             <figure class="mb-10">
-                <img src="/blog/media/images/can-bariatric-surgery-improve-lung-capacity.png" alt="Can Bariatric Surgery Improve Lung Capacity? {Key Facts}" class="w-full rounded-2xl shadow-lg">
+                <img src="/blog/media/images/can-bariatric-surgery-improve-lung-capacity.jpg" alt="Can Bariatric Surgery improve Lungs capacity?" class="w-full rounded-2xl shadow-lg">
             </figure>
 
-            <!-- Key Takeaways Highlight Box -->
-            <div class="bg-blue-50 border-l-4 border-scod p-6 rounded-r-xl mb-10 shadow-sm">
-                <h3 class="text-lg font-bold text-gray-900 mb-2 flex items-center gap-2">
-                    <i data-feather="check-circle" class="w-5 h-5 text-scod"></i>
-                    Quick Summary & Essential Facts
-                </h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-1.5 text-sm">
-                    <li>Excess visceral weight mechanically compresses the diaphragm, drastically lowering lung capacity.</li>
-                    <li>Bariatric surgery provides rapid relief by restoring natural chest wall mobility and lung volume.</li>
-                    <li>Functional Residual Capacity (FRC) and Total Lung Capacity (TLC) increase significantly post-surgery.</li>
-                    <li>Up to 85% of patients experience complete resolution or dramatic reduction in obstructive sleep apnea.</li>
-                    <li>Consulting a qualified <a href="https://scodclinic.com/bariatric-surgeon-in-karol-bagh" class="text-scod hover:text-blue-700 font-semibold">Bariatric Surgeon in Karol Bagh</a> ensures comprehensive evaluation and personalized treatment.</li>
-                </ul>
-            </div>
-
-            <!-- Article Body Content -->
-            <div class="blog-content text-gray-700 leading-relaxed space-y-6">
+            <!-- Article Content -->
+            <div class="prose prose-lg max-w-none text-gray-700">
                 
-                <p class="text-lg text-gray-800 font-medium">Shortness of breath during simple tasks like climbing stairs, walking short distances, or even tying shoelaces is one of the most frustrating challenges faced by individuals living with severe obesity. Many people assume that poor stamina is strictly a muscle conditioning issue, but in reality, excess weight directly restricts the mechanical function of the lungs. This raises a crucial question for patients considering weight loss solutions: <strong>Can bariatric surgery improve lung capacity?</strong></p>
-
-                <p>The short answer is an overwhelming <strong>yes</strong>. Bariatric surgery is not merely a cosmetic or weight reduction procedure; it is a profound metabolic and anatomical intervention that restores respiratory mechanics, expands available lung volume, boosts blood oxygen saturation, and alleviates dangerous respiratory conditions such as sleep apnea and hypoventilation syndrome. When performed by an experienced specialist like <strong><a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Arush Sabharwal</a></strong> at SCOD Clinic, bariatric surgery offers a life-changing path toward breathing freely once again.</p>
-
-                <p>In this detailed 2026 guide, we explore the physiological link between obesity and pulmonary restriction, present key clinical facts on how weight loss surgery restores lung capacity, detail recovery timelines, and answer the most frequently asked questions about post-bariatric lung function.</p>
-
-                <h2 class="text-2xl font-bold text-gray-900 mt-10 mb-4 border-b pb-2">Understanding Obesity and Lung Mechanics</h2>
-
-                <p>To understand how bariatric surgery improves lung function, it is essential to first understand how severe weight impacts the respiratory system. Human lungs depend on flexible chest wall movements and the downward movement of the diaphragm to draw in air. When a person accumulates excessive adipose tissue (fat), the physical dynamics of breathing change drastically.</p>
-
-                <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-3">1. Diaphragmatic Restriction and Pressure</h3>
-                <p>The diaphragm is a large, dome-shaped muscle located directly beneath the lungs. During inhalation, it contracts and moves downward into the abdominal cavity, creating vacuum pressure that allows the lungs to inflate. In individuals with abdominal obesity, dense visceral fat fills the abdominal cavity, pushing the diaphragm upward into the chest cavity even at rest. This continuous upward pressure shrinks the physical space available for lung expansion.</p>
-
-                <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-3">2. Reduced Chest Wall Compliance</h3>
-                <p>Extra adipose tissue deposited around the ribcage and upper torso adds extra dead weight to the chest wall. As a result, the respiratory muscles—including the intercostal muscles—must exert far more energy to expand the ribcage during every breath. Physicians refer to this condition as decreased chest wall compliance, which leads to shallow, rapid breathing patterns and early respiratory fatigue.</p>
-
-                <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-3">3. Airway Collapse and Lower Lung Volumes</h3>
-                <p>Continuous mechanical compression forces small airways in the lower lobes of the lungs to close prematurely during normal breathing. This condition significantly decreases <strong>Functional Residual Capacity (FRC)</strong>—the volume of air remaining in the lungs at the end of a normal expiration. Low FRC means the body retains less reserve oxygen, leaving the individual vulnerable to sudden drops in blood oxygen saturation during minor physical exertion.</p>
-
-                <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-3">4. Obesity Hypoventilation Syndrome & Sleep Apnea</h3>
-                <p>Severe obesity often leads to dangerous sleep-related breathing disorders, most notably <a href="https://en.wikipedia.org/wiki/Obstructive_sleep_apnea" target="_blank" rel="noopener noreferrer" class="text-scod hover:text-blue-700 font-semibold">obstructive sleep apnea</a> (OSA) and Obesity Hypoventilation Syndrome (OHS). In OSA, fatty tissue around the neck collapses the upper airway during sleep, stopping airflow repeatedly throughout the night. In OHS, poor lung expansion leads to chronic oxygen deprivation and dangerous buildup of carbon dioxide in the bloodstream.</p>
-
-                <h2 class="text-2xl font-bold text-gray-900 mt-10 mb-4 border-b pb-2">Key Facts: How Bariatric Surgery Restores Lung Capacity</h2>
-
-                <p>Bariatric surgery produces rapid anatomical and systemic changes that directly reverse obesity-induced pulmonary restriction. Here are the core scientific facts explaining how lung capacity improves after procedure:</p>
-
-                <div class="space-y-6 mt-6">
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-xl font-bold text-scod mb-2">Fact 1: Immediate Relocation of Abdominal Pressure</h3>
-                        <p>As patients begin losing abdominal fat in the first few weeks following bariatric surgery, intra-abdominal pressure drops dramatically. The diaphragm is no longer forced upward into the thorax, allowing it to move down freely during inhalation. This immediate structural relief opens up collapsed air sacs (alveoli) in the lower lungs.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-xl font-bold text-scod mb-2">Fact 2: Significant Increase in Functional Residual Capacity (FRC)</h3>
-                        <p>Spirometry testing consistently proves that Functional Residual Capacity (FRC) begins climbing rapidly within 1 to 3 months post-surgery. Studies show that FRC can increase by 30% to 50% as total body weight drops, providing patients with a larger physiological oxygen reservoir during daily movement.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-xl font-bold text-scod mb-2">Fact 3: Improved Forced Expiratory Volume (FEV1) & Vital Capacity (FVC)</h3>
-                        <p>Total Lung Capacity (TLC), Forced Vital Capacity (FVC), and Forced Expiratory Volume in one second (FEV1) measure the maximum amount of air a person can exhale forcefully. Within 6 to 12 months after bariatric intervention, clinical trials show statistically significant increases in both FVC and FEV1 levels, moving patients back into normal demographic baseline ranges.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-xl font-bold text-scod mb-2">Fact 4: High Rate of Sleep Apnea Remission</h3>
-                        <p>Loss of neck circumference and throat fat removes mechanical obstruction from the upper airway. Clinical research confirms that up to 80% to 85% of bariatric patients experience complete resolution or major improvement in obstructive sleep apnea, enabling many to discontinue CPAP (Continuous Positive Airway Pressure) machine usage under medical guidance.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-xl font-bold text-scod mb-2">Fact 5: Reduction in Systemic & Airway Inflammation</h3>
-                        <p>Adipose tissue acts as an active endocrine organ that secretes pro-inflammatory cytokines into the bloodstream. This chronic inflammation worsens respiratory conditions like asthma and chronic bronchitis. Bariatric surgery reduces visceral fat mass, leading to a marked decrease in inflammatory markers and airway hypersensitivity.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-xl font-bold text-scod mb-2">Fact 6: Boosted Exercise Capacity and Oxygen Utilization</h3>
-                        <p>With relieved respiratory work and expanded lung volume, the heart and lungs operate with far greater efficiency. Patients consume less oxygen per step, experience less muscle fatigue, and enjoy a dramatic reduction in dyspnea (shortness of breath) during physical workouts.</p>
-                    </div>
+                <!-- Quick Answer / AEO Summary Box -->
+                <div class="bg-gradient-to-r from-blue-50 to-sky-50 border-l-4 border-scod p-6 rounded-r-2xl mb-8 shadow-sm">
+                    <h3 class="text-lg font-bold text-gray-900 mb-2 flex items-center gap-2">
+                        <i data-feather="check-circle" class="w-5 h-5 text-scod"></i>
+                        Quick Answer: Can Bariatric Surgery Improve Lung Capacity?
+                    </h3>
+                    <p class="text-gray-700 text-base leading-relaxed mb-0">
+                        Yes, bariatric surgery significantly improves lung capacity and overall respiratory function. By eliminating heavy visceral abdominal fat and chest wall adipose tissue, weight loss surgery removes upward mechanical pressure on the diaphragm. Clinical studies show that post-surgical weight loss leads to substantial increases in Functional Residual Capacity (FRC), Forced Vital Capacity (FVC), and Total Lung Capacity (TLC), while resolving obstructive sleep apnea in up to 85% of cases.
+                    </p>
                 </div>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-10 mb-4 border-b pb-2">Bariatric Surgical Options and Their Respiratory Impact</h2>
-
-                <p>At SCOD Clinic, patients receive individualized surgical care depending on their metabolic health, BMI, and respiratory history. Modern minimally invasive techniques ensure minimal stress on the lungs during and after surgery.</p>
-
-                <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-3">Laparoscopic Sleeve Gastrectomy (LSG)</h3>
-                <p>In a sleeve gastrectomy, approximately 75-80% of the stomach is removed, creating a narrow tubular sleeve. Because this procedure does not require rerouting the intestines, surgical time is brief and recovery is rapid. Reduced operative time is particularly advantageous for individuals with severely restricted pre-existing lung capacity.</p>
-
-                <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-3">Roux-en-Y Gastric Bypass (RYGB)</h3>
-                <p>Gastric bypass creates a small upper stomach pouch connected directly to the middle section of the small intestine. It offers powerful metabolic reset and rapid weight loss, making it exceptionally effective for resolving severe diabetes, GERD, and obesity hypoventilation syndrome.</p>
-
-                <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-3">Mini Gastric Bypass (One Anastomosis Gastric Bypass)</h3>
-                <p>A simplified variant of standard bypass, mini gastric bypass yields excellent weight loss and pulmonary improvement outcomes with reduced technical complexity and short operating duration.</p>
-
-                <p class="bg-blue-50 p-5 rounded-lg border-l-4 border-scod my-6">
-                    If you are searching for an expert consultation to evaluate your suitability for weight loss surgery and respiratory recovery, consult a leading <strong><a href="https://scodclinic.com/bariatric-surgeon-in-karol-bagh" class="text-scod hover:text-blue-700 font-semibold">Bariatric Surgeon in Karol Bagh</a></strong>. Under the clinical leadership of <strong><a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Arush Sabharwal</a></strong>, SCOD Clinic provides comprehensive pre-operative lung screening and post-operative rehabilitation support.
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">Introduction</h2>
+                <p class="mb-6">
+                    Shortness of breath during basic daily activities—such as climbing a flight of stairs, walking short distances, or bending down to tie shoelaces—is one of the most debilitating challenges faced by individuals living with severe obesity. Many people assume that persistent breathlessness is solely caused by poor cardiovascular stamina. However, from a physiological perspective, excess weight acts as a physical restraint surrounding the respiratory system, compressing your lungs and restricting how much air you can inhale.
+                </p>
+                <p class="mb-6">
+                    This raises an essential health question: <strong>can bariatric surgery improve lung capacity</strong>? The medical evidence is clear: weight loss surgery does far more than help you shed body weight. It is a powerful metabolic and anatomical intervention that restores chest wall mobility, expands available lung volume, boosts blood oxygenation, and treats severe respiratory conditions. Under the surgical expertise of <a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Arush Sabharwal</a>, performing <a href="https://scodclinic.com/services/bariatric-surgery" class="text-scod hover:text-blue-700 font-semibold">Bariatric Surgery in Delhi</a> has helped thousands of patients reclaim their breathing and quality of life.
+                </p>
+                <p class="mb-6">
+                    In this detailed guide, we explain how severe obesity impairs breathing, examine how <a href="https://en.wikipedia.org/wiki/Bariatric_surgery" target="_blank" rel="noopener noreferrer" class="text-scod hover:underline font-semibold">bariatric surgery</a> restores lung volumes, outline recovery timelines, and answer key questions about respiratory health after weight loss surgery.
                 </p>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-10 mb-4 border-b pb-2">Timeline: How Quickly Does Lung Function Recover?</h2>
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Understanding How Obesity Restricts Lung Capacity</h2>
+                <p class="mb-6 font-semibold text-gray-800 bg-blue-50 border-l-4 border-scod p-4 rounded-r-xl">
+                    Excess abdominal and thoracic fat physically compresses the diaphragm, reduces chest wall expansion, and forces respiratory muscles to expend significantly more energy during every breath.
+                </p>
+                <p class="mb-6">
+                    To appreciate how <strong>weight loss surgery and lung function</strong> are connected, it helps to understand how the human respiratory system operates under heavy physical stress:
+                </p>
 
-                <p>Pulmonary recovery post-bariatric surgery follows a steady, predictable physiological progression:</p>
-
-                <div class="relative border-l-2 border-scod ml-4 pl-6 space-y-8 my-8">
-                    <div>
-                        <span class="absolute -left-2.5 top-1 bg-scod text-white text-xs rounded-full w-5 h-5 flex items-center justify-center font-bold">1</span>
-                        <h4 class="text-lg font-bold text-gray-900">Weeks 1 to 4: Decompression Phase</h4>
-                        <p class="text-gray-600 text-sm mt-1">Initial weight loss of 5 to 10 kg relieves acute upper abdominal tightness. Patients notice easier deep breathing while sitting and resting. Nighttime snoring often decreases.</p>
-                    </div>
-
-                    <div>
-                        <span class="absolute -left-2.5 top-1 bg-scod text-white text-xs rounded-full w-5 h-5 flex items-center justify-center font-bold">2</span>
-                        <h4 class="text-lg font-bold text-gray-900">Months 1 to 3: Measurable Spirometry Gains</h4>
-                        <p class="text-gray-600 text-sm mt-1">Functional residual capacity (FRC) improves by up to 25-30%. Walking distance without shortness of breath increases significantly. CPAP pressure settings can often be reduced after pulmonologist reassessment.</p>
-                    </div>
-
-                    <div>
-                        <span class="absolute -left-2.5 top-1 bg-scod text-white text-xs rounded-full w-5 h-5 flex items-center justify-center font-bold">3</span>
-                        <h4 class="text-lg font-bold text-gray-900">Months 6 to 12: Optimal Pulmonary Rebound</h4>
-                        <p class="text-gray-600 text-sm mt-1">As patients shed 50-70% of excess body weight, Total Lung Capacity (TLC) and Forced Vital Capacity (FVC) reach optimal levels. Most sleep apnea patients successfully discontinue CPAP machines, and asthma inhaler reliance drops sharply.</p>
-                    </div>
-                </div>
-
-                <h2 class="text-2xl font-bold text-gray-900 mt-10 mb-4 border-b pb-2">Practical Post-Surgery Tips to Maximize Lung Capacity</h2>
-
-                <p>While bariatric surgery removes the structural barrier to breathing, actively training your respiratory system after surgery will accelerate recovery and maximize overall stamina:</p>
-
-                <ul class="list-disc list-inside space-y-3 pl-2">
-                    <li><strong>Incentive Spirometry:</strong> Practice deep breathing exercises using an incentive spirometer daily during the first month post-surgery to re-expand lower lung lobes.</li>
-                    <li><strong>Progressive Aerobic Exercise:</strong> Begin with daily light walking and gradually increase pace and duration to build cardiovascular endurance as body weight drops.</li>
-                    <li><strong>Diaphragmatic Breathing:</strong> Perform belly-breathing drills (inhaling deeply through the nose while letting the abdomen expand) to retrain the diaphragm muscle.</li>
-                    <li><strong>Maintain Posture:</strong> Avoid slouching while sitting or standing, as upright posture maximizes thorax volume and lung expansion space.</li>
-                    <li><strong>Avoid Tobacco and Vaping:</strong> Tobacco smoke causes airway constriction and mucous buildup, reversing the pulmonary benefits of weight loss.</li>
+                <ul class="list-disc list-inside mb-6 space-y-2 text-gray-600">
+                    <li><strong>Diaphragmatic Compression:</strong> The diaphragm is the primary muscle responsible for breathing. When visceral fat accumulates inside the abdomen, it pushes the diaphragm upward into the thoracic cavity even while resting. This reduces the total physical space available inside your chest for your lungs to expand.</li>
+                    <li><strong>Reduced Chest Wall Compliance:</strong> Adipose tissue deposited across the chest, shoulders, and ribcage adds physical dead weight. Intercostal muscles must work twice as hard to lift the ribcage during inhalation, causing rapid respiratory fatigue and shallow breathing.</li>
+                    <li><strong>Airway Closure in Lower Lungs:</strong> Because the lower lung lobes remain partially compressed by elevated abdominal pressure, small airways in the base of the lungs tend to collapse during normal exhalation. This leads to impaired gas exchange and reduced blood oxygen levels.</li>
                 </ul>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-12 mb-6 border-b pb-2">Frequently Asked Questions (FAQs)</h2>
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">How Bariatric Surgery Restores Pulmonary Volumes</h2>
+                <p class="mb-6 font-semibold text-gray-800 bg-blue-50 border-l-4 border-scod p-4 rounded-r-xl">
+                    Shedding visceral fat post-surgery removes upward pressure on the diaphragm, allowing lungs to inflate fully and restoring critical pulmonary parameters like Functional Residual Capacity (FRC).
+                </p>
+                <p class="mb-6">
+                    Clinical studies measuring pulmonary function tests (spirometry) demonstrate that <strong>can bariatric surgery improve lung capacity</strong> is answered by measurable improvements across key lung volume metrics:
+                </p>
 
-                <div class="space-y-6">
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">1. Can bariatric surgery improve lung capacity?</h3>
-                        <p class="text-gray-600 text-sm">Yes, bariatric surgery significantly improves lung capacity. Removing excess abdominal and visceral fat relieves mechanical pressure on the diaphragm, allowing the lungs to inflate fully during inhalation and increasing total lung volume.</p>
+                <h3 class="text-xl font-bold text-gray-900 mt-6 mb-3">1. Increase in Functional Residual Capacity (FRC)</h3>
+                <p class="mb-4">
+                    Functional Residual Capacity is the volume of air remaining in your lungs at the end of a normal exhalation. In severe obesity, FRC can drop by up to 50%. Following bariatric surgery, FRC increases significantly within weeks as abdominal fat mass decreases, keeping small airways open and improving oxygen absorption.
+                </p>
+
+                <h3 class="text-xl font-bold text-gray-900 mt-6 mb-3">2. Restoration of Total Lung Capacity (TLC) & Forced Vital Capacity (FVC)</h3>
+                <p class="mb-4">
+                    As patients lose significant weight over 6 to 12 months, Total Lung Capacity (TLC) and Forced Vital Capacity (FVC) expand toward normal physiological levels. This allows deeper inhalations during exercise without experiencing chest tightness.
+                </p>
+                <p class="mb-4">
+                    Beyond structural mechanics, bariatric surgery also lowers systemic inflammatory markers (such as C-reactive protein and IL-6) produced by fat tissue, reducing airway inflammation in conditions like obesity-associated asthma. Many patients who also wonder about metabolic improvements discover that weight loss surgery delivers wide-reaching benefits—just as seen in our guide on <a href="/blog/does-bariatric-surgery-cure-type-2-diabetes" class="text-scod hover:underline font-semibold">does bariatric surgery cure type 2 diabetes</a>.
+                </p>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Bariatric Surgery and Obstructive Sleep Apnea (OSA)</h2>
+                <p class="mb-6 font-semibold text-gray-800 bg-blue-50 border-l-4 border-scod p-4 rounded-r-xl">
+                    Weight loss surgery cures or dramatically improves obstructive sleep apnea in 80% to 85% of patients, reducing upper airway collapse and eliminating CPAP dependency.
+                </p>
+                <p class="mb-6">
+                    The relationship between <strong>bariatric surgery and obstructive sleep apnea</strong> is one of the most celebrated success stories in modern pulmonary medicine. Obstructive Sleep Apnea occurs when thick fatty deposits in the neck and pharyngeal walls collapse during sleep, blocking airflow and causing repeated choking episodes.
+                </p>
+                <p class="mb-6">
+                    Rapid neck fat reduction following weight loss surgery clears upper airway obstructions. Patients experience:
+                </p>
+                <ul class="list-disc list-inside mb-6 space-y-2 text-gray-600">
+                    <li>Elimination of heavy night-time snoring and choking pauses.</li>
+                    <li>Discontinuation of CPAP (Continuous Positive Airway Pressure) machines under physician guidance.</li>
+                    <li>Restoration of deep, restful REM sleep cycles.</li>
+                    <li>Significant reduction in pulmonary hypertension and cardiovascular strain, as explored in our article on <a href="/blog/can-bariatric-surgery-cause-heart-problems" class="text-scod hover:underline font-semibold">can bariatric surgery cause heart problems</a>.</li>
+                </ul>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Treating Obesity Hypoventilation Syndrome (OHS)</h2>
+                <p class="mb-6 font-semibold text-gray-800 bg-blue-50 border-l-4 border-scod p-4 rounded-r-xl">
+                    <strong>Obesity hypoventilation syndrome weight loss surgery</strong> intervention reverses chronic daytime carbon dioxide retention and restores normal arterial oxygen saturation.
+                </p>
+                <p class="mb-6">
+                    Obesity Hypoventilation Syndrome (OHS) is a severe respiratory condition where excess weight prevents deep breathing, leading to low blood oxygen (hypoxemia) and dangerously high blood carbon dioxide levels (hypercapnia). Left untreated, OHS leads to right-sided heart failure and daytime drowsiness.
+                </p>
+                <p class="mb-6">
+                    Bariatric surgery acts as a primary therapeutic treatment for OHS. By relieving chest wall compression and boosting diaphragm mobility, patients experience normalized blood gas levels, improved daytime alertness, and restored lung endurance.
+                </p>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Timeline of Improved Breathing After Weight Loss Surgery</h2>
+                <p class="mb-6 font-semibold text-gray-800 bg-blue-50 border-l-4 border-scod p-4 rounded-r-xl">
+                    Patients experience initial <strong>improved breathing after weight loss surgery</strong> within 2 to 4 weeks, with progressive lung volume recovery continuing over 12 months.
+                </p>
+                <p class="mb-6">
+                    Lung function recovery occurs in progressive phases alongside your overall weight loss trajectory. The structured table below shows the expected timeline of <strong>lung function after bariatric surgery</strong>:
+                </p>
+
+                <!-- Comparison Table -->
+                <div class="overflow-x-auto mb-8 shadow-sm rounded-xl border border-gray-200">
+                    <table class="min-w-full bg-white">
+                        <thead>
+                            <tr class="bg-scod text-white text-left text-xs font-semibold uppercase tracking-wider">
+                                <th class="px-6 py-3.5">Post-Op Timeframe</th>
+                                <th class="px-6 py-3.5">Respiratory Changes</th>
+                                <th class="px-6 py-3.5">Lung Volume Recovery</th>
+                                <th class="px-6 py-3.5">Clinical Benefit</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200 text-sm text-gray-600">
+                            <tr class="hover:bg-blue-50/40 transition-colors">
+                                <td class="px-6 py-4 font-bold text-gray-900">Weeks 2 to 4</td>
+                                <td class="px-6 py-4">Initial abdominal weight drop relieves diaphragmatic pressure.</td>
+                                <td class="px-6 py-4">Functional Residual Capacity (FRC) improves by 15–20%.</td>
+                                <td class="px-6 py-4">Easier breath control when walking short distances.</td>
+                            </tr>
+                            <tr class="hover:bg-blue-50/40 transition-colors">
+                                <td class="px-6 py-4 font-bold text-gray-900">Months 2 to 3</td>
+                                <td class="px-6 py-4">Upper neck fat reduction opens pharyngeal airways.</td>
+                                <td class="px-6 py-4">CPAP pressure requirements decrease significantly.</td>
+                                <td class="px-6 py-4">Reduced sleep apnea episodes and improved sleep quality.</td>
+                            </tr>
+                            <tr class="hover:bg-blue-50/40 transition-colors">
+                                <td class="px-6 py-4 font-bold text-gray-900">Months 6 to 12</td>
+                                <td class="px-6 py-4">Major reduction in overall body fat percentage.</td>
+                                <td class="px-6 py-4">Total Lung Capacity (TLC) approaches normal physiological levels.</td>
+                                <td class="px-6 py-4">High exercise stamina, no shortness of breath on stairs.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="mb-6">
+                    To learn more about expected body weight changes following surgery, read our comprehensive overview on <a href="/blog/how-much-weight-loss-after-bariatric-surgery" class="text-scod hover:underline font-semibold">how much weight loss after bariatric surgery</a>.
+                </p>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Who Should Consider Bariatric Surgery for Breathing Improvements?</h2>
+                <p class="mb-6 font-semibold text-gray-800 bg-blue-50 border-l-4 border-scod p-4 rounded-r-xl">
+                    Individuals with a BMI over 35 experiencing sleep apnea, shortness of breath, or hypertension are prime candidates for metabolic surgery.
+                </p>
+                <p class="mb-6">
+                    If you suffer from severe obesity accompanied by breathing difficulties, evaluating surgical options with an expert specialist is essential. Weight loss surgery is strongly recommended for individuals who meet standard surgical criteria, as detailed in our guide on <a href="/blog/when-is-bariatric-surgery-recommended" class="text-scod hover:underline font-semibold">when is bariatric surgery recommended</a>.
+                </p>
+                <p class="mb-6">
+                    Additionally, weight loss surgery effectively resolves metabolic co-morbidities like high blood pressure. You can explore how cardiovascular strain drops after surgery in our article on <a href="/blog/does-bariatric-surgery-lower-blood-pressure" class="text-scod hover:underline font-semibold">does bariatric surgery lower blood pressure</a>.
+                </p>
+                <p class="mb-6">
+                    Under the clinical guidance of <a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Arush Sabharwal</a> at SCOD Clinic, patients receive comprehensive pulmonary evaluation before undergoing <a href="https://scodclinic.com/services/bariatric-surgery" class="text-scod hover:text-blue-700 font-semibold">Bariatric Surgery in Delhi</a>, ensuring maximum safety and optimal long-term respiratory recovery.
+                </p>
+
+                <!-- FAQ Section -->
+                <h2 class="text-2xl font-bold text-gray-900 mt-12 mb-6">Frequently Asked Questions (FAQs)</h2>
+                <div class="space-y-4 mb-12">
+                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
+                        <h3 class="font-semibold text-gray-900 mb-3">Can bariatric surgery improve lung capacity?</h3>
+                        <p class="text-gray-600">Yes, bariatric surgery significantly improves lung capacity. By removing heavy visceral fat around the abdomen and chest wall, the pressure on the diaphragm is eliminated. This allows the lungs to inflate fully, increasing Functional Residual Capacity (FRC) and Total Lung Capacity (TLC).</p>
                     </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">2. How quickly does breathing improve after weight loss surgery?</h3>
-                        <p class="text-gray-600 text-sm">Most patients experience noticeable breathing relief within 2 to 4 weeks post-surgery as initial abdominal weight drops. Measurable improvements on spirometry tests and increased physical stamina typically peak between 3 and 6 months.</p>
+                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
+                        <h3 class="font-semibold text-gray-900 mb-3">How soon will my breathing improve after weight loss surgery?</h3>
+                        <p class="text-gray-600">Noticeable improvements in breathing and ease of respiration typically begin within 2 to 4 weeks post-surgery as initial abdominal fat decreases. Major measurable increases in lung volume and stamina occur progressively over 3 to 6 months.</p>
                     </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">3. Does bariatric surgery cure obstructive sleep apnea?</h3>
-                        <p class="text-gray-600 text-sm">Bariatric surgery results in complete resolution or marked improvement of obstructive sleep apnea in 80% to 85% of cases. Reduced neck fat prevents upper airway collapse, allowing many patients to stop using CPAP devices after clinical evaluation.</p>
+                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
+                        <h3 class="font-semibold text-gray-900 mb-3">Does bariatric surgery cure obstructive sleep apnea?</h3>
+                        <p class="text-gray-600">Bariatric surgery results in complete resolution or dramatic improvement of obstructive sleep apnea in 80% to 85% of patients. Reducing neck and upper airway fat allows many individuals to safely discontinue CPAP machine therapy under doctor supervision.</p>
                     </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">4. Why does obesity cause shortness of breath during routine activities?</h3>
-                        <p class="text-gray-600 text-sm">Obesity causes shortness of breath because heavy visceral fat around the abdomen and chest wall physically restricts diaphragm movement and reduces available lung volume, forcing breathing muscles to work significantly harder.</p>
+                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
+                        <h3 class="font-semibold text-gray-900 mb-3">Why does severe obesity cause shortness of breath?</h3>
+                        <p class="text-gray-600">Severe obesity causes shortness of breath because heavy abdominal fat pushes the diaphragm upward into the chest cavity, compressing the lungs and restricting their ability to expand during inhalation. Extra chest wall weight also forces breathing muscles to work much harder.</p>
                     </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">5. What pulmonary tests are performed before bariatric surgery?</h3>
-                        <p class="text-gray-600 text-sm">Pre-operative lung assessment usually includes spirometry (to measure lung volumes and airflow rates), arterial blood gas tests, pulse oximetry, and sleep studies (polysomnography) to check for undiagnosed sleep apnea.</p>
+                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
+                        <h3 class="font-semibold text-gray-900 mb-3">Can weight loss surgery help with obesity hypoventilation syndrome?</h3>
+                        <p class="text-gray-600">Yes, bariatric surgery is one of the most effective long-term treatments for Obesity Hypoventilation Syndrome (OHS). Significant weight loss normalizes arterial blood gas levels, increases blood oxygenation, and reduces chronic carbon dioxide retention.</p>
                     </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">6. Can bariatric surgery help people with obesity-related asthma?</h3>
-                        <p class="text-gray-600 text-sm">Yes. Weight loss after bariatric surgery reduces systemic inflammatory cytokines and decreases airway hyperresponsiveness, leading to fewer asthma symptoms, reduced flare-ups, and lower dependency on daily inhalers.</p>
+                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
+                        <h3 class="font-semibold text-gray-900 mb-3">Does bariatric surgery help people with obesity-related asthma?</h3>
+                        <p class="text-gray-600">Yes, weight loss following bariatric surgery lowers systemic inflammation and reduces mechanical compression on airways. Many asthma patients experience fewer asthma attacks, less wheezing, and a decreased need for rescue inhalers.</p>
                     </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">7. Is laparoscopic bariatric surgery safe for individuals with low lung capacity?</h3>
-                        <p class="text-gray-600 text-sm">Yes, modern minimally invasive laparoscopic and robotic surgical techniques are safe for patients with compromised lung function. Pre-operative pulmonary optimization and tailored anesthesia protocols ensure patient safety.</p>
+                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
+                        <h3 class="font-semibold text-gray-900 mb-3">Is bariatric surgery safe if I currently have poor lung function?</h3>
+                        <p class="text-gray-600">Yes, modern minimally invasive laparoscopic and robotic bariatric procedures are safe for patients with respiratory limitations. Comprehensive pre-operative pulmonary evaluations and specialized anesthesia protocols minimize surgical risks.</p>
                     </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">8. How much weight needs to be lost to see an improvement in lung function?</h3>
-                        <p class="text-gray-600 text-sm">Even losing 10% to 15% of excess weight brings noticeable improvements in lung compliance and oxygen levels. As weight loss reaches 50% to 70% of excess weight over 12 months, lung volumes approach normal baseline levels.</p>
+                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
+                        <h3 class="font-semibold text-gray-900 mb-3">How much weight do I need to lose to see better lung function?</h3>
+                        <p class="text-gray-600">Even losing 10% to 15% of excess body weight yields measurable improvements in lung expansion and breathing stamina. As patients shed 50% to 70% of excess weight over 12 months, lung volumes approach normal non-obese levels.</p>
                     </div>
                 </div>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-10 mb-4 border-b pb-2">Take the First Step Toward Better Respiratory Health at SCOD Clinic</h2>
+                <!-- Doctor / Clinic CTA Banner -->
+                <div class="bg-gradient-to-r from-blue-50 via-sky-50 to-blue-100/70 border border-blue-200/60 rounded-2xl p-8 my-10 shadow-sm">
+                    <div class="md:flex items-center justify-between gap-6">
+                        <div class="mb-6 md:mb-0">
+                            <h3 class="text-2xl font-bold mb-2 text-gray-900">Struggling with Weight and Breathing Issues?</h3>
+                            <p class="text-gray-600 text-sm max-w-xl">Consult with Dr. Arush Sabharwal at SCOD Clinic for expert evaluation and advanced bariatric surgery tailored to improve your health and quality of life.</p>
+                        </div>
+                        <a href="https://scodclinic.com/about" class="inline-block bg-white text-scod font-bold px-6 py-3 rounded-xl hover:bg-blue-50 border border-blue-200 transition-all shadow-md shrink-0">Book Consultation</a>
+                    </div>
+                </div>
 
-                <p>If chronic shortness of breath, poor stamina, or sleep apnea is affecting your quality of life, bariatric surgery offers a medically proven pathway to restore your breathing and overall vitality. Consult with <strong><a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Arush Sabharwal</a></strong> and the expert multidisciplinary team at SCOD Clinic to receive personalized care, advanced surgical options, and dedicated post-operative support.</p>
-
-                <!-- Call to Action Banner (Light Theme) -->
-                <div class="bg-gradient-to-br from-blue-50 via-teal-50/50 to-slate-50 border border-blue-100/80 rounded-[2.5rem] py-10 px-6 md:py-12 md:px-12 my-10 text-center shadow-lg">
-                    <h3 class="text-gray-900 text-2xl md:text-3xl font-bold tracking-tight mb-3">Can Bariatric Surgery Improve Lung Capacity?</h3>
-                    <p class="text-gray-600 text-sm md:text-base max-w-3xl mx-auto mb-6 leading-relaxed">Discover key facts, pulmonary benefits, diaphragm movement improvements, and clinical guidance from SCOD Clinic to enhance your respiratory health.</p>
-                    <a href="https://scodclinic.com/contact" class="inline-flex items-center justify-center bg-[#b88c4c] hover:bg-[#a67c3e] text-white font-semibold text-base px-8 py-3.5 rounded-full transition-all duration-300 shadow-md hover:shadow-lg">
-                        Book Your Appointment Today &rarr;
+                <!-- Post Navigation -->
+                <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">
+                    <a href="/blog/how-to-sleep-after-gallbladder-surgery" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
+                        <i data-feather="arrow-left" class="w-4 h-4"></i>
+                        Previous: How to Sleep after Gallbladder Surgery?
                     </a>
-                </div>
-
+                    <a href="/blog/does-bariatric-surgery-affect-pregnancy" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
+                        Next: Does Bariatric Surgery Affect Pregnancy?
+                        <i data-feather="arrow-right" class="w-4 h-4"></i>
+                    </a>
+                </nav>
             </div>
         </article>
     </main>
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>
 
+    <!-- Initialize Feather Icons -->
     <script>feather.replace();</script>
 </body>
 </html>
