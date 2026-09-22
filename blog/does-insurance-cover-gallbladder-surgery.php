@@ -1,8 +1,12 @@
 <?php
 $path_prefix = '../';
 $is_home = false;
+$page_title = 'Does Insurance Cover Gallbladder Surgery? {2026 Guide}';
 $meta_title = 'Does Insurance Cover Gallbladder Surgery? {2026 Guide}';
 $meta_description = 'Does insurance cover gallbladder surgery? Discover complete 2026 coverage details in India, waiting periods, approved insurers, documents required, and claim approval tips.';
+$canonical_url = 'https://scodclinic.com/blog/does-insurance-cover-gallbladder-surgery/';
+$meta_robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+$og_image = 'https://scodclinic.com/blog/media/images/does-insurance-cover-gallbladder-surgery.jpg';
 include __DIR__ . '/../includes/header.php';
 ?>
 
