@@ -2,6 +2,7 @@
 $path_prefix = '../';
 $is_home = false;
 $page_title = 'What is the Minimum Weight for Bariatric Surgery?';
+$canonical_url = 'https://scodclinic.com/blog/what-is-the-minimum-weight-for-bariatric-surgery';
 include __DIR__ . '/../includes/header.php';
 ?>
 

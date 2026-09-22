@@ -6,6 +6,7 @@
   <title>SCOD Clinic- Surgical Center for Obesity and Diabetes</title>
   <meta name="description"
     content="Transform your life at SCOD Clinic, Delhi's premier institute for bariatric & metabolic surgery. Led by Dr. Arush Sabharwal, we offer advanced, minimally invasive weight loss solutions.">
+  <link rel="canonical" href="https://scodclinic.com/">
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

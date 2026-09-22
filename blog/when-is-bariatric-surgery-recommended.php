@@ -4,7 +4,7 @@ $is_home = false;
 $page_title = 'When is Bariatric Surgery Recommended?';
 $meta_title = 'When is Bariatric Surgery Recommended? | SCOD Clinic';
 $meta_description = 'Learn when bariatric surgery is recommended, BMI qualification criteria, obesity-related comorbidities, evaluation steps, and clinical guidelines at SCOD Clinic.';
-$canonical_url = 'https://scodclinic.com/blog/when-is-bariatric-surgery-recommended/';
+$canonical_url = 'https://scodclinic.com/blog/when-is-bariatric-surgery-recommended';
 $meta_robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 $og_image = 'https://scodclinic.com/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg';
 include __DIR__ . '/../includes/header.php';

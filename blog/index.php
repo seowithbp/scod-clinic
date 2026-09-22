@@ -1,6 +1,9 @@
 <?php
 $path_prefix = '../';
 $is_home = false;
+$meta_title = 'Health Insights & Blogs - SCOD Clinic';
+$meta_description = 'Expert guidance on bariatric surgery, weight management, and surgical treatments from our team of specialists at SCOD Clinic.';
+$canonical_url = 'https://scodclinic.com/blog/';
 include __DIR__ . '/../includes/header.php';
 ?>
 

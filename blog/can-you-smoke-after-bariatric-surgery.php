@@ -2,6 +2,7 @@
 $path_prefix = '../';
 $is_home = false;
 $page_title = 'Can You Smoke After Bariatric Surgery? {Key Facts}';
+$canonical_url = 'https://scodclinic.com/blog/can-you-smoke-after-bariatric-surgery';
 include __DIR__ . '/../includes/header.php';
 ?>
 

@@ -2,6 +2,7 @@
 $path_prefix = '../';
 $is_home = false;
 $page_title = 'Are Weight Loss Injections Safe? {Complete Guide}';
+$canonical_url = 'https://scodclinic.com/blog/are-weight-loss-injections-safe';
 include __DIR__ . '/../includes/header.php';
 ?>
 

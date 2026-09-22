@@ -4,7 +4,7 @@ $is_home = false;
 $page_title = 'Does Bariatric Surgery Lower Blood Pressure?';
 $meta_title = 'Does Bariatric Surgery Lower Blood Pressure? | SCOD Clinic';
 $meta_description = 'Discover how bariatric surgery lowers blood pressure, reduces hypertension medication dependence, improves cardiovascular health, and key clinical benefits at SCOD Clinic.';
-$canonical_url = 'https://scodclinic.com/blog/does-bariatric-surgery-lower-blood-pressure/';
+$canonical_url = 'https://scodclinic.com/blog/does-bariatric-surgery-lower-blood-pressure';
 $meta_robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 $og_image = 'https://scodclinic.com/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg';
 include __DIR__ . '/../includes/header.php';
