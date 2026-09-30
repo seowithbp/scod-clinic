@@ -145,7 +145,7 @@ include __DIR__ . '/../includes/header.php';
     <!-- HERO SECTION -->
     <section class="relative h-[500px] flex items-center bg-gray-900 text-white overflow-hidden">
         <div class="absolute inset-0 z-0">
-            <img src="https://brandingpioneers.co.in/scod/scod-breadcrumbs/Bariatric Surgery.webp"
+            <img src="<?php echo $path_prefix; ?>assets/scod/Bariatric Surgery.webp"
                 alt="Bariatric Surgery" class="w-full h-full object-cover object-center">
             <div class="absolute inset-0 bg-gradient-to-r from-scod/95 via-scod/30 to-transparent"></div>
         </div>
@@ -196,7 +196,7 @@ include __DIR__ . '/../includes/header.php';
                 </div>
                 <div class="relative observe-animate" data-animation="scale-in">
                     <div class="rounded-2xl overflow-hidden shadow-2xl border-8 border-gray-50">
-                        <img src="https://brandingpioneers.co.in/scod/b461ecb8-4def-4ef8-a9d6-45e3326bc646.png"
+                        <img src="<?php echo $path_prefix; ?>assets/scod/b461ecb8-4def-4ef8-a9d6-45e3326bc646.png"
                             alt="Medical Consultation" class="w-full h-auto object-cover">
                     </div>
                     <div
@@ -337,7 +337,7 @@ include __DIR__ . '/../includes/header.php';
                 <div class="lg:col-span-5 relative">
                     <div
                         class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white h-[400px] lg:h-[500px] z-10">
-                        <img src="https://brandingpioneers.co.in/scod/dr-arush-final-image.png"
+                        <img src="<?php echo $path_prefix; ?>assets/scod/dr-arush-final-image.png"
                             alt="Dr. Arush Sabharwal" class="w-full h-full object-cover object-top">
                     </div>
                 </div>
@@ -789,9 +789,9 @@ include __DIR__ . '/../includes/header.php';
         let itemsPerView = 1;
         // Gallery Data
         const galleryImages = [
-            { before: "https://brandingpioneers.co.in/scod/patient3-scod.webp", after: "https://brandingpioneers.co.in/scod/patient2-scod.webp", label: "Gastric Sleeve" },
-            { before: "https://brandingpioneers.co.in/scod/patient4-scod.webp", after: "https://brandingpioneers.co.in/scod/patient5-scod.webp", label: "Gastric Bypass" },
-            { before: "https://brandingpioneers.co.in/scod/patient1-scod.webp", after: "https://brandingpioneers.co.in/scod/patient3-scod.webp", label: "Metabolic Surgery" }
+            { before: "<?php echo $path_prefix; ?>assets/scod/patient3-scod.webp", after: "<?php echo $path_prefix; ?>assets/scod/patient2-scod.webp", label: "Gastric Sleeve" },
+            { before: "<?php echo $path_prefix; ?>assets/scod/africa/tanzanean-weightloss.png", after: "<?php echo $path_prefix; ?>assets/scod/africa/african-weightloss.png", label: "Gastric Bypass" },
+            { before: "<?php echo $path_prefix; ?>assets/scod/africa/tanzanean-realistic-3.png", after: "<?php echo $path_prefix; ?>assets/scod/africa/african-weightloss-3.png", label: "Metabolic Surgery" }
         ];
         // 1. Render Gallery (Matches React Grid Layout)
         function renderGallery() {
@@ -925,7 +925,7 @@ include __DIR__ . '/../includes/header.php';
             if (key === 'sleeve') imgPath = '<?php echo $path_prefix; ?>assets/scod/treatment/bariatric/Laparoscopic Sleeve Gastrectomy (LSG).webp';
             else if (key === 'rygb') imgPath = '<?php echo $path_prefix; ?>assets/scod/treatment/bariatric/Roux-en-Y Gastric Bypass (RYGB).webp';
             else if (key === 'revision') imgPath = '<?php echo $path_prefix; ?>assets/scod/treatment/bariatric/Revisional Bariatric Surgery.webp';
-            else imgPath = 'https://brandingpioneers.co.in/scod/Metabolic.webp';
+            else imgPath = '<?php echo $path_prefix; ?>assets/scod/treatment/bariatric/Metabolic.webp';
             container.innerHTML = `
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 animate-fadeIn">
                     <div>

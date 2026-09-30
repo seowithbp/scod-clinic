@@ -381,7 +381,7 @@
         <div class="lg:col-span-5 relative observe-animate" data-animation="fade-in-left">
           <div class="relative pr-4 pb-4">
             <div class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white z-10">
-              <img src="https://brandingpioneers.co.in/scod/dr-arush-final-image.png" alt="Dr. Arush Sabharwal"
+              <img src="assets/scod/dr-arush-final-image.png" alt="Dr. Arush Sabharwal"
                 class="w-full h-[500px] object-cover object-top">
               <div
                 class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-scod/90 via-scod/70 to-transparent pt-20 pb-6 px-6 text-white">
@@ -675,11 +675,11 @@
         <div class="relative observe-animate" data-animation="scale-in">
           <div class="grid grid-cols-1 gap-6">
             <div class="relative rounded-[2rem] overflow-hidden h-64 md:h-72 shadow-xl group"><img
-                src="https://brandingpioneers.co.in/scod/patient3-scod.webp" alt="Before transformation"
+                src="assets/scod/patient3-scod.webp" alt="Before transformation"
                 class="w-full h-full object-cover grayscale-[20%] group-hover:grayscale-0 transition-all duration-700">
             </div>
             <div class="relative rounded-[2rem] overflow-hidden h-64 md:h-72 shadow-xl group"><img
-                src="https://brandingpioneers.co.in/scod/patient2-scod.webp" alt="After transformation"
+                src="assets/scod/patient2-scod.webp" alt="After transformation"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"></div>
           </div>
           <div
