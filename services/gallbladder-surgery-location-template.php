@@ -461,36 +461,6 @@ if (!isset($location) || !isset($slug)) {
         </div>
     </section>
 
-    <!-- MEDICAL AWARENESS (Slider) -->
-    <section class="py-16 bg-white overflow-hidden" id="awareness-section">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col md:flex-row justify-between items-end mb-10 gap-6">
-                <div class="text-left">
-                    <span class="uppercase tracking-widest text-sm font-bold text-scod">Doctor Insights</span>
-                    <h2 class="text-4xl font-bold text-gray-900 mt-2">Medical <span class="text-scod">Awareness</span></h2>
-                    <p class="text-gray-600 mt-4 max-w-2xl">Empowering you with knowledge. Watch Dr. Arush Sabharwal explain surgical procedures, gallbladder conditions, and post-op care in simple language.</p>
-                </div>
-                <div class="flex flex-col items-end gap-4">
-                    <div class="flex items-center gap-3">
-                        <button id="awareness-prev-btn"
-                            class="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-all duration-300 shadow-sm bg-white"><i
-                                data-feather="chevron-left" class="w-5 h-5"></i></button>
-                        <button id="awareness-next-btn"
-                            class="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-gray-600 hover:bg-scod hover:text-white hover:border-scod transition-all duration-300 shadow-sm bg-white"><i
-                                data-feather="chevron-right" class="w-5 h-5"></i></button>
-                    </div>
-                    <a href="https://www.youtube.com/@drarushsabharwal" target="_blank" rel="noopener noreferrer"
-                        class="inline-flex items-center space-x-2 text-scod font-bold hover:text-blue-700 transition-colors"><span>Visit YouTube Channel</span><i data-feather="youtube" class="w-5 h-5"></i></a>
-                </div>
-            </div>
-            <div class="-mx-4 overflow-hidden px-4 md:px-0">
-                <div id="awareness-slider"
-                    class="flex transition-transform duration-500 ease-out cursor-grab active:cursor-grabbing">
-                    <!-- Populated by JS -->
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Gallbladder Surgeon Near Me -->
     <section class="py-16 bg-white border-t border-gray-100" id="gallbladder-surgeon-near-me">
@@ -687,12 +657,6 @@ if (!isset($location) || !isset($slug)) {
             { id: 6, title: "Patient Success Story", author: "Verified Patient", videoId: "69539d8dd73a53e69e26a898", type: "gumlet", thumbnail: "https://video.gumlet.io/6553f91b3699cbd2c01ab6a9/69539d8dd73a53e69e26a898/thumbnail-1-0.png", quote: "Witness the life-changing results and incredible surgical journey of our patients at SCOD Clinic." }
         ];
 
-        const awarenessVideos = [
-            { id: 1, title: "Big Announcement: Dr. Arush Sabharwal Joins PSRI Hospital | Comprehensive Surgical Clinic", category: "Clinic Update", thumbnail: "https://i.ytimg.com/vi/OVVY-KnABX0/hqdefault.jpg", videoId: "OVVY-KnABX0" },
-            { id: 2, title: "Surgery Insurance Coverage: What You Need To Know About Panels & Claims", category: "Insurance", thumbnail: "https://i.ytimg.com/vi/5oj6Y9XNn8M/hqdefault.jpg", videoId: "5oj6Y9XNn8M" },
-            { id: 3, title: "Understanding Surgical Safety: Modern Laparoscopy vs Old Surgery", category: "Surgical Safety", thumbnail: "https://i.ytimg.com/vi/Flciyyru3ho/hqdefault.jpg", videoId: "Flciyyru3ho" },
-            { id: 4, title: "Post-Op Diet and Nutrition Guidelines: Complete Healing Guide", category: "Post-Op Diet", thumbnail: "https://i.ytimg.com/vi/Pv2GUfa0r5U/hqdefault.jpg", videoId: "Pv2GUfa0r5U" }
-        ];
 
         const procedures = {
             'standard-lap': {
@@ -789,7 +753,6 @@ if (!isset($location) || !isset($slug)) {
 
         // State Management
         let activeTestimonialIndex = 0;
-        let activeAwarenessIndex = 0;
         let itemsPerView = 1;
 
         // Render Procedures Tab Content
@@ -884,54 +847,12 @@ if (!isset($location) || !isset($slug)) {
             container.style.transform = `translateX(-${translateX}%)`;
         }
 
-        // Render Awareness Slider
-        function renderAwarenessSlider() {
-            const container = document.getElementById('awareness-slider');
-            if (!container) return;
-            const totalItems = awarenessVideos.length;
-            const containerWidth = (totalItems * 100) / itemsPerView;
-            container.style.width = `${containerWidth}%`;
-            const itemWidth = 100 / totalItems;
-            container.innerHTML = awarenessVideos.map(video => `
-                <div class="px-4 flex-shrink-0 box-border" style="width: ${itemWidth}%;">
-                    <div class="bg-gray-50 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group cursor-pointer border border-gray-100 h-full flex flex-col video-trigger"
-                         data-video-id="${video.videoId}" data-video-type="${video.type || 'youtube'}">
-                        <div class="relative aspect-video overflow-hidden">
-                            <img src="${video.thumbnail}" alt="${video.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                            <div class="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors flex items-center justify-center">
-                                <div class="w-14 h-14 bg-white/90 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
-                                    <i data-feather="play" class="w-5 h-5 text-scod ml-1"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-6 flex-grow">
-                            <span class="text-xs font-bold text-scod uppercase tracking-wider mb-1 block">${video.category}</span>
-                            <h3 class="font-bold text-lg text-gray-900 group-hover:text-scod transition-colors">${video.title}</h3>
-                        </div>
-                    </div>
-                </div>
-            `).join('');
-            feather.replace();
-            attachVideoModalListeners();
-            updateAwarenessSliderPosition();
-        }
-
-        function updateAwarenessSliderPosition() {
-            const container = document.getElementById('awareness-slider');
-            if (!container) return;
-            const totalItems = awarenessVideos.length;
-            const translateX = activeAwarenessIndex * (100 / totalItems);
-            container.style.transition = 'transform 0.5s cubic-bezier(0.25, 1, 0.5, 1)';
-            container.style.transform = `translateX(-${translateX}%)`;
-        }
-
         // Helper to update items per view
         function updateItemsPerView() {
             if (window.innerWidth >= 1024) itemsPerView = 3;
             else if (window.innerWidth >= 768) itemsPerView = 2;
             else itemsPerView = 1;
             renderTestimonialSlider();
-            renderAwarenessSlider();
         }
 
         // FAQs Accordion Logic
@@ -1030,7 +951,6 @@ if (!isset($location) || !isset($slug)) {
         else itemsPerView = 1;
 
         renderTestimonialSlider();
-        renderAwarenessSlider();
         renderFaqs();
         renderProcedure('standard-lap');
 
@@ -1058,31 +978,6 @@ if (!isset($location) || !isset($slug)) {
 
         if (testimonialsNextBtn) testimonialsNextBtn.addEventListener('click', nextTestimonial);
         if (testimonialsPrevBtn) testimonialsPrevBtn.addEventListener('click', prevTestimonial);
-
-        // Slider Navigation - Awareness
-        const awarenessPrevBtn = document.getElementById('awareness-prev-btn');
-        const awarenessNextBtn = document.getElementById('awareness-next-btn');
-
-        function nextAwareness() {
-            if (activeAwarenessIndex < awarenessVideos.length - itemsPerView) {
-                activeAwarenessIndex++;
-            } else {
-                activeAwarenessIndex = 0;
-            }
-            updateAwarenessSliderPosition();
-        }
-
-        function prevAwareness() {
-            if (activeAwarenessIndex > 0) {
-                activeAwarenessIndex--;
-            } else {
-                activeAwarenessIndex = Math.max(0, awarenessVideos.length - itemsPerView);
-            }
-            updateAwarenessSliderPosition();
-        }
-
-        if (awarenessNextBtn) awarenessNextBtn.addEventListener('click', nextAwareness);
-        if (awarenessPrevBtn) awarenessPrevBtn.addEventListener('click', prevAwareness);
 
         window.addEventListener('resize', updateItemsPerView);
 
