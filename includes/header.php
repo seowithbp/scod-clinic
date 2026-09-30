@@ -100,7 +100,7 @@ $mobile_btn_class = $is_home ? 'text-white' : 'text-gray-700';
         <div class="flex justify-between items-center h-20">
             <!-- Logo -->
             <a href="/index.php" class="flex items-center z-50">
-                <img src="https://brandingpioneers.co.in/scod/Scod-Logo-Big-Size-180x74.webp" alt="SCOD Logo"
+                <img src="/assets/scod/Scod-Logo-Big-Size-180x74.webp" alt="SCOD Logo"
                     class="nav-logo h-12 md:h-14 w-auto object-contain transition-all duration-300 <?php echo $logo_class; ?>">
             </a>
 
