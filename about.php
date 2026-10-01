@@ -94,7 +94,7 @@
                 </div>
                 <div class="order-1 lg:order-2 relative observe-animate" data-animation="scale-in">
                     <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-200">
-                        <img src="https://brandingpioneers.co.in/scod/sabharwal-family.webp" alt="Medical History"
+                        <img src="assets/scod/sabharwal-family.webp" alt="Medical History"
                             class="w-full h-full object-cover">
                         <div
                             class="absolute bottom-0 left-0 right-0 bg-white/90 backdrop-blur-sm p-6 border-t border-gray-100">
@@ -111,7 +111,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                 <div class="lg:col-span-5 observe-animate" data-animation="fade-in-left">
                     <div class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
-                        <img src="https://brandingpioneers.co.in/scod/dr-arush-final-image.png"
+                        <img src="assets/scod/dr-arush-final-image.png"
                             alt="Dr. Arush Sabharwal Vision" class="w-full h-auto object-cover">
                         <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/80 to-transparent p-6">
                             <p class="text-white font-bold text-lg">Dr. Arush Sabharwal</p>

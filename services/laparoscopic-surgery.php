@@ -42,7 +42,7 @@
     <!-- HERO SECTION -->
     <section class="relative h-[500px] flex items-center bg-gray-900 text-white overflow-hidden">
         <div class="absolute inset-0 z-0">
-            <img src="https://brandingpioneers.co.in/scod/scod-breadcrumbs/Laparoscopic Surgery.webp"
+            <img src="/assets/scod/scod-breadcrumbs/Laparoscopic Surgery.webp"
                 alt="Laparoscopic Surgery" class="w-full h-full object-cover object-center">
             <div class="absolute inset-0 bg-gradient-to-r from-scod/95 via-scod/80 to-transparent"></div>
         </div>
@@ -151,7 +151,7 @@
                 <div class="lg:col-span-5 relative">
                     <div
                         class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white h-[400px] lg:h-[500px] z-10">
-                        <img src="https://brandingpioneers.co.in/scod/dr-arush-final-image.png"
+                        <img src="/assets/scod/dr-arush-final-image.png"
                             alt="Dr. Arush Sabharwal" class="w-full h-full object-cover object-top">
                     </div>
                 </div>

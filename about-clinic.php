@@ -45,7 +45,7 @@
                 <div class="relative observe-animate" data-animation="scale-in">
                     <div
                         class="rounded-3xl overflow-hidden shadow-2xl border-4 border-white relative z-10 h-[450px] md:h-[500px] lg:h-[550px]">
-                        <img src="https://brandingpioneers.co.in/scod/scod-clinic.webp" alt="SCOD Clinic Interior"
+                        <img src="assets/scod/scod-clinic.webp" alt="SCOD Clinic Interior"
                             class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent">
                         </div>
@@ -88,7 +88,7 @@
                 </div>
                 <div class="order-1 lg:order-2 relative observe-animate" data-animation="scale-in">
                     <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-200 h-[500px]">
-                        <img src="https://brandingpioneers.co.in/scod/sabharwal-family.webp"
+                        <img src="assets/scod/sabharwal-family.webp"
                             alt="Sabharwal Family Medical History" class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent">
                         </div>
@@ -189,7 +189,7 @@
                 <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 observe-animate"
                     data-animation="fade-in-up">
                     <div class="h-64 overflow-hidden bg-gray-100"><img
-                            src="https://brandingpioneers.co.in/scod/dr-arush-final-image.png" alt="Dr. Arush Sabharwal"
+                            src="assets/scod/dr-arush-final-image.png" alt="Dr. Arush Sabharwal"
                             class="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-6">
@@ -529,7 +529,7 @@
             <!-- Main Center -->
             <div class="relative rounded-3xl overflow-hidden shadow-xl group h-[400px] lg:h-[450px] mb-12 observe-animate"
                 data-animation="fade-in-up">
-                <img src="https://brandingpioneers.co.in/scod/scod-clinic.webp" alt="New Delhi"
+                <img src="assets/scod/scod-clinic.webp" alt="New Delhi"
                     class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                 <div
                     class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/60 to-transparent p-8 md:p-12 flex flex-col justify-end">

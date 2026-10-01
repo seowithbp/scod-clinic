@@ -30,7 +30,7 @@
     <!-- 1. HERO SECTION -->
     <section class="relative h-[500px] flex items-center bg-gray-900 text-white overflow-hidden mt-20">
         <div class="absolute inset-0 z-0">
-            <img src="https://brandingpioneers.co.in/scod/scod-breadcrumbs/Testimonials.webp" alt="Happy Patients"
+            <img src="assets/scod/scod-breadcrumbs/Testimonials.webp" alt="Happy Patients"
                 class="w-full h-full object-cover object-center opacity-40">
             <div class="absolute inset-0 bg-gradient-to-r from-scod/95 via-scod/80 to-transparent"></div>
         </div>
@@ -118,7 +118,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-left mb-16">
                 <div class="flex items-center justify-start space-x-2 mb-4">
-                    <img src="https://brandingpioneers.co.in/scod/google_g_icon_download.png" alt="Google"
+                    <img src="assets/scod/google_g_icon_download.png" alt="Google"
                         class="w-8 h-8">
                     <span class="text-2xl font-bold text-gray-700">Reviews</span>
                 </div>
@@ -170,20 +170,20 @@
             { id: 16, title: "Patient Success Story 11", author: "Verified Patient", videoId: "NnSd1zg_Ndk", type: "youtube", thumbnail: "https://img.youtube.com/vi/NnSd1zg_Ndk/maxresdefault.jpg", quote: "Sustainable results and a brand new lifestyle. A powerful account of the SCOD surgical experience." }
         ];
         const transformations = [
-            { id: 'st1', image: "https://brandingpioneers.co.in/scod/Scod-testimonial-images/ST-1.webp" },
-            { id: 'st2', image: "https://brandingpioneers.co.in/scod/Scod-testimonial-images/ST-2.webp" },
-            { id: 'st3', image: "https://brandingpioneers.co.in/scod/Scod-testimonial-images/ST-3.webp" },
-            { id: 'st4', image: "https://brandingpioneers.co.in/scod/Scod-testimonial-images/ST-4.webp" },
-            { id: 'st5', image: "https://brandingpioneers.co.in/scod/Scod-testimonial-images/ST-5.webp" },
-            { id: 'st6', image: "https://brandingpioneers.co.in/scod/Scod-testimonial-images/ST-6.webp" },
-            { id: 'st7', image: "https://brandingpioneers.co.in/scod/Scod-testimonial-images/ST-7.webp" },
-            { id: 'st8', image: "https://brandingpioneers.co.in/scod/Scod-testimonial-images/ST-8.webp" },
-            { id: 'st9', image: "https://brandingpioneers.co.in/scod/Scod-testimonial-images/ST-9.webp" },
-            { id: 'st10', image: "https://brandingpioneers.co.in/scod/Scod-testimonial-images/ST-10.webp" },
-            { id: 'st11', image: "https://brandingpioneers.co.in/scod/Scod-testimonial-images/ST-11.webp" },
-            { id: 'st12', image: "https://brandingpioneers.co.in/scod/Scod-testimonial-images/ST-12.webp" },
-            { id: 'st13', image: "https://brandingpioneers.co.in/scod/Scod-testimonial-images/ST-13.webp" },
-            { id: 'st14', image: "https://brandingpioneers.co.in/scod/Scod-testimonial-images/ST-14.webp" }
+            { id: 'st1', image: "assets/scod/Scod-testimonial-images/ST-1.webp" },
+            { id: 'st2', image: "assets/scod/Scod-testimonial-images/ST-2.webp" },
+            { id: 'st3', image: "assets/scod/Scod-testimonial-images/ST-3.webp" },
+            { id: 'st4', image: "assets/scod/Scod-testimonial-images/ST-4.webp" },
+            { id: 'st5', image: "assets/scod/Scod-testimonial-images/ST-5.webp" },
+            { id: 'st6', image: "assets/scod/Scod-testimonial-images/ST-6.webp" },
+            { id: 'st7', image: "assets/scod/Scod-testimonial-images/ST-7.webp" },
+            { id: 'st8', image: "assets/scod/Scod-testimonial-images/ST-8.webp" },
+            { id: 'st9', image: "assets/scod/Scod-testimonial-images/ST-9.webp" },
+            { id: 'st10', image: "assets/scod/Scod-testimonial-images/ST-10.webp" },
+            { id: 'st11', image: "assets/scod/Scod-testimonial-images/ST-11.webp" },
+            { id: 'st12', image: "assets/scod/Scod-testimonial-images/ST-12.webp" },
+            { id: 'st13', image: "assets/scod/Scod-testimonial-images/ST-13.webp" },
+            { id: 'st14', image: "assets/scod/Scod-testimonial-images/ST-14.webp" }
         ];
         const googleReviews = [
             { id: 1, name: "Atul Kumar Singh", date: "Bariatric Surgery Patient", rating: 5, text: "We are highly satisfied with the life-changing bariatric surgery performed by Dr. Aarush Sabharwal for my wife. The entire process—from counseling to recovery—was handled with exceptional care.", initial: "A", bg: "bg-purple-100 text-purple-600" },

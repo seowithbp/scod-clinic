@@ -45,7 +45,7 @@
   <!-- ===================== HERO SECTION ===================== -->
   <section class="relative h-screen w-full overflow-hidden font-sans">
     <div class="absolute inset-0 z-0">
-      <img src="https://brandingpioneers.co.in/scod/scod-bannner-2.webp" alt="SCOD Banner"
+      <img src="assets/scod/scod-bannner-2.webp" alt="SCOD Banner"
         class="w-full h-full object-cover object-center">
       <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-transparent"></div>
     </div>
@@ -175,7 +175,7 @@
         class="service-content active bg-white border border-gray-200 rounded-3xl overflow-hidden shadow-xl">
         <div class="flex flex-col lg:flex-row items-stretch">
           <div class="lg:w-2/5 relative min-h-[300px] lg:min-h-[500px]">
-            <img src="https://brandingpioneers.co.in/scod/b461ecb8-4def-4ef8-a9d6-45e3326bc646.png"
+            <img src="assets/scod/b461ecb8-4def-4ef8-a9d6-45e3326bc646.png"
               alt="Bariatric Surgery" class="absolute inset-0 w-full h-full object-cover">
             <div
               class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent lg:bg-gradient-to-r lg:from-transparent lg:to-black/10">
@@ -518,10 +518,10 @@
               alt="Modern Clinic Interior"
               class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"></div>
           <div class="h-64 rounded-[2rem] overflow-hidden shadow-lg"><img
-              src="https://brandingpioneers.co.in/scod/Technology & Equipment.png" alt="Advanced Medical Equipment"
+              src="assets/scod/Technology & Equipment.png" alt="Advanced Medical Equipment"
               class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"></div>
           <div class="h-64 rounded-[2rem] overflow-hidden shadow-lg"><img
-              src="https://brandingpioneers.co.in/scod/Why-choose-us-scod.webp" alt="Compassionate Patient Care"
+              src="assets/scod/Why-choose-us-scod.webp" alt="Compassionate Patient Care"
               class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"></div>
         </div>
       </div>
@@ -708,37 +708,37 @@
         class="flex overflow-x-auto snap-x snap-mandatory gap-4 pb-6 -mx-4 px-4 md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-8 md:pb-0 md:mx-0 md:px-0 scrollbar-hidden">
         <div
           class="flex-shrink-0 w-[85%] md:w-auto snap-center flex flex-col items-center text-center group cursor-pointer"
-          data-image-src="https://brandingpioneers.co.in/scod/dalailamahonor.jpg">
+          data-image-src="assets/scod/dalailamahonor.jpg">
           <div
             class="w-full h-64 flex items-center justify-center p-6 mb-4 rounded-2xl group-hover:shadow-[0_8px_30px_rgb(0,0,0,0.06)] transition-all duration-300 border border-gray-100 group-hover:border-scod/20 bg-white">
-            <img src="https://brandingpioneers.co.in/scod/dalailamahonor.jpg" alt="Dalai Lama Honor"
+            <img src="assets/scod/dalailamahonor.jpg" alt="Dalai Lama Honor"
               class="max-w-full max-h-full object-contain transition-transform duration-500 group-hover:scale-105">
           </div>
         </div>
         <div
           class="flex-shrink-0 w-[85%] md:w-auto snap-center flex flex-col items-center text-center group cursor-pointer"
-          data-image-src="https://brandingpioneers.co.in/scod/award1.jpg">
+          data-image-src="assets/scod/award1.jpg">
           <div
             class="w-full h-64 flex items-center justify-center p-6 mb-4 rounded-2xl group-hover:shadow-[0_8px_30px_rgb(0,0,0,0.06)] transition-all duration-300 border border-gray-100 group-hover:border-scod/20 bg-white">
-            <img src="https://brandingpioneers.co.in/scod/award1.jpg" alt="Award"
+            <img src="assets/scod/award1.jpg" alt="Award"
               class="max-w-full max-h-full object-contain transition-transform duration-500 group-hover:scale-105">
           </div>
         </div>
         <div
           class="flex-shrink-0 w-[85%] md:w-auto snap-center flex flex-col items-center text-center group cursor-pointer"
-          data-image-src="https://brandingpioneers.co.in/scod/2016.jpg">
+          data-image-src="assets/scod/2016.jpg">
           <div
             class="w-full h-64 flex items-center justify-center p-6 mb-4 rounded-2xl group-hover:shadow-[0_8px_30px_rgb(0,0,0,0.06)] transition-all duration-300 border border-gray-100 group-hover:border-scod/20 bg-white">
-            <img src="https://brandingpioneers.co.in/scod/2016.jpg" alt="2016 Award"
+            <img src="assets/scod/2016.jpg" alt="2016 Award"
               class="max-w-full max-h-full object-contain transition-transform duration-500 group-hover:scale-105">
           </div>
         </div>
         <div
           class="flex-shrink-0 w-[85%] md:w-auto snap-center flex flex-col items-center text-center group cursor-pointer"
-          data-image-src="https://brandingpioneers.co.in/scod/2015.jpg">
+          data-image-src="assets/scod/2015.jpg">
           <div
             class="w-full h-64 flex items-center justify-center p-6 mb-4 rounded-2xl group-hover:shadow-[0_8px_30px_rgb(0,0,0,0.06)] transition-all duration-300 border border-gray-100 group-hover:border-scod/20 bg-white">
-            <img src="https://brandingpioneers.co.in/scod/2015.jpg" alt="2015 Award"
+            <img src="assets/scod/2015.jpg" alt="2015 Award"
               class="max-w-full max-h-full object-contain transition-transform duration-500 group-hover:scale-105">
           </div>
         </div>
@@ -770,7 +770,7 @@
         <div
           class="flex-shrink-0 w-[85%] md:w-full snap-center h-auto break-inside-avoid bg-gray-50 rounded-2xl p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:shadow-xl transition-all duration-300 border border-gray-100 mb-0 md:mb-6">
           <div class="flex items-center space-x-4 mb-4">
-            <img src="https://brandingpioneers.co.in/scod/google_g_icon_download.png" alt="Atul Kumar Singh"
+            <img src="assets/scod/google_g_icon_download.png" alt="Atul Kumar Singh"
               class="w-12 h-12 rounded-full object-cover border-2 border-white shadow-sm">
             <div>
               <h4 class="font-bold text-gray-900 text-sm">Atul Kumar Singh</h4>
@@ -785,7 +785,7 @@
         <div
           class="flex-shrink-0 w-[85%] md:w-full snap-center h-auto break-inside-avoid bg-gray-50 rounded-2xl p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:shadow-xl transition-all duration-300 border border-gray-100 mb-0 md:mb-6">
           <div class="flex items-center space-x-4 mb-4">
-            <img src="https://brandingpioneers.co.in/scod/google_g_icon_download.png" alt="Ujwala B"
+            <img src="assets/scod/google_g_icon_download.png" alt="Ujwala B"
               class="w-12 h-12 rounded-full object-cover border-2 border-white shadow-sm">
             <div>
               <h4 class="font-bold text-gray-900 text-sm">Ujwala B</h4>
@@ -799,7 +799,7 @@
         <div
           class="flex-shrink-0 w-[85%] md:w-full snap-center h-auto break-inside-avoid bg-gray-50 rounded-2xl p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:shadow-xl transition-all duration-300 border border-gray-100 mb-0 md:mb-6">
           <div class="flex items-center space-x-4 mb-4">
-            <img src="https://brandingpioneers.co.in/scod/google_g_icon_download.png" alt="Nazim Saifi"
+            <img src="assets/scod/google_g_icon_download.png" alt="Nazim Saifi"
               class="w-12 h-12 rounded-full object-cover border-2 border-white shadow-sm">
             <div>
               <h4 class="font-bold text-gray-900 text-sm">Nazim Saifi</h4>
@@ -813,7 +813,7 @@
         <div
           class="flex-shrink-0 w-[85%] md:w-full snap-center h-auto break-inside-avoid bg-gray-50 rounded-2xl p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:shadow-xl transition-all duration-300 border border-gray-100 mb-0 md:mb-6">
           <div class="flex items-center space-x-4 mb-4">
-            <img src="https://brandingpioneers.co.in/scod/google_g_icon_download.png" alt="Arif"
+            <img src="assets/scod/google_g_icon_download.png" alt="Arif"
               class="w-12 h-12 rounded-full object-cover border-2 border-white shadow-sm">
             <div>
               <h4 class="font-bold text-gray-900 text-sm">Arif</h4>
@@ -827,7 +827,7 @@
         <div
           class="flex-shrink-0 w-[85%] md:w-full snap-center h-auto break-inside-avoid bg-gray-50 rounded-2xl p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:shadow-xl transition-all duration-300 border border-gray-100 mb-0 md:mb-6">
           <div class="flex items-center space-x-4 mb-4">
-            <img src="https://brandingpioneers.co.in/scod/google_g_icon_download.png" alt="Savita Ranga"
+            <img src="assets/scod/google_g_icon_download.png" alt="Savita Ranga"
               class="w-12 h-12 rounded-full object-cover border-2 border-white shadow-sm">
             <div>
               <h4 class="font-bold text-gray-900 text-sm">Savita Ranga</h4>
@@ -841,7 +841,7 @@
         <div
           class="flex-shrink-0 w-[85%] md:w-full snap-center h-auto break-inside-avoid bg-gray-50 rounded-2xl p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:shadow-xl transition-all duration-300 border border-gray-100 mb-0 md:mb-6">
           <div class="flex items-center space-x-4 mb-4">
-            <img src="https://brandingpioneers.co.in/scod/google_g_icon_download.png" alt="Anuj Gupta"
+            <img src="assets/scod/google_g_icon_download.png" alt="Anuj Gupta"
               class="w-12 h-12 rounded-full object-cover border-2 border-white shadow-sm">
             <div>
               <h4 class="font-bold text-gray-900 text-sm">Anuj Gupta</h4>
@@ -855,7 +855,7 @@
         <div
           class="flex-shrink-0 w-[85%] md:w-full snap-center h-auto break-inside-avoid bg-gray-50 rounded-2xl p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:shadow-xl transition-all duration-300 border border-gray-100 mb-0 md:mb-6">
           <div class="flex items-center space-x-4 mb-4">
-            <img src="https://brandingpioneers.co.in/scod/google_g_icon_download.png" alt="Parkash Raina"
+            <img src="assets/scod/google_g_icon_download.png" alt="Parkash Raina"
               class="w-12 h-12 rounded-full object-cover border-2 border-white shadow-sm">
             <div>
               <h4 class="font-bold text-gray-900 text-sm">Parkash Raina</h4>
@@ -869,7 +869,7 @@
         <div
           class="flex-shrink-0 w-[85%] md:w-full snap-center h-auto break-inside-avoid bg-gray-50 rounded-2xl p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:shadow-xl transition-all duration-300 border border-gray-100 mb-0 md:mb-6">
           <div class="flex items-center space-x-4 mb-4">
-            <img src="https://brandingpioneers.co.in/scod/google_g_icon_download.png" alt="Kaushal Suraj"
+            <img src="assets/scod/google_g_icon_download.png" alt="Kaushal Suraj"
               class="w-12 h-12 rounded-full object-cover border-2 border-white shadow-sm">
             <div>
               <h4 class="font-bold text-gray-900 text-sm">Kaushal Suraj</h4>
@@ -883,7 +883,7 @@
         <div
           class="flex-shrink-0 w-[85%] md:w-full snap-center h-auto break-inside-avoid bg-gray-50 rounded-2xl p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:shadow-xl transition-all duration-300 border border-gray-100 mb-0 md:mb-6">
           <div class="flex items-center space-x-4 mb-4">
-            <img src="https://brandingpioneers.co.in/scod/google_g_icon_download.png" alt="Tribhuvan"
+            <img src="assets/scod/google_g_icon_download.png" alt="Tribhuvan"
               class="w-12 h-12 rounded-full object-cover border-2 border-white shadow-sm">
             <div>
               <h4 class="font-bold text-gray-900 text-sm">Tribhuvan</h4>
@@ -897,7 +897,7 @@
         <div
           class="flex-shrink-0 w-[85%] md:w-full snap-center h-auto break-inside-avoid bg-gray-50 rounded-2xl p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:shadow-xl transition-all duration-300 border border-gray-100 mb-0 md:mb-6">
           <div class="flex items-center space-x-4 mb-4">
-            <img src="https://brandingpioneers.co.in/scod/google_g_icon_download.png" alt="IxRxMADARA"
+            <img src="assets/scod/google_g_icon_download.png" alt="IxRxMADARA"
               class="w-12 h-12 rounded-full object-cover border-2 border-white shadow-sm">
             <div>
               <h4 class="font-bold text-gray-900 text-sm">IxRxMADARA</h4>
@@ -911,7 +911,7 @@
         <div
           class="flex-shrink-0 w-[85%] md:w-full snap-center h-auto break-inside-avoid bg-gray-50 rounded-2xl p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:shadow-xl transition-all duration-300 border border-gray-100 mb-0 md:mb-6">
           <div class="flex items-center space-x-4 mb-4">
-            <img src="https://brandingpioneers.co.in/scod/google_g_icon_download.png" alt="Alisha Khan"
+            <img src="assets/scod/google_g_icon_download.png" alt="Alisha Khan"
               class="w-12 h-12 rounded-full object-cover border-2 border-white shadow-sm">
             <div>
               <h4 class="font-bold text-gray-900 text-sm">Alisha Khan</h4>
@@ -925,7 +925,7 @@
         <div
           class="flex-shrink-0 w-[85%] md:w-full snap-center h-auto break-inside-avoid bg-gray-50 rounded-2xl p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:shadow-xl transition-all duration-300 border border-gray-100 mb-0 md:mb-6">
           <div class="flex items-center space-x-4 mb-4">
-            <img src="https://brandingpioneers.co.in/scod/google_g_icon_download.png" alt="Parkash Raina"
+            <img src="assets/scod/google_g_icon_download.png" alt="Parkash Raina"
               class="w-12 h-12 rounded-full object-cover border-2 border-white shadow-sm">
             <div>
               <h4 class="font-bold text-gray-900 text-sm">Parkash Raina</h4>

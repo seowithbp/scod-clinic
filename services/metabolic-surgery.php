@@ -41,7 +41,7 @@
     <!-- HERO SECTION -->
     <section class="relative h-[500px] flex items-center bg-gray-900 text-white overflow-hidden">
         <div class="absolute inset-0 z-0">
-            <img src="https://brandingpioneers.co.in/scod/scod-breadcrumbs/Medical Metabolic Management.webp"
+            <img src="/assets/scod/scod-breadcrumbs/Medical Metabolic Management.webp"
                 alt="Medical Management" class="w-full h-full object-cover object-center opacity-40">
             <div class="absolute inset-0 bg-gradient-to-r from-scod/95 via-scod/80 to-transparent"></div>
         </div>

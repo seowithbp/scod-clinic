@@ -42,7 +42,7 @@
     <!-- HERO SECTION -->
     <section class="relative h-[500px] flex items-center bg-gray-900 text-white overflow-hidden">
         <div class="absolute inset-0 z-0">
-            <img src="https://brandingpioneers.co.in/scod/scod-breadcrumbs/Body Contouring.webp" alt="Body Contouring"
+            <img src="/assets/scod/scod-breadcrumbs/Body Contouring.webp" alt="Body Contouring"
                 class="w-full h-full object-cover object-center">
             <div class="absolute inset-0 bg-gradient-to-r from-scod/95 via-scod/80 to-transparent"></div>
         </div>
@@ -191,14 +191,14 @@
                         <div
                             class="absolute top-4 left-4 bg-black/70 text-white px-3 py-1 rounded-full text-sm font-bold z-10">
                             Before</div>
-                        <img id="gallery-before" src="https://brandingpioneers.co.in/scod/patient3-scod.webp"
+                        <img id="gallery-before" src="/assets/scod/patient3-scod.webp"
                             alt="Before" class="w-full h-80 object-cover rounded-2xl shadow-lg border border-gray-100">
                     </div>
                     <div class="relative group">
                         <div
                             class="absolute top-4 left-4 bg-scod text-white px-3 py-1 rounded-full text-sm font-bold z-10">
                             After</div>
-                        <img id="gallery-after" src="https://brandingpioneers.co.in/scod/patient2-scod.webp" alt="After"
+                        <img id="gallery-after" src="/assets/scod/patient2-scod.webp" alt="After"
                             class="w-full h-80 object-cover rounded-2xl shadow-lg border border-gray-100">
                     </div>
                 </div>
@@ -222,7 +222,7 @@
                 <div class="lg:col-span-5 relative">
                     <div
                         class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white h-[400px] lg:h-[500px] z-10">
-                        <img src="https://brandingpioneers.co.in/scod/dr-arush-final-image.png"
+                        <img src="/assets/scod/dr-arush-final-image.png"
                             alt="Dr. Arush Sabharwal" class="w-full h-full object-cover object-top">
                     </div>
                 </div>
@@ -388,7 +388,7 @@
                 indications: "Hanging abdominal skin (pannus), separated muscles (diastasis recti), and rashes/infections in skin folds.",
                 benefits: "Improved posture, relief from back pain, better fitting clothes, and elimination of skin irritation.",
                 recovery: "2-4 weeks off work. Strict avoidance of heavy lifting for 6 weeks. Compression garment worn for 6-8 weeks.",
-                image: "https://brandingpioneers.co.in/scod/treatment/body contouring/Abdominoplasty (Tummy Tuck).webp"
+                image: "/assets/scod/treatment/body contouring/Abdominoplasty (Tummy Tuck).webp"
             },
             breast: {
                 title: "Breast Procedures",
@@ -397,7 +397,7 @@
                 indications: "Ptosis (sagging) due to weight loss, loss of breast volume, or asymmetry.",
                 benefits: "Restored feminine contour, improved breast shape and projection, and youthful appearance.",
                 recovery: "1-2 weeks off work. Avoid upper body exercise for 4-6 weeks.",
-                image: "https://brandingpioneers.co.in/scod/treatment/body contouring/Breast Procedures.webp"
+                image: "/assets/scod/treatment/body contouring/Breast Procedures.webp"
             },
             limbs: {
                 title: "Arm & Thigh Lifts",
@@ -406,7 +406,7 @@
                 indications: "'Bat wings' on arms or rubbing/chaffing of inner thighs causing difficulty in walking.",
                 benefits: "Toned appearance, ability to wear sleeveless tops, and improved comfort during movement.",
                 recovery: "2-3 weeks. Compression garments are essential to minimize swelling.",
-                image: "https://brandingpioneers.co.in/scod/treatment/body contouring/Arm & Thigh Lifts.webp"
+                image: "/assets/scod/treatment/body contouring/Arm & Thigh Lifts.webp"
             },
             lipo: {
                 title: "Liposuction Adjunct",
@@ -415,7 +415,7 @@
                 indications: "Localized fat pockets that persist despite weight loss, often in the flanks, hips, or knees.",
                 benefits: "Smoother contours and better definition when combined with lifting procedures.",
                 recovery: "Varies, but usually shorter than excisional surgery. 3-5 days for small areas.",
-                image: "https://brandingpioneers.co.in/scod/treatment/body contouring/Liposuction Adjunct.webp"
+                image: "/assets/scod/treatment/body contouring/Liposuction Adjunct.webp"
             }
         };
         const generalFaqs = [
@@ -662,8 +662,8 @@
         }
         // Gallery Data & Logic (Keeping existing logic but integrated)
         const galleryImages = [
-            { before: "https://brandingpioneers.co.in/scod/patient3-scod.webp", after: "https://brandingpioneers.co.in/scod/patient2-scod.webp", label: "Tummy Tuck" },
-            { before: "https://brandingpioneers.co.in/scod/patient4-scod.webp", after: "https://brandingpioneers.co.in/scod/patient5-scod.webp", label: "Body Lift" }
+            { before: "/assets/scod/patient3-scod.webp", after: "/assets/scod/patient2-scod.webp", label: "Tummy Tuck" },
+            { before: "/assets/scod/patient4-scod.webp", after: "/assets/scod/patient5-scod.webp", label: "Body Lift" }
         ];
         let galleryIndex = 0;
         const beforeImg = document.getElementById('gallery-before');
