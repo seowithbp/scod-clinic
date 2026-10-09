@@ -4,7 +4,7 @@ $is_home = false;
 $page_title = 'Can Bariatric Surgery Reverse Diabetes? {Surgeon Guide}';
 $meta_title = 'Can Bariatric Surgery Reverse Diabetes? | SCOD Clinic';
 $meta_description = 'Can bariatric surgery reverse Type 2 diabetes? Discover remission rates, hormonal mechanisms, long-term blood sugar control, and metabolic insights at SCOD Clinic.';
-$canonical_url = 'https://scodclinic.com/blog/can-bariatric-surgery-reverse-diabetes/';
+$canonical_url = 'https://scodclinic.com/blog/can-bariatric-surgery-reverse-diabetes';
 $meta_robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 $og_image = 'https://scodclinic.com/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg';
 include __DIR__ . '/../includes/header.php';
@@ -17,7 +17,7 @@ include __DIR__ . '/../includes/header.php';
       "@type": "BlogPosting",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://scodclinic.com/blog/can-bariatric-surgery-reverse-diabetes/"
+        "@id": "https://scodclinic.com/blog/can-bariatric-surgery-reverse-diabetes"
       },
       "headline": "Can Bariatric Surgery Reverse Diabetes?",
       "description": "Can bariatric surgery reverse Type 2 diabetes? Discover remission rates, hormonal mechanisms, long-term blood sugar control, and metabolic insights at SCOD Clinic.",

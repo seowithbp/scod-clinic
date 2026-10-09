@@ -4,7 +4,7 @@ $is_home = false;
 $page_title = 'How Do You Lose Weight After Bariatric Surgery?';
 $meta_title = 'How Do You Lose Weight After Bariatric Surgery? | SCOD Clinic';
 $meta_description = 'Discover how weight loss happens after bariatric surgery, dietary phases, metabolic changes, exercise recommendations, and key recovery tips from SCOD Clinic.';
-$canonical_url = 'https://scodclinic.com/blog/how-do-you-lose-weight-after-bariatric-surgery/';
+$canonical_url = 'https://scodclinic.com/blog/how-do-you-lose-weight-after-bariatric-surgery';
 $meta_robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 $og_image = 'https://scodclinic.com/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg';
 include __DIR__ . '/../includes/header.php';
@@ -17,7 +17,7 @@ include __DIR__ . '/../includes/header.php';
       "@type": "BlogPosting",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://scodclinic.com/blog/how-do-you-lose-weight-after-bariatric-surgery/"
+        "@id": "https://scodclinic.com/blog/how-do-you-lose-weight-after-bariatric-surgery"
       },
       "headline": "How Do You Lose Weight After Bariatric Surgery?",
       "description": "Discover how weight loss happens after bariatric surgery, dietary phases, metabolic changes, exercise recommendations, and key recovery tips from SCOD Clinic.",

@@ -4,7 +4,7 @@ $is_home = false;
 $page_title = 'Top 10 Bariatric Surgeons in Delhi {2026 Guide}';
 $meta_title = 'Top 10 Bariatric Surgeons in Delhi (2026 Guide) | SCOD Clinic';
 $meta_description = 'Looking for the best bariatric surgeon in Delhi? Explore our guide to top weight loss surgeons, key criteria, patient reviews, and expert insights from SCOD Clinic.';
-$canonical_url = 'https://scodclinic.com/blog/top-10-bariatric-surgeons-in-delhi/';
+$canonical_url = 'https://scodclinic.com/blog/top-10-bariatric-surgeons-in-delhi';
 $meta_robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 $og_image = 'https://scodclinic.com/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg';
 include __DIR__ . '/../includes/header.php';
@@ -17,7 +17,7 @@ include __DIR__ . '/../includes/header.php';
       "@type": "BlogPosting",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://scodclinic.com/blog/top-10-bariatric-surgeons-in-delhi/"
+        "@id": "https://scodclinic.com/blog/top-10-bariatric-surgeons-in-delhi"
       },
       "headline": "Top 10 Bariatric Surgeons in Delhi (2026 Guide)",
       "description": "Looking for the best bariatric surgeon in Delhi? Explore our guide to top weight loss surgeons, key criteria, patient reviews, and expert insights from SCOD Clinic.",

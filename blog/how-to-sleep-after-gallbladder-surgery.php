@@ -4,7 +4,7 @@ $is_home = false;
 $page_title = 'How to Sleep after Gallbladder Surgery?';
 $meta_title = 'How to Sleep after Gallbladder Surgery? | SCOD Clinic';
 $meta_description = 'Learn how to sleep after gallbladder surgery safely. Discover best sleeping positions, when to sleep on side/right side, recovery tips, and expert surgical advice.';
-$canonical_url = 'https://scodclinic.com/blog/how-to-sleep-after-gallbladder-surgery/';
+$canonical_url = 'https://scodclinic.com/blog/how-to-sleep-after-gallbladder-surgery';
 $meta_robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 $og_image = 'https://scodclinic.com/blog/media/images/how-to-sleep-after-gallbladder-surgery.jpg';
 include __DIR__ . '/../includes/header.php';
@@ -17,7 +17,7 @@ include __DIR__ . '/../includes/header.php';
       "@type": "BlogPosting",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://scodclinic.com/blog/how-to-sleep-after-gallbladder-surgery/"
+        "@id": "https://scodclinic.com/blog/how-to-sleep-after-gallbladder-surgery"
       },
       "headline": "How to Sleep after Gallbladder Surgery?",
       "description": "Learn how to sleep after gallbladder surgery safely. Discover best sleeping positions, when to sleep on side/right side, recovery tips, and expert surgical advice.",

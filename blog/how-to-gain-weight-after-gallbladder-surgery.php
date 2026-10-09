@@ -4,7 +4,7 @@ $is_home = false;
 $page_title = 'How to Gain Weight After Gallbladder Surgery?';
 $meta_title = 'How to Gain Weight After Gallbladder Surgery? | SCOD Clinic';
 $meta_description = 'Struggling with post-cholecystectomy weight loss? Learn how to gain weight after gallbladder surgery safely with nutrient-dense foods, diet tips, and expert advice.';
-$canonical_url = 'https://scodclinic.com/blog/how-to-gain-weight-after-gallbladder-surgery/';
+$canonical_url = 'https://scodclinic.com/blog/how-to-gain-weight-after-gallbladder-surgery';
 $meta_robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 $og_image = 'https://scodclinic.com/blog/media/images/how-to-gain-weight-after-gallbladder-surgery.jpg';
 include __DIR__ . '/../includes/header.php';
@@ -17,7 +17,7 @@ include __DIR__ . '/../includes/header.php';
       "@type": "BlogPosting",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://scodclinic.com/blog/how-to-gain-weight-after-gallbladder-surgery/"
+        "@id": "https://scodclinic.com/blog/how-to-gain-weight-after-gallbladder-surgery"
       },
       "headline": "How to Gain Weight After Gallbladder Surgery?",
       "description": "Struggling with post-cholecystectomy weight loss? Learn how to gain weight after gallbladder surgery safely with nutrient-dense foods, diet tips, and expert advice.",

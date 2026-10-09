@@ -4,7 +4,7 @@ $is_home = false;
 $page_title = 'How Does Gastric Bypass Work?';
 $meta_title = 'How Does Gastric Bypass Work? | SCOD Clinic';
 $meta_description = 'Learn how gastric bypass surgery works step-by-step, stomach pouch creation, malabsorption mechanisms, weight loss outcomes, and clinical benefits at SCOD Clinic.';
-$canonical_url = 'https://scodclinic.com/blog/how-does-gastric-bypass-work/';
+$canonical_url = 'https://scodclinic.com/blog/how-does-gastric-bypass-work';
 $meta_robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 $og_image = 'https://scodclinic.com/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg';
 include __DIR__ . '/../includes/header.php';
@@ -17,7 +17,7 @@ include __DIR__ . '/../includes/header.php';
       "@type": "BlogPosting",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://scodclinic.com/blog/how-does-gastric-bypass-work/"
+        "@id": "https://scodclinic.com/blog/how-does-gastric-bypass-work"
       },
       "headline": "How Does Gastric Bypass Work?",
       "description": "Learn how gastric bypass surgery works step-by-step, stomach pouch creation, malabsorption mechanisms, weight loss outcomes, and clinical benefits at SCOD Clinic.",

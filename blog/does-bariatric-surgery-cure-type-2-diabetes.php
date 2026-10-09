@@ -4,7 +4,7 @@ $is_home = false;
 $page_title = 'Does Bariatric Surgery Cure Type 2 Diabetes?';
 $meta_title = 'Does Bariatric Surgery Cure Type 2 Diabetes? | SCOD Clinic';
 $meta_description = 'Explore whether bariatric surgery cures Type 2 diabetes, long-term remission evidence, surgical mechanisms, and clinical insights at SCOD Clinic.';
-$canonical_url = 'https://scodclinic.com/blog/does-bariatric-surgery-cure-type-2-diabetes/';
+$canonical_url = 'https://scodclinic.com/blog/does-bariatric-surgery-cure-type-2-diabetes';
 $meta_robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 $og_image = 'https://scodclinic.com/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg';
 include __DIR__ . '/../includes/header.php';
@@ -17,7 +17,7 @@ include __DIR__ . '/../includes/header.php';
       "@type": "BlogPosting",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://scodclinic.com/blog/does-bariatric-surgery-cure-type-2-diabetes/"
+        "@id": "https://scodclinic.com/blog/does-bariatric-surgery-cure-type-2-diabetes"
       },
       "headline": "Does Bariatric Surgery Cure Type 2 Diabetes?",
       "description": "Explore whether bariatric surgery cures Type 2 diabetes, long-term remission evidence, surgical mechanisms, and clinical insights at SCOD Clinic.",

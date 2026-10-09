@@ -4,7 +4,7 @@ $is_home = false;
 $page_title = 'How Long Does Laparoscopic Appendectomy Surgery Take?';
 $meta_title = 'How Long Does Laparoscopic Appendectomy Surgery Take? | SCOD Clinic';
 $meta_description = 'Learn how long a laparoscopic appendectomy takes (30-60 mins), procedure timeline, recovery steps, hospital stay, and expert surgical advice from SCOD Clinic.';
-$canonical_url = 'https://scodclinic.com/blog/how-long-does-laparoscopic-appendectomy-surgery-take/';
+$canonical_url = 'https://scodclinic.com/blog/how-long-does-laparoscopic-appendectomy-surgery-take';
 $meta_robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 $og_image = 'https://scodclinic.com/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg';
 include __DIR__ . '/../includes/header.php';
@@ -17,7 +17,7 @@ include __DIR__ . '/../includes/header.php';
       "@type": "BlogPosting",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://scodclinic.com/blog/how-long-does-laparoscopic-appendectomy-surgery-take/"
+        "@id": "https://scodclinic.com/blog/how-long-does-laparoscopic-appendectomy-surgery-take"
       },
       "headline": "How Long Does Laparoscopic Appendectomy Surgery Take?",
       "description": "Learn how long a laparoscopic appendectomy takes (30-60 mins), procedure timeline, recovery steps, hospital stay, and expert surgical advice from SCOD Clinic.",

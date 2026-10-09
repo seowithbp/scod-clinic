@@ -4,7 +4,7 @@ $is_home = false;
 $page_title = 'What is the Normal Size of Appendix? {Complete Guide}';
 $meta_title = 'What is the Normal Size of Appendix? {Complete Guide} | SCOD Clinic';
 $meta_description = 'Wondering what is the normal size of appendix? Learn normal appendix dimensions in mm and cm in adults, ultrasound & CT ranges, signs of enlargement, and expert advice.';
-$canonical_url = 'https://scodclinic.com/blog/what-is-the-normal-size-of-appendix/';
+$canonical_url = 'https://scodclinic.com/blog/what-is-the-normal-size-of-appendix';
 $meta_robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 $og_image = 'https://scodclinic.com/blog/media/images/what-is-the-normal-size-of-appendix.jpg';
 include __DIR__ . '/../includes/header.php';
@@ -17,7 +17,7 @@ include __DIR__ . '/../includes/header.php';
       "@type": "BlogPosting",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://scodclinic.com/blog/what-is-the-normal-size-of-appendix/"
+        "@id": "https://scodclinic.com/blog/what-is-the-normal-size-of-appendix"
       },
       "headline": "What is the Normal Size of Appendix? {Complete Guide}",
       "description": "Comprehensive medical guide explaining what is the normal size of appendix in mm and cm in adults, diagnostic imaging cutoffs, and when appendix enlargement requires medical attention.",

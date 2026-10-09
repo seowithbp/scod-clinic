@@ -4,7 +4,7 @@ $is_home = false;
 $page_title = 'Is Ozempic Used for Weight Loss? {Key Insights}';
 $meta_title = 'Is Ozempic Used for Weight Loss? (Key Insights & Facts) | SCOD Clinic';
 $meta_description = 'Is Ozempic effective for weight loss? Learn how semaglutide works, dosage, side effects, comparison with Wegovy and bariatric options at SCOD Clinic.';
-$canonical_url = 'https://scodclinic.com/blog/is-ozempic-used-for-weight-loss/';
+$canonical_url = 'https://scodclinic.com/blog/is-ozempic-used-for-weight-loss';
 $meta_robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 $og_image = 'https://scodclinic.com/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg';
 include __DIR__ . '/../includes/header.php';
@@ -17,7 +17,7 @@ include __DIR__ . '/../includes/header.php';
       "@type": "BlogPosting",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://scodclinic.com/blog/is-ozempic-used-for-weight-loss/"
+        "@id": "https://scodclinic.com/blog/is-ozempic-used-for-weight-loss"
       },
       "headline": "Is Ozempic Used for Weight Loss?",
       "description": "Is Ozempic effective for weight loss? Learn how semaglutide works, dosage, side effects, comparison with Wegovy and bariatric options at SCOD Clinic.",
