@@ -31,6 +31,56 @@ include __DIR__ . '/../includes/header.php';
     <!-- Blog Grid -->
     <main class="max-w-7xl mx-auto px-4 py-12 md:py-16">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Blog Card: What to Eat after Appendix Surgery? -->
+            <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="laparoscopic recovery">
+                <div class="relative aspect-video overflow-hidden bg-blue-50">
+                    <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-xs font-bold text-gray-600 uppercase tracking-wider border shadow-sm z-10">Laparoscopic</div>
+                    <img src="/blog/media/images/what-to-eat-after-appendix-surgery.jpg" alt="What to Eat after Appendix Surgery?" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center gap-3 text-xs text-gray-400 font-semibold uppercase tracking-wider mb-4">
+                        <i data-feather="calendar" class="w-3 h-3"></i>
+                        October 9, 2026
+                    </div>
+                    <h2 class="text-xl font-bold text-gray-900 mb-3 hover:text-scod transition-colors">
+                        <a href="/blog/what-to-eat-after-appendix-surgery">What to Eat after Appendix Surgery?</a>
+                    </h2>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-3">Wondering what to eat after appendix surgery? Discover the best foods to eat, foods to avoid, a 4-phase recovery diet plan, FAQs, and expert advice from Dr. Arush Sabharwal.</p>
+                    <div class="flex justify-between items-center pt-4 border-t border-gray-100">
+                        <span class="text-xs text-gray-400 font-bold uppercase tracking-wider">By SCOD Clinic</span>
+                        <a href="/blog/what-to-eat-after-appendix-surgery" class="flex items-center gap-2 text-scod text-sm font-semibold hover:text-blue-700 transition-colors">
+                            Read More
+                            <i data-feather="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Blog Card: How is Gastric Bypass Surgery more effective than Other Procedures? -->
+            <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="bariatric-surgery">
+                <div class="relative aspect-video overflow-hidden bg-blue-50">
+                    <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-xs font-bold text-gray-600 uppercase tracking-wider border shadow-sm z-10">Bariatric Surgery</div>
+                    <img src="/blog/media/images/how-is-gastric-bypass-surgery-more-effective-than-other-procedures.jpg" alt="How is Gastric Bypass Surgery more effective than Other Procedures?" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center gap-3 text-xs text-gray-400 font-semibold uppercase tracking-wider mb-4">
+                        <i data-feather="calendar" class="w-3 h-3"></i>
+                        October 6, 2026
+                    </div>
+                    <h2 class="text-xl font-bold text-gray-900 mb-3 hover:text-scod transition-colors">
+                        <a href="/blog/how-is-gastric-bypass-surgery-more-effective-than-other-procedures">How is Gastric Bypass Surgery more effective than Other Procedures?</a>
+                    </h2>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-3">Discover why Roux-en-Y gastric bypass surgery is considered the gold standard in bariatric surgery, comparing its effectiveness, diabetes remission, and weight loss to other procedures.</p>
+                    <div class="flex justify-between items-center pt-4 border-t border-gray-100">
+                        <span class="text-xs text-gray-400 font-bold uppercase tracking-wider">By SCOD Clinic</span>
+                        <a href="/blog/how-is-gastric-bypass-surgery-more-effective-than-other-procedures" class="flex items-center gap-2 text-scod text-sm font-semibold hover:text-blue-700 transition-colors">
+                            Read More
+                            <i data-feather="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
             <!-- Blog Card: Why is My Stomach Bigger after Hernia Surgery? -->
             <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="laparoscopic">
                 <div class="relative aspect-video overflow-hidden bg-blue-50">
