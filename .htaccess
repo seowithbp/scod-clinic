@@ -1,5 +1,9 @@
 RewriteEngine On
 
+# Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
 # 301 Redirection Rules
 RewriteRule ^blog/rabochie-zerkala-kazino-vavada-dlia-dostupa-k-igram/?$ /blog/ [R=301,L]
 RewriteRule ^blog/aplikacja-vavada-dla-graczy-mobilnych-w-2026-roku/?$ /blog/ [R=301,L]
