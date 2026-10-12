@@ -10,9 +10,9 @@ if (!isset($location) || !isset($slug)) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Bariatric Surgeon in <?php echo htmlspecialchars($location); ?> | Dr. Arush Sabharwal</title>
+    <title>Bariatric Surgeon in <?php echo htmlspecialchars($location); ?> | Dr. Arush Sabharwal</title>
     <meta name="description"
-        content="Seeking the best bariatric surgeon in <?php echo htmlspecialchars($location); ?>? Dr. Arush Sabharwal offers advanced weight loss surgery, safe procedures, and personalized bariatric care.">
+        content="Seeking an experienced bariatric surgeon in <?php echo htmlspecialchars($location); ?>? Dr. Arush Sabharwal offers advanced weight loss surgery, safe procedures, and personalized bariatric care.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700;800&display=swap"
@@ -92,7 +92,7 @@ if (!isset($location) || !isset($slug)) {
     "name": "How much weight can a person lose after Bariatric Surgery?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Most patients lose around 50–70% of their excess weight within the first 12–18 months after surgery. The exact results depend on the type of procedure, lifestyle changes, and follow-up care provided by a Top Bariatric Surgeon in <?php echo htmlspecialchars($location); ?>."
+      "text": "Most patients lose around 50–70% of their excess weight within the first 12–18 months after surgery. The exact results depend on the type of procedure, lifestyle changes, and follow-up care provided by a experienced Bariatric Surgeon in <?php echo htmlspecialchars($location); ?>."
     }
   },{
     "@type": "Question",
@@ -106,7 +106,7 @@ if (!isset($location) || !isset($slug)) {
     "name": "How long does it take to recover after Bariatric Surgery?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Recovery time varies depending on the procedure and the patient’s overall health. Most patients can return to light activities within 1–2 weeks, while full recovery may take a few weeks. Proper guidance from a Top Bariatric Surgeon in <?php echo htmlspecialchars($location); ?> helps ensure a smooth recovery."
+      "text": "Recovery time varies depending on the procedure and the patient’s overall health. Most patients can return to light activities within 1–2 weeks, while full recovery may take a few weeks. Proper guidance from a experienced Bariatric Surgeon in <?php echo htmlspecialchars($location); ?> helps ensure a smooth recovery."
     }
   },{
     "@type": "Question",
@@ -124,10 +124,10 @@ if (!isset($location) || !isset($slug)) {
     }
   },{
     "@type": "Question",
-    "name": "Why Dr. Arush Sabharwal is the Best Bariatric Surgeon in <?php echo htmlspecialchars($location); ?>?",
+    "name": "Why choose Dr. Arush Sabharwal for Bariatric Surgery in <?php echo htmlspecialchars($location); ?>?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Dr. Arush Sabharwal is recognized as a Top Bariatric Surgeon in <?php echo htmlspecialchars($location); ?> because of his extensive experience in treating obesity and performing advanced weight loss procedures. With more than 15 years of experience, he specializes in modern and minimally invasive techniques that support safe surgery and faster recovery."
+      "text": "Dr. Arush Sabharwal is recognized as a experienced Bariatric Surgeon in <?php echo htmlspecialchars($location); ?> because of his extensive experience in treating obesity and performing advanced weight loss procedures. With more than 15 years of experience, he specializes in modern and minimally invasive techniques that support safe surgery and faster recovery."
     }
   }]
 }
@@ -757,7 +757,7 @@ include __DIR__ . '/../includes/header.php';
     },
     { 
         q: "How much weight can a person lose after Bariatric Surgery?", 
-        a: "Most patients lose around 50–70% of their excess weight within the first 12–18 months after surgery. The exact results depend on the type of procedure, lifestyle changes, and follow-up care provided by a Top Bariatric Surgeon in <?php echo htmlspecialchars($location); ?>." 
+        a: "Most patients lose around 50–70% of their excess weight within the first 12–18 months after surgery. The exact results depend on the type of procedure, lifestyle changes, and follow-up care provided by a experienced Bariatric Surgeon in <?php echo htmlspecialchars($location); ?>." 
     },
     { 
         q: "Is Bariatric Surgery safe?", 
@@ -765,7 +765,7 @@ include __DIR__ . '/../includes/header.php';
     },
     { 
         q: "How long does it take to recover after Bariatric Surgery?", 
-        a: "Recovery time varies depending on the procedure and the patient’s overall health. Most patients can return to light activities within 1–2 weeks, while full recovery may take a few weeks. Proper guidance from a Top Bariatric Surgeon in <?php echo htmlspecialchars($location); ?> helps ensure a smooth recovery." 
+        a: "Recovery time varies depending on the procedure and the patient’s overall health. Most patients can return to light activities within 1–2 weeks, while full recovery may take a few weeks. Proper guidance from a experienced Bariatric Surgeon in <?php echo htmlspecialchars($location); ?> helps ensure a smooth recovery." 
     },
     { 
         q: "Will I need to follow a special diet after Bariatric Surgery?", 
@@ -776,8 +776,8 @@ include __DIR__ . '/../includes/header.php';
         a: "Yes, bariatric surgery can significantly improve or even resolve several obesity-related conditions such as type 2 diabetes, high blood pressure, sleep apnea, and joint pain. Many patients undergoing Bariatric Surgery in <?php echo htmlspecialchars($location); ?> experience improved overall health and quality of life." 
     },
     { 
-        q: "Why Dr. Arush Sabharwal is the Best Bariatric Surgeon in <?php echo htmlspecialchars($location); ?>?", 
-        a: "Dr. Arush Sabharwal is recognized as a Top Bariatric Surgeon in <?php echo htmlspecialchars($location); ?> because of his extensive experience in treating obesity and performing advanced weight loss procedures. With more than 15 years of experience, he specializes in modern and minimally invasive techniques that support safe surgery and faster recovery." 
+        q: "Why choose Dr. Arush Sabharwal for Bariatric Surgery in <?php echo htmlspecialchars($location); ?>?", 
+        a: "Dr. Arush Sabharwal is recognized as a experienced Bariatric Surgeon in <?php echo htmlspecialchars($location); ?> because of his extensive experience in treating obesity and performing advanced weight loss procedures. With more than 15 years of experience, he specializes in modern and minimally invasive techniques that support safe surgery and faster recovery." 
     }
 ];
         // Feather Icons

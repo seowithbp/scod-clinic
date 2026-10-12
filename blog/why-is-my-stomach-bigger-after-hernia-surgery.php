@@ -22,9 +22,9 @@ include __DIR__ . '/../includes/header.php';
       "description": "Comprehensive medical guide explaining why stomach swelling after hernia surgery occurs, distinguishing between normal post-op bloating, seromas, hematomas, and signs of recurrence.",
       "image": "https://scodclinic.com/blog/media/images/why-is-my-stomach-bigger-after-hernia-surgery.jpg",
       "author": {
-        "@type": "Person",
-        "name": "Dr. Arush Sabharwal",
-        "url": "https://scodclinic.com/about"
+        "@type": "Organization",
+        "name": "SCOD Clinic",
+        "url": "https://scodclinic.com"
       },
       "publisher": {
         "@type": "Organization",
@@ -145,6 +145,7 @@ include __DIR__ . '/../includes/header.php';
             <!-- Featured Image -->
             <figure class="mb-10">
                 <img src="/blog/media/images/why-is-my-stomach-bigger-after-hernia-surgery.jpg" alt="Why is My Stomach Bigger after Hernia Surgery? {2026 Guide}" class="w-full rounded-2xl shadow-lg">
+                <figcaption class="text-xs text-gray-500 mt-2 text-center italic"><span class="font-semibold text-gray-600">[AI-Generated Illustration]</span> Intended for general educational/representational purposes only; not actual surgical photography or diagnostic imaging.</figcaption>
             </figure>
 
             <!-- Article Content -->

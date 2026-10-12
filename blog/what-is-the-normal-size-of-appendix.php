@@ -23,9 +23,9 @@ include __DIR__ . '/../includes/header.php';
       "description": "Comprehensive medical guide explaining what is the normal size of appendix in mm and cm in adults, diagnostic imaging cutoffs, and when appendix enlargement requires medical attention.",
       "image": "https://scodclinic.com/blog/media/images/what-is-the-normal-size-of-appendix.jpg",
       "author": {
-        "@type": "Person",
-        "name": "Dr. Arush Sabharwal",
-        "url": "https://scodclinic.com/about"
+        "@type": "Organization",
+        "name": "SCOD Clinic",
+        "url": "https://scodclinic.com"
       },
       "publisher": {
         "@type": "Organization",
@@ -150,7 +150,7 @@ include __DIR__ . '/../includes/header.php';
             <!-- Featured Image -->
             <figure class="mb-10">
                 <img src="/blog/media/images/what-is-the-normal-size-of-appendix.jpg" alt="What is the Normal Size of Appendix? Complete Guide" class="w-full rounded-2xl shadow-lg">
-                <figcaption class="text-xs text-gray-500 mt-2 text-center">Anatomy of the human appendix and cecum illustrating normal dimensions and position.</figcaption>
+                <figcaption class="text-xs text-gray-500 mt-2 text-center italic"><span class="font-semibold text-gray-600">[AI-Generated Illustration]</span> Intended for general educational/representational purposes only; not actual surgical photography or diagnostic imaging.</figcaption>
             </figure>
 
             <!-- Article Content -->

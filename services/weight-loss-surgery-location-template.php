@@ -124,7 +124,7 @@ if (!isset($location) || !isset($slug)) {
     }
   },{
     "@type": "Question",
-    "name": "Why Dr. Arush Sabharwal is the Best Weight Loss Surgeon in <?php echo htmlspecialchars($location); ?>?",
+    "name": "Why choose Dr. Arush Sabharwal for Weight Loss Surgery in <?php echo htmlspecialchars($location); ?>?",
     "acceptedAnswer": {
       "@type": "Answer",
       "text": "Dr. Arush Sabharwal is recognized as a Top Weight Loss Surgeon in <?php echo htmlspecialchars($location); ?> because of his extensive experience in treating obesity and performing advanced weight loss procedures. With more than 15 years of experience, he specializes in modern and minimally invasive techniques that support safe surgery and faster recovery."
@@ -776,7 +776,7 @@ include __DIR__ . '/../includes/header.php';
         a: "Yes, weight loss surgery can significantly improve or even resolve several obesity-related conditions such as type 2 diabetes, high blood pressure, sleep apnea, and joint pain. Many patients undergoing Weight Loss Surgery in <?php echo htmlspecialchars($location); ?> experience improved overall health and quality of life." 
     },
     { 
-        q: "Why Dr. Arush Sabharwal is the Best Weight Loss Surgeon in <?php echo htmlspecialchars($location); ?>?", 
+        q: "Why choose Dr. Arush Sabharwal for Weight Loss Surgery in <?php echo htmlspecialchars($location); ?>?", 
         a: "Dr. Arush Sabharwal is recognized as a Top Weight Loss Surgeon in <?php echo htmlspecialchars($location); ?> because of his extensive experience in treating obesity and performing advanced weight loss procedures. With more than 15 years of experience, he specializes in modern and minimally invasive techniques that support safe surgery and faster recovery." 
     }
 ];

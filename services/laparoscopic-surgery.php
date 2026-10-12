@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Laparoscopic Surgeon in Delhi NCR | Dr. Arush Sabharwal</title>
+    <title>Laparoscopic Surgeon in Delhi NCR | Dr. Arush Sabharwal | SCOD Clinic</title>
     <meta name="description"
-        content="Seeking the best laparoscopic surgeon in Delhi NCR? Dr. Arush Sabharwal offers advanced minimally invasive surgery, faster recovery, and expert care.">
+        content="Seeking an experienced laparoscopic surgeon in Delhi NCR? Dr. Arush Sabharwal offers advanced minimally invasive surgery, faster recovery, and expert care.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700;800&display=swap"

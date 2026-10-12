@@ -19,9 +19,9 @@ include __DIR__ . '/../includes/header.php';
       "description": "Comprehensive medical guide explaining whether a hernia can come back after surgery, recurrence rates with modern mesh, causes, symptoms of recurrence, prevention, and treatment.",
       "image": "https://scodclinic.com/blog/media/images/does-hernia-come-back-after-surgery.jpg",
       "author": {
-        "@type": "Person",
-        "name": "Dr. Arush Sabharwal",
-        "url": "https://scodclinic.com/about"
+        "@type": "Organization",
+        "name": "SCOD Clinic",
+        "url": "https://scodclinic.com"
       },
       "publisher": {
         "@type": "Organization",
@@ -142,6 +142,7 @@ include __DIR__ . '/../includes/header.php';
             <!-- Featured Image -->
             <figure class="mb-10">
                 <img src="/blog/media/images/does-hernia-come-back-after-surgery.jpg" alt="Does Hernia Come Back After Surgery?" class="w-full rounded-2xl shadow-lg">
+                <figcaption class="text-xs text-gray-500 mt-2 text-center italic"><span class="font-semibold text-gray-600">[AI-Generated Illustration]</span> Intended for general educational/representational purposes only; not actual surgical photography or diagnostic imaging.</figcaption>
             </figure>
 
             <!-- Article Content -->

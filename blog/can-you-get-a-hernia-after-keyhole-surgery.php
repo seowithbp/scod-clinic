@@ -40,6 +40,7 @@ include __DIR__ . '/../includes/header.php';
             <!-- Featured Image -->
             <figure class="mb-10">
                 <img src="/blog/media/images/can-you-get-a-hernia-after-keyhole-surgery.jpg" alt="Can you get a Hernia after Keyhole Surgery?" class="w-full rounded-2xl shadow-lg">
+                <figcaption class="text-xs text-gray-500 mt-2 text-center italic"><span class="font-semibold text-gray-600">[AI-Generated Illustration]</span> Intended for general educational/representational purposes only; not actual surgical photography or diagnostic imaging.</figcaption>
             </figure>
 
             <!-- Article Content -->

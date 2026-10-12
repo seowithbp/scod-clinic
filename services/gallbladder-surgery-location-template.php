@@ -10,9 +10,9 @@ if (!isset($location) || !isset($slug)) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Gallbladder Surgeon in <?php echo htmlspecialchars($location); ?> | Dr. Arush Sabharwal</title>
+    <title>Gallbladder Surgeon in <?php echo htmlspecialchars($location); ?> | Dr. Arush Sabharwal</title>
     <meta name="description"
-        content="Seeking the best gallbladder surgeon in <?php echo htmlspecialchars($location); ?>? Consult Dr. Arush Sabharwal for safe, painless laparoscopic gallbladder stone surgery (cholecystectomy) and rapid recovery.">
+        content="Seeking an experienced gallbladder surgeon in <?php echo htmlspecialchars($location); ?>? Consult Dr. Arush Sabharwal for safe, painless laparoscopic gallbladder stone surgery (cholecystectomy) and rapid recovery.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700;800&display=swap"
@@ -124,7 +124,7 @@ if (!isset($location) || !isset($slug)) {
     }
   },{
     "@type": "Question",
-    "name": "Why choose Dr. Arush Sabharwal as the best gallbladder surgeon in <?php echo htmlspecialchars($location); ?>?",
+    "name": "Why choose Dr. Arush Sabharwal for Gallbladder Surgery in <?php echo htmlspecialchars($location); ?>?",
     "acceptedAnswer": {
       "@type": "Answer",
       "text": "Dr. Arush Sabharwal has over 15 years of dedicated gastrointestinal and advanced laparoscopic surgical experience. With thousands of successful procedures, cutting-edge surgical infrastructure, zero-compromise safety protocols, and personalized patient care, he is widely regarded as a leading gallbladder specialist in <?php echo htmlspecialchars($location); ?> and Delhi NCR."
@@ -744,7 +744,7 @@ if (!isset($location) || !isset($slug)) {
                 a: "Yes, symptomatic gallbladder stone removal is recognized as a medically necessary surgery and is covered by virtually all health insurance policies and TPAs in India. SCOD Clinic assists patients with seamless cashless insurance approval." 
             },
             { 
-                q: "Why choose Dr. Arush Sabharwal as the best gallbladder surgeon in <?php echo htmlspecialchars($location); ?>?", 
+                q: "Why choose Dr. Arush Sabharwal for Gallbladder Surgery in <?php echo htmlspecialchars($location); ?>?", 
                 a: "Dr. Arush Sabharwal has over 15 years of dedicated gastrointestinal and advanced laparoscopic surgical experience. With thousands of successful procedures, cutting-edge surgical infrastructure, zero-compromise safety protocols, and personalized patient care, he is widely regarded as a leading gallbladder specialist in <?php echo htmlspecialchars($location); ?> and Delhi NCR." 
             }
         ];

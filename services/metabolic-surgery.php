@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medical Metabolic Management | Best Metabolic Surgeon in Delhi</title>
+    <title>Medical Metabolic Management & Surgery in Delhi | Dr. Arush Sabharwal</title>
     <meta name="description"
-        content="Seeking expert care from the Best Metabolic Surgeon in Delhi? Consult Dr. Arush Sabharwal for advanced weight loss and metabolic surgery with safe, proven outcomes.">
+        content="Seeking specialized metabolic surgery in Delhi? Consult Dr. Arush Sabharwal for advanced weight loss and metabolic surgery with safe, proven outcomes.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700;800&display=swap"

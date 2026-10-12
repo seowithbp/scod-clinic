@@ -3,7 +3,7 @@ $path_prefix = '../';
 $is_home = false;
 $page_title = 'What to Eat after Appendix Surgery?';
 $meta_title = 'What to Eat after Appendix Surgery?';
-$meta_description = 'Wondering what to eat after appendix surgery? Discover the best foods to eat, foods to avoid, a 4-phase recovery diet plan, FAQs, and expert advice from Dr. Arush Sabharwal at SCOD Clinic.';
+$meta_description = 'Wondering what to eat after appendix surgery? Discover recommended foods to eat, foods to avoid, a 4-phase recovery diet plan, FAQs, and expert advice from Dr. Arush Sabharwal at SCOD Clinic.';
 $canonical_url = 'https://scodclinic.com/blog/what-to-eat-after-appendix-surgery';
 $meta_robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 $og_image = 'https://scodclinic.com/blog/media/images/what-to-eat-after-appendix-surgery.jpg';
@@ -20,7 +20,7 @@ include __DIR__ . '/../includes/header.php';
         "@id": "https://scodclinic.com/blog/what-to-eat-after-appendix-surgery"
       },
       "headline": "What to Eat after Appendix Surgery?",
-      "description": "Wondering what to eat after appendix surgery? Discover the best foods to eat, foods to avoid, a 4-phase recovery diet plan, FAQs, and expert advice from Dr. Arush Sabharwal at SCOD Clinic.",
+      "description": "Wondering what to eat after appendix surgery? Discover recommended foods to eat, foods to avoid, a 4-phase recovery diet plan, FAQs, and expert advice from Dr. Arush Sabharwal at SCOD Clinic.",
       "image": "https://scodclinic.com/blog/media/images/what-to-eat-after-appendix-surgery.jpg",
       "author": {
         "@type": "Organization",
@@ -150,7 +150,7 @@ include __DIR__ . '/../includes/header.php';
             <!-- Featured Image -->
             <figure class="mb-10">
                 <img src="/blog/media/images/what-to-eat-after-appendix-surgery.jpg" alt="What to Eat after Appendix Surgery?" class="w-full rounded-2xl shadow-lg object-cover">
-                <figcaption class="text-xs text-gray-400 mt-2 text-center">A comprehensive nutritional guide for a smooth recovery after appendix removal surgery</figcaption>
+                <figcaption class="text-xs text-gray-500 mt-2 text-center italic"><span class="font-semibold text-gray-600">[AI-Generated Illustration]</span> Intended for general educational/representational purposes only; not actual surgical photography or diagnostic imaging.</figcaption>
             </figure>
 
             <!-- Article Content -->

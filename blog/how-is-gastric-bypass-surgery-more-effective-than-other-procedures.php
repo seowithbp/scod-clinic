@@ -150,7 +150,7 @@ include __DIR__ . '/../includes/header.php';
             <!-- Featured Image -->
             <figure class="mb-10">
                 <img src="/blog/media/images/how-is-gastric-bypass-surgery-more-effective-than-other-procedures.jpg" alt="How is Gastric Bypass Surgery more effective than Other Procedures?" class="w-full rounded-2xl shadow-lg object-cover">
-                <figcaption class="text-xs text-gray-400 mt-2 text-center">Comprehensive medical comparison of Roux-en-Y gastric bypass versus other weight loss surgeries</figcaption>
+                <figcaption class="text-xs text-gray-500 mt-2 text-center italic"><span class="font-semibold text-gray-600">[AI-Generated Illustration]</span> Intended for general educational/representational purposes only; not actual surgical photography or diagnostic imaging.</figcaption>
             </figure>
 
             <!-- Article Content -->

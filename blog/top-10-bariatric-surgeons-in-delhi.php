@@ -1,9 +1,9 @@
 <?php
 $path_prefix = '../';
 $is_home = false;
-$page_title = 'Top 10 Bariatric Surgeons in Delhi {2026 Guide}';
-$meta_title = 'Top 10 Bariatric Surgeons in Delhi (2026 Guide) | SCOD Clinic';
-$meta_description = 'Looking for the best bariatric surgeon in Delhi? Explore our guide to top weight loss surgeons, key criteria, patient reviews, and expert insights from SCOD Clinic.';
+$page_title = 'Bariatric Surgeons in Delhi: Selection Guide {2026}';
+$meta_title = 'Bariatric Surgeons in Delhi: Selection Guide (2026) | SCOD Clinic';
+$meta_description = 'Looking for an experienced bariatric surgeon in Delhi? Explore our patient guide covering surgical qualifications, hospital standards, and clinical care criteria.';
 $canonical_url = 'https://scodclinic.com/blog/top-10-bariatric-surgeons-in-delhi';
 $meta_robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 $og_image = 'https://scodclinic.com/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg';
@@ -19,8 +19,8 @@ include __DIR__ . '/../includes/header.php';
         "@type": "WebPage",
         "@id": "https://scodclinic.com/blog/top-10-bariatric-surgeons-in-delhi"
       },
-      "headline": "Top 10 Bariatric Surgeons in Delhi (2026 Guide)",
-      "description": "Looking for the best bariatric surgeon in Delhi? Explore our guide to top weight loss surgeons, key criteria, patient reviews, and expert insights from SCOD Clinic.",
+      "headline": "Bariatric Surgeons in Delhi: Selection Guide (2026)",
+      "description": "Looking for an experienced bariatric surgeon in Delhi? Explore our patient guide covering surgical qualifications, hospital standards, and clinical care criteria.",
       "image": "https://scodclinic.com/blog/media/images/Does-Bariatric-Surgery-Cure-Type-2-Diabetes.jpg",
       "author": {
         "@type": "Organization",
@@ -46,7 +46,7 @@ include __DIR__ . '/../includes/header.php';
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How do I choose the best bariatric surgeon in Delhi?",
+          "name": "How do I choose a qualified bariatric surgeon in Delhi?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Look for board certification, extensive laparoscopic and robotic surgical experience, hospital affiliations, comprehensive post-operative care, and verified patient reviews."
@@ -75,7 +75,7 @@ include __DIR__ . '/../includes/header.php';
                     <div class="space-y-4">
                     <div class="border border-gray-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 bg-white faq-item">
                         <button type="button" class="faq-btn w-full flex items-center justify-between p-6 text-left bg-white focus:outline-none cursor-pointer">
-                            <span class="text-lg font-bold text-gray-900 pr-8">How do I choose the best bariatric surgeon in Delhi?</span>
+                            <span class="text-lg font-bold text-gray-900 pr-8">How do I choose a qualified bariatric surgeon in Delhi?</span>
                             <div class="faq-icon flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-colors duration-300 bg-gray-100 text-gray-500">
                                 <i data-feather="plus" class="w-4 h-4 faq-plus"></i>
                                 <i data-feather="minus" class="w-4 h-4 faq-minus hidden"></i>
@@ -110,14 +110,14 @@ include __DIR__ . '/../includes/header.php';
             <i data-feather="chevron-right" class="w-4 h-4"></i>
             <a href="/blog/index.php" class="hover:text-scod">Blog</a>
             <i data-feather="chevron-right" class="w-4 h-4"></i>
-            <span class="text-scod font-medium">Top 10 Bariatric Surgeons in Delhi {2026 Guide}</span>
+            <span class="text-scod font-medium">Bariatric Surgeons in Delhi: Selection Guide {2026}</span>
         </nav>
 
         <!-- Article -->
         <article>
             <header class="mb-10">
                 <span class="inline-block bg-scod text-white text-xs font-bold px-3 py-1 rounded-full mb-4">Bariatric Surgery</span>
-                <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Top 10 Bariatric Surgeons in Delhi {2026 Guide}</h1>
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Bariatric Surgeons in Delhi: Selection Guide {2026}</h1>
                 <div class="flex items-center gap-6 text-gray-500 text-sm">
                     <span class="flex items-center gap-2">
                         <i data-feather="calendar" class="w-4 h-4"></i>
@@ -135,7 +135,8 @@ include __DIR__ . '/../includes/header.php';
 
             <!-- Featured Image -->
             <figure class="mb-10">
-                <img src="/blog/media/images/Top-10-Bariatric-Surgeons-in-Delhi.jpg" alt="Top 10 Bariatric Surgeons in Delhi {2026 Guide}" class="w-full rounded-2xl shadow-lg">
+                <img src="/blog/media/images/Top-10-Bariatric-Surgeons-in-Delhi.jpg" alt="Bariatric Surgeons in Delhi: Selection Guide" class="w-full rounded-2xl shadow-lg">
+                <figcaption class="text-xs text-gray-500 mt-2 text-center italic"><span class="font-semibold text-gray-600">[AI-Generated Illustration]</span> Intended for general educational/representational purposes only; not actual surgical photography or diagnostic imaging.</figcaption>
             </figure>
 
             <!-- Article Content -->
@@ -184,13 +185,13 @@ include __DIR__ . '/../includes/header.php';
 
 <p>Doctors carefully evaluate each patient before recommending surgery to ensure safety and effectiveness.</p>
 
-<h2 class="wp-block-heading">How to Choose the Top 10 Bariatric Surgeons in Delhi</h2>
+<h2 class="wp-block-heading">How to Choose a Qualified Bariatric Surgeon in Delhi</h2>
 
 <p>Choosing the right bariatric surgeon is a very important step because it directly affects your safety, results, and recovery. A good surgeon not only performs the procedure but also guides you throughout your weight loss journey.</p>
 
 <p>Before making a decision, it is important to do proper research and consider multiple factors.</p>
 
-<p>Here are some key points to help you choose the best bariatric surgeon:</p>
+<p>Here are some key points to help you evaluate and choose a bariatric surgeon:</p>
 
 <ul class="wp-block-list">
 <li><strong>Experience matters</strong> – Choose a surgeon who has performed a large number of successful bariatric surgeries</li>
