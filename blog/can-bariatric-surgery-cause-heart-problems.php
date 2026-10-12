@@ -34,6 +34,9 @@ include __DIR__ . '/../includes/header.php';
                 </div>
             </header>
 
+            <!-- Medical Disclaimer -->
+            <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
+
             <!-- Featured Image / Thumbnail -->
             <figure class="mb-10">
                 <img src="/blog/media/images/can-bariatric-surgery-cause-heart-problems.jpg" alt="Can Bariatric Surgery Cause Heart Problems?" class="w-full rounded-2xl shadow-lg">

@@ -13,7 +13,7 @@ include __DIR__ . '/../includes/header.php';
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "headline": "How Long does Body Contouring last?",
-      "description": "A medically reviewed guide explaining how long body contouring results last, comparing surgical and non-surgical procedures, fat cell biology, and practical tips for lifelong outcomes.",
+      "description": "A comprehensive educational guide explaining how long body contouring results last, comparing surgical and non-surgical procedures, fat cell biology, and practical tips for lifelong outcomes.",
       "image": "https://scodclinic.com/blog/media/images/how-long-does-body-contouring-last.jpg",
       "datePublished": "2026-09-24",
       "dateModified": "2026-09-24",
@@ -140,6 +140,9 @@ include __DIR__ . '/../includes/header.php';
                     </span>
                 </div>
             </header>
+
+            <!-- Medical Disclaimer -->
+            <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
 
             <!-- Featured Image -->
             <figure class="mb-10">

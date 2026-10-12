@@ -34,6 +34,9 @@ include __DIR__ . '/../includes/header.php';
                 </div>
             </header>
 
+            <!-- Medical Disclaimer -->
+            <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
+
             <!-- Featured Image -->
             <figure class="mb-10">
                 <img src="/blog/media/images/how-to-stop-hair-loss-after-bariatric-surgery.jpg" alt="How to Stop Hair Loss After Bariatric Surgery?" class="w-full rounded-2xl shadow-lg">

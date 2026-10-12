@@ -645,6 +645,7 @@ include __DIR__ . '/../includes/header.php';
                                     class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-scod focus:border-scod transition-all bg-white"></textarea>
                             </div>
                         </div>
+                        <?php include __DIR__ . '/../includes/dpdp-form-consent.php'; ?>
                         <button type="submit"
                             class="w-full bg-scod text-white font-bold text-lg py-4 rounded-lg hover:bg-blue-700 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1 flex items-center justify-center space-x-2">
                             <i data-feather="send" class="w-5 h-5"></i>

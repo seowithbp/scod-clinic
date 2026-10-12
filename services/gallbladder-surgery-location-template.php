@@ -92,7 +92,7 @@ if (!isset($location) || !isset($slug)) {
     "name": "Can gallstones be cured or dissolved with medicines alone?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Medications are generally ineffective for long-term gallstone management. While some oral bile acid medicines may temporarily reduce small cholesterol stones over many months, recurrence rates exceed 50% once medication stops. Surgical removal of the gallbladder is the only definitive and permanent cure."
+      "text": "Medications are generally ineffective for long-term gallstone management. While some oral bile acid medicines may temporarily reduce small cholesterol stones over many months, recurrence rates exceed 50% once medication stops. Surgical removal of the gallbladder (cholecystectomy) is the definitive and standard surgical treatment."
     }
   },{
     "@type": "Question",
@@ -630,6 +630,7 @@ if (!isset($location) || !isset($slug)) {
                                     class="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-scod focus:border-scod transition-all bg-white"></textarea>
                             </div>
                         </div>
+                        <?php include __DIR__ . '/../includes/dpdp-form-consent.php'; ?>
                         <button type="submit"
                             class="w-full bg-scod text-white font-bold text-lg py-4 rounded-lg hover:bg-blue-700 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1 flex items-center justify-center space-x-2">
                             <i data-feather="send" class="w-5 h-5"></i>
@@ -724,7 +725,7 @@ if (!isset($location) || !isset($slug)) {
             },
             { 
                 q: "Can gallstones be cured or dissolved with medicines alone?", 
-                a: "Medications are generally ineffective for long-term gallstone management. While some oral bile acid medicines may temporarily reduce small cholesterol stones over many months, recurrence rates exceed 50% once medication stops. Surgical removal of the gallbladder is the only definitive and permanent cure." 
+                a: "Medications are generally ineffective for long-term gallstone management. While some oral bile acid medicines may temporarily reduce small cholesterol stones over many months, recurrence rates exceed 50% once medication stops. Surgical removal of the gallbladder (cholecystectomy) is the definitive and standard surgical treatment." 
             },
             { 
                 q: "How long is the hospital stay and recovery time after gallbladder surgery?", 

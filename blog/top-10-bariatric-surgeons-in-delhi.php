@@ -92,6 +92,9 @@ include __DIR__ . '/../includes/header.php';
                 </div>
             </header>
 
+            <!-- Medical Disclaimer -->
+            <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
+
             <!-- Featured Image -->
             <figure class="mb-10">
                 <img src="/blog/media/images/Top-10-Bariatric-Surgeons-in-Delhi.jpg" alt="Top 10 Bariatric Surgeons in Delhi {2026 Guide}" class="w-full rounded-2xl shadow-lg">
@@ -171,176 +174,56 @@ include __DIR__ . '/../includes/header.php';
 
 <p>Taking time to evaluate these factors will help you choose the right surgeon and ensure a smooth and successful treatment journey.</p>
 
-<h2 class="wp-block-heading">List of Top 10 Bariatric Surgeons in Delhi</h2>
+<h2 class="wp-block-heading">Crucial Clinical Criteria When Choosing a Bariatric Surgeon</h2>
 
-<p>Delhi is home to some of the most experienced bariatric surgeons who specialize in advanced weight loss procedures. These experts are known for their high success rates, patient care, and use of modern surgical techniques. Below is a detailed list of the top 10 bariatric surgeons in Delhi.</p>
+<p>Delhi NCR is home to several specialized healthcare institutes offering advanced metabolic and weight loss surgery. When considering bariatric surgery, patients should evaluate potential surgeons and surgical centers based on objective clinical standards rather than promotional claims. Key evaluation criteria include:</p>
 
-<h3 class="wp-block-heading"><strong>1. Dr. Arush Sabharwal</strong></h3>
+<div class="space-y-6 my-8">
+    <div class="p-6 bg-blue-50/50 rounded-2xl border border-blue-100">
+        <h3 class="text-xl font-bold text-gray-900 mb-2">1. Medical Council Registration & Specialized Fellowships</h3>
+        <p class="text-gray-700 leading-relaxed mb-0">Ensure the operating surgeon is registered with the National Medical Commission (NMC) or State Medical Council (such as Delhi Medical Council) with recognized post-graduate surgical degrees (MS/DNB) and accredited fellowships in advanced laparoscopic and bariatric surgery (such as FMAS, FIAGES, or FALS).</p>
+    </div>
 
-<p><strong><a href="https://scodclinic.com/about.php">Dr. Arush Sabharwal</a></strong> is one of the most trusted names in bariatric surgery in Delhi. He is known for his patient-centric approach and expertise in performing advanced laparoscopic weight loss surgeries. His focus on safety and long-term results makes him a preferred choice among patients.</p>
+    <div class="p-6 bg-blue-50/50 rounded-2xl border border-blue-100">
+        <h3 class="text-xl font-bold text-gray-900 mb-2">2. Integrated Multidisciplinary Care Team</h3>
+        <p class="text-gray-700 leading-relaxed mb-0">Long-term surgical success requires an integrated multidisciplinary team comprising clinical endocrinologists, dedicated bariatric nutritionists, clinical psychologists, and anesthesiologists experienced in airway and hemodynamic management for patients with severe obesity.</p>
+    </div>
 
-<ul class="wp-block-list">
-<li>15+ Years of Surgical Experience</li>
+    <div class="p-6 bg-blue-50/50 rounded-2xl border border-blue-100">
+        <h3 class="text-xl font-bold text-gray-900 mb-2">3. Hospital Facility & Intensive Care Readiness</h3>
+        <p class="text-gray-700 leading-relaxed mb-0">Procedures should be performed in accredited hospitals equipped with advanced laparoscopic/robotic surgical platforms, dedicated bariatric operating furniture, high-dependency units (HDU), and specialized intensive care units (ICU).</p>
+    </div>
 
-<li>Known for a high success rate and patient satisfaction</li>
+    <div class="p-6 bg-blue-50/50 rounded-2xl border border-blue-100">
+        <h3 class="text-xl font-bold text-gray-900 mb-2">4. Lifelong Nutritional & Metabolic Follow-Up</h3>
+        <p class="text-gray-700 leading-relaxed mb-0">Sustained weight loss and nutritional equilibrium require scheduled post-operative monitoring at 1 month, 3 months, 6 months, and annually thereafter to assess micronutrient levels (iron, vitamin D, B12, protein) and metabolic markers.</p>
+    </div>
 
-<li>Focuses on personalized treatment plans</li>
+    <div class="p-6 bg-blue-50/50 rounded-2xl border border-blue-100">
+        <h3 class="text-xl font-bold text-gray-900 mb-2">5. Transparent Informed Consent</h3>
+        <p class="text-gray-700 leading-relaxed mb-0">Ethical surgical practice demands clear discussion of potential risks, realistic weight loss trajectories, lifestyle expectations, and recovery milestones prior to scheduled surgery.</p>
+    </div>
+</div>
 
-<li>Provides excellent post-surgery care</li>
-</ul>
-
-<h3 class="wp-block-heading"><strong>2. Dr. Atul Peters</strong></h3>
-
-<p>Dr. Atul Peters is an internationally recognized bariatric surgeon with vast experience in treating complex cases. He is known for delivering consistent and effective weight loss outcomes.</p>
-
-<ul class="wp-block-list">
-<li>Over two decades of surgical experience</li>
-
-<li>Expert in advanced and complex bariatric procedures</li>
-
-<li>International recognition in bariatric surgery</li>
-
-<li>Strong focus on long-term patient health</li>
-</ul>
-
-<h3 class="wp-block-heading"><strong>3. Dr. Pradeep Chowbey</strong></h3>
-
-<p>Dr. Pradeep Chowbey is a pioneer in laparoscopic and bariatric surgery in India. He has played a key role in introducing minimally invasive techniques in the country.</p>
+<h2 class="wp-block-heading">Questions to Ask During Your Consultation</h2>
 
 <ul class="wp-block-list">
-<li>Pioneer in minimally invasive surgery</li>
-
-<li>Extensive experience in bariatric procedures</li>
-
-<li>Known for innovation and surgical excellence</li>
-
-<li>Highly respected in the medical community</li>
+    <li>Which procedure (Sleeve Gastrectomy, Gastric Bypass, or Mini Gastric Bypass) is clinically indicated for my specific BMI and health profile?</li>
+    <li>What are the hospital's dedicated bariatric safety protocols?</li>
+    <li>How is post-operative nutritional supplementation managed?</li>
+    <li>What are the expected timelines for recovery and returning to daily activities?</li>
 </ul>
 
-<h3 class="wp-block-heading"><strong>4. Dr. Randeep Wadhawan</strong></h3>
+<h2 class="wp-block-heading">Summary</h2>
 
-<p>Dr. Randeep Wadhawan is a skilled bariatric surgeon known for his expertise in robotic and minimally invasive procedures. He focuses on treating obesity along with related health issues.</p>
+<p>Making an informed decision about bariatric surgery is a crucial step toward improved metabolic health. Prioritize surgeon qualifications, multidisciplinary support, and accredited hospital infrastructure. At SCOD Clinic, patient evaluations follow structured clinical protocols in accordance with applicable medical guidelines.</p>
 
-<ul class="wp-block-list">
-<li>Expert in robotic bariatric surgery</li>
+<div class="flex flex-col sm:flex-row justify-between items-center my-8 pt-6 border-t border-gray-200 text-sm gap-4">
+    <a href="when-is-bariatric-surgery-recommended" class="text-scod font-semibold hover:underline">&larr; Previous: When is Bariatric Surgery Recommended?</a>
+    <a href="can-you-smoke-after-bariatric-surgery" class="text-scod font-semibold hover:underline">Next: Can You Smoke After Bariatric Surgery? &rarr;</a>
+</div>
 
-<li>Strong experience in metabolic disorders</li>
-
-<li>Uses advanced surgical techniques</li>
-
-<li>Provides comprehensive patient care</li>
-</ul>
-
-<h3 class="wp-block-heading"><strong>5. Dr. Vivek Bindal</strong></h3>
-
-<p>Dr. Vivek Bindal is known for his precision and expertise in robotic and laparoscopic bariatric surgery. He is highly regarded for delivering excellent surgical outcomes.</p>
-
-<ul class="wp-block-list">
-<li>Specializes in robotic weight loss surgery</li>
-
-<li>Known for precision and accuracy</li>
-
-<li>High success rate in bariatric procedures</li>
-
-<li>Focus on patient safety and recovery</li>
-</ul>
-
-<h3 class="wp-block-heading"><strong>6. Dr. Ashish Vashistha</strong></h3>
-
-<p>Dr. Ashish Vashistha has extensive experience in bariatric surgery and is known for his expertise in advanced laparoscopic procedures.</p>
-
-<ul class="wp-block-list">
-<li>Performs a large number of successful surgeries</li>
-
-<li>Skilled in minimally invasive techniques</li>
-
-<li>Known for a patient-friendly approach</li>
-
-<li>Focus on long-term weight management</li>
-</ul>
-
-<h3 class="wp-block-heading"><strong>7. Dr. Sandeep Aggarwal</strong></h3>
-
-<p>Dr. Sandeep Aggarwal is a well-known surgeon specializing in minimal access and bariatric surgery. He is appreciated for his clinical expertise and patient care.</p>
-
-<ul class="wp-block-list">
-<li>Expert in minimal access surgery</li>
-
-<li>Experienced in bariatric and metabolic procedures</li>
-
-<li>Known for safe surgical practices</li>
-
-<li>Provides detailed patient guidance</li>
-</ul>
-
-<h3 class="wp-block-heading"><strong>8. Dr. Rajat Goel</strong></h3>
-
-<p>Dr. Rajat Goel is a highly experienced laparoscopic and bariatric surgeon with a strong track record of successful outcomes.</p>
-
-<ul class="wp-block-list">
-<li>Extensive experience in weight loss surgery</li>
-
-<li>Known for consistent results</li>
-
-<li>Focuses on patient comfort and recovery</li>
-
-<li>Uses modern surgical techniques</li>
-</ul>
-
-<h3 class="wp-block-heading"><strong>9. Dr. Anirudh Vij</strong></h3>
-
-<p>Dr. Anirudh Vij specializes in metabolic and bariatric surgery. He is known for his modern approach and commitment to patient well-being.</p>
-
-<ul class="wp-block-list">
-<li>Specializes in metabolic surgery</li>
-
-<li>Uses advanced and updated techniques</li>
-
-<li>Strong focus on patient care</li>
-
-<li>Helps manage obesity-related diseases</li>
-</ul>
-
-<h3 class="wp-block-heading"><strong>10. Dr. Pawanindra Lal</strong></h3>
-
-<p>Dr. Pawanindra Lal is a senior and highly experienced surgeon with decades of expertise in bariatric procedures. He is respected for his surgical skills and patient outcomes.</p>
-
-<ul class="wp-block-list">
-<li>Over 30 years of surgical experience</li>
-
-<li>Expert in advanced bariatric procedures</li>
-
-<li>Known for safe and effective treatments</li>
-
-<li>Strong reputation in the field</li>
-</ul>
-
-<h2 class="wp-block-heading">Final Thoughts</h2>
-
-<p>Choosing the right bariatric surgeon can make a big difference in your weight loss journey. Delhi offers some of the best options with experienced doctors and advanced medical facilities.</p>
-
-<p>If you are planning for surgery, it is important to consult a trusted and experienced specialist like the Best Bariatric Surgeon in Delhi, <a href="https://scodclinic.com/about.php"><strong>Dr. Arush Sabharwal</strong></a>. With the right guidance and proper care, bariatric surgery can help you achieve a healthier and more confident life.</p>
-
-
-    
-
-    
-      <a href="when-is-bariatric-surgery-recommended"> Previous: When is Bariatric Surgery Recommended?</a>
-      <a href="can-you-smoke-after-bariatric-surgery">Next: Can You Smoke After还是会 Bariatric Surgery? {Key Facts} </a>
-    
-  
-
-
-
-
-  <p>&copy; 2026 Scod Clinic &mdash; All rights reserved</p>
-
-
-
-
-            </div>
-        </article>
-    </main>
+<p class="text-xs text-gray-400">&copy; 2026 SCOD Clinic &mdash; All rights reserved. Educational content published in accordance with NMC Professional Conduct Regulations.</p>
             </div>
         </article>
     </main>

@@ -112,6 +112,9 @@ include __DIR__ . '/../includes/header.php';
                 </div>
             </header>
 
+            <!-- Medical Disclaimer -->
+            <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
+
             <!-- Featured Image -->
             <figure class="mb-10">
                 <img src="/blog/media/images/does-insurance-cover-gallbladder-surgery.jpg" alt="Does Insurance Cover Gallbladder Surgery? {2026 Guide}" class="w-full rounded-2xl shadow-lg">

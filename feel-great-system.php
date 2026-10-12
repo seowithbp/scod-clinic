@@ -45,10 +45,7 @@
                 <p class="text-xl text-blue-100 mb-8 leading-relaxed max-w-2xl">Address the root causes of metabolic
                     disease through science-based insulin management and hormonal balancing.</p>
                 <div class="flex flex-wrap gap-4">
-                    <a href="https://ufeelgreat.com/ind/en/c/320467391" target="_blank" rel="noopener noreferrer"
-                        class="bg-emerald-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-emerald-600 transition-all shadow-xl flex items-center gap-2 group"><i
-                            data-feather="shopping-bag"
-                            class="w-5 h-5 group-hover:scale-110 transition-transform"></i>Order FGS System</a>
+                    <a href="contact.php" class="bg-emerald-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-emerald-600 transition-all shadow-xl flex items-center gap-2 group"><i data-feather="calendar" class="w-5 h-5"></i>Schedule Metabolic Consultation</a>
                     <a href="contact.php"
                         class="bg-white/10 backdrop-blur-md text-white border border-white/30 px-8 py-4 rounded-full font-bold text-lg hover:bg-white/20 transition-all flex items-center gap-2"><i
                             data-feather="calendar" class="w-5 h-5"></i>Consult Our Team</a>
@@ -129,9 +126,7 @@
                                 class="text-blue-600 w-5 h-5 flex-shrink-0 mt-1"></i><span
                                 class="text-gray-600 font-medium">Improved gut health & microbiome balance</span></li>
                     </ul>
-                    <a href="https://ufeelgreat.com/ind/en/c/320467391" target="_blank" rel="noopener noreferrer"
-                        class="flex items-center justify-center gap-2 py-4 rounded-xl font-bold text-sm transition-all border-2 bg-blue-600 border-blue-600 text-white shadow-lg shadow-blue-200"><i
-                            data-feather="shopping-bag" class="w-4 h-4"></i>Get Started with Unicity Balance</a>
+                    <a href="contact.php" class="flex items-center justify-center gap-2 py-4 rounded-xl font-bold text-sm transition-all border-2 bg-blue-600 border-blue-600 text-white shadow-lg shadow-blue-200"><i data-feather="calendar" class="w-4 h-4"></i>Consult Clinical Nutritionist</a>
                 </div>
                 <div class="bg-white p-10 rounded-3xl shadow-sm border border-gray-100 hover:shadow-xl transition-all group flex flex-col h-full observe-animate delay-100"
                     data-animation="fade-in-up">
@@ -155,9 +150,7 @@
                                 class="text-gray-600 font-medium">Decreased dependence on artificial stimulants</span>
                         </li>
                     </ul>
-                    <a href="https://ufeelgreat.com/ind/en/c/320467391" target="_blank" rel="noopener noreferrer"
-                        class="flex items-center justify-center gap-2 py-4 rounded-xl font-bold text-sm transition-all border-2 bg-emerald-600 border-emerald-600 text-white shadow-lg shadow-emerald-200"><i
-                            data-feather="shopping-bag" class="w-4 h-4"></i>Get Started with Unimate</a>
+                    <a href="contact.php" class="flex items-center justify-center gap-2 py-4 rounded-xl font-bold text-sm transition-all border-2 bg-emerald-600 border-emerald-600 text-white shadow-lg shadow-emerald-200"><i data-feather="calendar" class="w-4 h-4"></i>Consult Clinical Nutritionist</a>
                 </div>
             </div>
         </div>
@@ -256,10 +249,7 @@
             <p class="text-xl text-blue-100 mb-10 leading-relaxed">Ready to start your reset? Order the Feel Great
                 System today or consult with our medical team for a tailored treatment plan.</p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="https://ufeelgreat.com/ind/en/c/320467391" target="_blank" rel="noopener noreferrer"
-                    class="bg-emerald-500 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-emerald-600 transition-all shadow-xl flex items-center justify-center gap-2 group"><i
-                        data-feather="shopping-bag" class="group-hover:rotate-12 transition-transform w-5 h-5"></i>Buy
-                    FGS System Now</a>
+                <a href="contact.php" class="bg-emerald-500 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-emerald-600 transition-all shadow-xl flex items-center justify-center gap-2 group"><i data-feather="calendar" class="w-5 h-5"></i>Book Clinical Assessment</a>
                 <a href="contact.php"
                     class="bg-white text-scod px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all shadow-xl flex items-center justify-center gap-2"><i
                         data-feather="calendar" class="w-5 h-5"></i>Book Assessment</a>

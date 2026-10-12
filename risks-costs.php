@@ -274,7 +274,7 @@
                 </div>
                 <div class="bg-white rounded-2xl p-8 text-gray-900">
                     <h3 class="text-2xl font-bold mb-6 text-center">Request Cost Estimate</h3>
-                    <form class="space-y-4" action="https://www.formester.com/submit/xxxx" method="POST">
+                    <form class="space-y-4" action="https://app.formester.com/forms/vt4kzZ2it/submissions" method="POST">
                         <input type="text" name="name" placeholder="Full Name"
                             class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-scod outline-none"
                             required>
@@ -288,6 +288,7 @@
                             <option>Hernia Repair</option>
                             <option>Gallbladder</option>
                         </select>
+                        <?php include 'includes/dpdp-form-consent.php'; ?>
                         <button type="submit"
                             class="w-full bg-scod text-white font-bold py-4 rounded-lg hover:bg-blue-700 transition-all shadow-lg">Get
                             Estimate Now</button>

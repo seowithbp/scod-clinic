@@ -138,11 +138,14 @@ include __DIR__ . '/../includes/header.php';
                         SCOD Clinic
                     </span>
                     <span class="flex items-center gap-2">
-                        <i data-feather="check-circle" class="w-4 h-4 text-green-600"></i>
-                        Medically Reviewed by Dr. Arush Sabharwal
+                        <i data-feather="check-circle" class="w-4 h-4 text-amber-500"></i>
+                        Pending Specialist Clinical Review
                     </span>
                 </div>
             </header>
+
+            <!-- Medical Disclaimer -->
+            <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
 
             <!-- Featured Image -->
             <figure class="mb-10">

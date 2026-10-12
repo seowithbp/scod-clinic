@@ -303,5 +303,39 @@ feather.replace();
 </script>
 <script defer src="https://app.wacrs.com/install-widget/bundle.js?key=38216f1f-3e32-4677-9975-f76d1c14b48b"></script>
 </footer>
+<!-- Cookie Notice (DPDP Act 2023 Compliance) -->
+<div id="cookie-banner" class="fixed bottom-4 left-4 right-4 md:left-auto md:right-6 md:max-w-md bg-slate-900 text-white p-5 rounded-2xl shadow-2xl border border-slate-700 z-[999] transition-all text-xs">
+    <div class="flex items-start gap-3">
+        <i data-feather="shield" class="w-5 h-5 text-scod flex-shrink-0 mt-0.5"></i>
+        <div class="flex-grow">
+            <p class="font-bold text-sm text-white mb-1">Privacy & Cookie Notice</p>
+            <p class="text-slate-300 leading-relaxed mb-3">
+                We use cookies and telemetry tools to ensure secure operation and analyze aggregate traffic in accordance with India's Digital Personal Data Protection (DPDP) Act, 2023. We do not sell your personal data.
+            </p>
+            <div class="flex items-center gap-3">
+                <button id="accept-cookies-btn" class="bg-scod hover:bg-blue-600 text-white font-bold px-4 py-2 rounded-lg transition-colors cursor-pointer">
+                    Accept
+                </button>
+                <a href="/privacy-policy" class="text-slate-400 hover:text-white underline">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const banner = document.getElementById("cookie-banner");
+        const acceptBtn = document.getElementById("accept-cookies-btn");
+        if (banner && acceptBtn) {
+            if (localStorage.getItem("scod_cookie_consent") === "accepted") {
+                banner.classList.add("hidden");
+            }
+            acceptBtn.addEventListener("click", function() {
+                localStorage.setItem("scod_cookie_consent", "accepted");
+                banner.classList.add("hidden");
+            });
+        }
+    });
+</script>
+
 </body>
 </html>

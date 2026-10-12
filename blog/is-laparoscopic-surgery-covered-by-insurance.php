@@ -108,6 +108,9 @@ include __DIR__ . '/../includes/header.php';
                 </div>
             </header>
 
+            <!-- Medical Disclaimer -->
+            <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
+
             <!-- Featured Image -->
             <figure class="mb-10">
                 <img src="/blog/media/images/is-laparoscopic-surgery-covered-by-insurance.jpg" alt="Is Laparoscopic Surgery Covered by Insurance? {In 2026}" class="w-full rounded-2xl shadow-lg">

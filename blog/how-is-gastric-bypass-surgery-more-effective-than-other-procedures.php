@@ -144,6 +144,9 @@ include __DIR__ . '/../includes/header.php';
                 </div>
             </header>
 
+            <!-- Medical Disclaimer -->
+            <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
+
             <!-- Featured Image -->
             <figure class="mb-10">
                 <img src="/blog/media/images/how-is-gastric-bypass-surgery-more-effective-than-other-procedures.jpg" alt="How is Gastric Bypass Surgery more effective than Other Procedures?" class="w-full rounded-2xl shadow-lg object-cover">

@@ -34,6 +34,9 @@ include __DIR__ . '/../includes/header.php';
                 </div>
             </header>
 
+            <!-- Medical Disclaimer -->
+            <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
+
             <!-- Featured Image -->
             <figure class="mb-10">
                 <img src="/blog/media/images/bariatric-surgery-in-hindi.png" alt="बेरिएट्रिक सर्जरी: लक्षण और रिकवरी (Bariatric Surgery in Hindi)" class="w-full rounded-2xl shadow-lg">

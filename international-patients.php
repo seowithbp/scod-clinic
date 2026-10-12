@@ -323,7 +323,7 @@
                 Get a free treatment plan and cost estimate. Our international team will respond within 24 hours.
             </p>
             <div class="bg-white/10 backdrop-blur-md p-8 rounded-3xl max-w-lg border border-white/20">
-                <form class="space-y-4 text-left">
+                <form class="space-y-4 text-left" action="https://app.formester.com/forms/vt4kzZ2it/submissions" method="POST">
                     <div>
                         <label class="text-sm font-bold text-blue-100 ml-1">Name</label>
                         <input type="text"
@@ -348,6 +348,7 @@
                             class="w-full px-4 py-3 rounded-lg bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-emerald-300"
                             placeholder="+1 ...">
                     </div>
+                    <?php include 'includes/dpdp-form-consent.php'; ?>
                     <button type="submit"
                         class="w-full bg-emerald-500 text-white font-bold py-4 rounded-lg hover:bg-emerald-600 transition-all shadow-lg mt-2">
                         Enquire Now

@@ -144,6 +144,9 @@ include __DIR__ . '/../includes/header.php';
                 </div>
             </header>
 
+            <!-- Medical Disclaimer -->
+            <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
+
             <!-- Featured Image -->
             <figure class="mb-10">
                 <img src="/blog/media/images/what-to-eat-after-appendix-surgery.jpg" alt="What to Eat after Appendix Surgery?" class="w-full rounded-2xl shadow-lg object-cover">
@@ -172,7 +175,7 @@ include __DIR__ . '/../includes/header.php';
                     Many patients mistakenly assume that because an appendectomy is a common procedure, they can return to their favorite foods right away. In reality, your digestive system has just been through significant trauma. Between the effects of general anesthesia, antibiotics, abdominal manipulation, and surgical incisions, your gut requires gentle care and specific healing nutrients to recover smoothly.
                 </p>
                 <p class="mb-6">
-                    Under the clinical guidance of <a href="https://scodclinic.com/about" class="text-scod font-semibold hover:text-blue-700">Dr. Arush Sabharwal</a> at SCOD Clinic, patients receiving advanced <a href="https://scodclinic.com/services/laparoscopic-surgery" class="text-scod font-semibold hover:text-blue-700">Laparoscopic Appendix Surgery in Delhi</a> receive individualized post-operative dietary protocols. A well-planned recovery diet accelerates wound healing, prevents uncomfortable gas and bloating, restores normal bowel motility, and helps you regain strength. In this doctor-reviewed guide, we outline the best foods to eat, items to avoid, a 3-day recovery meal plan, and answers to common questions.
+                    Under the clinical guidance of <a href="https://scodclinic.com/about" class="text-scod font-semibold hover:text-blue-700">Dr. Arush Sabharwal</a> at SCOD Clinic, patients receiving advanced <a href="https://scodclinic.com/services/laparoscopic-surgery" class="text-scod font-semibold hover:text-blue-700">Laparoscopic Appendix Surgery in Delhi</a> receive individualized post-operative dietary protocols. A well-planned recovery diet accelerates wound healing, prevents uncomfortable gas and bloating, restores normal bowel motility, and helps you regain strength. In this clinical recovery guide, we outline the best foods to eat, items to avoid, a 3-day recovery meal plan, and answers to common questions.
                 </p>
 
 

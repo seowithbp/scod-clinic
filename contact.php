@@ -172,6 +172,7 @@
                                 class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:ring-2 focus:ring-scod focus:border-transparent outline-none transition-all"
                                 placeholder="How can we help you?" required></textarea>
                         </div>
+                        <?php include 'includes/dpdp-form-consent.php'; ?>
                         <button type="submit"
                             class="w-full bg-scod text-white font-bold py-4 rounded-xl hover:bg-blue-700 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1 flex items-center justify-center">
                             <i data-feather="send" class="w-5 h-5 mr-2"></i> Send Message

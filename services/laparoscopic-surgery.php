@@ -317,7 +317,7 @@
                 </div>
                 <div class="bg-gray-50 rounded-2xl shadow-xl p-8 border border-gray-100">
                     <h3 class="text-2xl font-bold text-gray-900 mb-6">Request Appointment</h3>
-                    <form class="space-y-4">
+                    <form class="space-y-4" action="https://app.formester.com/forms/vt4kzZ2it/submissions" method="POST">
                         <div><label class="block text-sm font-medium text-gray-700 mb-1">Full Name</label><input
                                 type="text" class="w-full p-3 border border-gray-300 rounded-lg"></div>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -329,6 +329,7 @@
                         <div><label class="block text-sm font-medium text-gray-700 mb-1">Condition /
                                 Procedure</label><textarea rows="3"
                                 class="w-full p-3 border border-gray-300 rounded-lg"></textarea></div>
+                        <?php include __DIR__ . '/../includes/dpdp-form-consent.php'; ?>
                         <button type="submit"
                             class="w-full bg-scod text-white font-bold text-lg py-4 rounded-lg hover:bg-blue-700 transition-all shadow-lg">Send
                             Request</button>

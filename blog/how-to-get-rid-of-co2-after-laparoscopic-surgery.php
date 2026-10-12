@@ -34,6 +34,9 @@ include __DIR__ . '/../includes/header.php';
                 </div>
             </header>
 
+            <!-- Medical Disclaimer -->
+            <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
+
             <!-- Featured Image -->
             <figure class="mb-10">
                 <img src="/blog/media/images/how-to-get-rid-of-co2-after-laparoscopic-surgery.jpg" alt="How To Get Rid of CO2 After Laparoscopic Surgery?" class="w-full rounded-2xl shadow-lg">

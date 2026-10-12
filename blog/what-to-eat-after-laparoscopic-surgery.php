@@ -132,6 +132,9 @@ include __DIR__ . '/../includes/header.php';
                 </div>
             </header>
 
+            <!-- Medical Disclaimer -->
+            <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
+
             <!-- Featured Image -->
             <figure class="mb-10">
                 <img src="/blog/media/images/what-to-eat-after-laparoscopic-surgery.jpg" alt="What to Eat after Laparoscopic Surgery?" class="w-full rounded-2xl shadow-lg">

@@ -34,6 +34,9 @@ include __DIR__ . '/../includes/header.php';
                 </div>
             </header>
 
+            <!-- Medical Disclaimer -->
+            <?php include __DIR__ . '/../includes/medical-disclaimer.php'; ?>
+
             <!-- Featured Image -->
             <figure class="mb-10">
                 <img src="/blog/media/images/can-you-get-a-hernia-after-keyhole-surgery.jpg" alt="Can you get a Hernia after Keyhole Surgery?" class="w-full rounded-2xl shadow-lg">
