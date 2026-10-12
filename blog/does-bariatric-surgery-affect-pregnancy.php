@@ -300,14 +300,7 @@ include __DIR__ . '/../includes/header.php';
 
                 <p>Bariatric surgery opens the door to improved health, enhanced fertility, and a safer pregnancy journey. If you are considering weight loss surgery or planning a family post-procedure, partner with <strong><a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Arush Sabharwal</a></strong> and the dedicated team at SCOD Clinic for expert surgical care and lifelong wellness support.</p>
 
-                <!-- Call to Action Banner (Light Theme) -->
-                <div class="bg-gradient-to-br from-blue-50 via-teal-50/50 to-slate-50 border border-blue-100/80 rounded-[2.5rem] py-10 px-6 md:py-12 md:px-12 my-10 text-center shadow-lg">
-                    <h3 class="text-gray-900 text-2xl md:text-3xl font-bold tracking-tight mb-3">Does Bariatric Surgery Affect Pregnancy?</h3>
-                    <p class="text-gray-600 text-sm md:text-base max-w-3xl mx-auto mb-6 leading-relaxed">Learn about fertility benefits, safe conception timelines, essential prenatal nutritional guidelines, and expert medical advice from SCOD Clinic.</p>
-                    <a href="https://scodclinic.com/contact" class="inline-flex items-center justify-center bg-[#b88c4c] hover:bg-[#a67c3e] text-white font-semibold text-base px-8 py-3.5 rounded-full transition-all duration-300 shadow-md hover:shadow-lg">
-                        Book Your Appointment Today &rarr;
-                    </a>
-                </div>
+                
 
             </div>
         </article>

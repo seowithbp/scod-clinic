@@ -352,16 +352,7 @@ include __DIR__ . '/../includes/header.php';
                     </div>
                 </div>
 
-                <!-- Doctor / Clinic CTA Banner -->
-                <div class="bg-gradient-to-r from-blue-50 via-sky-50 to-blue-100/70 border border-blue-200/60 rounded-2xl p-8 my-10 shadow-sm">
-                    <div class="md:flex items-center justify-between gap-6">
-                        <div class="mb-6 md:mb-0">
-                            <h3 class="text-2xl font-bold mb-2 text-gray-900">Need Expert Guidance Post-Gallbladder Surgery?</h3>
-                            <p class="text-gray-600 text-sm max-w-xl">Consult with Dr. Arush Sabharwal at SCOD Clinic for personalized surgical advice and post-operative recovery plans tailored to your health needs.</p>
-                        </div>
-                        <a href="https://scodclinic.com/about" class="inline-block bg-white text-scod font-bold px-6 py-3 rounded-xl hover:bg-blue-50 border border-blue-200 transition-all shadow-md shrink-0">Book Consultation</a>
-                    </div>
-                </div>
+                
 
                 <!-- Post Navigation -->
                 <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">

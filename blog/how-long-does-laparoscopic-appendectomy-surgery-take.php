@@ -107,13 +107,7 @@ include __DIR__ . '/../includes/header.php';
 <p>A laparoscopic appendectomy is a minimally invasive procedure used to remove an inflamed appendix. Compared with open surgery, it usually involves smaller incisions, less pain, and a faster recovery. In this detailed guide, we will explain the laparoscopic appendectomy surgery time, the factors that affect it, what happens before after surgery, and what you can expect during recovery.</p>
 
 
-    <h2 class="pigmentation-cta-title">How Long Does Laparoscopic Appendectomy Surgery Take?</h2>
-    <p class="pigmentation-cta-text">
-    Learn how long laparoscopic appendectomy surgery takes, factors affecting timing, recovery steps, and what to expect before and after the procedure.
-    </p>
-    <a class="pigmentation-cta-button" href="https://scodclinic.com/contact" target="_blank">
-      Book Your Appointment Today
-    </a>
+    
 
 
 <h2 class="wp-block-heading">Understanding Laparoscopic Appendectomy</h2>
@@ -315,13 +309,7 @@ include __DIR__ . '/../includes/header.php';
 <p>Recovery is usually smoother compared to open surgery.</p>
 
 
-    <h2 class="pigmentation-cta-title">How Long Does Laparoscopic Appendectomy Surgery Take?</h2>
-    <p class="pigmentation-cta-text">
-    Learn how long laparoscopic appendectomy surgery takes, factors affecting timing, recovery steps, and what to expect before and after the procedure.
-    </p>
-    <a class="pigmentation-cta-button" href="https://scodclinic.com/contact" target="_blank">
-      Book Your Appointment Today
-    </a>
+    
 
 
 <h2 class="wp-block-heading">Final Thoughts</h2>

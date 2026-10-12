@@ -150,14 +150,7 @@ include __DIR__ . '/../includes/header.php';
                 
                 <p class="mb-6">One of the most critical factors influencing how quickly, comfortably, and safely you recover is your post-operative nutrition. Knowing <strong>what to eat after laparoscopic surgery</strong> helps minimize common post-op complaints such as nausea, abdominal bloating, sluggish bowel movements, and acid reflux. Under the expert care of our specialists at SCOD Clinic, including our dedicated team for <a href="https://scodclinic.com/services/laparoscopic-surgery" class="text-scod hover:text-blue-700 font-semibold">Laparoscopic Surgery Services</a>, patients receive comprehensive guidance on post-procedure nutrition and lifestyle management. In this detailed guide, we provide a complete phase-by-phase dietary progression, highlight essential healing nutrients, list foods to strictly avoid, and answer the most frequently asked recovery questions.</p>
 
-                <!-- Call to Action Banner (Post-Introduction) -->
-                <div class="bg-gradient-to-br from-blue-50 via-teal-50/50 to-slate-50 border border-blue-100/80 rounded-[2.5rem] py-10 px-6 md:py-12 md:px-12 my-10 text-center shadow-lg">
-                    <h3 class="text-gray-900 text-2xl md:text-3xl font-bold tracking-tight mb-3">Planning or Recovering from Keyhole Surgery?</h3>
-                    <p class="text-gray-600 text-sm md:text-base max-w-3xl mx-auto mb-6 leading-relaxed">Consult Delhi's premier surgical experts at SCOD Clinic for personalized surgical advice, clinical dietary plans, and dedicated post-operative care.</p>
-                    <a href="https://scodclinic.com/contact" class="inline-flex items-center justify-center bg-[#b88c4c] hover:bg-[#a67c3e] text-white font-semibold text-base px-8 py-3.5 rounded-full transition-all duration-300 shadow-md hover:shadow-lg">
-                        Book Your Appointment Today &rarr;
-                    </a>
-                </div>
+                
 
                 <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Why Diet is Crucial After Laparoscopic Surgery</h2>
                 <p class="mb-6 font-semibold text-gray-800 bg-blue-50 border-l-4 border-scod p-4 rounded-r-xl">A tailored post-laparoscopic diet reduces gastrointestinal strain caused by general anesthesia, prevents painful abdominal bloating, supports wound healing, and minimizes narcotic-induced constipation.</p>
@@ -251,14 +244,7 @@ include __DIR__ . '/../includes/header.php';
                     </table>
                 </div>
 
-                <!-- Call to Action Banner 1 (Light Theme) -->
-                <div class="bg-gradient-to-br from-blue-50 via-teal-50/50 to-slate-50 border border-blue-100/80 rounded-[2.5rem] py-10 px-6 md:py-12 md:px-12 my-12 text-center shadow-lg">
-                    <h3 class="text-gray-900 text-2xl md:text-3xl font-bold tracking-tight mb-3">What to Eat after Laparoscopic Surgery?</h3>
-                    <p class="text-gray-600 text-sm md:text-base max-w-3xl mx-auto mb-6 leading-relaxed">Discover key food lists, recovery tips, phase-by-phase dietary progression, and clinical advice to support your post-operative healing.</p>
-                    <a href="https://scodclinic.com/contact" class="inline-flex items-center justify-center bg-[#b88c4c] hover:bg-[#a67c3e] text-white font-semibold text-base px-8 py-3.5 rounded-full transition-all duration-300 shadow-md hover:shadow-lg">
-                        Book Your Appointment Today &rarr;
-                    </a>
-                </div>
+                
 
                 <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Key Essential Nutrients for Surgical Healing</h2>
                 <p class="mb-6 font-semibold text-gray-800 bg-blue-50 border-l-4 border-scod p-4 rounded-r-xl">Accelerate wound closure, collagen synthesis, and cellular repair by incorporating high-quality proteins, hydration, Zinc, Vitamin C, and probiotics into your daily routine.</p>
@@ -367,14 +353,7 @@ include __DIR__ . '/../includes/header.php';
 
                 <p class="mb-6">At SCOD Clinic, under the leadership of <a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Arush Sabharwal</a> and our multi-disciplinary surgical team, we provide personalized post-operative guidance to ensure every patient achieves an effortless recovery. If you are preparing for a laparoscopic procedure or have questions about your recovery plan, reach out to our specialists today.</p>
 
-                <!-- Call to Action Banner 2 (Light Theme) -->
-                <div class="bg-gradient-to-br from-blue-50 via-teal-50/50 to-slate-50 border border-blue-100/80 rounded-[2.5rem] py-10 px-6 md:py-12 md:px-12 my-12 text-center shadow-lg">
-                    <h3 class="text-gray-900 text-2xl md:text-3xl font-bold tracking-tight mb-3">Schedule Your Post-Surgical Consultation</h3>
-                    <p class="text-gray-600 text-sm md:text-base max-w-3xl mx-auto mb-6 leading-relaxed">Get expert medical support, surgical care, and customized recovery advice from Delhi's leading laparoscopic specialists at SCOD Clinic.</p>
-                    <a href="https://scodclinic.com/contact" class="inline-flex items-center justify-center bg-[#b88c4c] hover:bg-[#a67c3e] text-white font-semibold text-base px-8 py-3.5 rounded-full transition-all duration-300 shadow-md hover:shadow-lg">
-                        Book Your Appointment Today &rarr;
-                    </a>
-                </div>
+                
 
                 <!-- Post Navigation -->
                 <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">

@@ -107,13 +107,7 @@ include __DIR__ . '/../includes/header.php';
 <p>Understanding when bariatric surgery is recommended is crucial for making an informed decision. It is not a cosmetic procedure but a treatment option for individuals facing health risks due to excessive weight. This guide will help you understand when is bariatric surgery recommended, along with key factors that doctors consider before suggesting this life-changing procedure.</p>
 
 
-    <h2 class="pigmentation-cta-title">When is Bariatric Surgery Recommended?</h2>
-    <p class="pigmentation-cta-text">
-    Learn when bariatric surgery is recommended, including BMI criteria, health conditions, and eligibility factors for safe and effective weight loss treatment.
-    </p>
-    <a class="pigmentation-cta-button" href="https://scodclinic.com/contact.php" target="_blank">
-      Book Your Appointment Today
-    </a>
+    
 
 
 <h2 class="wp-block-heading"><strong>Understanding Bariatric Surgery</strong></h2>
@@ -363,13 +357,7 @@ include __DIR__ . '/../includes/header.php';
 </ul>
 
 
-    <h2 class="pigmentation-cta-title">When is Bariatric Surgery Recommended?</h2>
-    <p class="pigmentation-cta-text">
-    Learn when bariatric surgery is recommended, including BMI criteria, health conditions, and eligibility factors for safe and effective weight loss treatment.
-    </p>
-    <a class="pigmentation-cta-button" href="https://scodclinic.com/contact.php" target="_blank">
-      Book Your Appointment Today
-    </a>
+    
 
 
 <h2 class="wp-block-heading"><strong>Final Thoughts</strong></h2>

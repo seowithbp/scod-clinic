@@ -109,13 +109,7 @@ include __DIR__ . '/../includes/header.php';
 <p>Let us understand in simple language how weight loss happens after surgery and what you must do to ensure long-term success.</p>
 
 
-    <h2 class="pigmentation-cta-title">How Do You Lose Weight After Bariatric Surgery?</h2>
-    <p class="pigmentation-cta-text">
-    Learn how you lose weight after bariatric surgery through diet control, protein intake, exercise, and lifestyle changes for safe, steady, and long-term results.
-    </p>
-    <a class="pigmentation-cta-button" href="https://scodclinic.com/contact" target="_blank">
-      Book Your Appointment Today
-    </a>
+    
 
 
 <h2 class="wp-block-heading">Understanding Bariatric Surgery</h2>
@@ -333,13 +327,7 @@ include __DIR__ . '/../includes/header.php';
 <p>Truth: It is a metabolic and life-saving treatment.</p>
 
 
-    <h2 class="pigmentation-cta-title">How Do You Lose Weight After Bariatric Surgery?</h2>
-    <p class="pigmentation-cta-text">
-    Learn how you lose weight after bariatric surgery through diet control, protein intake, exercise, and lifestyle changes for safe, steady, and long-term results.
-    </p>
-    <a class="pigmentation-cta-button" href="https://scodclinic.com/contact" target="_blank">
-      Book Your Appointment Today
-    </a>
+    
 
 
 <h2 class="wp-block-heading">Final Thoughts</h2>

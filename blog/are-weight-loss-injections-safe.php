@@ -128,14 +128,7 @@ include __DIR__ . '/../includes/header.php';
                     <li>Understand that these are long-term treatments</li>
                 </ul>
 
-                <div class="bg-blue-50 rounded-xl p-6 border border-blue-200 mt-8">
-                    <h3 class="font-bold text-lg text-gray-900 mb-3">Consult an Expert</h3>
-                    <p class="text-gray-600 mb-4">This is why consulting an expert like a <a href="/services/bariatric-surgery.php" class="text-scod hover:text-blue-700 font-semibold">Weight Loss Doctor in Delhi</a> is very important before starting treatment.</p>
-                    <a href="/contact.php" class="inline-flex items-center gap-2 bg-scod text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                        <i data-feather="phone" class="w-4 h-4"></i>
-                        Book a Consultation
-                    </a>
-                </div>
+                
 
                 <!-- FAQ Section -->
                 <div class="mt-12">

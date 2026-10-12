@@ -49,13 +49,7 @@ include __DIR__ . '/../includes/header.php';
 <p>If you are wondering, can you smoke after bariatric surgery? The short answer is no; it is strongly discouraged. Smoking can lead to serious complications and can negatively impact your recovery and long-term results. In this blog, we will explain everything you need to know about smoking after bariatric surgery, including risks, timelines, and safer alternatives.</p>
 
 
-    <h2 class="pigmentation-cta-title">Can You Smoke After Bariatric Surgery?</h2>
-    <p class="pigmentation-cta-text">
-    Can you smoke after bariatric surgery? Learn key risks, recovery tips, and why quitting smoking is essential for safe healing and long-term weight loss success.
-    </p>
-    <a class="pigmentation-cta-button" href="https://scodclinic.com/contact.php" target="_blank">
-      Book Your Appointment Today
-    </a>
+    
 
 
 <h2 class="wp-block-heading"><strong>Understanding Bariatric Surgery</strong></h2>
@@ -237,13 +231,7 @@ include __DIR__ . '/../includes/header.php';
 <p>These changes help ensure long-term success and a better quality of life.</p>
 
 
-    <h2 class="pigmentation-cta-title">Can You Smoke After Bariatric Surgery?</h2>
-    <p class="pigmentation-cta-text">
-    Can you smoke after bariatric surgery? Learn key risks, recovery tips, and why quitting smoking is essential for safe healing and long-term weight loss success.
-    </p>
-    <a class="pigmentation-cta-button" href="https://scodclinic.com/contact.php" target="_blank">
-      Book Your Appointment Today
-    </a>
+    
 
 
 <h2 class="wp-block-heading"><strong>Final Thoughts</strong></h2>

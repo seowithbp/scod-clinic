@@ -374,11 +374,7 @@ include __DIR__ . '/../includes/header.php';
                     At SCOD Clinic, we specialize in comprehensive body transformation journeys. Led by renowned bariatric and laparoscopic surgeon <a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Arush Sabharwal</a>, our medical team combines state-of-the-art clinical infrastructure with personalized patient care. If you are looking for premier <a href="https://scodclinic.com/services/body-contouring" class="text-scod hover:text-blue-700 font-semibold">Body Contouring Treatment in Delhi</a>, our specialists will evaluate your goals, discuss non-surgical and surgical options, and design a treatment plan customized for your body.
                 </p>
 
-                <div class="bg-gradient-to-r from-blue-600 to-scod text-white p-8 rounded-2xl my-8 shadow-xl text-center">
-                    <h3 class="text-2xl font-bold mb-3">Ready to Transform Your Silhouette?</h3>
-                    <p class="text-blue-100 mb-6 max-w-xl mx-auto">Schedule a personalized consultation with Dr. Arush Sabharwal at SCOD Clinic to discover the best body contouring strategy for your goals.</p>
-                    <a href="https://scodclinic.com/contact" class="inline-block bg-white text-scod font-bold px-8 py-3.5 rounded-full hover:bg-blue-50 transition-all shadow-md">Book Your Consultation Today</a>
-                </div>
+                
 
                 <h2 class="text-2xl font-bold text-gray-900 mt-10 mb-6">Frequently Asked Questions (FAQs)</h2>
 
