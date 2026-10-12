@@ -504,6 +504,65 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  // ===================================
+  // Interactive FAQ Accordions
+  // ===================================
+  document.addEventListener('click', function (e) {
+    const btn = e.target.closest('.faq-btn');
+    if (!btn) return;
+
+    const item = btn.closest('.faq-item');
+    if (!item) return;
+
+    const content = item.querySelector('.faq-content');
+    if (!content) return;
+
+    const iconContainer = btn.querySelector('.faq-icon');
+    const plusIcon = btn.querySelector('.faq-plus');
+    const minusIcon = btn.querySelector('.faq-minus');
+
+    // Close other FAQs in the same container
+    const container = item.closest('.space-y-4') || item.parentElement;
+    if (container) {
+      container.querySelectorAll('.faq-item').forEach(other => {
+        if (other !== item) {
+          const otherContent = other.querySelector('.faq-content');
+          if (otherContent && !otherContent.classList.contains('hidden')) {
+            otherContent.classList.add('hidden');
+            const otherIcon = other.querySelector('.faq-icon');
+            if (otherIcon) {
+              otherIcon.classList.remove('bg-scod', 'text-white');
+              otherIcon.classList.add('bg-gray-100', 'text-gray-500');
+            }
+            const otherPlus = other.querySelector('.faq-plus');
+            const otherMinus = other.querySelector('.faq-minus');
+            if (otherPlus) otherPlus.classList.remove('hidden');
+            if (otherMinus) otherMinus.classList.add('hidden');
+          }
+        }
+      });
+    }
+
+    // Toggle current FAQ
+    content.classList.toggle('hidden');
+    const isOpen = !content.classList.contains('hidden');
+    if (isOpen) {
+      if (iconContainer) {
+        iconContainer.classList.remove('bg-gray-100', 'text-gray-500');
+        iconContainer.classList.add('bg-scod', 'text-white');
+      }
+      if (plusIcon) plusIcon.classList.add('hidden');
+      if (minusIcon) minusIcon.classList.remove('hidden');
+    } else {
+      if (iconContainer) {
+        iconContainer.classList.add('bg-gray-100', 'text-gray-500');
+        iconContainer.classList.remove('bg-scod', 'text-white');
+      }
+      if (plusIcon) plusIcon.classList.remove('hidden');
+      if (minusIcon) minusIcon.classList.add('hidden');
+    }
+  });
+
   setActiveLink();
 
 });
