@@ -9,10 +9,6 @@ include __DIR__ . '/../includes/header.php';
         <div class="max-w-7xl mx-auto px-4 text-center">
             <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Health <span class="text-scod">Insights</span></h1>
             <p class="text-lg text-gray-600 max-w-2xl mx-auto">Expert guidance on bariatric surgery, weight management, and surgical treatments from our team of specialists.</p>
-            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-100/80 text-scod text-xs font-semibold mt-4 border border-blue-200">
-                <i data-feather="shield" class="w-3.5 h-3.5"></i>
-                <span>NMC Compliant Healthcare Information & Public Education</span>
-            </div>
         </div>
     </section>
 
