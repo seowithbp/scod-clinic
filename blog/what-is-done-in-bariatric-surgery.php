@@ -45,19 +45,14 @@ include __DIR__ . '/../includes/header.php';
             <!-- Article Content -->
             <div class="blog-content text-gray-600">
 
-                <!-- AI Overview Section -->
-                <div class="bg-blue-50 border border-blue-200 rounded-2xl p-6 mb-8">
-                    <div class="flex items-center gap-2 mb-3">
-                        <span class="inline-flex items-center justify-center p-1.5 bg-blue-600 text-white rounded-lg">
-                            <i data-feather="cpu" class="w-4 h-4"></i>
-                        </span>
-                        <h2 class="text-lg font-bold text-gray-900 m-0">AI Overview: What is Done in Bariatric Surgery?</h2>
+                <!-- AEO Quick Answer Box -->
+                <div class="bg-blue-50 border-l-4 border-scod p-6 rounded-r-2xl my-8 shadow-sm">
+                    <div class="flex items-center gap-2 text-scod font-bold text-lg mb-2">
+                        <i data-feather="check-circle" class="w-5 h-5"></i>
+                        <span>AEO Direct Answer: What is Done in Bariatric Surgery?</span>
                     </div>
-                    <p class="text-gray-700 leading-relaxed mb-3">
-                        In bariatric surgery, a specialized surgeon operates under general anesthesia using minimally invasive laparoscopic keyhole incisions (0.5 to 1.2 cm). Depending on the specific procedure, the surgeon either reduces the stomach capacity by 75% to 80% using precision surgical staplers (Sleeve Gastrectomy) or partitions the stomach into a small egg-sized pouch and reroutes the small intestine (Roux-en-Y Gastric Bypass).
-                    </p>
-                    <p class="text-gray-700 leading-relaxed">
-                        These alterations physically limit food capacity, suppress hunger hormones like ghrelin, stimulate satiety incretins (GLP-1 and PYY), and regulate caloric absorption. The entire operation takes roughly 60 to 120 minutes, incorporates airtight intraoperative leak testing, and enables most patients to walk within hours and return home in 1 to 3 days.
+                    <p class="text-gray-800 text-base leading-relaxed">
+                        <strong>In bariatric surgery, a specialized surgeon modifies the stomach and digestive tract using minimally invasive keyhole incisions under general anesthesia.</strong> The surgeon either removes 75% to 80% of the stomach to form a slender sleeve (Sleeve Gastrectomy) or creates a small egg-sized stomach pouch and connects it directly to the small intestine (Gastric Bypass). These modifications physically restrict meal size, suppress hunger hormones like ghrelin, stimulate metabolic fullness hormones, and safely regulate caloric absorption.
                     </p>
                 </div>
 
