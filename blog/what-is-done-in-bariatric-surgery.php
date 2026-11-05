@@ -45,11 +45,27 @@ include __DIR__ . '/../includes/header.php';
             <!-- Article Content -->
             <div class="blog-content text-gray-600">
 
+                <!-- AI Overview Section -->
+                <div class="bg-blue-50 border border-blue-200 rounded-2xl p-6 mb-8">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="inline-flex items-center justify-center p-1.5 bg-blue-600 text-white rounded-lg">
+                            <i data-feather="cpu" class="w-4 h-4"></i>
+                        </span>
+                        <h2 class="text-lg font-bold text-gray-900 m-0">AI Overview: What is Done in Bariatric Surgery?</h2>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-3">
+                        In bariatric surgery, a specialized surgeon operates under general anesthesia using minimally invasive laparoscopic keyhole incisions (0.5 to 1.2 cm). Depending on the specific procedure, the surgeon either reduces the stomach capacity by 75% to 80% using precision surgical staplers (Sleeve Gastrectomy) or partitions the stomach into a small egg-sized pouch and reroutes the small intestine (Roux-en-Y Gastric Bypass).
+                    </p>
+                    <p class="text-gray-700 leading-relaxed">
+                        These alterations physically limit food capacity, suppress hunger hormones like ghrelin, stimulate satiety incretins (GLP-1 and PYY), and regulate caloric absorption. The entire operation takes roughly 60 to 120 minutes, incorporates airtight intraoperative leak testing, and enables most patients to walk within hours and return home in 1 to 3 days.
+                    </p>
+                </div>
+
                 <p class="mb-6">When patients begin considering surgical treatment for severe obesity, their primary and most immediate question is straightforward: <strong>what is done in bariatric surgery?</strong> Patients want to know what surgical maneuvers occur on the operating table, how anatomical structures are altered, and how those physical modifications safely alter hunger, satiety, and digestion. In 2026, surgical techniques have advanced to state-of-the-art minimally invasive standards, offering rapid recovery, high precision, and outstanding clinical safety.</p>
 
-                <p class="mb-6">Bariatric surgical care encompasses metabolic and weight-loss operations specifically engineered to reshape the gastrointestinal pathway. Whether modifying the volumetric capacity of the stomach or redirecting the digestive tract to alter caloric uptake, each operation adheres to strict clinical protocols. Patients planning for <a href="https://scodclinic.com/services/bariatric-surgery" class="text-scod hover:text-blue-700 font-semibold">Bariatric Surgery in Dlehi</a> receive comprehensive evaluations under seasoned clinical leadership led by <a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Vijay Anand Reddy</a>, ensuring that each intervention delivers optimal long-term health restoration.</p>
+                <p class="mb-6">Bariatric surgical care encompasses metabolic and weight-loss operations specifically engineered to reshape the gastrointestinal pathway. Whether modifying the volumetric capacity of the stomach or redirecting the digestive tract to alter caloric uptake, each operation adheres to strict clinical protocols. Patients planning for <a href="https://scodclinic.com/services/bariatric-surgery" class="text-scod hover:text-blue-700 font-semibold">Bariatric Surgery in Dlehi</a> receive comprehensive evaluations under seasoned clinical leadership led by <a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Arush Sabharwal</a>, ensuring that each intervention delivers optimal long-term health restoration.</p>
 
-                <p class="mb-6">This clinical guide details everything that is performed during bariatric surgery, breaking down operative phases, exact procedural mechanics, anatomical adjustments, and what occurs before and after surgery in direct, simple terms designed for clear understanding.</p>
+                <p class="mb-6">According to clinical evidence, <a href="https://en.wikipedia.org/wiki/Bariatric_surgery" class="text-scod hover:text-blue-700 font-semibold" target="_blank" rel="noopener noreferrer">bariatric surgery</a> delivers long-term weight reduction and remission of obesity-associated chronic conditions. This guide details everything that is performed during bariatric surgery, breaking down operative phases, exact procedural mechanics, anatomical adjustments, and recovery in direct, simple terms.</p>
 
                 <!-- Table of Contents -->
                 <div class="bg-gray-50 border border-gray-200 rounded-2xl p-6 mb-8">
@@ -58,23 +74,18 @@ include __DIR__ . '/../includes/header.php';
                         Table of Contents
                     </h2>
                     <ol class="list-decimal list-inside space-y-2 text-scod text-sm font-medium">
-                        <li><a href="#quick-answer" class="hover:underline">Quick Summary: What Exactly is Done in Bariatric Surgery?</a></li>
-                        <li><a href="#pre-op-preparation" class="hover:underline">Phase 1: Pre-Operative Preparation in the Operating Suite</a></li>
-                        <li><a href="#step-by-step-operation" class="hover:underline">Phase 2: Step-by-Step Surgical Process in the Theater</a></li>
+                        <li><a href="#pre-op-preparation" class="hover:underline">Phase 1: Pre-Operative Preparation</a></li>
+                        <li><a href="#step-by-step-operation" class="hover:underline">Phase 2: Step-by-Step Surgical Process</a></li>
                         <li><a href="#procedural-breakdown" class="hover:underline">Phase 3: What is Done in Each Type of Bariatric Procedure</a></li>
                         <li><a href="#intraoperative-safety" class="hover:underline">Phase 4: Intraoperative Safety Tests and Closure</a></li>
                         <li><a href="#biological-mechanisms" class="hover:underline">How Surgical Alterations Trigger Weight Loss and Metabolic Reset</a></li>
                         <li><a href="#post-op-recovery" class="hover:underline">What Happens Immediately After the Procedure</a></li>
-                        <li><a href="#why-scod-clinic" class="hover:underline">Clinical Care at SCOD Clinic</a></li>
+                        <li><a href="#final-thought" class="hover:underline">Final Thought</a></li>
                         <li><a href="#faq-section" class="hover:underline">Frequently Asked Questions</a></li>
                     </ol>
                 </div>
 
-                <h2 id="quick-answer" class="text-2xl font-bold text-gray-900 mt-8 mb-4">Quick Summary: What Exactly is Done in Bariatric Surgery?</h2>
-
-                <p class="mb-6">In bariatric surgery, a specialized surgeon operates inside the abdomen using laparoscopic or robotic instruments introduced through small keyhole incisions. The surgical team permanently modifies the digestive tract by either reducing the functional size of the stomach, bypassing a portion of the small intestine, or combining both approaches. As documented in medical literature on <a href="https://en.wikipedia.org/wiki/Bariatric_surgery" class="text-scod hover:text-blue-700 font-semibold" target="_blank" rel="noopener noreferrer">bariatric surgery</a>, these physical adjustments directly restrict meal size, suppress circulating hunger hormones such as ghrelin, stimulate satiety peptide production, and reduce caloric absorption.</p>
-
-                <h2 id="pre-op-preparation" class="text-2xl font-bold text-gray-900 mt-8 mb-4">Phase 1: Pre-Operative Preparation in the Operating Suite</h2>
+                <h2 id="pre-op-preparation" class="text-2xl font-bold text-gray-900 mt-8 mb-4">Phase 1: Pre-Operative Preparation</h2>
 
                 <p class="mb-6">Before surgical cuts are made, precise preparatory protocols ensure patient safety:</p>
 
@@ -93,7 +104,7 @@ include __DIR__ . '/../includes/header.php';
                     </div>
                 </div>
 
-                <h2 id="step-by-step-operation" class="text-2xl font-bold text-gray-900 mt-8 mb-4">Phase 2: Step-by-Step Surgical Process in the Theater</h2>
+                <h2 id="step-by-step-operation" class="text-2xl font-bold text-gray-900 mt-8 mb-4">Phase 2: Step-by-Step Surgical Process</h2>
 
                 <p class="mb-6">Regardless of whether a patient receives a gastric sleeve or a gastric bypass, modern bariatric surgical steps follow a disciplined laparoscopic workflow:</p>
 
@@ -226,11 +237,11 @@ include __DIR__ . '/../includes/header.php';
                     </div>
                 </div>
 
-                <h2 id="why-scod-clinic" class="text-2xl font-bold text-gray-900 mt-8 mb-4">Clinical Care at SCOD Clinic</h2>
+                <h2 id="final-thought" class="text-2xl font-bold text-gray-900 mt-8 mb-4">Final Thought</h2>
 
-                <p class="mb-6">At SCOD Clinic (Surgical Center for Obesity and Diabetes), bariatric surgery is performed using high-precision laparoscopic and robotic platforms. Under the clinical leadership of <a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Vijay Anand Reddy</a>, our surgical teams ensure that every anatomical division, staple row, and connection is completed according to international clinical benchmarks.</p>
+                <p class="mb-6">Understanding what is done in bariatric surgery dispels fear and provides clarity on the medical nature of modern weight-loss procedures. Bariatric surgery is not merely a physical reduction of the stomach; it is a sophisticated metabolic recalibration engineered to give individuals suffering from severe obesity and associated co-morbidities a sustainable path toward long-term health, vitality, and extended life expectancy.</p>
 
-                <p class="mb-6">From detailed pre-operative assessments and anesthetic screening to tailored post-surgical nutritional counseling, our multidisciplinary specialists guide patients through every phase of their metabolic transformation. If you are exploring surgical weight management options, book an in-depth consultation for <a href="https://scodclinic.com/services/bariatric-surgery" class="text-scod hover:text-blue-700 font-semibold">Bariatric Surgery in Dlehi</a> with our medical experts.</p>
+                <p class="mb-6">With modern minimally invasive laparoscopy, precision stapling systems, and comprehensive intraoperative testing, the entire procedure is conducted with remarkable safety and accuracy. When paired with committed lifestyle adjustments, balanced nutrition, and structured post-operative medical follow-ups, bariatric surgery remains one of the most powerful, durable, and transformative medical interventions available today.</p>
 
                 <h2 id="faq-section" class="text-2xl font-bold text-gray-900 mt-8 mb-4">Frequently Asked Questions</h2>
 
