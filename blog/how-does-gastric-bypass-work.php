@@ -377,13 +377,88 @@ include __DIR__ . '/../includes/header.php';
 
 <p>When performed with proper evaluation, guidance, and long-term follow-up, <a href="https://scodclinic.com/services/bariatric-surgery.php" target="_blank" rel="noreferrer noopener"><strong>Gastric Bypass Surgery in Delhi</strong></a> has shown excellent success outcomes for eligible patients. Choosing an experienced bariatric surgeon like <strong><a href="https://scodclinic.com/about.php">Dr. Arush Sabharwal</a></strong> plays a crucial role in safety, recovery, and sustained results. With commitment to dietary changes, physical activity, and medical care, gastric bypass can be a life-changing step toward better health, improved confidence, and enhanced quality of life.</p>
 
-<h2 class="wp-block-heading">Frequently Asked Questions</h2>
+                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-<h3 class="rank-math-question">How does Gastric Bypass work differently from other weight loss surgeries?</h3>Gastric bypass combines both restriction and reduced absorption, while many other surgeries focus mainly on limiting food intake.<h3 class="rank-math-question">How much weight can I lose after gastric bypass?</h3>Most patients lose 60–75% of their excess weight within 12–18 months.<h3 class="rank-math-question">How soon does weight loss start after surgery?</h3>Weight loss usually begins immediately and continues steadily over the first year.<h3 class="rank-math-question">Does Gastric Bypass cure diabetes?</h3>Many patients experience remission or major improvement in type 2 diabetes shortly after surgery.<h3 class="rank-math-question">Will I feel hungry after Gastric Bypass?</h3>Hunger is significantly reduced due to hormonal changes, especially in the first year.<h3 class="rank-math-question">How long does it take to recover from Gastric Bypass?</h3>Most patients return to normal daily activities within 2–4 weeks, depending on individual recovery.
-    
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How does Gastric Bypass work differently from other weight loss surgeries?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Gastric bypass combines both restriction and reduced absorption, while many other surgeries focus mainly on limiting food intake.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How much weight can I lose after gastric bypass?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Most patients lose 60–75% of their excess weight within 12–18 months.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How soon does weight loss start after surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Weight loss usually begins immediately and continues steadily over the first year.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Does Gastric Bypass cure diabetes?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Many patients experience remission or major improvement in type 2 diabetes shortly after surgery.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Will I feel hungry after Gastric Bypass?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Hunger is significantly reduced due to hormonal changes, especially in the first year.
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How long does it take to recover from Gastric Bypass?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Most patients return to normal daily activities within 2–4 weeks, depending on individual recovery.
+                            </div>
+                        </details>
+                    </div>
+                </div>
 
-    
-      <a href="can-you-smoke-after-bariatric-surgery"> Previous: Can You Smoke After Bariatric Surgery? {Key Facts}</a>
+<a href="can-you-smoke-after-bariatric-surgery"> Previous: Can You Smoke After Bariatric Surgery? {Key Facts}</a>
       <a href="can-bariatric-surgery-reverse-diabetes">Next: Can Bariatric Surgery Reverse Diabetes? {Surgeon Guide} </a>
     
   

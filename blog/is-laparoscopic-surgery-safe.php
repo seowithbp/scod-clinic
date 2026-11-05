@@ -153,31 +153,76 @@ include __DIR__ . '/../includes/header.php';
 
                 <p class="text-gray-600 mb-6">However, the safety and ultimate success of any surgery depend heavily on the skill of your medical team. Choosing an experienced, compassionate <a href="https://scodclinic.com/services/laparoscopic-surgery" class="text-scod hover:text-blue-700 font-semibold">Laparoscopic Surgeon in Delhi</a> like <a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Arush Sabharwal</a> at SCOD Clinic gives you access to state-of-the-art surgical technology, strict clinical safety protocols, and a comprehensive support team dedicated to your health and recovery. If you have been advised to have surgery, schedule a detailed consultation to ask questions and take your first step toward recovery with confidence.</p>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Frequently Asked Questions</h2>
-                <div class="space-y-4">
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Is laparoscopic surgery safe for older adults?</h3>
-                        <p class="text-gray-600">Yes, laparoscopic surgery is generally very safe and often highly recommended for older adults. Because it causes less physical stress, results in less blood loss, and allows patients to get out of bed and move sooner, it minimizes the risks of post-operative pneumonia, muscle weakness, and blood clots that are more common with long bed rest after open surgery.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Can a laparoscopic surgery be converted to open surgery?</h3>
-                        <p class="text-gray-600">Yes. If the surgeon encounters unexpected anatomical variations, severe internal scar tissue from prior operations, or bleeding that makes it difficult to see clearly, they may convert the procedure to an open surgery. This is a safety measure, not a failure, designed to protect the patient's well-being.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">How long does the shoulder pain last after a laparoscopy?</h3>
-                        <p class="text-gray-600">Shoulder pain caused by residual carbon dioxide gas is common and temporary. It typically resolves within 24 to 48 hours. Light walking, drinking warm fluids, and using a warm compress on the shoulder can help speed up the dissipation of the gas.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Are you put to sleep for laparoscopic surgery?</h3>
-                        <p class="text-gray-600">Yes, laparoscopic surgery is performed under general anesthesia. This ensures that you are completely asleep and relaxed during the procedure, so you feel absolutely no pain or discomfort. A specialized anesthesia provider will monitor you throughout the entire operation.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">How soon can I drive after laparoscopic surgery?</h3>
-                        <p class="text-gray-600">Most patients can drive within 5 to 7 days after surgery. However, you must meet two essential conditions: you must no longer be taking any prescription narcotic pain medications, and you must be able to press the brake pedal quickly and firmly without feeling abdominal pain or hesitation.</p>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
+
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is laparoscopic surgery safe for older adults?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, laparoscopic surgery is generally very safe and often highly recommended for older adults. Because it causes less physical stress, results in less blood loss, and allows patients to get out of bed and move sooner, it minimizes the risks of post-operative pneumonia, muscle weakness, and blood clots that are more common with long bed rest after open surgery.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can a laparoscopic surgery be converted to open surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes. If the surgeon encounters unexpected anatomical variations, severe internal scar tissue from prior operations, or bleeding that makes it difficult to see clearly, they may convert the procedure to an open surgery. This is a safety measure, not a failure, designed to protect the patient's well-being.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How long does the shoulder pain last after a laparoscopy?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Shoulder pain caused by residual carbon dioxide gas is common and temporary. It typically resolves within 24 to 48 hours. Light walking, drinking warm fluids, and using a warm compress on the shoulder can help speed up the dissipation of the gas.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Are you put to sleep for laparoscopic surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, laparoscopic surgery is performed under general anesthesia. This ensures that you are completely asleep and relaxed during the procedure, so you feel absolutely no pain or discomfort. A specialized anesthesia provider will monitor you throughout the entire operation.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How soon can I drive after laparoscopic surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Most patients can drive within 5 to 7 days after surgery. However, you must meet two essential conditions: you must no longer be taking any prescription narcotic pain medications, and you must be able to press the brake pedal quickly and firmly without feeling abdominal pain or hesitation.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <!-- Post Navigation -->
+<!-- Post Navigation -->
                 <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">
                     <a href="how-to-get-rid-of-co2-after-laparoscopic-surgery" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>

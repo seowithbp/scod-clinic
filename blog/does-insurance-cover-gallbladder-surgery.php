@@ -334,52 +334,112 @@ include __DIR__ . '/../includes/header.php';
 
                 <p>Led by top laparoscopic surgeon <strong><a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Arush Sabharwal</a></strong>, SCOD Clinic provides world-class surgical care paired with dedicated cashless health insurance support. For guidance on other specialized procedures, explore <a href="https://scodclinic.com/blog/is-bariatric-surgery-covered-by-insurance" class="text-scod hover:text-blue-700 font-semibold">bariatric surgery coverage</a>.</p>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-12 mb-6">Frequently Asked Questions</h2>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-                <div class="space-y-6">
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">1. Does health insurance cover gallbladder surgery in India?</h3>
-                        <p class="text-gray-600 text-sm">Yes, health insurance covers gallbladder surgery in India under standard health plans. Because gallbladder removal is medically required to treat gallstone pain or complications, insurers cover room rent, surgeon fees, OT charges, and post-op care.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">2. Is laparoscopic gallbladder surgery covered by insurance?</h3>
-                        <p class="text-gray-600 text-sm">Yes, laparoscopic gallbladder surgery (keyhole removal) is fully covered under health insurance policies. IRDAI guidelines require insurers to cover modern minimally invasive surgical procedures up to policy sum limits.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">3. What is the waiting period for gallbladder surgery in health insurance?</h3>
-                        <p class="text-gray-600 text-sm">The waiting period for gallbladder surgery in insurance typically ranges from 1 to 2 years for planned, non-emergency gallstone removal. Emergency cases have a 30-day initial waiting period, while corporate employer plans usually cover it from day one.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">4. Can I get cashless treatment for gallbladder removal?</h3>
-                        <p class="text-gray-600 text-sm">Yes, cashless gallbladder surgery is available when treated at a network hospital empaneled with your health insurance provider or Third-Party Administrator (TPA).</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">5. Are diagnostic tests like USG ultrasound covered under insurance?</h3>
-                        <p class="text-gray-600 text-sm">Yes, abdominal ultrasound (USG), CT scans, and preoperative blood tests are covered under pre-hospitalization benefits (typically covering 30 to 60 days prior to hospital admission).</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">6. Is daycare laparoscopic gallbladder surgery covered?</h3>
-                        <p class="text-gray-600 text-sm">Yes, health insurance plans cover daycare laparoscopic gallbladder surgery. Modern keyhole techniques allow patients to be discharged on the same day, and insurers recognize daycare procedures that do not require 24-hour stays.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">7. What documents are required for claiming gallbladder surgery insurance?</h3>
-                        <p class="text-gray-600 text-sm">Required documents include the pre-authorization approval form, insurance card, treating doctor's prescription, USG diagnostic report, original discharge summary, itemized hospital bill, and pharmacy payment receipts.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">8. Why might a gallbladder surgery insurance claim be rejected?</h3>
-                        <p class="text-gray-600 text-sm">Insurance claims may be rejected if the gallstones are asymptomatic without medical justification, if the procedure occurs during an unexpired waiting period, if the policy has lapsed, or due to non-disclosure of pre-existing conditions during policy sign-up.</p>
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Does health insurance cover gallbladder surgery in India?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, health insurance covers gallbladder surgery in India under standard health plans. Because gallbladder removal is medically required to treat gallstone pain or complications, insurers cover room rent, surgeon fees, OT charges, and post-op care.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is laparoscopic gallbladder surgery covered by insurance?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, laparoscopic gallbladder surgery (keyhole removal) is fully covered under health insurance policies. IRDAI guidelines require insurers to cover modern minimally invasive surgical procedures up to policy sum limits.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What is the waiting period for gallbladder surgery in health insurance?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                The waiting period for gallbladder surgery in insurance typically ranges from 1 to 2 years for planned, non-emergency gallstone removal. Emergency cases have a 30-day initial waiting period, while corporate employer plans usually cover it from day one.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can I get cashless treatment for gallbladder removal?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, cashless gallbladder surgery is available when treated at a network hospital empaneled with your health insurance provider or Third-Party Administrator (TPA).
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Are diagnostic tests like USG ultrasound covered under insurance?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, abdominal ultrasound (USG), CT scans, and preoperative blood tests are covered under pre-hospitalization benefits (typically covering 30 to 60 days prior to hospital admission).
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is daycare laparoscopic gallbladder surgery covered?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, health insurance plans cover daycare laparoscopic gallbladder surgery. Modern keyhole techniques allow patients to be discharged on the same day, and insurers recognize daycare procedures that do not require 24-hour stays.
+                            </div>
+                        </details>
+                        <!-- FAQ 7 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What documents are required for claiming gallbladder surgery insurance?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Required documents include the pre-authorization approval form, insurance card, treating doctor's prescription, USG diagnostic report, original discharge summary, itemized hospital bill, and pharmacy payment receipts.
+                            </div>
+                        </details>
+                        <!-- FAQ 8 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why might a gallbladder surgery insurance claim be rejected?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Insurance claims may be rejected if the gallstones are asymptomatic without medical justification, if the procedure occurs during an unexpired waiting period, if the policy has lapsed, or due to non-disclosure of pre-existing conditions during policy sign-up.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-            </div>
-        </article>
+</article>
     </main>
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>

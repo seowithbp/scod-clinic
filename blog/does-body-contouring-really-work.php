@@ -381,41 +381,88 @@ include __DIR__ . '/../includes/header.php';
                     <a href="https://scodclinic.com/contact" class="inline-block bg-white text-scod font-bold px-8 py-3.5 rounded-full hover:bg-blue-50 transition-all shadow-md">Book Your Consultation Today</a>
                 </div>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-10 mb-6">Frequently Asked Questions (FAQs)</h2>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-                <div class="space-y-4">
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Does body contouring really work for losing stomach fat?</h3>
-                        <p class="text-gray-600">Yes, body contouring works very effectively for belly fat. Non-surgical options reduce localized fat layers by 20% to 25%, while surgical tummy tucks remove stubborn fat deposits, trim loose abdominal skin, and tighten underlying belly muscles.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">How does body contouring work to remove destroyed fat?</h3>
-                        <p class="text-gray-600">In non-surgical body contouring, heat, cold, or energy destroys targeted fat cells. Your body's lymphatic system metabolizes and flushes out these broken-down cells through natural metabolic pathways over 4 to 12 weeks. In surgical body contouring, fat cells are physically suctioned out immediately.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Are body contouring results permanent?</h3>
-                        <p class="text-gray-600">Yes, the fat cells destroyed or removed during body contouring procedures are permanently gone. However, maintaining a stable weight through balanced nutrition and exercise is essential, as remaining fat cells can expand if you gain weight in the future.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Does body contouring work better than exercise?</h3>
-                        <p class="text-gray-600">Exercise reduces overall body fat percentage and builds muscle, but it cannot spot-reduce specific fat bulges or tighten stretched, excess skin. Body contouring works specifically to target isolated fat deposits and reshape areas that exercise cannot change.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Is body contouring painful?</h3>
-                        <p class="text-gray-600">Non-surgical body contouring involves minimal discomfort, usually described as mild cold or heating sensations. Surgical body contouring is performed under anesthesia, so you feel no pain during surgery. Post-surgical soreness and tight sensations are managed easily with prescribed medications.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Where can I get expert Body Contouring Treatment in Delhi?</h3>
-                        <p class="text-gray-600">You can receive advanced, medically supervised body contouring at SCOD Clinic in Delhi under the expert care of Dr. Arush Sabharwal, providing personalized surgical and non-surgical body reshaping treatments.</p>
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Does body contouring really work for losing stomach fat?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, body contouring works very effectively for belly fat. Non-surgical options reduce localized fat layers by 20% to 25%, while surgical tummy tucks remove stubborn fat deposits, trim loose abdominal skin, and tighten underlying belly muscles.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How does body contouring work to remove destroyed fat?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                In non-surgical body contouring, heat, cold, or energy destroys targeted fat cells. Your body's lymphatic system metabolizes and flushes out these broken-down cells through natural metabolic pathways over 4 to 12 weeks. In surgical body contouring, fat cells are physically suctioned out immediately.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Are body contouring results permanent?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, the fat cells destroyed or removed during body contouring procedures are permanently gone. However, maintaining a stable weight through balanced nutrition and exercise is essential, as remaining fat cells can expand if you gain weight in the future.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Does body contouring work better than exercise?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Exercise reduces overall body fat percentage and builds muscle, but it cannot spot-reduce specific fat bulges or tighten stretched, excess skin. Body contouring works specifically to target isolated fat deposits and reshape areas that exercise cannot change.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is body contouring painful?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Non-surgical body contouring involves minimal discomfort, usually described as mild cold or heating sensations. Surgical body contouring is performed under anesthesia, so you feel no pain during surgery. Post-surgical soreness and tight sensations are managed easily with prescribed medications.
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Where can I get expert Body Contouring Treatment in Delhi?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                You can receive advanced, medically supervised body contouring at SCOD Clinic in Delhi under the expert care of Dr. Arush Sabharwal, providing personalized surgical and non-surgical body reshaping treatments.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <!-- Post Navigation -->
+<!-- Post Navigation -->
                 <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">
                     <a href="can-bariatric-surgery-cause-heart-problems" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>

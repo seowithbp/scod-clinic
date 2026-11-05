@@ -143,44 +143,112 @@ include __DIR__ . '/../includes/header.php';
                 <p class="mb-6">Experiencing shoulder discomfort and abdominal bloating after laparoscopic surgery can be unexpected, but it is a normal and temporary part of the recovery process. The gas pain typically peaks within the first 24 to 48 hours and resolves completely within 3 days as your body naturally absorbs and exhales the remaining CO2. By practicing early walking, deep breathing, and utilizing simple comfort measures like heat therapy, you can significantly reduce your recovery time.</p>
                 <p class="mb-6">Partnering with a dedicated surgical team is essential for a safe and comfortable recovery. At SCOD Clinic, under the leadership of <a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Arush Sabharwal</a>, a renowned <a href="https://scodclinic.com/services/laparoscopic-surgery" class="text-scod hover:text-blue-700 font-semibold">Laparoscopic Surgeon in Delhi</a>, we are committed to providing personalized post-operative support. Our clinical team works closely with each patient to manage side effects, monitor progress, and ensure a smooth recovery. With professional guidance and active recovery choices, you can quickly move past post-operative discomfort and enjoy the long-term benefits of your procedure.</p>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Frequently Asked Questions</h2>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-                <div class="space-y-4">
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">How to get rid of co2 after laparoscopic surgery?</h3>
-                        <p class="text-gray-600">To get rid of CO2 after laparoscopic surgery, the most effective method is gentle walking. Walking improves blood circulation, which helps the body absorb the trapped gas from the abdominal cavity and transport it to the lungs to be exhaled. Deep breathing exercises and staying hydrated also accelerate this natural elimination process.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Why does co2 pain after laparoscopic surgery affect the shoulder?</h3>
-                        <p class="text-gray-600">The CO2 pain in the shoulder is called referred pain. It occurs because the trapped carbon dioxide gas rises to the top of the abdomen, irritating the diaphragm and the phrenic nerve. Since the phrenic nerve is connected to nerves in the neck and shoulder area, the brain perceives this diaphragmatic irritation as pain in the shoulder tip.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">How long does co2 after laparoscopic surgery stay in the body?</h3>
-                        <p class="text-gray-600">The majority of the residual carbon dioxide gas is absorbed and eliminated by the body within 24 to 72 hours after the procedure. The associated gas bloat and shoulder pain typically peak on the first or second day and resolve completely by the third or fourth day post-surgery.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Does taking Simethicone or Gas-X help with laparoscopic gas pain?</h3>
-                        <p class="text-gray-600">Simethicone (Gas-X) does not directly relieve laparoscopic shoulder pain. This is because Simethicone works inside the digestive tract to break up intestinal gas bubbles, whereas the laparoscopic CO2 is trapped outside the intestines in the abdominal cavity. However, it can help relieve secondary gas bloating within the gut that often occurs after surgery.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Can I use a heating pad to relieve post-operative gas pain?</h3>
-                        <p class="text-gray-600">Yes, you can apply a heating pad or a warm compress to your shoulders or upper back to help soothe the referred nerve pain and relax tense muscles. However, you must avoid placing the heating pad directly over your surgical incisions or on any areas that are numb from anesthesia, as this could lead to skin burns or interfere with wound healing.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Can I lie down flat after laparoscopic surgery if I have gas pain?</h3>
-                        <p class="text-gray-600">It is generally recommended to avoid lying completely flat if you are experiencing CO2 gas pain. When flat, the trapped gas rests directly against the diaphragm, which worsens referred shoulder pain. Instead, rest in a semi-reclined position with your chest elevated at a 30 to 45-degree angle or sleep on your side to reduce pressure on the diaphragm.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Does drinking warm water or peppermint tea help expel laparoscopic CO2?</h3>
-                        <p class="text-gray-600">Yes, warm liquids and peppermint tea can help indirectly. While they cannot directly dissolve the carbon dioxide gas trapped outside your intestines, they stimulate your gastrointestinal tract, promote bowel movements, and relieve internal digestive gas. This relieves pressure in the abdomen, making the diaphragmatic gas irritation less uncomfortable.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">When should I contact my surgical team about post-operative gas pain?</h3>
-                        <p class="text-gray-600">You should contact your doctor or surgical team if your shoulder or abdominal pain worsens after 3 to 4 days, or if it is accompanied by high fever, severe abdominal tenderness, persistent vomiting, difficulty breathing, or signs of infection around the surgical cuts (such as redness, swelling, or yellow discharge).</p>
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How to get rid of co2 after laparoscopic surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                To get rid of CO2 after laparoscopic surgery, the most effective method is gentle walking. Walking improves blood circulation, which helps the body absorb the trapped gas from the abdominal cavity and transport it to the lungs to be exhaled. Deep breathing exercises and staying hydrated also accelerate this natural elimination process.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why does co2 pain after laparoscopic surgery affect the shoulder?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                The CO2 pain in the shoulder is called referred pain. It occurs because the trapped carbon dioxide gas rises to the top of the abdomen, irritating the diaphragm and the phrenic nerve. Since the phrenic nerve is connected to nerves in the neck and shoulder area, the brain perceives this diaphragmatic irritation as pain in the shoulder tip.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How long does co2 after laparoscopic surgery stay in the body?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                The majority of the residual carbon dioxide gas is absorbed and eliminated by the body within 24 to 72 hours after the procedure. The associated gas bloat and shoulder pain typically peak on the first or second day and resolve completely by the third or fourth day post-surgery.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Does taking Simethicone or Gas-X help with laparoscopic gas pain?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Simethicone (Gas-X) does not directly relieve laparoscopic shoulder pain. This is because Simethicone works inside the digestive tract to break up intestinal gas bubbles, whereas the laparoscopic CO2 is trapped outside the intestines in the abdominal cavity. However, it can help relieve secondary gas bloating within the gut that often occurs after surgery.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can I use a heating pad to relieve post-operative gas pain?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, you can apply a heating pad or a warm compress to your shoulders or upper back to help soothe the referred nerve pain and relax tense muscles. However, you must avoid placing the heating pad directly over your surgical incisions or on any areas that are numb from anesthesia, as this could lead to skin burns or interfere with wound healing.
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can I lie down flat after laparoscopic surgery if I have gas pain?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                It is generally recommended to avoid lying completely flat if you are experiencing CO2 gas pain. When flat, the trapped gas rests directly against the diaphragm, which worsens referred shoulder pain. Instead, rest in a semi-reclined position with your chest elevated at a 30 to 45-degree angle or sleep on your side to reduce pressure on the diaphragm.
+                            </div>
+                        </details>
+                        <!-- FAQ 7 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Does drinking warm water or peppermint tea help expel laparoscopic CO2?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, warm liquids and peppermint tea can help indirectly. While they cannot directly dissolve the carbon dioxide gas trapped outside your intestines, they stimulate your gastrointestinal tract, promote bowel movements, and relieve internal digestive gas. This relieves pressure in the abdomen, making the diaphragmatic gas irritation less uncomfortable.
+                            </div>
+                        </details>
+                        <!-- FAQ 8 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">When should I contact my surgical team about post-operative gas pain?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                You should contact your doctor or surgical team if your shoulder or abdominal pain worsens after 3 to 4 days, or if it is accompanied by high fever, severe abdominal tenderness, persistent vomiting, difficulty breathing, or signs of infection around the surgical cuts (such as redness, swelling, or yellow discharge).
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <!-- Post Navigation -->
+<!-- Post Navigation -->
                 <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">
                     <a href="how-to-stop-hair-loss-after-bariatric-surgery" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>

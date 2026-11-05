@@ -460,79 +460,112 @@ include __DIR__ . '/../includes/header.php';
                 </p>
 
                 <!-- Section: 8 Comprehensive FAQs -->
-                <div class="mt-14 pt-8 border-t border-gray-200">
-                    <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
-                        Frequently Asked Questions: Digestion After Weight Loss Surgery
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
                     </h2>
 
                     <div class="space-y-4">
                         <!-- FAQ 1 -->
-                        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                            <h3 class="font-bold text-gray-900 text-lg mb-2">1. How long does food take to digest after weight loss surgery?</h3>
-                            <p class="text-gray-600 text-sm leading-relaxed">
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How long does food take to digest after weight loss surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
                                 After a gastric sleeve, liquids and soft foods pass quickly, while solid meals take 1 to 2 hours because the pyloric valve remains intact. In a gastric bypass, food bypasses the pyloric valve and enters the small intestine within 15 to 30 minutes, where final enzymatic breakdown and nutrient absorption occur.
-                            </p>
-                        </div>
-
+                            </div>
+                        </details>
                         <!-- FAQ 2 -->
-                        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                            <h3 class="font-bold text-gray-900 text-lg mb-2">2. Why can't you drink water while eating after bariatric surgery?</h3>
-                            <p class="text-gray-600 text-sm leading-relaxed">
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why can't you drink water while eating after bariatric surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
                                 Drinking liquids while eating washes food out of your smaller stomach pouch before natural digestive breakdown begins. It also overfills the stomach, causing discomfort, reflux, or nausea, and washes away natural fullness signals that prevent overeating.
-                            </p>
-                        </div>
-
+                            </div>
+                        </details>
                         <!-- FAQ 3 -->
-                        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                            <h3 class="font-bold text-gray-900 text-lg mb-2">3. Does weight loss surgery permanently harm your digestive system?</h3>
-                            <p class="text-gray-600 text-sm leading-relaxed">
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Does weight loss surgery permanently harm your digestive system?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
                                 No. Weight loss surgery is a safe, controlled reconstruction of your digestive tract. The stomach tissue heals completely within 6 to 8 weeks, and the intestinal wall adapts by enhancing nutrient absorption along the remaining pathway.
-                            </p>
-                        </div>
-
+                            </div>
+                        </details>
                         <!-- FAQ 4 -->
-                        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                            <h3 class="font-bold text-gray-900 text-lg mb-2">4. What is dumping syndrome and how is it prevented?</h3>
-                            <p class="text-gray-600 text-sm leading-relaxed">
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What is dumping syndrome and how is it prevented?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
                                 Dumping syndrome happens when high-sugar or fatty foods pass too rapidly into the small intestine, causing cramps, dizziness, sweating, and loose stools. It is easily prevented by eating low-sugar meals, chewing thoroughly, and avoiding liquids during meals.
-                            </p>
-                        </div>
-
+                            </div>
+                        </details>
                         <!-- FAQ 5 -->
-                        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                            <h3 class="font-bold text-gray-900 text-lg mb-2">5. Will my stomach capacity return to normal over time?</h3>
-                            <p class="text-gray-600 text-sm leading-relaxed">
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Will my stomach capacity return to normal over time?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
                                 No. Your stomach naturally relaxes slightly over 12 to 24 months to hold small, comfortable portions (about 150 to 200 ml), but it will never expand back to its original two-liter size unless strained by chronic overeating.
-                            </p>
-                        </div>
-
+                            </div>
+                        </details>
                         <!-- FAQ 6 -->
-                        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                            <h3 class="font-bold text-gray-900 text-lg mb-2">6. Why do certain foods cause nausea or discomfort after surgery?</h3>
-                            <p class="text-gray-600 text-sm leading-relaxed">
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why do certain foods cause nausea or discomfort after surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
                                 Discomfort usually happens when you eat too fast, swallow without chewing into a smooth paste, or consume tough dry meat, doughy bread, or fibrous skins. Chewing thoroughly with saliva prevents irritation at the narrow gastric outlet.
-                            </p>
-                        </div>
-
+                            </div>
+                        </details>
                         <!-- FAQ 7 -->
-                        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                            <h3 class="font-bold text-gray-900 text-lg mb-2">7. How do bowel habits change following bariatric surgery?</h3>
-                            <p class="text-gray-600 text-sm leading-relaxed">
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How do bowel habits change following bariatric surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
                                 Because overall meal quantity decreases significantly, bowel movements typically drop to once every two to three days. Stool consistency also adjusts as your gut bacteria shift and fluid intake increases.
-                            </p>
-                        </div>
-
+                            </div>
+                        </details>
                         <!-- FAQ 8 -->
-                        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                            <h3 class="font-bold text-gray-900 text-lg mb-2">8. Do I need to take digestive enzymes after surgery?</h3>
-                            <p class="text-gray-600 text-sm leading-relaxed">
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Do I need to take digestive enzymes after surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
                                 Most patients do not need supplemental digestive enzymes because the liver and pancreas still supply normal bile and enzymes. However, taking daily bariatric multivitamins, calcium citrate, and iron is essential for lifelong wellness.
-                            </p>
-                        </div>
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <!-- Post Navigation -->
+<!-- Post Navigation -->
                 <nav class="flex flex-col sm:flex-row justify-between items-center gap-4 mt-12 pt-8 border-t border-gray-200">
                     <a href="/blog/what-not-to-eat-after-hernia-surgery" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold text-sm">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>

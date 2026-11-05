@@ -125,40 +125,100 @@ include __DIR__ . '/../includes/header.php';
 
                 <p class="mb-6">If you are considering weight loss surgery or require guidance on post-operative care, consulting the <a href="https://scodclinic.com/services/bariatric-surgery" class="text-scod hover:text-blue-700 font-semibold">Best Bariatric Surgeon in Delhi</a> is your first step. At SCOD Clinic, we place a strong emphasis on holistic, patient-centered care. Under the leadership of renowned medical experts like <a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Arush Sabharwal</a>, our clinic provides personalized pre-operative assessments, advanced minimally invasive surgical techniques, and structured long-term follow-up plans. Our dedicated dietitians and medical professionals work closely with you to manage your hydration, nutrition, and metabolic health, ensuring that your transition to a healthier life is both successful and safe.</p>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Frequently Asked Questions</h2>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-                <div class="space-y-4">
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Can bariatric surgery cause kidney failure?</h3>
-                        <p class="text-gray-600">While bariatric surgery generally improves kidney health by resolving diabetes and hypertension, there is a small risk of kidney damage. The primary causes of kidney failure or injury post-surgery are severe dehydration, acute kidney injury (AKI) from low fluid intake, and oxalate nephropathy (kidney damage caused by oxalate crystals forming in the kidneys after gastric bypass).</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">What are the symptoms of kidney stones after gastric bypass?</h3>
-                        <p class="text-gray-600">Symptoms of kidney stones after gastric bypass include sudden, severe pain in the back or side (flank pain), blood in the urine (pink, red, or brown urine), pain or burning during urination, a constant urge to urinate, and sometimes fever and chills if an infection is present.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Why are gastric bypass patients at a higher risk for kidney stones?</h3>
-                        <p class="text-gray-600">Gastric bypass causes fat malabsorption. The unabsorbed fat binds to calcium in the digestive tract, leaving dietary oxalate free to be absorbed into the bloodstream. The kidneys filter this excess oxalate, which binds with calcium in the urine to form calcium oxalate stones.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">How does dehydration affect kidney function after surgery?</h3>
-                        <p class="text-gray-600">Since the stomach capacity is greatly reduced, drinking enough fluids can be challenging. If fluid intake is insufficient, dehydration reduces blood flow to the kidneys. This impair their ability to filter waste products from the blood, potentially causing acute kidney injury (AKI).</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">What is oxalate nephropathy?</h3>
-                        <p class="text-gray-600">Oxalate nephropathy is a serious complication where high levels of absorbed oxalate form crystals inside the kidney tubules. These crystals cause inflammation, tissue damage, and progressive scarring, which can lead to chronic kidney disease or permanent kidney failure if left untreated.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Why are NSAID pain relievers banned after weight loss surgery?</h3>
-                        <p class="text-gray-600">NSAIDs (like ibuprofen, naproxen, and aspirin) increase the risk of stomach ulcers in the newly formed pouch. Additionally, they reduce the blood flow to the kidneys, which can trigger acute kidney failure, especially in patients who are slightly dehydrated.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Can kidney damage after bariatric surgery be reversed?</h3>
-                        <p class="text-gray-600">Acute kidney injury caused by dehydration is usually reversible with prompt intravenous fluid therapy and medical care. However, chronic damage from recurrent kidney stones or advanced oxalate nephropathy can cause permanent scarring, making early prevention and compliance with hydration and dietary guidelines critical.</p>
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can bariatric surgery cause kidney failure?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                While bariatric surgery generally improves kidney health by resolving diabetes and hypertension, there is a small risk of kidney damage. The primary causes of kidney failure or injury post-surgery are severe dehydration, acute kidney injury (AKI) from low fluid intake, and oxalate nephropathy (kidney damage caused by oxalate crystals forming in the kidneys after gastric bypass).
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What are the symptoms of kidney stones after gastric bypass?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Symptoms of kidney stones after gastric bypass include sudden, severe pain in the back or side (flank pain), blood in the urine (pink, red, or brown urine), pain or burning during urination, a constant urge to urinate, and sometimes fever and chills if an infection is present.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why are gastric bypass patients at a higher risk for kidney stones?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Gastric bypass causes fat malabsorption. The unabsorbed fat binds to calcium in the digestive tract, leaving dietary oxalate free to be absorbed into the bloodstream. The kidneys filter this excess oxalate, which binds with calcium in the urine to form calcium oxalate stones.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How does dehydration affect kidney function after surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Since the stomach capacity is greatly reduced, drinking enough fluids can be challenging. If fluid intake is insufficient, dehydration reduces blood flow to the kidneys. This impair their ability to filter waste products from the blood, potentially causing acute kidney injury (AKI).
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What is oxalate nephropathy?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Oxalate nephropathy is a serious complication where high levels of absorbed oxalate form crystals inside the kidney tubules. These crystals cause inflammation, tissue damage, and progressive scarring, which can lead to chronic kidney disease or permanent kidney failure if left untreated.
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why are NSAID pain relievers banned after weight loss surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                NSAIDs (like ibuprofen, naproxen, and aspirin) increase the risk of stomach ulcers in the newly formed pouch. Additionally, they reduce the blood flow to the kidneys, which can trigger acute kidney failure, especially in patients who are slightly dehydrated.
+                            </div>
+                        </details>
+                        <!-- FAQ 7 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can kidney damage after bariatric surgery be reversed?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Acute kidney injury caused by dehydration is usually reversible with prompt intravenous fluid therapy and medical care. However, chronic damage from recurrent kidney stones or advanced oxalate nephropathy can cause permanent scarring, making early prevention and compliance with hydration and dietary guidelines critical.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <!-- Post Navigation -->
+<!-- Post Navigation -->
                 <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">
                     <a href="can-a-person-drink-alcohol-after-bariatric-surgery" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>

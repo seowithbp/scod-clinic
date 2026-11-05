@@ -254,13 +254,76 @@ include __DIR__ . '/../includes/header.php';
 
 <p>The robotic gallbladder surgery time may vary depending on the patient's condition, the surgeon's expertise, and the complexity of the case. However, most patients experience faster recovery and minimal discomfort compared to traditional open surgery.</p>
 
-<h2 class="wp-block-heading"><strong>Frequently Asked Questions</strong></h2>
+                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-<h3 class="rank-math-question">How long does Robotic Gallbladder Surgery take exactly?</h3>In most uncomplicated cases, it takes 60–90 minutes. Complex cases may take up to 2 hours.<h3 class="rank-math-question">Is Robotic Gallbladder Surgery painful?</h3>Pain is usually mild to moderate and well-controlled with medication. Most patients recover quickly.<h3 class="rank-math-question">What is the Robotic Cholecystectomy recovery time?</h3>Most people resume normal activities within 1 week and fully recover in 2–4 weeks.<h3 class="rank-math-question">Can I go home the same day?</h3>Yes, robotic gallbladder surgery is typically a day-care procedure.<h3 class="rank-math-question">Is Robotic Surgery better than Laparoscopic Surgery?</h3>Both are effective, but robotic surgery offers better precision and visualization, especially in complex cases.
-    
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How long does Robotic Gallbladder Surgery take exactly?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                In most uncomplicated cases, it takes 60–90 minutes. Complex cases may take up to 2 hours.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is Robotic Gallbladder Surgery painful?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Pain is usually mild to moderate and well-controlled with medication. Most patients recover quickly.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What is the Robotic Cholecystectomy recovery time?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Most people resume normal activities within 1 week and fully recover in 2–4 weeks.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can I go home the same day?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, robotic gallbladder surgery is typically a day-care procedure.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is Robotic Surgery better than Laparoscopic Surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Both are effective, but robotic surgery offers better precision and visualization, especially in complex cases.
+                            </div>
+                        </details>
+                    </div>
+                </div>
 
-    
-      <a href="can-bariatric-surgery-reverse-diabetes"> Previous: Can Bariatric Surgery Reverse Diabetes? {Surgeon Guide}</a>
+<a href="can-bariatric-surgery-reverse-diabetes"> Previous: Can Bariatric Surgery Reverse Diabetes? {Surgeon Guide}</a>
       <a href="how-long-does-laparoscopic-appendectomy-surgery-take">Next: How Long Does Laparoscopic Appendectomy Surgery Take? </a>
     
   

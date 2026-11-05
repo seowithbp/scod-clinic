@@ -258,51 +258,76 @@ include __DIR__ . '/../includes/header.php';
                 </ul>
 
                 <!-- Final Thoughts -->
-                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Final Thoughts</h2>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-                <p class="text-gray-600 mb-6">
-                    Asking <strong>how much weight loss after bariatric surgery</strong> is possible is the first step on a journey toward complete physical and metabolic renewal. Weight loss surgery is not a shortcut or an easy way out; it is a powerful medical tool that empowers you to take permanent control of your health.
-                </p>
-
-                <p class="text-gray-600 mb-6">
-                    By shedding 60% to 80% of your excess weight, you are not only altering your appearance—you are reversing life-threatening conditions like type 2 diabetes, fatty liver disease, sleep apnea, and high blood pressure. With dedicated post-operative care, healthy high-protein nutrition, and guidance from a <a href="https://scodclinic.com/services/bariatric-surgery" class="text-scod hover:text-blue-700 font-semibold">Top Bariatric Surgeon in Delhi</a> like <a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Arush Sabharwal</a> at SCOD Clinic, long-term health and vitality are well within your reach.
-                </p>
-
-                <!-- Frequently Asked Questions -->
-                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Frequently Asked Questions</h2>
-
-                <p class="text-gray-600 mb-6">
-                    Here are answers to the most frequently asked questions regarding weight loss timelines, surgical outcome metrics, and post-bariatric lifestyle adjustments.
-                </p>
-
-                <div class="space-y-4 mb-10">
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">How much weight loss after bariatric surgery can I expect in the first month?</h3>
-                        <p class="text-gray-600">Most patients lose approximately 10% to 15% of their excess body weight during the first 30 days after surgery. This initial phase involves rapid weight reduction driven by the post-operative liquid diet and immediate metabolic changes.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">What is the difference between total weight loss and excess weight loss after bariatric surgery?</h3>
-                        <p class="text-gray-600">Total weight loss (%TWL) measures the total kilograms lost from your starting weight. Excess weight loss (%EWL) measures the percentage of weight lost above your ideal healthy weight (BMI of 25). EWL is the clinical standard used by bariatric surgeons to evaluate success.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Can weight regain happen after bariatric surgery, and how can it be prevented?</h3>
-                        <p class="text-gray-600">Yes, minor weight regain (5% to 10%) can happen after 2 to 3 years if healthy habits slip. It can be prevented by maintaining a high-protein diet, avoiding liquid calories and sugary snacks, staying physically active, and attending annual follow-up appointments with your bariatric team.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">How long does it take to reach peak weight loss after bariatric surgery?</h3>
-                        <p class="text-gray-600">Peak weight loss is typically reached between 12 to 18 months post-surgery. During this window, average weight loss after bariatric surgery peaks at 65% to 85% of excess weight before stabilizing into long-term maintenance.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Is daily exercise mandatory to achieve expected weight loss after bariatric surgery?</h3>
-                        <p class="text-gray-600">While dietary restriction drives initial weight loss, regular exercise is essential for preserving lean muscle mass, boosting metabolism, improving skin tone, and preventing long-term weight regain.</p>
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How much weight loss after bariatric surgery can I expect in the first month?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Most patients lose approximately 10% to 15% of their excess body weight during the first 30 days after surgery. This initial phase involves rapid weight reduction driven by the post-operative liquid diet and immediate metabolic changes.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What is the difference between total weight loss and excess weight loss after bariatric surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Total weight loss (%TWL) measures the total kilograms lost from your starting weight. Excess weight loss (%EWL) measures the percentage of weight lost above your ideal healthy weight (BMI of 25). EWL is the clinical standard used by bariatric surgeons to evaluate success.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can weight regain happen after bariatric surgery, and how can it be prevented?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, minor weight regain (5% to 10%) can happen after 2 to 3 years if healthy habits slip. It can be prevented by maintaining a high-protein diet, avoiding liquid calories and sugary snacks, staying physically active, and attending annual follow-up appointments with your bariatric team.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How long does it take to reach peak weight loss after bariatric surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Peak weight loss is typically reached between 12 to 18 months post-surgery. During this window, average weight loss after bariatric surgery peaks at 65% to 85% of excess weight before stabilizing into long-term maintenance.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is daily exercise mandatory to achieve expected weight loss after bariatric surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                While dietary restriction drives initial weight loss, regular exercise is essential for preserving lean muscle mass, boosting metabolism, improving skin tone, and preventing long-term weight regain.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <!-- Post Navigation -->
+<!-- Post Navigation -->
                 <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">
                     <a href="is-laparoscopic-surgery-safe" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>

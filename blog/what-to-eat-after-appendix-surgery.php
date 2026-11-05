@@ -398,112 +398,112 @@ include __DIR__ . '/../includes/header.php';
                     </table>
                 </div>
 
-                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mt-10 mb-4">Practical Eating Habits for Smooth Digestion</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-                    <div class="p-4 border border-gray-100 rounded-xl bg-slate-50">
-                        <h4 class="font-bold text-gray-900 mb-1 text-sm">1. Eat 5 to 6 Small Meals</h4>
-                        <p class="text-xs text-gray-600">Smaller portions prevent stomach distension and provide steady post-op energy.</p>
-                    </div>
-                    <div class="p-4 border border-gray-100 rounded-xl bg-slate-50">
-                        <h4 class="font-bold text-gray-900 mb-1 text-sm">2. Chew Thoroughly</h4>
-                        <p class="text-xs text-gray-600">Chewing food to a fine paste reduces workload on your gut and minimizes swallowed air.</p>
-                    </div>
-                    <div class="p-4 border border-gray-100 rounded-xl bg-slate-50">
-                        <h4 class="font-bold text-gray-900 mb-1 text-sm">3. Stay Upright After Eating</h4>
-                        <p class="text-xs text-gray-600">Avoid lying down immediately after meals. Sit upright or take a light 5-minute stroll.</p>
-                    </div>
-                    <div class="p-4 border border-gray-100 rounded-xl bg-slate-50">
-                        <h4 class="font-bold text-gray-900 mb-1 text-sm">4. Sip Fluids Between Meals</h4>
-                        <p class="text-xs text-gray-600">Drink water between meals rather than gulping liquids during food to preserve digestive enzymes.</p>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
+
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What is the very first food I can eat after appendix surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Clear liquids such as warm water, vegetable or chicken broth, ORS, and tender coconut water. Start only after your surgical team confirms bowel sounds.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How soon after appendix surgery can I eat solid foods?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Most patients recovering from Laparoscopic Appendix Surgery in Delhi begin soft solids (khichdi, eggs, boiled potatoes) by days 3 to 5, and resume regular meals around day 7 to 10.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why do I feel constipated after an appendectomy, and how can diet help?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Constipation is caused by anesthesia and painkillers. Relieve it naturally with 2.5 to 3 liters of fluids daily, soluble fiber like oats and ripe papaya, and light walking.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can I drink milk or consume dairy products after appendix surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Avoid whole milk and cheese for 3 to 5 days to prevent bloating. Fresh probiotic curd (dahi) and buttermilk are soothing and replenish beneficial gut bacteria.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What foods help surgical incisions and internal tissues heal faster?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Lean protein (eggs, paneer, lentils, chicken), vitamin C (papaya, amla) for collagen synthesis, and zinc for cellular regeneration accelerate tissue repair.
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can I eat eggs and chicken after appendix surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes. Soft scrambled eggs are safe by day 3, and shredded boiled chicken in clear broth by day 5. Avoid fried or spicy preparations.
+                            </div>
+                        </details>
+                        <!-- FAQ 7 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How long should I avoid spicy and oily food after appendix surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Avoid spicy and deep-fried foods for at least 2 to 3 weeks to prevent stomach irritation, acid reflux, and cramps.
+                            </div>
+                        </details>
+                        <!-- FAQ 8 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">When should I call my doctor if I experience digestive issues after surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Contact your doctor immediately if you have persistent vomiting, severe worsening pain, fever over 101°F, or no bowel movement or gas for over 3 days.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-
-                <!-- Frequently Asked Questions -->
-                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mt-10 mb-6">Frequently Asked Questions (FAQs)</h2>
-
-                <div class="space-y-4 mb-10">
-                    <div class="border border-gray-200 rounded-2xl p-4 hover:border-scod transition-colors bg-white shadow-sm">
-                        <h3 class="text-base font-bold text-gray-900 mb-1">1. What is the very first food I can eat after appendix surgery?</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                            Clear liquids such as warm water, vegetable or chicken broth, ORS, and tender coconut water. Start only after your surgical team confirms bowel sounds.
-                        </p>
-                    </div>
-
-                    <div class="border border-gray-200 rounded-2xl p-4 hover:border-scod transition-colors bg-white shadow-sm">
-                        <h3 class="text-base font-bold text-gray-900 mb-1">2. How soon after appendix surgery can I eat solid foods?</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                            Most patients recovering from <a href="https://scodclinic.com/services/laparoscopic-surgery" class="text-scod font-semibold hover:text-blue-700">Laparoscopic Appendix Surgery in Delhi</a> begin soft solids (khichdi, eggs, boiled potatoes) by days 3 to 5, and resume regular meals around day 7 to 10.
-                        </p>
-                    </div>
-
-                    <div class="border border-gray-200 rounded-2xl p-4 hover:border-scod transition-colors bg-white shadow-sm">
-                        <h3 class="text-base font-bold text-gray-900 mb-1">3. Why do I feel constipated after an appendectomy, and how can diet help?</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                            Constipation is caused by anesthesia and painkillers. Relieve it naturally with 2.5 to 3 liters of fluids daily, soluble fiber like oats and ripe papaya, and light walking.
-                        </p>
-                    </div>
-
-                    <div class="border border-gray-200 rounded-2xl p-4 hover:border-scod transition-colors bg-white shadow-sm">
-                        <h3 class="text-base font-bold text-gray-900 mb-1">4. Can I drink milk or consume dairy products after appendix surgery?</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                            Avoid whole milk and cheese for 3 to 5 days to prevent bloating. Fresh probiotic curd (dahi) and buttermilk are soothing and replenish beneficial gut bacteria.
-                        </p>
-                    </div>
-
-                    <div class="border border-gray-200 rounded-2xl p-4 hover:border-scod transition-colors bg-white shadow-sm">
-                        <h3 class="text-base font-bold text-gray-900 mb-1">5. What foods help surgical incisions and internal tissues heal faster?</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                            Lean protein (eggs, paneer, lentils, chicken), vitamin C (papaya, amla) for collagen synthesis, and zinc for cellular regeneration accelerate tissue repair.
-                        </p>
-                    </div>
-
-                    <div class="border border-gray-200 rounded-2xl p-4 hover:border-scod transition-colors bg-white shadow-sm">
-                        <h3 class="text-base font-bold text-gray-900 mb-1">6. Can I eat eggs and chicken after appendix surgery?</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                            Yes. Soft scrambled eggs are safe by day 3, and shredded boiled chicken in clear broth by day 5. Avoid fried or spicy preparations.
-                        </p>
-                    </div>
-
-                    <div class="border border-gray-200 rounded-2xl p-4 hover:border-scod transition-colors bg-white shadow-sm">
-                        <h3 class="text-base font-bold text-gray-900 mb-1">7. How long should I avoid spicy and oily food after appendix surgery?</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                            Avoid spicy and deep-fried foods for at least 2 to 3 weeks to prevent stomach irritation, acid reflux, and cramps.
-                        </p>
-                    </div>
-
-                    <div class="border border-gray-200 rounded-2xl p-4 hover:border-scod transition-colors bg-white shadow-sm">
-                        <h3 class="text-base font-bold text-gray-900 mb-1">8. When should I call my doctor if I experience digestive issues after surgery?</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                            Contact your doctor immediately if you have persistent vomiting, severe worsening pain, fever over 101&deg;F, or no bowel movement or gas for over 3 days.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Final Thoughts -->
-                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mt-10 mb-4">Final Thoughts</h2>
-                <p class="mb-4">
-                    Recovering smoothly from appendix surgery requires patience, progressive nutrition, and adequate physical rest. By moving carefully through clear liquids, purees, soft foods, and a wholesome regular diet, you support your body&rsquo;s internal healing while safeguarding against uncomfortable digestive complications.
-                </p>
-                <p class="mb-6">
-                    At SCOD Clinic in Delhi, under the clinical leadership of <a href="https://scodclinic.com/about" class="text-scod font-semibold hover:text-blue-700">Dr. Arush Sabharwal</a>, our surgical team prioritizes comprehensive post-operative care and dietary counseling. If you are recovering from surgery or considering <a href="https://scodclinic.com/services/laparoscopic-surgery" class="text-scod font-semibold hover:text-blue-700">Laparoscopic Appendix Surgery in Delhi</a>, contact our team today for dedicated medical care.
-                </p>
-
-
-                <!-- Navigation to Related Posts -->
-                <div class="border-t border-b border-gray-200 py-6 my-10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm font-semibold">
-                    <a href="/blog/why-is-my-stomach-bigger-after-hernia-surgery" class="text-gray-600 hover:text-scod flex items-center gap-2">
-                        <i data-feather="arrow-left" class="w-4 h-4"></i>
-                        Previous: Why is My Stomach Bigger after Hernia Surgery?
-                    </a>
-                    <a href="/blog/how-long-does-laparoscopic-appendectomy-surgery-take" class="text-gray-600 hover:text-scod flex items-center gap-2">
-                        Next: How Long Does Laparoscopic Appendectomy Surgery Take?
-                        <i data-feather="arrow-right" class="w-4 h-4"></i>
-                    </a>
-                </div>
-
-            </div>
-        </article>
+</article>
     </main>
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>

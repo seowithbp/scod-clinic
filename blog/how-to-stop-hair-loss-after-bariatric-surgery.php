@@ -113,32 +113,76 @@ include __DIR__ . '/../includes/header.php';
 
                 <p class="mb-6">Choosing the right surgical team is essential for navigating every stage of your bariatric journey, including managing temporary side effects. At SCOD Clinic, under the expert leadership of <a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Arush Sabharwal</a>, a highly distinguished <a href="https://scodclinic.com/services/bariatric-surgery" class="text-scod hover:text-blue-700 font-semibold">Bariatric Surgeon in Delhi</a>, we provide comprehensive, patient-centered care. Our team of dietitians and medical professionals offers personalized nutritional guidelines, metabolic monitoring, and support to ensure you recover safely and successfully. With the right clinical care and lifestyle choices, your hair will regain its health and fullness, letting you enjoy the life-changing benefits of your weight loss journey.</p>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Frequently Asked Questions</h2>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-                <div class="space-y-4">
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">How to stop hair loss after bariatric surgery?</h3>
-                        <p class="text-gray-600">To stop hair loss after bariatric surgery, focus on meeting your daily protein goals (60 to 80 grams), taking your prescribed bariatric multivitamins (including iron, zinc, and biotin) consistently, staying hydrated, avoiding crash diets, and managing stress levels to support hair follicle recovery.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Why does hair loss after bariatric surgery occur?</h3>
-                        <p class="text-gray-600">Hair loss after weight loss surgery is caused by Telogen Effluvium, a temporary condition where the physical stress of surgery, general anesthesia, and rapid weight loss shifts a large number of active hair follicles into a resting phase, leading to temporary shedding 3 to 6 months later.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">How to prevent hair loss after bariatric surgery?</h3>
-                        <p class="text-gray-600">While you cannot completely prevent the body's initial stress response to surgery, you can minimize the severity of hair shedding by preparing your body with a nutritious pre-op diet, staying strictly compliant with your post-op vitamin regimen, and maintaining adequate protein intake immediately after surgery.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">What to do for hair loss after bariatric surgery if it continues past 12 months?</h3>
-                        <p class="text-gray-600">If hair shedding persists past a year, you should consult your bariatric clinical team. They can perform comprehensive blood tests to check for hidden nutritional deficiencies (such as low iron, zinc, or vitamin D) or thyroid imbalances, adjusting your diet and supplement plan accordingly.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Will my hair grow back completely after weight loss surgery?</h3>
-                        <p class="text-gray-600">Yes, the hair loss is temporary. Because the hair follicles themselves are not damaged or scarred during Telogen Effluvium, they will start producing new hair once your body stabilizes, weight loss slows, and nutritional deficiencies are corrected.</p>
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How to stop hair loss after bariatric surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                To stop hair loss after bariatric surgery, focus on meeting your daily protein goals (60 to 80 grams), taking your prescribed bariatric multivitamins (including iron, zinc, and biotin) consistently, staying hydrated, avoiding crash diets, and managing stress levels to support hair follicle recovery.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why does hair loss after bariatric surgery occur?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Hair loss after weight loss surgery is caused by Telogen Effluvium, a temporary condition where the physical stress of surgery, general anesthesia, and rapid weight loss shifts a large number of active hair follicles into a resting phase, leading to temporary shedding 3 to 6 months later.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How to prevent hair loss after bariatric surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                While you cannot completely prevent the body's initial stress response to surgery, you can minimize the severity of hair shedding by preparing your body with a nutritious pre-op diet, staying strictly compliant with your post-op vitamin regimen, and maintaining adequate protein intake immediately after surgery.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What to do for hair loss after bariatric surgery if it continues past 12 months?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                If hair shedding persists past a year, you should consult your bariatric clinical team. They can perform comprehensive blood tests to check for hidden nutritional deficiencies (such as low iron, zinc, or vitamin D) or thyroid imbalances, adjusting your diet and supplement plan accordingly.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Will my hair grow back completely after weight loss surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, the hair loss is temporary. Because the hair follicles themselves are not damaged or scarred during Telogen Effluvium, they will start producing new hair once your body stabilizes, weight loss slows, and nutritional deficiencies are corrected.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <!-- Post Navigation -->
+<!-- Post Navigation -->
                 <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">
                     <a href="can-bariatric-surgery-cause-death" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>

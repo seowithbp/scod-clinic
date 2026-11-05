@@ -331,13 +331,88 @@ include __DIR__ . '/../includes/header.php';
 
 <p>Choosing experienced specialists who regularly perform <strong><a href="https://scodclinic.com/services/laparoscopic-surgery">Laparoscopic Surgery in Delhi</a></strong> can further enhance surgical safety and recovery outcomes. With proper post-operative care, follow-up, and a balanced lifestyle, patients can expect a complete recovery and return to their daily lives without long-term restrictions.</p>
 
-<h2 class="wp-block-heading">Frequently Asked Questions</h2>
+                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-<h3 class="rank-math-question">How long does laparoscopic appendectomy surgery take?</h3>The actual operation usually takes 30–60 minutes in uncomplicated cases. Including anesthesia and preparation, total time in the operating room may be around 1–2 hours.<h3 class="rank-math-question">Is laparoscopic appendectomy painful?</h3>Pain is usually mild to moderate and well-controlled with medications. Most patients feel better within a few days.<h3 class="rank-math-question">How long do I stay in the hospital after surgery?</h3>Most patients stay for 1 day. If the appendix has burst, the stay may extend to 2–3 days.<h3 class="rank-math-question">Is laparoscopic appendectomy better than open surgery?</h3>Yes. It offers faster recovery, smaller scars, and less pain.<h3 class="rank-math-question">Are there visible scars after laparoscopic surgery?</h3>Scars are very small and usually fade over time.<h3 class="rank-math-question">When can I return to work?</h3>For desk jobs, most patients return within 1–2 weeks. Physically demanding jobs may require 3–4 weeks.
-    
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How long does laparoscopic appendectomy surgery take?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                The actual operation usually takes 30–60 minutes in uncomplicated cases. Including anesthesia and preparation, total time in the operating room may be around 1–2 hours.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is laparoscopic appendectomy painful?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Pain is usually mild to moderate and well-controlled with medications. Most patients feel better within a few days.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How long do I stay in the hospital after surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Most patients stay for 1 day. If the appendix has burst, the stay may extend to 2–3 days.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is laparoscopic appendectomy better than open surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes. It offers faster recovery, smaller scars, and less pain.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Are there visible scars after laparoscopic surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Scars are very small and usually fade over time.
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">When can I return to work?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                For desk jobs, most patients return within 1–2 weeks. Physically demanding jobs may require 3–4 weeks.
+                            </div>
+                        </details>
+                    </div>
+                </div>
 
-    
-      <a href="how-long-is-robotic-gallbladder-surgery"> Previous: How Long is Robotic Gallbladder Surgery? {Doctor's Guide}</a>
+<a href="how-long-is-robotic-gallbladder-surgery"> Previous: How Long is Robotic Gallbladder Surgery? {Doctor's Guide}</a>
       
             </div>
         </article>

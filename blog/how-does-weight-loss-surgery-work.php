@@ -458,79 +458,112 @@ include __DIR__ . '/../includes/header.php';
                 </p>
 
                 <!-- Section: 8 Comprehensive FAQs -->
-                <div class="mt-14 pt-8 border-t border-gray-200">
-                    <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
-                        Frequently Asked Questions: How Weight Loss Surgery Works
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
                     </h2>
 
                     <div class="space-y-4">
                         <!-- FAQ 1 -->
-                        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                            <h3 class="font-bold text-gray-900 text-lg mb-2">1. How does weight loss surgery work to stop hunger?</h3>
-                            <p class="text-gray-600 text-sm leading-relaxed">
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How does weight loss surgery work to stop hunger?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
                                 Weight loss surgery reduces hunger primarily by removing or bypassing the upper curve of the stomach (the gastric fundus), where the primary hunger hormone, ghrelin, is manufactured. With ghrelin levels plummeting after surgery, patients experience a dramatic drop in physiological appetite and constant cravings.
-                            </p>
-                        </div>
-
+                            </div>
+                        </details>
                         <!-- FAQ 2 -->
-                        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                            <h3 class="font-bold text-gray-900 text-lg mb-2">2. Is weight loss surgery just about making the stomach smaller?</h3>
-                            <p class="text-gray-600 text-sm leading-relaxed">
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is weight loss surgery just about making the stomach smaller?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
                                 No. While physical restriction reduces stomach volume, the true power of weight loss surgery lies in metabolic reprogramming. It alters gut hormones (GLP-1 and PYY), improves insulin sensitivity, shifts bile acid signaling, recalibrates the gut microbiome, and resets the brain's internal weight set-point.
-                            </p>
-                        </div>
-
+                            </div>
+                        </details>
                         <!-- FAQ 3 -->
-                        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                            <h3 class="font-bold text-gray-900 text-lg mb-2">3. How does weight loss surgery work for obesity-related diabetes?</h3>
-                            <p class="text-gray-600 text-sm leading-relaxed">
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How does weight loss surgery work for obesity-related diabetes?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
                                 Weight loss surgery prompts rapid remission of Type 2 diabetes often within days after the procedure, well before major weight loss occurs. Rerouting food or speeding gastric emptying triggers high surges of incretin hormones like GLP-1, which revitalize pancreatic beta cells and sharply enhance insulin sensitivity.
-                            </p>
-                        </div>
-
+                            </div>
+                        </details>
                         <!-- FAQ 4 -->
-                        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                            <h3 class="font-bold text-gray-900 text-lg mb-2">4. How fast do you lose weight after weight loss surgery?</h3>
-                            <p class="text-gray-600 text-sm leading-relaxed">
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How fast do you lose weight after weight loss surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
                                 Most patients lose approximately 10% to 15% of their total body weight within the first 6 weeks. Over 12 to 18 months, patients typically lose 60% to 80% of their excess body weight, provided they follow prescribed nutritional and lifestyle guidelines.
-                            </p>
-                        </div>
-
+                            </div>
+                        </details>
                         <!-- FAQ 5 -->
-                        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                            <h3 class="font-bold text-gray-900 text-lg mb-2">5. Will I stretch my stomach back out after weight loss surgery?</h3>
-                            <p class="text-gray-600 text-sm leading-relaxed">
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Will I stretch my stomach back out after weight loss surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
                                 The stomach tissue is naturally elastic and will relax slightly to accommodate small, healthy meals over time. However, it will never return to its original pre-surgery size unless an individual consistently and forcefully overeats against internal fullness signals over many years.
-                            </p>
-                        </div>
-
+                            </div>
+                        </details>
                         <!-- FAQ 6 -->
-                        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                            <h3 class="font-bold text-gray-900 text-lg mb-2">6. Why does weight loss surgery work better than traditional diets?</h3>
-                            <p class="text-gray-600 text-sm leading-relaxed">
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why does weight loss surgery work better than traditional diets?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
                                 Traditional dieting triggers a survival starvation response: resting metabolic rate slows dramatically, and hunger hormones skyrocket to force weight regain. Bariatric surgery counters this biological trap by resetting metabolic rate, suppressing hunger hormones, and elevating fullness signals.
-                            </p>
-                        </div>
-
+                            </div>
+                        </details>
                         <!-- FAQ 7 -->
-                        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                            <h3 class="font-bold text-gray-900 text-lg mb-2">7. Can you regain weight after weight loss surgery?</h3>
-                            <p class="text-gray-600 text-sm leading-relaxed">
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can you regain weight after weight loss surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
                                 While minor weight fluctuations of 5% to 10% from the lowest weight point can be normal, significant weight regain typically happens only if patients regularly graze on high-calorie liquids, ultra-processed sweets, or abandon behavioral and physical activity routines.
-                            </p>
-                        </div>
-
+                            </div>
+                        </details>
                         <!-- FAQ 8 -->
-                        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                            <h3 class="font-bold text-gray-900 text-lg mb-2">8. Who is an eligible candidate for weight loss surgery?</h3>
-                            <p class="text-gray-600 text-sm leading-relaxed">
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Who is an eligible candidate for weight loss surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
                                 According to updated clinical criteria, candidates generally include individuals with a BMI of 35 or higher, or a BMI of 30 or higher accompanied by serious obesity-related conditions such as Type 2 diabetes, severe hypertension, fatty liver disease, or obstructive sleep apnea.
-                            </p>
-                        </div>
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <!-- Post Navigation -->
+<!-- Post Navigation -->
                 <nav class="flex flex-col sm:flex-row justify-between items-center gap-4 mt-12 pt-8 border-t border-gray-200">
                     <a href="/blog/can-hernia-be-cured-without-surgery" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold text-sm">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>

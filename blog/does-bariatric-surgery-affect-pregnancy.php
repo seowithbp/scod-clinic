@@ -253,65 +253,124 @@ include __DIR__ . '/../includes/header.php';
                     Planning for a family after weight loss surgery? Consult with <strong><a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Arush Sabharwal</a></strong> at SCOD Clinic to establish a personalized pre-conception health plan and nutritional road map.
                 </p>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-12 mb-6 border-b pb-2">Frequently Asked Questions (FAQs)</h2>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-                <div class="space-y-6">
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">1. Does bariatric surgery affect pregnancy?</h3>
-                        <p class="text-gray-600 text-sm">Yes, bariatric surgery positively affects pregnancy by boosting fertility, regulating menstrual cycles, and reducing obesity-related risks like gestational diabetes and preeclampsia. However, it requires careful nutritional monitoring and proper timing before conception.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">2. Is pregnancy after bariatric surgery safe?</h3>
-                        <p class="text-gray-600 text-sm">Yes, pregnancy after bariatric surgery is safe and generally results in healthier maternal and infant outcomes compared to pregnancies with untreated severe obesity, provided nutrient guidelines are followed.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">3. How long should you wait to get pregnant after bariatric surgery?</h3>
-                        <p class="text-gray-600 text-sm">Clinical guidelines strongly advise waiting 12 to 18 months post-surgery before conceiving. This ensures your weight has stabilized and prevents nutritional deprivation during fetal development.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">4. Does bariatric surgery improve female fertility?</h3>
-                        <p class="text-gray-600 text-sm">Yes. Weight loss restores normal hormone levels, improves insulin sensitivity, and resumes regular monthly ovulation, particularly in women affected by Polycystic Ovary Syndrome (PCOS).</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">5. What nutritional supplements are required during post-bariatric pregnancy?</h3>
-                        <p class="text-gray-600 text-sm">Pregnant women require high-potency prenatal vitamins, folic acid, iron, calcium citrate, vitamin D, and B12 supplements. Periodic blood testing ensures optimal vitamin levels throughout pregnancy.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">6. Can you have a normal vaginal delivery after weight loss surgery?</h3>
-                        <p class="text-gray-600 text-sm">Yes. Bariatric surgery does not hinder vaginal birth. In fact, by reducing high birth weight (macrosomia) and labor complications, it decreases the rate of emergency C-sections.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">7. How is gestational diabetes tested in bariatric patients?</h3>
-                        <p class="text-gray-600 text-sm">Because sugary drinks used in traditional glucose tolerance tests can cause dumping syndrome, doctors test bariatric patients using daily fasting and post-prandial finger-prick blood glucose logs.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">8. Will the baby receive enough nourishment after weight loss surgery?</h3>
-                        <p class="text-gray-600 text-sm">Yes. By maintaining a nutrient-dense diet, consuming adequate daily protein, taking prescribed prenatal vitamins, and monitoring growth via ultrasound scans, your baby will receive all required nourishment.</p>
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Does bariatric surgery affect pregnancy?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, bariatric surgery positively affects pregnancy by boosting fertility, regulating menstrual cycles, and reducing obesity-related risks like gestational diabetes and preeclampsia. However, it requires careful nutritional monitoring and proper timing before conception.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is pregnancy after bariatric surgery safe?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, pregnancy after bariatric surgery is safe and generally results in healthier maternal and infant outcomes compared to pregnancies with untreated severe obesity, provided nutrient guidelines are followed.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How long should you wait to get pregnant after bariatric surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Clinical guidelines strongly advise waiting 12 to 18 months post-surgery before conceiving. This ensures your weight has stabilized and prevents nutritional deprivation during fetal development.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Does bariatric surgery improve female fertility?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes. Weight loss restores normal hormone levels, improves insulin sensitivity, and resumes regular monthly ovulation, particularly in women affected by Polycystic Ovary Syndrome (PCOS).
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What nutritional supplements are required during post-bariatric pregnancy?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Pregnant women require high-potency prenatal vitamins, folic acid, iron, calcium citrate, vitamin D, and B12 supplements. Periodic blood testing ensures optimal vitamin levels throughout pregnancy.
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can you have a normal vaginal delivery after weight loss surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes. Bariatric surgery does not hinder vaginal birth. In fact, by reducing high birth weight (macrosomia) and labor complications, it decreases the rate of emergency C-sections.
+                            </div>
+                        </details>
+                        <!-- FAQ 7 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How is gestational diabetes tested in bariatric patients?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Because sugary drinks used in traditional glucose tolerance tests can cause dumping syndrome, doctors test bariatric patients using daily fasting and post-prandial finger-prick blood glucose logs.
+                            </div>
+                        </details>
+                        <!-- FAQ 8 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Will the baby receive enough nourishment after weight loss surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes. By maintaining a nutrient-dense diet, consuming adequate daily protein, taking prescribed prenatal vitamins, and monitoring growth via ultrasound scans, your baby will receive all required nourishment.
+                            </div>
+                        </details>
+                        <!-- FAQ 9 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Does Bariatric Surgery Affect Pregnancy?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Learn about fertility benefits, safe conception timelines, essential prenatal nutritional guidelines, and expert medical advice from SCOD Clinic.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-10 mb-4 border-b pb-2">Plan Your Journey to Health and Motherhood with SCOD Clinic</h2>
-
-                <p>Bariatric surgery opens the door to improved health, enhanced fertility, and a safer pregnancy journey. If you are considering weight loss surgery or planning a family post-procedure, partner with <strong><a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Arush Sabharwal</a></strong> and the dedicated team at SCOD Clinic for expert surgical care and lifelong wellness support.</p>
-
-                <!-- Call to Action Banner (Light Theme) -->
-                <div class="bg-gradient-to-br from-blue-50 via-teal-50/50 to-slate-50 border border-blue-100/80 rounded-[2.5rem] py-10 px-6 md:py-12 md:px-12 my-10 text-center shadow-lg">
-                    <h3 class="text-gray-900 text-2xl md:text-3xl font-bold tracking-tight mb-3">Does Bariatric Surgery Affect Pregnancy?</h3>
-                    <p class="text-gray-600 text-sm md:text-base max-w-3xl mx-auto mb-6 leading-relaxed">Learn about fertility benefits, safe conception timelines, essential prenatal nutritional guidelines, and expert medical advice from SCOD Clinic.</p>
-                    <a href="https://scodclinic.com/contact" class="inline-flex items-center justify-center bg-[#b88c4c] hover:bg-[#a67c3e] text-white font-semibold text-base px-8 py-3.5 rounded-full transition-all duration-300 shadow-md hover:shadow-lg">
-                        Book Your Appointment Today &rarr;
-                    </a>
-                </div>
-
-            </div>
-        </article>
+</article>
     </main>
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>

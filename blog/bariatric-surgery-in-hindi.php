@@ -221,141 +221,112 @@ include __DIR__ . '/../includes/header.php';
 
 
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-10 mb-4">अक्सर पूछे जाने वाले प्रश्न (Frequently Asked Questions)</h2>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        अक्सर पूछे जाने वाले प्रश्न (Frequently Asked Questions)
+                    </h2>
 
-                <div class="space-y-4 my-8">
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 text-lg mb-3">1. बेरिएट्रिक सर्जरी क्या है? (What is bariatric surgery in hindi)</h3>
-                        <p class="text-gray-600">
-                            बेरिएट्रिक सर्जरी एक चिकित्सकीय सर्जिकल प्रक्रिया है जो अत्यधिक मोटे व्यक्तियों के पेट और पाचन तंत्र के आकार को कम करके तेजी से और स्थायी वजन घटाने में मदद करती है।
-                        </p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 text-lg mb-3">2. बेरिएट्रिक सर्जरी का मुख्य अर्थ क्या है? (Meaning of bariatric surgery in hindi)</h3>
-                        <p class="text-gray-600">
-                            <strong>Bariatric surgery meaning in hindi</strong> का अर्थ वजन कम करने और मेटाबॉलिज्म (चयापचय) को ठीक करने वाली सर्जरी से है, जिससे डायबिटीज, बीपी और हृदय रोग जैसी बीमारियां भी नियंत्रित हो जाती हैं।
-                        </p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 text-lg mb-3">3. बेरिएट्रिक सर्जरी के मुख्य दुष्प्रभाव क्या हैं? (Bariatric surgery side effects in hindi)</h3>
-                        <p class="text-gray-600">
-                            संभावित <strong>side effects of bariatric surgery in hindi</strong> में शुरुआती दौर में मतली, गैस, डिहाइड्रेशन और दीर्घकालिक रूप से विटामिन या प्रोटीन की कमी शामिल हो सकती है। डॉक्टर द्वारा दिए गए सप्लीमेंट्स और डाइट चार्ट का पालन करने से इनसे बचा जा सकता है।
-                        </p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 text-lg mb-3">4. बेरिएट्रिक सर्जरी के बाद रिकवरी में कितना समय लगता है?</h3>
-                        <p class="text-gray-600">
-                            ज्यादातर मरीज 1 से 2 दिन में अस्पताल से डिस्चार्ज हो जाते हैं और 2 सप्ताह के भीतर अपने दैनिक या ऑफिस के काम पर लौट आते हैं। पूर्ण आंतरिक रिकवरी में 4 से 6 सप्ताह लगते हैं।
-                        </p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 text-lg mb-3">5. दिल्ली में बेरिएट्रिक सर्जरी के लिए कौन सा क्लिनिक और डॉक्टर श्रेष्ठ हैं?</h3>
-                        <p class="text-gray-600">
-                            दिल्ली में <a href="https://scodclinic.com/services/bariatric-surgery" class="text-scod font-semibold hover:underline">Bariatric Surgery in Delhi</a> के लिए SCOD Clinic एक प्रमुख केंद्र है, जहाँ प्रसिद्ध सर्जनों जैसे <a href="https://scodclinic.com/about" class="text-scod font-semibold hover:underline">Dr. Arush Sabharwal</a> द्वारा एडवांस लैप्रोस्कोपिक और रोबोटिक तकनीक से इलाज किया जाता है।
-                        </p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 text-lg mb-3">6. क्या सर्जरी के बाद जीवनभर डाइटिंग करनी पड़ती है?</h3>
-                        <p class="text-gray-600">
-                            जीवनभर कठिन डाइटिंग की जरूरत नहीं होती, लेकिन स्वस्थ खान-पान की आदतें और प्रोटीन युक्त संतुलित आहार लेना आवश्यक होता है ताकि वजन दोबारा न बढ़े।
-                        </p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 text-lg mb-3">7. क्या बेरिएट्रिक सर्जरी के बाद वजन दोबारा बढ़ सकता है?</h3>
-                        <p class="text-gray-600">
-                            यदि मरीज डॉक्टर के निर्देशों का पालन नहीं करता और बहुत अधिक मीठा या हाई-कैलोरी जंक फूड खाता है, तो कुछ सालों बाद थोड़ा वजन बढ़ सकता है। लेकिन 90% से अधिक मरीजों में वजन स्थायी रूप से कम रहता है।
-                        </p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 text-lg mb-3">8. सर्जरी के बाद कौन-कौन से सप्लीमेंट्स लेने होते हैं?</h3>
-                        <p class="text-gray-600">
-                            आमतौर पर डॉक्टर मल्टीविटामिन, कैल्शियम, आयरन और विटामिन B12 सप्लीमेंट्स की सलाह देते हैं ताकि शरीर में पोषक तत्वों की कमी न हो।
-                        </p>
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">बेरिएट्रिक सर्जरी क्या है? (What is bariatric surgery in hindi)</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                बेरिएट्रिक सर्जरी एक चिकित्सकीय सर्जिकल प्रक्रिया है जो अत्यधिक मोटे व्यक्तियों के पेट और पाचन तंत्र के आकार को कम करके तेजी से और स्थायी वजन घटाने में मदद करती है।
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">बेरिएट्रिक सर्जरी का मुख्य अर्थ क्या है? (Meaning of bariatric surgery in hindi)</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Bariatric surgery meaning in hindi का अर्थ वजन कम करने और मेटाबॉलिज्म (चयापचय) को ठीक करने वाली सर्जरी से है, जिससे डायबिटीज, बीपी और हृदय रोग जैसी बीमारियां भी नियंत्रित हो जाती हैं।
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">बेरिएट्रिक सर्जरी के मुख्य दुष्प्रभाव क्या हैं? (Bariatric surgery side effects in hindi)</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                संभावित side effects of bariatric surgery in hindi में शुरुआती दौर में मतली, गैस, डिहाइड्रेशन और दीर्घकालिक रूप से विटामिन या प्रोटीन की कमी शामिल हो सकती है। डॉक्टर द्वारा दिए गए सप्लीमेंट्स और डाइट चार्ट का पालन करने से इनसे बचा जा सकता है।
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">बेरिएट्रिक सर्जरी के बाद रिकवरी में कितना समय लगता है?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                ज्यादातर मरीज 1 से 2 दिन में अस्पताल से डिस्चार्ज हो जाते हैं और 2 सप्ताह के भीतर अपने दैनिक या ऑफिस के काम पर लौट आते हैं। पूर्ण आंतरिक रिकवरी में 4 से 6 सप्ताह लगते हैं।
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">दिल्ली में बेरिएट्रिक सर्जरी के लिए कौन सा क्लिनिक और डॉक्टर श्रेष्ठ हैं?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                दिल्ली में Bariatric Surgery in Delhi के लिए SCOD Clinic एक प्रमुख केंद्र है, जहाँ प्रसिद्ध सर्जनों जैसे Dr. Arush Sabharwal द्वारा एडवांस लैप्रोस्कोपिक और रोबोटिक तकनीक से इलाज किया जाता है।
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">क्या सर्जरी के बाद जीवनभर डाइटिंग करनी पड़ती है?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                जीवनभर कठिन डाइटिंग की जरूरत नहीं होती, लेकिन स्वस्थ खान-पान की आदतें और प्रोटीन युक्त संतुलित आहार लेना आवश्यक होता है ताकि वजन दोबारा न बढ़े।
+                            </div>
+                        </details>
+                        <!-- FAQ 7 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">क्या बेरिएट्रिक सर्जरी के बाद वजन दोबारा बढ़ सकता है?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                यदि मरीज डॉक्टर के निर्देशों का पालन नहीं करता और बहुत अधिक मीठा या हाई-कैलोरी जंक फूड खाता है, तो कुछ सालों बाद थोड़ा वजन बढ़ सकता है। लेकिन 90% से अधिक मरीजों में वजन स्थायी रूप से कम रहता है।
+                            </div>
+                        </details>
+                        <!-- FAQ 8 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">सर्जरी के बाद कौन-कौन से सप्लीमेंट्स लेने होते हैं?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                आमतौर पर डॉक्टर मल्टीविटामिन, कैल्शियम, आयरन और विटामिन B12 सप्लीमेंट्स की सलाह देते हैं ताकि शरीर में पोषक तत्वों की कमी न हो।
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <!-- Structured FAQ Schema for AEO -->
-                <script type="application/ld+json">
-                {
-                  "@context": "https://schema.org",
-                  "@type": "FAQPage",
-                  "mainEntity": [
-                    {
-                      "@type": "Question",
-                      "name": "बेरिएट्रिक सर्जरी क्या है? (What is bariatric surgery in hindi)",
-                      "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "बेरिएट्रिक सर्जरी एक चिकित्सकीय सर्जिकल प्रक्रिया है जो अत्यधिक मोटे व्यक्तियों के पेट और पाचन तंत्र के आकार को कम करके तेजी से और स्थायी वजन घटाने में मदद करती है।"
-                      }
-                    },
-                    {
-                      "@type": "Question",
-                      "name": "बेरिएट्रिक सर्जरी का मुख्य अर्थ क्या है? (Meaning of bariatric surgery in hindi)",
-                      "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Bariatric surgery meaning in hindi का अर्थ वजन कम करने और मेटाबॉलिज्म को ठीक करने वाली सर्जरी से है, जिससे डायबिटीज, बीपी और हृदय रोग जैसी बीमारियां भी नियंत्रित हो जाती हैं।"
-                      }
-                    },
-                    {
-                      "@type": "Question",
-                      "name": "बेरिएट्रिक सर्जरी के मुख्य दुष्प्रभाव क्या हैं? (Bariatric surgery side effects in hindi)",
-                      "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "संभावित side effects of bariatric surgery in hindi में शुरुआती दौर में मतली, गैस, डिहाइड्रेशन और दीर्घकालिक रूप से विटामिन या प्रोटीन की कमी शामिल हो सकती है।"
-                      }
-                    },
-                    {
-                      "@type": "Question",
-                      "name": "बेरिएट्रिक सर्जरी के बाद रिकवरी में कितना समय लगता है?",
-                      "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "ज्यादातर मरीज 1 से 2 दिन में अस्पताल से डिस्चार्ज हो जाते हैं और 2 सप्ताह के भीतर अपने दैनिक काम पर लौट आते हैं।"
-                      }
-                    },
-                    {
-                      "@type": "Question",
-                      "name": "दिल्ली में बेरिएट्रिक सर्जरी के लिए कौन सा क्लिनिक और डॉक्टर श्रेष्ठ हैं?",
-                      "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "दिल्ली में Bariatric Surgery in Delhi के लिए SCOD Clinic एक प्रमुख केंद्र है, जहाँ Dr. Arush Sabharwal द्वारा एडवांस लैप्रोस्कोपिक और रोबोटिक तकनीक से इलाज किया जाता है।"
-                      }
-                    },
-                    {
-                      "@type": "Question",
-                      "name": "क्या सर्जरी के बाद जीवनभर डाइटिंग करनी पड़ती है?",
-                      "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "जीवनभर कठिन डाइटिंग की जरूरत नहीं होती, लेकिन स्वस्थ खान-पान की आदतें और प्रोटीन युक्त संतुलित आहार लेना आवश्यक होता है।"
-                      }
-                    },
-                    {
-                      "@type": "Question",
-                      "name": "क्या बेरिएट्रिक सर्जरी के बाद वजन दोबारा बढ़ सकता है?",
-                      "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "यदि मरीज निर्देशों का पालन नहीं करता, तो कुछ वजन बढ़ सकता है। लेकिन 90% से अधिक मरीजों में वजन स्थायी रूप से कम रहता है।"
-                      }
-                    },
-                    {
-                      "@type": "Question",
-                      "name": "सर्जरी के बाद कौन-कौन से सप्लीमेंट्स लेने होते हैं?",
-                      "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "आमतौर पर डॉक्टर मल्टीविटामिन, कैल्शियम, आयरन और विटामिन B12 सप्लीमेंट्स की सलाह देते हैं।"
-                      }
-                    }
-                  ]
-                }
-                </script>
-
-                <!-- Post Navigation -->
+<!-- Post Navigation -->
                 <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">
                     <a href="/blog/what-to-eat-after-laparoscopic-surgery" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>

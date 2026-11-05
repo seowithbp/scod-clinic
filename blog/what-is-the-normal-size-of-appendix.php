@@ -311,84 +311,112 @@ include __DIR__ . '/../includes/header.php';
                 <h3 class="wp-block-heading">Are Antibiotics an Alternative to Surgery?</h3>
                 <p>Some uncomplicated, early-stage cases without appendicoliths can respond initially to intravenous antibiotics. However, clinical studies reveal that 30% to 40% of patients treated solely with antibiotics suffer recurrent appendicitis within five years. Consequently, laparoscopic excision remains the safest definitive solution.</p>
 
-                <h2 class="wp-block-heading">Frequently Asked Questions</h2>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-                <div class="wp-block-rank-math-faq-block">
-                    <div class="rank-math-faq-item">
-                        <h3 class="rank-math-question">What is the normal size of appendix in mm and cm?</h3>
-                        <div class="rank-math-answer">
-                            The normal size of the human appendix is 6 to 9 cm in length and 6 mm or less in outer diameter (usually 4 to 6 mm). The appendix wall thickness is normally under 2 to 3 mm in healthy individuals.
-                        </div>
-                    </div>
-
-                    <div class="rank-math-faq-item">
-                        <h3 class="rank-math-question">What is the normal size of appendix in mm in adults?</h3>
-                        <div class="rank-math-answer">
-                            In healthy adults, the normal outer diameter of the appendix measures 6 mm or less. An outer diameter measuring 7 mm or greater on ultrasound or CT scan is considered suspicious for acute appendicitis and requires clinical correlation.
-                        </div>
-                    </div>
-
-                    <div class="rank-math-faq-item">
-                        <h3 class="rank-math-question">Can an appendix be longer than 9 cm without being diseased?</h3>
-                        <div class="rank-math-answer">
-                            Yes. The length of the appendix varies widely from person to person, ranging from 2 cm to over 20 cm. A longer-than-average appendix is an anatomical variation and is completely healthy as long as its diameter remains 6 mm or under.
-                        </div>
-                    </div>
-
-                    <div class="rank-math-faq-item">
-                        <h3 class="rank-math-question">Why is diameter more important than length when diagnosing appendicitis?</h3>
-                        <div class="rank-math-answer">
-                            Length is a lifelong genetic characteristic that does not change during an infection. In contrast, the diameter expands rapidly when the opening gets blocked, traps mucus, and fills with inflammatory fluid and pus. A dilated diameter exceeding 6 mm is the primary indicator of disease.
-                        </div>
-                    </div>
-
-                    <div class="rank-math-faq-item">
-                        <h3 class="rank-math-question">How is appendix size measured on ultrasound vs CT scan?</h3>
-                        <div class="rank-math-answer">
-                            Ultrasound evaluates the outer diameter and compressibility in real time using high-frequency acoustic waves, while CT scans provide millimeter-accurate cross-sectional imaging that assesses diameter, wall thickening, periappendiceal fat stranding, and fecaliths.
-                        </div>
-                    </div>
-
-                    <div class="rank-math-faq-item">
-                        <h3 class="rank-math-question">Can a normal-sized appendix still cause abdominal pain?</h3>
-                        <div class="rank-math-answer">
-                            Yes. In very early appendicitis, pain can develop before significant swelling occurs. Additionally, conditions such as mesenteric adenitis (swollen abdominal lymph nodes), ovarian cysts, urinary tract infections, or kidney stones can mimic appendix pain even when the appendix is normal.
-                        </div>
-                    </div>
-
-                    <div class="rank-math-faq-item">
-                        <h3 class="rank-math-question">What should I do if my ultrasound report shows an appendix larger than 6 mm?</h3>
-                        <div class="rank-math-answer">
-                            If your ultrasound report indicates an enlarged appendix (&ge; 7 mm) and you have symptoms like lower right stomach pain, nausea, or fever, you should immediately consult an experienced surgeon or visit an emergency room for a clinical assessment.
-                        </div>
-                    </div>
-
-                    <div class="rank-math-faq-item">
-                        <h3 class="rank-math-question">Is surgery always required if the appendix is enlarged?</h3>
-                        <div class="rank-math-answer">
-                            If the enlargement is caused by acute appendicitis, laparoscopic surgery is the definitive, recommended treatment to prevent rupture and life-threatening infection. In rare, mild cases without complications, doctors may evaluate antibiotic therapy under strict in-hospital supervision.
-                        </div>
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What is the normal size of appendix in mm and cm?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                The normal size of the human appendix is 6 to 9 cm in length and 6 mm or less in outer diameter (usually 4 to 6 mm). The appendix wall thickness is normally under 2 to 3 mm in healthy individuals.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What is the normal size of appendix in mm in adults?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                In healthy adults, the normal outer diameter of the appendix measures 6 mm or less. An outer diameter measuring 7 mm or greater on ultrasound or CT scan is considered suspicious for acute appendicitis and requires clinical correlation.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can an appendix be longer than 9 cm without being diseased?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes. The length of the appendix varies widely from person to person, ranging from 2 cm to over 20 cm. A longer-than-average appendix is an anatomical variation and is completely healthy as long as its diameter remains 6 mm or under.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why is diameter more important than length when diagnosing appendicitis?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Length is a lifelong genetic characteristic that does not change during an infection. In contrast, the diameter expands rapidly when the opening gets blocked, traps mucus, and fills with inflammatory fluid and pus. A dilated diameter exceeding 6 mm is the primary indicator of disease.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How is appendix size measured on ultrasound vs CT scan?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Ultrasound evaluates the outer diameter and compressibility in real time using high-frequency acoustic waves, while CT scans provide millimeter-accurate cross-sectional imaging that assesses diameter, wall thickening, periappendiceal fat stranding, and fecaliths.
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can a normal-sized appendix still cause abdominal pain?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes. In very early appendicitis, pain can develop before significant swelling occurs. Additionally, conditions such as mesenteric adenitis (swollen abdominal lymph nodes), ovarian cysts, urinary tract infections, or kidney stones can mimic appendix pain even when the appendix is normal.
+                            </div>
+                        </details>
+                        <!-- FAQ 7 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What should I do if my ultrasound report shows an appendix larger than 6 mm?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                If your ultrasound report indicates an enlarged appendix (≥ 7 mm) and you have symptoms like lower right stomach pain, nausea, or fever, you should immediately consult an experienced surgeon or visit an emergency room for a clinical assessment.
+                            </div>
+                        </details>
+                        <!-- FAQ 8 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is surgery always required if the appendix is enlarged?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                If the enlargement is caused by acute appendicitis, laparoscopic surgery is the definitive, recommended treatment to prevent rupture and life-threatening infection. In rare, mild cases without complications, doctors may evaluate antibiotic therapy under strict in-hospital supervision.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <h2 class="wp-block-heading">Final Thoughts</h2>
-
-                <p>In summary, the <strong>size of normal human appendix</strong> features an average length of <strong>6 to 9 cm</strong> and an outer diameter of <strong>6 mm or less</strong>. Any imaging report documenting an outer diameter of <strong>7 mm or greater</strong> with wall thickening points toward inflammation that requires prompt evaluation.</p>
-
-                <p>Because acute appendicitis can progress from mild inflammation to perforation within 24 to 72 hours, early surgical consultation is crucial. If you or a loved one is dealing with lower right abdominal discomfort or an abnormal scan report, consult a trusted <strong><a href="https://scodclinic.com/services/laparoscopic-surgery">Laparoscopic Surgeon in Delhi</a></strong> at SCOD Clinic. Led by <strong><a href="https://scodclinic.com/about">Dr. Arush Sabharwal</a></strong>, our experienced surgical team provides rapid evaluations, compassionate patient care, and state-of-the-art keyhole surgical procedures.</p>
-
-                <div class="pt-8 mt-12 border-t border-gray-200 flex justify-between items-center text-sm font-medium">
-                    <span class="flex items-center gap-1 text-gray-500">
-                        <i data-feather="arrow-left" class="w-4 h-4"></i> Read:
-                        <a href="/blog/how-long-does-laparoscopic-appendectomy-surgery-take" class="text-scod hover:underline">Appendectomy Surgery Guide</a>
-                    </span>
-                    <a href="/blog/index.php" class="text-gray-600 hover:text-scod">
-                        View All Articles &rarr;
-                    </a>
-                </div>
-
-            </div>
-        </article>
+</article>
     </main>
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>

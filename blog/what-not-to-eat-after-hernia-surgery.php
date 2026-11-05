@@ -354,56 +354,112 @@ include __DIR__ . '/../includes/header.php';
                     </ul>
                 </div>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Frequently Asked Questions</h2>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-                <div class="space-y-4">
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">What is the most harmful food to eat after hernia surgery?</h3>
-                        <p class="text-gray-600">The most harmful foods after hernia surgery are constipating processed items (white flour, greasy fast food, and heavy cheese) and gas-forming foods (beans, carbonated drinks, cabbage, and broccoli). Constipation causes bowel straining, which spikes intra-abdominal pressure and can dislodge the surgical mesh or tear internal sutures.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Why are fizzy and carbonated drinks prohibited after hernia repair?</h3>
-                        <p class="text-gray-600">Fizzy sodas and carbonated beverages release trapped carbon dioxide gas directly into your stomach. This inflates your gastrointestinal tract, placing sharp outward tension on your newly stitched abdominal wall and increasing post-operative pain.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">How long should I avoid gas-producing foods after surgery?</h3>
-                        <p class="text-gray-600">You should avoid gas-producing vegetables and legumes (such as cabbage, cauliflower, beans, and lentils) for at least 2 to 3 weeks. This allows post-operative abdominal swelling to subside and prevents painful intestinal bloating.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Can I drink tea or coffee after hernia surgery?</h3>
-                        <p class="text-gray-600">Avoid strong caffeinated coffee and black tea during the first 3 to 5 days. Caffeine is a diuretic that can dehydrate you, leading to hard, dry stools and constipation. It also irritates a sensitive stomach recovering from anesthesia. Stick to warm water or soothing chamomile and peppermint tea.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Why is straining during bowel movements dangerous after hernia repair?</h3>
-                        <p class="text-gray-600">Straining sharply increases intra-abdominal pressure. This force pulls against fresh incision sutures and mechanical mesh fixations, risking tissue tearing, hematoma, severe pain, and potentially hernia recurrence.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Can I eat dairy products like milk and cheese after hernia surgery?</h3>
-                        <p class="text-gray-600">Limit heavy aged cheese, whole milk, and rich cream for the first week because dairy can slow digestion and worsen constipation from pain medications. However, plain probiotic yogurt or kefir is beneficial as it aids gut digestion.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">When can I safely return to my normal everyday diet?</h3>
-                        <p class="text-gray-600">Most patients can return to a balanced regular diet within 2 to 3 weeks following laparoscopic repair. Reintroduce complex, fibrous, or spicy foods gradually, one item at a time, to make sure your stomach tolerates them well.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">What should I eat if I feel constipated after hernia surgery?</h3>
-                        <p class="text-gray-600">Drink plenty of warm water, consume stewed prunes, ripe papaya, unsweetened applesauce, clear broths, and take short gentle walks. If bowel movements do not occur within 48 to 72 hours, consult your surgeon for a mild stool softener.</p>
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What is the most harmful food to eat after hernia surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                The most harmful foods after hernia surgery are constipating processed items (white flour, greasy fast food, and heavy cheese) and gas-forming foods (beans, carbonated drinks, cabbage, and broccoli). Constipation causes bowel straining, which spikes intra-abdominal pressure and can dislodge the surgical mesh or tear internal sutures.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why are fizzy and carbonated drinks prohibited after hernia repair?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Fizzy sodas and carbonated beverages release trapped carbon dioxide gas directly into your stomach. This inflates your gastrointestinal tract, placing sharp outward tension on your newly stitched abdominal wall and increasing post-operative pain.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How long should I avoid gas-producing foods after surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                You should avoid gas-producing vegetables and legumes (such as cabbage, cauliflower, beans, and lentils) for at least 2 to 3 weeks. This allows post-operative abdominal swelling to subside and prevents painful intestinal bloating.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can I drink tea or coffee after hernia surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Avoid strong caffeinated coffee and black tea during the first 3 to 5 days. Caffeine is a diuretic that can dehydrate you, leading to hard, dry stools and constipation. It also irritates a sensitive stomach recovering from anesthesia. Stick to warm water or soothing chamomile and peppermint tea.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why is straining during bowel movements dangerous after hernia repair?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Straining sharply increases intra-abdominal pressure. This force pulls against fresh incision sutures and mechanical mesh fixations, risking tissue tearing, hematoma, severe pain, and potentially hernia recurrence.
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can I eat dairy products like milk and cheese after hernia surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Limit heavy aged cheese, whole milk, and rich cream for the first week because dairy can slow digestion and worsen constipation from pain medications. However, plain probiotic yogurt or kefir is beneficial as it aids gut digestion.
+                            </div>
+                        </details>
+                        <!-- FAQ 7 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">When can I safely return to my normal everyday diet?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Most patients can return to a balanced regular diet within 2 to 3 weeks following laparoscopic repair. Reintroduce complex, fibrous, or spicy foods gradually, one item at a time, to make sure your stomach tolerates them well.
+                            </div>
+                        </details>
+                        <!-- FAQ 8 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What should I eat if I feel constipated after hernia surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Drink plenty of warm water, consume stewed prunes, ripe papaya, unsweetened applesauce, clear broths, and take short gentle walks. If bowel movements do not occur within 48 to 72 hours, consult your surgeon for a mild stool softener.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Conclusion & Guidance from Dr. Arush Sabharwal</h2>
-                <p class="mb-6">Hernia repair is one of the most successful surgical interventions available today. However, your daily food choices play a vital role in protecting your surgical site while internal tissues mend. By avoiding gas-inducing vegetables, fizzy drinks, constipating refined carbs, and spicy meals, you prevent intra-abdominal pressure spikes and give your body the best opportunity to heal smoothly.</p>
-
-                <p class="mb-6">At SCOD Clinic, <a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Arush Sabharwal</a> and our surgical specialists provide complete guidance from preoperative planning through post-surgical recovery. If you are preparing for hernia surgery or need personalized dietary advice during your recovery, contact our clinic today.</p>
-
-                <!-- Post Navigation -->
+<!-- Post Navigation -->
                 <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">
                     <a href="/blog/why-is-my-stomach-bigger-after-hernia-surgery" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold text-sm">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>

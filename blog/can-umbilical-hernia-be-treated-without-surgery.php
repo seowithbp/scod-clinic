@@ -269,51 +269,112 @@ include __DIR__ . '/../includes/header.php';
 
                 <p>If you or a loved one notice a belly button bulge, scheduling an evaluation with an experienced surgical team is the best step forward. At SCOD Clinic, <a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Arush Sabharwal</a> and our dedicated medical professionals specialize in state-of-the-art keyhole repairs. With advanced <a href="https://scodclinic.com/services/laparoscopic-surgery" class="text-scod hover:text-blue-700 font-semibold">Laparoscopic Hernia Surgery in Delhi</a>, you can enjoy a safe, hassle-free recovery and regain full peace of mind.</p>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-12 mb-6">Frequently Asked Questions (FAQs)</h2>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-                <div class="space-y-4">
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3 text-lg">1. Can umbilical hernia be treated without surgery?</h3>
-                        <p class="text-gray-600">In adults, an umbilical hernia cannot be cured without surgery because it is a structural tear in the abdominal wall. Non-surgical methods like watchful waiting, wearing an abdominal belt, or modifying activities can manage symptoms temporarily, but surgery is required for a permanent cure.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3 text-lg">2. Can umbilical hernia be cured without surgery in adults?</h3>
-                        <p class="text-gray-600">No, an adult umbilical hernia is not curable without surgery. Unlike infants whose abdominal wall muscles may close naturally during growth, adult muscle gaps do not heal or close on their own. Surgical repair is needed to seal the gap and prevent complications.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3 text-lg">3. Will umbilical hernia heal without surgery over time?</h3>
-                        <p class="text-gray-600">No, an adult umbilical hernia will not heal over time without surgery. Due to continuous abdominal pressure from daily activities like standing, lifting, and coughing, untreated adult hernias generally stay the same size or gradually enlarge.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3 text-lg">4. How to fix an umbilical hernia without surgery temporarily?</h3>
-                        <p class="text-gray-600">To manage symptoms temporarily without surgery, doctors recommend watchful waiting for small, painless hernias. Wearing a supportive hernia binder can offer comfort during activity, though it does not fix the muscle hole. Avoiding heavy lifting and managing constipation also help minimize pressure.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3 text-lg">5. Is umbilical hernia curable without surgery using targeted abdominal exercises?</h3>
-                        <p class="text-gray-600">No, exercises cannot cure an umbilical hernia. Intense core workouts like crunches or heavy lifting increase abdominal pressure, which can force tissue further through the defect and worsen the condition.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3 text-lg">6. Can a hernia belt or truss push an umbilical hernia back permanently?</h3>
-                        <p class="text-gray-600">A hernia belt or truss holds the protruding tissue inside the abdomen while worn, but it does not heal the muscle wall. Once you remove the belt, the bulge reappears.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3 text-lg">7. What happens if an umbilical hernia is left untreated for too long?</h3>
-                        <p class="text-gray-600">Leaving an umbilical hernia untreated increases the risk of severe complications, including bowel incarceration (trapped tissue) and strangulation (cutoff of blood supply), which is a critical medical emergency requiring immediate surgery.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3 text-lg">8. When should you seek emergency medical attention for an umbilical hernia?</h3>
-                        <p class="text-gray-600">Seek immediate emergency medical care if the hernia bulge turns dark or discolored, causes intense unmanageable pain, cannot be pushed back in, or is accompanied by severe nausea, vomiting, fever, or inability to pass stool.</p>
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can umbilical hernia be treated without surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                In adults, an umbilical hernia cannot be cured without surgery because it is a structural tear in the abdominal wall. Non-surgical methods like watchful waiting, wearing an abdominal belt, or modifying activities can manage symptoms temporarily, but surgery is required for a permanent cure.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can umbilical hernia be cured without surgery in adults?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                No, an adult umbilical hernia is not curable without surgery. Unlike infants whose abdominal wall muscles may close naturally during growth, adult muscle gaps do not heal or close on their own. Surgical repair is needed to seal the gap and prevent complications.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Will umbilical hernia heal without surgery over time?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                No, an adult umbilical hernia will not heal over time without surgery. Due to continuous abdominal pressure from daily activities like standing, lifting, and coughing, untreated adult hernias generally stay the same size or gradually enlarge.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How to fix an umbilical hernia without surgery temporarily?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                To manage symptoms temporarily without surgery, doctors recommend watchful waiting for small, painless hernias. Wearing a supportive hernia binder can offer comfort during activity, though it does not fix the muscle hole. Avoiding heavy lifting and managing constipation also help minimize pressure.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is umbilical hernia curable without surgery using targeted abdominal exercises?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                No, exercises cannot cure an umbilical hernia. Intense core workouts like crunches or heavy lifting increase abdominal pressure, which can force tissue further through the defect and worsen the condition.
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can a hernia belt or truss push an umbilical hernia back permanently?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                A hernia belt or truss holds the protruding tissue inside the abdomen while worn, but it does not heal the muscle wall. Once you remove the belt, the bulge reappears.
+                            </div>
+                        </details>
+                        <!-- FAQ 7 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What happens if an umbilical hernia is left untreated for too long?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Leaving an umbilical hernia untreated increases the risk of severe complications, including bowel incarceration (trapped tissue) and strangulation (cutoff of blood supply), which is a critical medical emergency requiring immediate surgery.
+                            </div>
+                        </details>
+                        <!-- FAQ 8 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">When should you seek emergency medical attention for an umbilical hernia?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Seek immediate emergency medical care if the hernia bulge turns dark or discolored, causes intense unmanageable pain, cannot be pushed back in, or is accompanied by severe nausea, vomiting, fever, or inability to pass stool.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <!-- Post Navigation -->
+<!-- Post Navigation -->
                 <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">
                     <a href="how-to-get-rid-of-co2-after-laparoscopic-surgery" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>

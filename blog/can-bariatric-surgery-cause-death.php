@@ -169,36 +169,88 @@ include __DIR__ . '/../includes/header.php';
 
                 <p class="mb-6">Our clinic offers a multidisciplinary approach, combining advanced surgical expertise with dedicated nutritional counseling, metabolic monitoring, and psychological support. Under the leadership of <a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Arush Sabharwal</a>, recognized as the <a href="https://scodclinic.com/services/bariatric-surgery" class="text-scod hover:text-blue-700 font-semibold">Best Bariatric Surgeon in Delhi</a>, we utilize state-of-the-art minimally invasive and laparoscopic technologies to maximize safety, minimize pain, and promote rapid recovery. We conduct rigorous pre-operative evaluations to map out any risk factors and customize every procedure to the patient's unique anatomy. Our comprehensive post-operative follow-up programs ensure you are closely monitored throughout your journey, helping you achieve your weight loss goals safely and confidently.</p>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Frequently Asked Questions</h2>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-                <div class="space-y-4">
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Can bariatric surgery cause death?</h3>
-                        <p class="text-gray-600">While bariatric surgery is a major surgical procedure and carries a small risk of severe complications, the risk of death is extremely low. Modern clinical statistics place the bariatric surgery death rate at approximately 0.1% (or about 1 in 1,000 cases), which is comparable to routine surgeries like gallbladder removal.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">What is the most common cause of death after bariatric surgery?</h3>
-                        <p class="text-gray-600">The most common cause of death after bariatric surgery is pulmonary embolism (a blood clot that travels to the lungs), followed closely by anastomotic leaks (leaks from the surgical staple lines leading to peritonitis and sepsis), and sudden cardiac events (heart attacks in patients with underlying cardiovascular disease).</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">How high is the bariatric surgery risk of death for high-risk patients?</h3>
-                        <p class="text-gray-600">The bariatric surgery risk of death is slightly higher for individuals who have extreme BMIs (greater than 50), are over 65 years of age, are male, or have severe pre-existing heart or lung conditions. For these patients, the risk may rise to about 0.5% to 1%, but it remains low and is managed through customized pre-operative and post-operative clinical monitoring.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">When are complications and death after bariatric surgery most likely to occur?</h3>
-                        <p class="text-gray-600">Severe complications and death after bariatric surgery are most likely to occur within the first 30 days following the procedure, with the highest risk period being the first week. This is when acute issues like internal bleeding, staple line leaks, and pulmonary embolisms typically present.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Is the risk of leaving severe obesity untreated higher than bariatric surgery?</h3>
-                        <p class="text-gray-600">Yes, multiple clinical studies show that the long-term mortality risk of leaving severe obesity untreated is significantly higher than the short-term risks of bariatric surgery. Obesity reduces life expectancy by causing cardiovascular disease, diabetes, and cancers, while bariatric surgery increases long-term survival rates.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">How does walking early after surgery prevent death?</h3>
-                        <p class="text-gray-600">Walking early (within a few hours of surgery) stimulates blood circulation in the legs. This active muscle movement prevents the formation of blood clots in the deep veins (DVT), which are a leading cause of fatal pulmonary embolisms after weight loss surgery.</p>
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can bariatric surgery cause death?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                While bariatric surgery is a major surgical procedure and carries a small risk of severe complications, the risk of death is extremely low. Modern clinical statistics place the bariatric surgery death rate at approximately 0.1% (or about 1 in 1,000 cases), which is comparable to routine surgeries like gallbladder removal.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What is the most common cause of death after bariatric surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                The most common cause of death after bariatric surgery is pulmonary embolism (a blood clot that travels to the lungs), followed closely by anastomotic leaks (leaks from the surgical staple lines leading to peritonitis and sepsis), and sudden cardiac events (heart attacks in patients with underlying cardiovascular disease).
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How high is the bariatric surgery risk of death for high-risk patients?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                The bariatric surgery risk of death is slightly higher for individuals who have extreme BMIs (greater than 50), are over 65 years of age, are male, or have severe pre-existing heart or lung conditions. For these patients, the risk may rise to about 0.5% to 1%, but it remains low and is managed through customized pre-operative and post-operative clinical monitoring.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">When are complications and death after bariatric surgery most likely to occur?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Severe complications and death after bariatric surgery are most likely to occur within the first 30 days following the procedure, with the highest risk period being the first week. This is when acute issues like internal bleeding, staple line leaks, and pulmonary embolisms typically present.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is the risk of leaving severe obesity untreated higher than bariatric surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, multiple clinical studies show that the long-term mortality risk of leaving severe obesity untreated is significantly higher than the short-term risks of bariatric surgery. Obesity reduces life expectancy by causing cardiovascular disease, diabetes, and cancers, while bariatric surgery increases long-term survival rates.
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How does walking early after surgery prevent death?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Walking early (within a few hours of surgery) stimulates blood circulation in the legs. This active muscle movement prevents the formation of blood clots in the deep veins (DVT), which are a leading cause of fatal pulmonary embolisms after weight loss surgery.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <!-- Post Navigation -->
+<!-- Post Navigation -->
                 <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">
                     <a href="is-bariatric-surgery-covered-by-insurance" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>

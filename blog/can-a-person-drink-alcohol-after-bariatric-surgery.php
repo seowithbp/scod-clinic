@@ -113,40 +113,100 @@ include __DIR__ . '/../includes/header.php';
 
                 <p class="text-gray-600 mb-6">At SCOD Clinic, we emphasize holistic post-operative care, including lifestyle coaching, support groups, and personalized nutrition plans. Under the leadership of medical experts like <a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Arush Sabharwal</a>, our clinic provides the resources and medical follow-up necessary to ensure safety and long-term weight maintenance.</p>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Frequently Asked Questions</h2>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-                <div class="space-y-4">
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Can a person drink alcohol after bariatric surgery safely?</h3>
-                        <p class="text-gray-600">Yes, but only after the healing period (6–12 months), in very limited quantities, and by taking precautions like eating food first and avoiding carbonation. It must be done with caution due to the high risk of rapid intoxication and low blood sugar.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">How soon can you drink alcohol after bariatir surgery?</h3>
-                        <p class="text-gray-600">You should wait at least six months to one year after bariatric surgery before drinking any alcohol. Consuming alcohol earlier can irritate the healing stomach pouch, cause ulcers, and strain the liver during active weight loss.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Why does alcohol feel stronger after weight loss surgery?</h3>
-                        <p class="text-gray-600">Because your stomach is smaller or bypassed, alcohol empties directly into the small intestine where it is absorbed rapidly. Additionally, your stomach produces less of the enzyme that breaks down alcohol, leading to much higher blood alcohol levels quickly.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">What are the best alcoholic drinks to have post-bariatric surgery?</h3>
-                        <p class="text-gray-600">If cleared by your doctor, select low-calorie, non-carbonated options like a small splash of hard liquor mixed with water or a low-sugar non-carbonated mixer. Avoid beer, champagne, sweet cocktails, and soda mixers.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">What is transfer addiction?</h3>
-                        <p class="text-gray-600">Transfer addiction is a psychological condition where a person swaps one compulsive behavior (like overeating) for another (like drinking alcohol or shopping). Bariatric patients are at risk because alcohol effects are felt much faster and stronger post-op.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Will my alcohol tolerance ever return to what it was before surgery?</h3>
-                        <p class="text-gray-600">Generally, no. The anatomical changes made to your stomach and small intestine are permanent. This means alcohol will always be absorbed faster and bypass the protective stomach enzymes, maintaining a low tolerance permanently.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">How does alcohol affect muscle mass retention after weight loss surgery?</h3>
-                        <p class="text-gray-600">Alcohol inhibits muscle protein synthesis and causes dehydration. Following bariatric surgery, you need optimal protein absorption to retain lean muscle mass while losing fat. Drinking alcohol can lead to muscle wasting and a slowed metabolic rate.</p>
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can a person drink alcohol after bariatric surgery safely?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, but only after the healing period (6–12 months), in very limited quantities, and by taking precautions like eating food first and avoiding carbonation. It must be done with caution due to the high risk of rapid intoxication and low blood sugar.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How soon can you drink alcohol after bariatir surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                You should wait at least six months to one year after bariatric surgery before drinking any alcohol. Consuming alcohol earlier can irritate the healing stomach pouch, cause ulcers, and strain the liver during active weight loss.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why does alcohol feel stronger after weight loss surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Because your stomach is smaller or bypassed, alcohol empties directly into the small intestine where it is absorbed rapidly. Additionally, your stomach produces less of the enzyme that breaks down alcohol, leading to much higher blood alcohol levels quickly.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What are the best alcoholic drinks to have post-bariatric surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                If cleared by your doctor, select low-calorie, non-carbonated options like a small splash of hard liquor mixed with water or a low-sugar non-carbonated mixer. Avoid beer, champagne, sweet cocktails, and soda mixers.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What is transfer addiction?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Transfer addiction is a psychological condition where a person swaps one compulsive behavior (like overeating) for another (like drinking alcohol or shopping). Bariatric patients are at risk because alcohol effects are felt much faster and stronger post-op.
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Will my alcohol tolerance ever return to what it was before surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Generally, no. The anatomical changes made to your stomach and small intestine are permanent. This means alcohol will always be absorbed faster and bypass the protective stomach enzymes, maintaining a low tolerance permanently.
+                            </div>
+                        </details>
+                        <!-- FAQ 7 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How does alcohol affect muscle mass retention after weight loss surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Alcohol inhibits muscle protein synthesis and causes dehydration. Following bariatric surgery, you need optimal protein absorption to retain lean muscle mass while losing fat. Drinking alcohol can lead to muscle wasting and a slowed metabolic rate.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <!-- Post Navigation -->
+<!-- Post Navigation -->
                 <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">
                     <a href="does-bariatric-surgery-cure-type-2-diabetes" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>

@@ -436,108 +436,124 @@ include __DIR__ . '/../includes/header.php';
                     Because keyhole procedures are standard medical treatments, virtually all major health insurance policies in India cover them under cashless hospitalization. For a complete financial breakdown, explore your <a href="/blog/is-laparoscopic-surgery-covered-by-insurance" class="text-scod font-semibold hover:text-blue-700">insurance coverage options</a>.
                 </p>
 
-                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mt-10 mb-4">Why Choose SCOD Clinic for Laparoscopic Surgery in Delhi?</h2>
-                <p class="mb-4">
-                    While keyhole surgery relies on cutting-edge instrumentation, the single most crucial factor in your surgical outcome is the skill, precision, and experience of your surgeon. At SCOD Clinic, we combine surgical artistry with the highest standards of evidence-based medical care.
-                </p>
-                <div class="bg-blue-50 border border-blue-100 rounded-2xl p-6 my-6">
-                    <div class="flex items-start gap-4">
-                        <div class="w-12 h-12 rounded-xl bg-scod text-white flex items-center justify-center font-bold text-xl flex-shrink-0">
-                            <i data-feather="award" class="w-6 h-6"></i>
-                        </div>
-                        <div>
-                            <h3 class="text-lg font-bold text-gray-900 mb-2">Excellence Under Dr. Arush Sabharwal</h3>
-                            <p class="text-gray-700 leading-relaxed text-sm md:text-base">
-                                Led by <a href="https://scodclinic.com/about" class="text-scod font-semibold hover:text-blue-700">Dr. Arush Sabharwal</a>, a pioneer in minimally invasive, bariatric, and metabolic surgery, our surgical team utilizes cutting-edge 4K laparoscopic imaging systems, advanced electrosurgical devices, and proven ERAS (Enhanced Recovery After Surgery) protocols. From your first consultation through post-discharge recovery, patients receiving <a href="https://scodclinic.com/services/laparoscopic-surgery" class="text-scod font-semibold hover:text-blue-700">Laparoscopic Surgery in Delhi</a> at SCOD Clinic experience compassionate care, negligible pain, and rapid return to everyday life.
-                            </p>
-                        </div>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
+
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Excellence Under Dr. Arush Sabharwal</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Led by Dr. Arush Sabharwal, a pioneer in minimally invasive, bariatric, and metabolic surgery, our surgical team utilizes cutting-edge 4K laparoscopic imaging systems, advanced electrosurgical devices, and proven ERAS (Enhanced Recovery After Surgery) protocols. From your first consultation through post-discharge recovery, patients receiving Laparoscopic Surgery in Delhi at SCOD Clinic experience compassionate care, negligible pain, and rapid return to everyday life.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What is keyhole surgery and how does it work?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Keyhole surgery (laparoscopy) is a minimally invasive surgical technique where surgeons operate through small cuts (5 to 10 millimeters) rather than large abdominal incisions. A tiny lighted camera called a laparoscope transmits magnified real-time video to a screen, guiding delicate handheld tools to perform the procedure with high precision.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is keyhole surgery performed under general anesthesia?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, nearly all keyhole abdominal surgeries are performed under general anesthesia. You will be completely asleep, relaxed, and feel no pain or discomfort throughout the entire procedure.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why is gas pumped into the stomach during keyhole surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Medical-grade carbon dioxide (CO2) is gently pumped into the abdomen to inflate the abdominal wall like a dome. This temporary space, called a pneumoperitoneum, creates safe working room and clear visibility so the surgeon can operate without bumping into surrounding organs.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How long does a keyhole surgery procedure usually take?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Most routine keyhole surgeries, such as appendix or gallbladder removal and basic hernia repairs, take between 30 and 75 minutes. More complex laparoscopic or bariatric procedures may require 90 minutes to 2 hours depending on individual anatomy.
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How painful is recovery after a keyhole surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Keyhole surgery causes significantly less post-operative pain than open surgery because muscle tissues are spared rather than sliced. Patients typically feel mild soreness around the tiny incisions and temporary shoulder aching from residual CO2, easily managed with mild oral analgesics.
+                            </div>
+                        </details>
+                        <!-- FAQ 7 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How long does it take to fully recover from keyhole surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Most patients can walk within a few hours, return home the same day or following morning, and resume desk work within 5 to 7 days. Full physical recovery and resumption of strenuous sports or heavy lifting typically take 2 to 4 weeks.
+                            </div>
+                        </details>
+                        <!-- FAQ 8 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Will keyhole surgery leave noticeable scars?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                No. Because each incision is only about the size of a buttonhole (0.5 to 1 cm), incisions are closed with dissolvable sutures, surgical glue, or sterile tape. Over several months, they fade into tiny, barely visible marks often hidden in natural body creases like the belly button.
+                            </div>
+                        </details>
+                        <!-- FAQ 9 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can a keyhole surgery be converted to an open surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, although conversion happens in less than 2-3% of elective cases. If severe internal scarring (adhesions from past surgeries), unusual anatomy, or unexpected bleeding prevents a clear, safe laparoscopic view, the surgeon will convert to open surgery as a proactive safety measure to protect patient health.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <!-- Frequently Asked Questions Section -->
-                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mt-12 mb-6">Frequently Asked Questions (FAQs)</h2>
-
-                <div class="space-y-4 mb-10">
-                    <div class="border border-gray-200 rounded-2xl p-5 hover:border-scod transition-colors bg-white shadow-sm">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">1. What is keyhole surgery and how does it work?</h3>
-                        <p class="text-gray-600 text-sm md:text-base leading-relaxed">
-                            Keyhole surgery (laparoscopy) is a minimally invasive surgical technique where surgeons operate through small cuts (5 to 10 millimeters) rather than large abdominal incisions. A tiny lighted camera called a laparoscope transmits magnified real-time video to a screen, guiding delicate handheld tools to perform the procedure with high precision.
-                        </p>
-                    </div>
-
-                    <div class="border border-gray-200 rounded-2xl p-5 hover:border-scod transition-colors bg-white shadow-sm">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">2. Is keyhole surgery performed under general anesthesia?</h3>
-                        <p class="text-gray-600 text-sm md:text-base leading-relaxed">
-                            Yes, nearly all keyhole abdominal surgeries are performed under general anesthesia. You will be completely asleep, relaxed, and feel no pain or discomfort throughout the entire procedure.
-                        </p>
-                    </div>
-
-                    <div class="border border-gray-200 rounded-2xl p-5 hover:border-scod transition-colors bg-white shadow-sm">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">3. Why is gas pumped into the stomach during keyhole surgery?</h3>
-                        <p class="text-gray-600 text-sm md:text-base leading-relaxed">
-                            Medical-grade carbon dioxide (CO2) is gently pumped into the abdomen to inflate the abdominal wall like a dome. This temporary space, called a pneumoperitoneum, creates safe working room and clear visibility so the surgeon can operate without bumping into surrounding organs.
-                        </p>
-                    </div>
-
-                    <div class="border border-gray-200 rounded-2xl p-5 hover:border-scod transition-colors bg-white shadow-sm">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">4. How long does a keyhole surgery procedure usually take?</h3>
-                        <p class="text-gray-600 text-sm md:text-base leading-relaxed">
-                            Most routine keyhole surgeries, such as appendix or gallbladder removal and basic hernia repairs, take between 30 and 75 minutes. More complex laparoscopic or bariatric procedures may require 90 minutes to 2 hours depending on individual anatomy.
-                        </p>
-                    </div>
-
-                    <div class="border border-gray-200 rounded-2xl p-5 hover:border-scod transition-colors bg-white shadow-sm">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">5. How painful is recovery after a keyhole surgery?</h3>
-                        <p class="text-gray-600 text-sm md:text-base leading-relaxed">
-                            Keyhole surgery causes significantly less post-operative pain than open surgery because muscle tissues are spared rather than sliced. Patients typically feel mild soreness around the tiny incisions and temporary shoulder aching from residual CO2, easily managed with mild oral analgesics.
-                        </p>
-                    </div>
-
-                    <div class="border border-gray-200 rounded-2xl p-5 hover:border-scod transition-colors bg-white shadow-sm">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">6. How long does it take to fully recover from keyhole surgery?</h3>
-                        <p class="text-gray-600 text-sm md:text-base leading-relaxed">
-                            Most patients can walk within a few hours, return home the same day or following morning, and resume desk work within 5 to 7 days. Full physical recovery and resumption of strenuous sports or heavy lifting typically take 2 to 4 weeks.
-                        </p>
-                    </div>
-
-                    <div class="border border-gray-200 rounded-2xl p-5 hover:border-scod transition-colors bg-white shadow-sm">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">7. Will keyhole surgery leave noticeable scars?</h3>
-                        <p class="text-gray-600 text-sm md:text-base leading-relaxed">
-                            No. Because each incision is only about the size of a buttonhole (0.5 to 1 cm), incisions are closed with dissolvable sutures, surgical glue, or sterile tape. Over several months, they fade into tiny, barely visible marks often hidden in natural body creases like the belly button.
-                        </p>
-                    </div>
-
-                    <div class="border border-gray-200 rounded-2xl p-5 hover:border-scod transition-colors bg-white shadow-sm">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">8. Can a keyhole surgery be converted to an open surgery?</h3>
-                        <p class="text-gray-600 text-sm md:text-base leading-relaxed">
-                            Yes, although conversion happens in less than 2-3% of elective cases. If severe internal scarring (adhesions from past surgeries), unusual anatomy, or unexpected bleeding prevents a clear, safe laparoscopic view, the surgeon will convert to open surgery as a proactive safety measure to protect patient health.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Final Thoughts -->
-                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mt-10 mb-4">Final Thoughts</h2>
-                <p class="mb-4">
-                    Keyhole surgery is one of modern medicine&rsquo;s most transformative breakthroughs, transforming what were once traumatic, painful operations into gentle, outpatient or short-stay procedures. Understanding each step of how the procedure is performed replaces surgical anxiety with confidence and clarity.
-                </p>
-                <p class="mb-6">
-                    If you or a loved one has been advised to undergo abdominal, gallbladder, hernia, appendix, or weight loss surgery, trust your care to the best in the field. Contact SCOD Clinic in Delhi today to schedule a comprehensive consultation with <a href="https://scodclinic.com/about" class="text-scod font-semibold hover:text-blue-700">Dr. Arush Sabharwal</a> and discover how state-of-the-art <a href="https://scodclinic.com/services/laparoscopic-surgery" class="text-scod font-semibold hover:text-blue-700">Laparoscopic Surgery in Delhi</a> can help you heal quickly, safely, and comfortably.
-                </p>
-
-                <!-- Navigation to Related Posts -->
-                <div class="border-t border-b border-gray-200 py-6 my-10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm font-semibold">
-                    <a href="/blog/what-to-eat-after-appendix-surgery" class="text-gray-600 hover:text-scod flex items-center gap-2">
-                        <i data-feather="arrow-left" class="w-4 h-4"></i>
-                        Previous: What to Eat after Appendix Surgery?
-                    </a>
-                    <a href="/blog/how-to-get-rid-of-co2-after-laparoscopic-surgery" class="text-gray-600 hover:text-scod flex items-center gap-2">
-                        Next: How To Get Rid of CO2 After Laparoscopic Surgery?
-                        <i data-feather="arrow-right" class="w-4 h-4"></i>
-                    </a>
-                </div>
-
-            </div>
-        </article>
+</article>
     </main>
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>

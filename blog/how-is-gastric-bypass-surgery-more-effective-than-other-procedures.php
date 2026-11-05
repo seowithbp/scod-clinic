@@ -363,109 +363,112 @@ include __DIR__ . '/../includes/header.php';
                     To learn more about overall eligibility criteria, review our comprehensive clinical guide on <a href="https://scodclinic.com/blog/when-is-bariatric-surgery-recommended" class="text-scod font-semibold hover:text-blue-700">when bariatric surgery is recommended</a>.
                 </p>
 
-                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mt-10 mb-4">Nutritional Commitments: What Makes Bypass Patients Successful</h2>
-                <p class="mb-4">
-                    Because gastric bypass alters intestinal absorption, it demands a lifelong commitment to nutritional discipline. Understanding these requirements ensures optimal vitality and prevents post-surgical deficiencies:
-                </p>
-                <ul class="list-disc list-inside space-y-2 mb-8 pl-2 text-gray-700">
-                    <li>
-                        <strong>Lifelong Micronutrient Supplementation:</strong> Because the duodenum &mdash; the primary absorption site for calcium, iron, and folate &mdash; is bypassed, daily high-potency multivitamins, calcium citrate, vitamin D3, and vitamin B12 are mandatory.
-                    </li>
-                    <li>
-                        <strong>Strict Protein Prioritization:</strong> Patients must consume 60 to 80 grams of bioavailable protein each day (from lean poultry, eggs, cottage cheese, tofu, and protein shakes) to maintain muscle mass and metabolic rate.
-                    </li>
-                    <li>
-                        <strong>Consistent Hydration:</strong> Sipping at least 2 liters of water daily between meals prevents dehydration and protects renal filtration without over-distending the small pouch.
-                    </li>
-                    <li>
-                        <strong>Routine Biochemical Monitoring:</strong> Annual blood work tracking ferritin, hemoglobin, electrolytes, fat-soluble vitamins, and parathyroid hormone ensures early detection and correction of any minor nutritional dips.
-                    </li>
-                </ul>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-                <!-- Frequently Asked Questions -->
-                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mt-10 mb-6">Frequently Asked Questions (FAQs)</h2>
-
-                <div class="space-y-4 mb-10">
-                    <div class="border border-gray-200 rounded-2xl p-4 hover:border-scod transition-colors bg-white shadow-sm">
-                        <h3 class="text-base font-bold text-gray-900 mb-1">1. Why is gastric bypass considered the gold standard of bariatric surgery?</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                            Roux-en-Y gastric bypass is called the gold standard because it couples physical restriction with mild intestinal malabsorption. This dual action produces potent hormonal corrections, superior long-term excess weight loss, and proven remission of metabolic diseases like type 2 diabetes and chronic acid reflux.
-                        </p>
-                    </div>
-
-                    <div class="border border-gray-200 rounded-2xl p-4 hover:border-scod transition-colors bg-white shadow-sm">
-                        <h3 class="text-base font-bold text-gray-900 mb-1">2. How does weight loss with gastric bypass compare to gastric sleeve surgery?</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                            While both procedures provide dramatic weight loss, clinical evidence demonstrates that gastric bypass patients achieve higher average excess weight loss (around 70% to 80% compared to 60% to 70% for sleeve gastrectomy) and exhibit lower rates of weight regain over 10 to 15 years.
-                        </p>
-                    </div>
-
-                    <div class="border border-gray-200 rounded-2xl p-4 hover:border-scod transition-colors bg-white shadow-sm">
-                        <h3 class="text-base font-bold text-gray-900 mb-1">3. Can gastric bypass surgery cure type 2 diabetes?</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                            Yes, gastric bypass induces rapid remission of type 2 diabetes in up to 80% to 85% of cases. Blood sugar levels frequently normalize within days of surgery before significant pounds are lost, thanks to powerful gut incretin releases such as GLP-1.
-                        </p>
-                    </div>
-
-                    <div class="border border-gray-200 rounded-2xl p-4 hover:border-scod transition-colors bg-white shadow-sm">
-                        <h3 class="text-base font-bold text-gray-900 mb-1">4. Why is gastric bypass preferred over sleeve surgery for patients with GERD or acid reflux?</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                            Gastric bypass creates a low-pressure pouch isolated from acid-producing gastric cells, resolving acid reflux in over 90% of patients. In contrast, sleeve surgery narrows the stomach into a high-pressure tube that can aggravate existing heartburn or provoke new reflux symptoms.
-                        </p>
-                    </div>
-
-                    <div class="border border-gray-200 rounded-2xl p-4 hover:border-scod transition-colors bg-white shadow-sm">
-                        <h3 class="text-base font-bold text-gray-900 mb-1">5. Is gastric bypass surgery reversible?</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                            Yes, because no portion of the stomach or intestine is removed from the abdomen, gastric bypass is anatomically reversible. However, reversal is a major surgical procedure reserved only for severe medical necessities; the overwhelming majority of patients live happily with the bypass indefinitely.
-                        </p>
-                    </div>
-
-                    <div class="border border-gray-200 rounded-2xl p-4 hover:border-scod transition-colors bg-white shadow-sm">
-                        <h3 class="text-base font-bold text-gray-900 mb-1">6. What is dumping syndrome, and does it help with weight loss?</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                            Dumping syndrome occurs when concentrated sugars or greasy foods enter the small intestine rapidly, triggering temporary cramping, sweating, and nausea. While uncomfortable, it functions as a strong behavioral deterrent against calorie-dense sweets and junk foods.
-                        </p>
-                    </div>
-
-                    <div class="border border-gray-200 rounded-2xl p-4 hover:border-scod transition-colors bg-white shadow-sm">
-                        <h3 class="text-base font-bold text-gray-900 mb-1">7. Do I have to take vitamins for life after gastric bypass?</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                            Yes. Bypassing the duodenum reduces absorption of certain nutrients, making daily supplementation of high-grade multivitamins, calcium citrate, iron, and vitamin B12 necessary to maintain optimal long-term bone density and blood health.
-                        </p>
-                    </div>
-
-                    <div class="border border-gray-200 rounded-2xl p-4 hover:border-scod transition-colors bg-white shadow-sm">
-                        <h3 class="text-base font-bold text-gray-900 mb-1">8. How do I know if gastric bypass is the right procedure for me?</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                            Choosing the best surgical path depends on your starting BMI, medical comorbidities (such as diabetes and reflux), past surgical history, and eating habits. Consulting top specialists in <a href="https://scodclinic.com/services/bariatric-surgery" class="text-scod font-semibold hover:text-blue-700">Bariatric Surgery in Delhi</a> at <a href="https://scodclinic.com" class="text-scod font-semibold hover:text-blue-700">SCOD Clinic</a> ensures a customized, safe, and effective surgical plan.
-                        </p>
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why is gastric bypass considered the gold standard of bariatric surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Roux-en-Y gastric bypass is called the gold standard because it couples physical restriction with mild intestinal malabsorption. This dual action produces potent hormonal corrections, superior long-term excess weight loss, and proven remission of metabolic diseases like type 2 diabetes and chronic acid reflux.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How does weight loss with gastric bypass compare to gastric sleeve surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                While both procedures provide dramatic weight loss, clinical evidence demonstrates that gastric bypass patients achieve higher average excess weight loss (around 70% to 80% compared to 60% to 70% for sleeve gastrectomy) and exhibit lower rates of weight regain over 10 to 15 years.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can gastric bypass surgery cure type 2 diabetes?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, gastric bypass induces rapid remission of type 2 diabetes in up to 80% to 85% of cases. Blood sugar levels frequently normalize within days of surgery before significant pounds are lost, thanks to powerful gut incretin releases such as GLP-1.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why is gastric bypass preferred over sleeve surgery for patients with GERD or acid reflux?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Gastric bypass creates a low-pressure pouch isolated from acid-producing gastric cells, resolving acid reflux in over 90% of patients. In contrast, sleeve surgery narrows the stomach into a high-pressure tube that can aggravate existing heartburn or provoke new reflux symptoms.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is gastric bypass surgery reversible?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, because no portion of the stomach or intestine is removed from the abdomen, gastric bypass is anatomically reversible. However, reversal is a major surgical procedure reserved only for severe medical necessities; the overwhelming majority of patients live happily with the bypass indefinitely.
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What is dumping syndrome, and does it help with weight loss?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Dumping syndrome occurs when concentrated sugars or greasy foods enter the small intestine rapidly, triggering temporary cramping, sweating, and nausea. While uncomfortable, it functions as a strong behavioral deterrent against calorie-dense sweets and junk foods.
+                            </div>
+                        </details>
+                        <!-- FAQ 7 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Do I have to take vitamins for life after gastric bypass?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes. Bypassing the duodenum reduces absorption of certain nutrients, making daily supplementation of high-grade multivitamins, calcium citrate, iron, and vitamin B12 necessary to maintain optimal long-term bone density and blood health.
+                            </div>
+                        </details>
+                        <!-- FAQ 8 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How do I know if gastric bypass is the right procedure for me?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Choosing the best surgical path depends on your starting BMI, medical comorbidities (such as diabetes and reflux), past surgical history, and eating habits. Consulting top specialists in Bariatric Surgery in Delhi at SCOD Clinic ensures a customized, safe, and effective surgical plan.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <!-- Final Thoughts -->
-                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mt-10 mb-4">Final Thoughts</h2>
-                <p class="mb-4">
-                    When comparing bariatric surgical options, Roux-en-Y gastric bypass remains an unmatched benchmark of clinical efficacy. While procedures like the sleeve gastrectomy and gastric balloon offer beneficial avenues for selected patients, the dual-action potency of gastric bypass delivers the most robust long-term weight reduction, exceptional metabolic reversal of type 2 diabetes, and reliable relief from debilitating acid reflux.
-                </p>
-                <p class="mb-6">
-                    Ultimately, success in metabolic surgery relies on precise surgical technique, thorough pre-operative evaluation, and attentive lifetime follow-up. If you or a family member are considering weight loss surgery, exploring options with the multidisciplinary surgical team at <a href="https://scodclinic.com" class="text-scod font-semibold hover:text-blue-700">SCOD Clinic</a> will empower you to make an informed, confident choice that safeguards your long-term health and wellbeing.
-                </p>
-
-                <!-- Navigation to Related Posts -->
-                <div class="border-t border-b border-gray-200 py-6 my-10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm font-semibold">
-                    <a href="/blog/what-to-eat-after-appendix-surgery" class="text-gray-600 hover:text-scod flex items-center gap-2">
-                        <i data-feather="arrow-left" class="w-4 h-4"></i>
-                        Previous: What to Eat after Appendix Surgery?
-                    </a>
-                    <a href="/blog/how-does-gastric-bypass-work" class="text-gray-600 hover:text-scod flex items-center gap-2">
-                        Next: How Does Gastric Bypass Work?
-                        <i data-feather="arrow-right" class="w-4 h-4"></i>
-                    </a>
-                </div>
-
-            </div>
-        </article>
+</article>
     </main>
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>

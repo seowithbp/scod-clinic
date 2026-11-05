@@ -218,36 +218,76 @@ include __DIR__ . '/../includes/header.php';
                 </p>
 
                 <!-- Section 7: FAQs -->
-                <h2 class="text-2xl font-bold text-gray-900 mt-12 mb-6">Frequently Asked Questions (FAQs)</h2>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-                <div class="space-y-4">
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 text-lg mb-2">Can bariatric surgery cause heart problems?</h3>
-                        <p class="text-gray-600">No, bariatric surgery does not cause chronic heart disease. Instead, it significantly improves cardiovascular health by lowering blood pressure, cholesterol, and diabetes. Temporary symptoms like heart palpitations can occur post-op due to dehydration or electrolyte shifts, but these resolve quickly with proper fluid and mineral management.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 text-lg mb-2">Why do I feel heart palpitations after weight loss surgery?</h3>
-                        <p class="text-gray-600">Post-bariatric surgery heart palpitations are usually caused by mild dehydration, rapid electrolyte shifts (like low potassium or magnesium), or dumping syndrome after eating sugars. Drinking enough fluids and taking prescribed supplements will help stabilize your heart rate.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 text-lg mb-2">Is bariatric surgery safe for patients with existing heart disease?</h3>
-                        <p class="text-gray-600">Yes. In fact, weight loss surgery is often recommended for patients with controlled heart disease or heart failure because substantial weight loss reduces cardiac strain. All high-risk patients undergo strict cardiac clearance before surgery to ensure maximum safety.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 text-lg mb-2">How quickly does blood pressure improve after bariatric surgery?</h3>
-                        <p class="text-gray-600">Blood pressure improvements often begin within days to weeks following surgery, even before massive weight loss occurs. This rapid response is driven by reduced sodium intake, hormonal changes, and decreased sympathetic nervous system activity.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 text-lg mb-2">What heart symptoms post-surgery require immediate medical attention?</h3>
-                        <p class="text-gray-600">You should contact your doctor or seek emergency care immediately if you experience severe chest pain, shortness of breath while at rest, fainting (syncope), or a persistently rapid heart rate (>120 bpm) accompanied by dizziness.</p>
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can bariatric surgery cause heart problems?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                No, bariatric surgery does not cause chronic heart disease. Instead, it significantly improves cardiovascular health by lowering blood pressure, cholesterol, and diabetes. Temporary symptoms like heart palpitations can occur post-op due to dehydration or electrolyte shifts, but these resolve quickly with proper fluid and mineral management.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why do I feel heart palpitations after weight loss surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Post-bariatric surgery heart palpitations are usually caused by mild dehydration, rapid electrolyte shifts (like low potassium or magnesium), or dumping syndrome after eating sugars. Drinking enough fluids and taking prescribed supplements will help stabilize your heart rate.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is bariatric surgery safe for patients with existing heart disease?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes. In fact, weight loss surgery is often recommended for patients with controlled heart disease or heart failure because substantial weight loss reduces cardiac strain. All high-risk patients undergo strict cardiac clearance before surgery to ensure maximum safety.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How quickly does blood pressure improve after bariatric surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Blood pressure improvements often begin within days to weeks following surgery, even before massive weight loss occurs. This rapid response is driven by reduced sodium intake, hormonal changes, and decreased sympathetic nervous system activity.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What heart symptoms post-surgery require immediate medical attention?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                You should contact your doctor or seek emergency care immediately if you experience severe chest pain, shortness of breath while at rest, fainting (syncope), or a persistently rapid heart rate (&gt;120 bpm) accompanied by dizziness.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <!-- Post Navigation -->
+<!-- Post Navigation -->
                 <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">
                     <a href="/blog/how-much-weight-loss-after-bariatric-surgery" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>

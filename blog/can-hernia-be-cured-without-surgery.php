@@ -473,82 +473,112 @@ include __DIR__ . '/../includes/header.php';
 
                 <!-- Section 10: FAQs -->
                 <section>
-                    <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mt-12 mb-6">Frequently Asked Questions (FAQs)</h2>
+                                    <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
                     <div class="space-y-4">
-                        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                            <h3 class="font-semibold text-gray-900 mb-2 text-lg">1. Can a hernia be cured without surgery?</h3>
-                            <p class="text-gray-600 text-sm md:text-base leading-relaxed">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can a hernia be cured without surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
                                 In adults, a hernia cannot be cured without surgery. Because a hernia is a physical, anatomical gap in the muscle and fascia, it cannot self-heal, shrink, or close on its own. Non-surgical measures such as hernia trusses, activity modification, and watchful waiting only manage symptoms temporarily, but surgery is the sole definitive cure.
-                            </p>
-                        </div>
-
-                        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                            <h3 class="font-semibold text-gray-900 mb-2 text-lg">2. Can a hernia heal on its own over time?</h3>
-                            <p class="text-gray-600 text-sm md:text-base leading-relaxed">
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can a hernia heal on its own over time?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
                                 No, adult abdominal hernias do not heal on their own. Unlike minor skin wounds or bone fractures that regenerate, torn abdominal wall muscles lack the biological capability to bridge the gap under continuous internal abdominal pressure. Without surgical repair, hernias tend to enlarge over time.
-                            </p>
-                        </div>
-
-                        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                            <h3 class="font-semibold text-gray-900 mb-2 text-lg">3. What is the best non-surgical treatment for hernia pain?</h3>
-                            <p class="text-gray-600 text-sm md:text-base leading-relaxed">
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What is the best non-surgical treatment for hernia pain?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
                                 For mild, uncomplicated hernias under medical supervision, non-surgical management includes temporary use of a medical hernia truss or supportive binder, avoiding heavy lifting, preventing constipation with a high-fiber diet, maintaining a healthy weight, and resting when discomfort arises. However, these steps do not cure the underlying defect.
-                            </p>
-                        </div>
-
-                        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                            <h3 class="font-semibold text-gray-900 mb-2 text-lg">4. Does wearing a hernia belt or truss push a hernia back permanently?</h3>
-                            <p class="text-gray-600 text-sm md:text-base leading-relaxed">
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Does wearing a hernia belt or truss push a hernia back permanently?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
                                 No. A hernia belt or truss only holds the protruding tissue inside the abdomen mechanically while you are wearing it. Once the belt is taken off, the bulge returns immediately. Prolonged reliance on tight trusses may also weaken the surrounding core muscles and cause skin chafing.
-                            </p>
-                        </div>
-
-                        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                            <h3 class="font-semibold text-gray-900 mb-2 text-lg">5. Can targeted abdominal exercises or yoga fix a hernia?</h3>
-                            <p class="text-gray-600 text-sm md:text-base leading-relaxed">
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can targeted abdominal exercises or yoga fix a hernia?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
                                 No, core exercises and intense yoga poses cannot repair a hernia. In fact, strenuous abdominal workouts like sit-ups, planks, heavy squats, or intense straining increase intra-abdominal pressure, which can push more internal tissue through the hole and worsen the hernia.
-                            </p>
-                        </div>
-
-                        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                            <h3 class="font-semibold text-gray-900 mb-2 text-lg">6. Is it safe to live with a hernia without getting surgery?</h3>
-                            <p class="text-gray-600 text-sm md:text-base leading-relaxed">
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is it safe to live with a hernia without getting surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
                                 Watchful waiting is considered safe only for small, completely painless, and easily reducible hernias under the direct guidance of a surgeon. However, living indefinitely with an untreated hernia carries ongoing risks of acute complications, such as intestinal obstruction, incarceration, and life-threatening strangulation.
-                            </p>
-                        </div>
-
-                        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                            <h3 class="font-semibold text-gray-900 mb-2 text-lg">7. What are the earliest warning signs of a strangulated hernia?</h3>
-                            <p class="text-gray-600 text-sm md:text-base leading-relaxed">
+                            </div>
+                        </details>
+                        <!-- FAQ 7 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What are the earliest warning signs of a strangulated hernia?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
                                 A strangulated hernia is a medical emergency that occurs when blood supply to the trapped tissue is cut off. Warning signs include sudden severe pain that escalates rapidly, a bulge that turns dark red, purple, or firm, nausea and vomiting, fever, and the inability to pass gas or have a bowel movement.
-                            </p>
-                        </div>
-
-                        <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                            <h3 class="font-semibold text-gray-900 mb-2 text-lg">8. Why is laparoscopic hernia surgery preferred over traditional open surgery?</h3>
-                            <p class="text-gray-600 text-sm md:text-base leading-relaxed">
+                            </div>
+                        </details>
+                        <!-- FAQ 8 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why is laparoscopic hernia surgery preferred over traditional open surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
                                 Laparoscopic hernia surgery utilizes tiny keyhole incisions, a high-definition surgical camera, and tension-free mesh reinforcement. This results in minimal surgical trauma, significantly less post-operative pain, microscopic scarring, same-day or 24-hour discharge, and a much faster return to routine activities compared to conventional open surgery.
-                            </p>
-                        </div>
+                            </div>
+                        </details>
                     </div>
-                </section>
+                </div>
 
-                <!-- Section 11: Conclusion -->
-                <section class="mt-12 pt-8 border-t border-gray-200">
-                    <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Conclusion: Take the First Step Toward Permanent Healing</h2>
-                    <p>
-                        In summary, while it is natural to wish that a hernia could heal without surgery, medical facts are clear: in adults, <strong>a hernia cannot be cured without surgical correction</strong>. Supportive belts and lifestyle modifications can help you stay comfortable temporarily, but they cannot close the underlying muscle defect.
-                    </p>
-                    <p>
-                        Delaying treatment until a hernia enlarges or becomes an acute emergency increases unnecessary health risks. With modern keyhole laparoscopic techniques, hernia repair today is gentle, effective, and delivers a quick return to everyday life.
-                    </p>
-                    <p>
-                        If you have noticed a bulge or are experiencing hernia discomfort, consult with our specialized team at SCOD Clinic. Led by experienced specialist <a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold underline">Dr. Arush Sabharwal</a>, we deliver world-class laparoscopic care tailored to your comfort and long-term well-being. Schedule your consultation today to discover the benefits of leading <a href="https://scodclinic.com/services/laparoscopic-surgery" class="text-scod hover:text-blue-700 font-semibold underline">Laparoscopic Hernia Surgery in Delhi</a>.
-                    </p>
-                </section>
-
-                <!-- Post Navigation -->
+<!-- Post Navigation -->
                 <nav class="flex flex-col sm:flex-row justify-between items-center gap-4 mt-12 pt-8 border-t border-gray-200">
                     <a href="/blog/how-a-keyhole-surgery-is-performed" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold transition-colors">
                         <i data-feather="arrow-left" class="w-4 h-4 text-scod"></i>

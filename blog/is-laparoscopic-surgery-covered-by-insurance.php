@@ -504,52 +504,112 @@ include __DIR__ . '/../includes/header.php';
                     </a>
                 </div>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-12 mb-6 border-b pb-2">Frequently Asked Questions</h2>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-                <div class="space-y-6">
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">1. Is laparoscopic surgery covered by health insurance in India?</h3>
-                        <p class="text-gray-600 text-sm">Yes, laparoscopic surgery is covered by health insurance policies in India. IRDAI guidelines mandate that health insurance policies cover modern, minimally invasive surgical treatments when medically necessary.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">2. Can I claim cashless insurance for laparoscopic surgery?</h3>
-                        <p class="text-gray-600 text-sm">Yes, you can claim cashless insurance for laparoscopic surgery if the procedure is performed at a network hospital empaneled with your health insurance provider.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">3. What is the waiting period for laparoscopic surgery insurance coverage?</h3>
-                        <p class="text-gray-600 text-sm">Initial hospitalization has a 30-day waiting period. Specific conditions like hernia or gallstones usually have a 1 to 2-year waiting period, while pre-existing conditions may require 2 to 4 years depending on policy terms.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">4. Which insurance companies cover laparoscopic surgery in India?</h3>
-                        <p class="text-gray-600 text-sm">Leading health insurers including Star Health, HDFC ERGO, Care Health Insurance, Neva Bupa, ICICI Lombard, Bajaj Allianz, and government schemes like Ayushman Bharat cover laparoscopic procedures.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">5. Are pre-hospitalization and post-hospitalization costs covered for laparoscopic surgery?</h3>
-                        <p class="text-gray-600 text-sm">Yes, most health insurance policies cover pre-hospitalization costs (diagnostic tests, doctor consultations up to 30-60 days before) and post-hospitalization costs (medications, follow-ups up to 60-90 days after).</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">6. Is laparoscopic gallbladder or hernia surgery covered by insurance?</h3>
-                        <p class="text-gray-600 text-sm">Yes, laparoscopic cholecystectomy (gallbladder removal) and laparoscopic hernia repairs are standard medically required procedures and are fully covered under health insurance.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">7. What documents are required to claim health insurance for laparoscopic surgery?</h3>
-                        <p class="text-gray-600 text-sm">Essential documents include the pre-authorization form, health card, doctor's prescription, diagnostic test reports, original discharge summary, final hospital bill, and pharmacy receipts.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">8. Does health insurance cover day-care laparoscopic procedures?</h3>
-                        <p class="text-gray-600 text-sm">Yes, health insurance policies cover day-care laparoscopic procedures that do not require 24-hour hospitalization due to advanced minimally invasive techniques.</p>
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is laparoscopic surgery covered by health insurance in India?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, laparoscopic surgery is covered by health insurance policies in India. IRDAI guidelines mandate that health insurance policies cover modern, minimally invasive surgical treatments when medically necessary.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can I claim cashless insurance for laparoscopic surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, you can claim cashless insurance for laparoscopic surgery if the procedure is performed at a network hospital empaneled with your health insurance provider.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What is the waiting period for laparoscopic surgery insurance coverage?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Initial hospitalization has a 30-day waiting period. Specific conditions like hernia or gallstones usually have a 1 to 2-year waiting period, while pre-existing conditions may require 2 to 4 years depending on policy terms.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Which insurance companies cover laparoscopic surgery in India?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Leading health insurers including Star Health, HDFC ERGO, Care Health Insurance, Neva Bupa, ICICI Lombard, Bajaj Allianz, and government schemes like Ayushman Bharat cover laparoscopic procedures.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Are pre-hospitalization and post-hospitalization costs covered for laparoscopic surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, most health insurance policies cover pre-hospitalization costs (diagnostic tests, doctor consultations up to 30-60 days before) and post-hospitalization costs (medications, follow-ups up to 60-90 days after).
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is laparoscopic gallbladder or hernia surgery covered by insurance?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, laparoscopic cholecystectomy (gallbladder removal) and laparoscopic hernia repairs are standard medically required procedures and are fully covered under health insurance.
+                            </div>
+                        </details>
+                        <!-- FAQ 7 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What documents are required to claim health insurance for laparoscopic surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Essential documents include the pre-authorization form, health card, doctor's prescription, diagnostic test reports, original discharge summary, final hospital bill, and pharmacy receipts.
+                            </div>
+                        </details>
+                        <!-- FAQ 8 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Does health insurance cover day-care laparoscopic procedures?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, health insurance policies cover day-care laparoscopic procedures that do not require 24-hour hospitalization due to advanced minimally invasive techniques.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-            </div>
-        </article>
+</article>
     </main>
 
 <?php include __DIR__ . '/../includes/header.php'; ?>

@@ -355,54 +355,124 @@ include __DIR__ . '/../includes/header.php';
                 </p>
 
                 <!-- FAQ Section -->
-                <h2 class="text-2xl font-bold text-gray-900 mt-12 mb-6">Frequently Asked Questions (FAQs)</h2>
-                <div class="space-y-4 mb-12">
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">What is the best sleeping position after gallbladder surgery?</h3>
-                        <p class="text-gray-600">The best sleeping position after gallbladder surgery is lying flat on your back with your head, chest, and upper torso elevated at a 30 to 45 degree angle using a wedge pillow, with a supportive pillow placed beneath your knees to relieve abdominal wall tension.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">When can I sleep on my side after gallbladder surgery?</h3>
-                        <p class="text-gray-600">Most patients can safely begin sleeping on their left side after 7 to 10 days post-surgery using supportive pillows between the knees. Sleeping on the right side should be delayed for 2 to 3 weeks until internal liver bed tissues fully heal.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Why is sleeping on right side after gallbladder surgery uncomfortable?</h3>
-                        <p class="text-gray-600">Sleeping on your right side places direct weight and mechanical pressure onto the liver bed, surgical clips, and right-sided trocar incisions, triggering sharp localized abdominal pain during early recovery.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">When can I sleep on my stomach after gallbladder surgery?</h3>
-                        <p class="text-gray-600">You should avoid stomach sleeping (prone position) for at least 4 to 6 weeks after gallbladder removal to prevent direct compression of keyhole incisions and deep abdominal muscle layers.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">How can I relieve shoulder pain while sleeping after laparoscopic gallbladder surgery?</h3>
-                        <p class="text-gray-600">Post-laparoscopic shoulder pain is caused by residual carbon dioxide (CO2) gas. Elevating your torso while sleeping, applying warm compresses, walking gently during the day, and staying hydrated help absorb and exhale trapped gas.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">How many pillows should I use to sleep comfortably after gallbladder removal?</h3>
-                        <p class="text-gray-600">Using 3 to 4 pillows is recommended: a wedge pillow or 2 firm pillows to prop up your head and chest, one pillow placed beneath your knees to relax your core, and an abdominal cushion for bracing.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Is it safe to take sleep medication after gallbladder surgery?</h3>
-                        <p class="text-gray-600">Always consult your surgeon before taking sleep aids post-surgery. Combining prescription pain medications with over-the-counter sleep aids can cause excessive sedation or respiratory risk.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">How do I safely get out of bed without hurting my incisions?</h3>
-                        <p class="text-gray-600">Use the log-rolling technique: bend your knees, roll onto your left side without twisting your torso, push your upper body up with your arms while swinging your legs off the bed, and hug a small pillow against your abdomen.</p>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
+
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What is the best sleeping position after gallbladder surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                The best sleeping position after gallbladder surgery is lying flat on your back with your head, chest, and upper torso elevated at a 30 to 45 degree angle using a wedge pillow, with a supportive pillow placed beneath your knees to relieve abdominal wall tension.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">When can I sleep on my side after gallbladder surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Most patients can safely begin sleeping on their left side after 7 to 10 days post-surgery using supportive pillows between the knees. Sleeping on the right side should be delayed for 2 to 3 weeks until internal liver bed tissues fully heal.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why is sleeping on right side after gallbladder surgery uncomfortable?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Sleeping on your right side places direct weight and mechanical pressure onto the liver bed, surgical clips, and right-sided trocar incisions, triggering sharp localized abdominal pain during early recovery.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">When can I sleep on my stomach after gallbladder surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                You should avoid stomach sleeping (prone position) for at least 4 to 6 weeks after gallbladder removal to prevent direct compression of keyhole incisions and deep abdominal muscle layers.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How can I relieve shoulder pain while sleeping after laparoscopic gallbladder surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Post-laparoscopic shoulder pain is caused by residual carbon dioxide (CO2) gas. Elevating your torso while sleeping, applying warm compresses, walking gently during the day, and staying hydrated help absorb and exhale trapped gas.
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How many pillows should I use to sleep comfortably after gallbladder removal?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Using 3 to 4 pillows is recommended: a wedge pillow or 2 firm pillows to prop up your head and chest, one pillow placed beneath your knees to relax your core, and an abdominal cushion for bracing.
+                            </div>
+                        </details>
+                        <!-- FAQ 7 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is it safe to take sleep medication after gallbladder surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Always consult your surgeon before taking sleep aids post-surgery. Combining prescription pain medications with over-the-counter sleep aids can cause excessive sedation or respiratory risk.
+                            </div>
+                        </details>
+                        <!-- FAQ 8 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How do I safely get out of bed without hurting my incisions?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Use the log-rolling technique: bend your knees, roll onto your left side without twisting your torso, push your upper body up with your arms while swinging your legs off the bed, and hug a small pillow against your abdomen.
+                            </div>
+                        </details>
+                        <!-- FAQ 9 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Seeking Expert Gallbladder Surgical Care in Delhi?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Consult with Dr. Arush Sabharwal at SCOD Clinic for advanced minimally invasive laparoscopic gallbladder surgery and post-operative recovery support.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <!-- Doctor / Clinic CTA Banner -->
-                <div class="bg-gradient-to-r from-blue-50 via-sky-50 to-blue-100/70 border border-blue-200/60 rounded-2xl p-8 my-10 shadow-sm">
-                    <div class="md:flex items-center justify-between gap-6">
-                        <div class="mb-6 md:mb-0">
-                            <h3 class="text-2xl font-bold mb-2 text-gray-900">Seeking Expert Gallbladder Surgical Care in Delhi?</h3>
-                            <p class="text-gray-600 text-sm max-w-xl">Consult with Dr. Arush Sabharwal at SCOD Clinic for advanced minimally invasive laparoscopic gallbladder surgery and post-operative recovery support.</p>
-                        </div>
-                        <a href="https://scodclinic.com/about" class="inline-block bg-white text-scod font-bold px-6 py-3 rounded-xl hover:bg-blue-50 border border-blue-200 transition-all shadow-md shrink-0">Book Consultation</a>
-                    </div>
-                </div>
-
-                <!-- Post Navigation -->
+<!-- Post Navigation -->
                 <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">
                     <a href="/blog/can-you-get-a-hernia-after-keyhole-surgery" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>

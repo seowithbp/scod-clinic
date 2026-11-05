@@ -459,61 +459,124 @@ include __DIR__ . '/../includes/header.php';
                 </p>
 
                 <!-- FAQ Section -->
-                <h2 class="text-2xl font-bold text-gray-900 mt-12 mb-6">Frequently Asked Questions (FAQs)</h2>
-                <div class="space-y-4 mb-12">
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3 text-lg">Why is my stomach bigger after hernia surgery?</h3>
-                        <p class="text-gray-600 leading-relaxed">Your stomach is bigger after hernia surgery mainly due to natural surgical inflammation (edema), trapped carbon dioxide gas used during laparoscopy, constipation from pain medications, and fluid accumulation known as a seroma in the space where the hernia was repaired.</p>
-                    </div>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3 text-lg">How long does stomach swelling after hernia surgery last?</h3>
-                        <p class="text-gray-600 leading-relaxed">The sharpest swelling and gas bloating usually peak within the first 3 days and decrease substantially over 1 to 2 weeks. Residual tissue puffiness, firm scar tissue, or seroma fluid can take 6 to 12 weeks to completely resolve.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3 text-lg">Is it normal to see a bulge that looks like the hernia is still there?</h3>
-                        <p class="text-gray-600 leading-relaxed">Yes, this is very common. When a hernia is repaired, the remaining empty pocket often fills with clear bodily fluid called a seroma. It can feel like the original hernia, but it is harmless and usually absorbed by your body over a few weeks.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3 text-lg">Why is my belly so distended after keyhole laparoscopic surgery?</h3>
-                        <p class="text-gray-600 leading-relaxed">During laparoscopic surgery, the abdomen is inflated with medical-grade carbon dioxide gas to create room for the surgeon to work. Small amounts of residual CO2 stay trapped for a few days, leading to temporary bloating and shoulder discomfort.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3 text-lg">Can an abdominal binder reduce swelling after hernia repair?</h3>
-                        <p class="text-gray-600 leading-relaxed">Yes. If approved by your surgeon, a medical abdominal binder offers gentle support to healing muscles, helps prevent fluid buildup, eases movement pain, and reduces abdominal swelling.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3 text-lg">Why does constipation make post-surgery swelling worse?</h3>
-                        <p class="text-gray-600 leading-relaxed">Anesthesia and pain medications slow down bowel movements. When stool and digestive gas accumulate, your intestines expand, pushing outwards and making your stomach appear noticeably larger and tighter.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3 text-lg">When does stomach swelling indicate an emergency?</h3>
-                        <p class="text-gray-600 leading-relaxed">Contact your doctor immediately if swelling comes with severe worsening pain, high fever, spreading redness or heat around the wound, foul drainage, continuous vomiting, or an inability to pass gas or stool.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3 text-lg">Does abdominal swelling mean my hernia surgery failed?</h3>
-                        <p class="text-gray-600 leading-relaxed">Almost certainly not. Early recurrence is rare with modern mesh repair. Swelling is almost always normal tissue healing, fluid buildup (seroma), or bowel gas rather than a failed operation.</p>
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why is my stomach bigger after hernia surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Your stomach is bigger after hernia surgery mainly due to natural surgical inflammation (edema), trapped carbon dioxide gas used during laparoscopy, constipation from pain medications, and fluid accumulation known as a seroma in the space where the hernia was repaired.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How long does stomach swelling after hernia surgery last?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                The sharpest swelling and gas bloating usually peak within the first 3 days and decrease substantially over 1 to 2 weeks. Residual tissue puffiness, firm scar tissue, or seroma fluid can take 6 to 12 weeks to completely resolve.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is it normal to see a bulge that looks like the hernia is still there?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, this is very common. When a hernia is repaired, the remaining empty pocket often fills with clear bodily fluid called a seroma. It can feel like the original hernia, but it is harmless and usually absorbed by your body over a few weeks.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why is my belly so distended after keyhole laparoscopic surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                During laparoscopic surgery, the abdomen is inflated with medical-grade carbon dioxide gas to create room for the surgeon to work. Small amounts of residual CO2 stay trapped for a few days, leading to temporary bloating and shoulder discomfort.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can an abdominal binder reduce swelling after hernia repair?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes. If approved by your surgeon, a medical abdominal binder offers gentle support to healing muscles, helps prevent fluid buildup, eases movement pain, and reduces abdominal swelling.
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why does constipation make post-surgery swelling worse?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Anesthesia and pain medications slow down bowel movements. When stool and digestive gas accumulate, your intestines expand, pushing outwards and making your stomach appear noticeably larger and tighter.
+                            </div>
+                        </details>
+                        <!-- FAQ 7 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">When does stomach swelling indicate an emergency?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Contact your doctor immediately if swelling comes with severe worsening pain, high fever, spreading redness or heat around the wound, foul drainage, continuous vomiting, or an inability to pass gas or stool.
+                            </div>
+                        </details>
+                        <!-- FAQ 8 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Does abdominal swelling mean my hernia surgery failed?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Almost certainly not. Early recurrence is rare with modern mesh repair. Swelling is almost always normal tissue healing, fluid buildup (seroma), or bowel gas rather than a failed operation.
+                            </div>
+                        </details>
+                        <!-- FAQ 9 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Concerned About Post-Hernia Swelling?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Consult with Dr. Arush Sabharwal, leading Laparoscopic Hernia Surgeon in Delhi NCR at SCOD Clinic, for expert post-operative evaluation and comprehensive surgical recovery care.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <!-- Doctor / Clinic CTA Banner -->
-                <div class="bg-gradient-to-r from-blue-50 via-sky-50 to-blue-100/70 border border-blue-200/60 rounded-2xl p-8 my-10 shadow-sm">
-                    <div class="md:flex items-center justify-between gap-6">
-                        <div class="mb-6 md:mb-0">
-                            <h3 class="text-2xl font-bold mb-2 text-gray-900">Concerned About Post-Hernia Swelling?</h3>
-                            <p class="text-gray-600 text-sm max-w-xl">Consult with Dr. Arush Sabharwal, leading Laparoscopic Hernia Surgeon in Delhi NCR at SCOD Clinic, for expert post-operative evaluation and comprehensive surgical recovery care.</p>
-                        </div>
-                        <a href="https://scodclinic.com/about" class="inline-block bg-white text-scod font-bold px-6 py-3 rounded-xl hover:bg-blue-50 border border-blue-200 transition-all shadow-md shrink-0">Book Consultation</a>
-                    </div>
-                </div>
-
-                <!-- Post Navigation -->
+<!-- Post Navigation -->
                 <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">
                     <a href="/blog/does-hernia-come-back-after-surgery" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>

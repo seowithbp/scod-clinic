@@ -170,30 +170,64 @@ include __DIR__ . '/../includes/header.php';
 
                 <p class="text-gray-600 mb-6">In conclusion, bariatric surgery insurance coverage is a vital financial tool that makes life-saving weight loss surgery accessible and affordable for patients struggling with severe obesity. Since the IRDAI mandates coverage for medically necessary bariatric surgery, patients no longer have to bear the entire financial burden of this treatment. By choosing a plan with a shorter waiting period, disclosing pre-existing conditions, and keeping detailed medical reports, you can successfully claim your surgical expenses. Consulting a specialist like <a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Arush Sabharwal</a> at SCOD Clinic provides both the clinical expertise and the documentation support needed for a smooth claim process.</p>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Frequently Asked Questions</h2>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-                <p class="text-gray-600 mb-6">Here are the answers to the most common questions regarding bariatric surgery insurance coverage in India, helping you navigate the process of claim approval.</p>
-
-                <div class="space-y-4">
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Is bariatric surgery covered by insurance in India under standard policies?</h3>
-                        <p class="text-gray-600">Yes, bariatric surgery is covered by health insurance in India under standard policies, provided the patient meets the strict medical criteria set by the IRDAI, such as having a BMI over 40, or a BMI over 35 with severe co-morbidities like type 2 diabetes or heart disease. The procedure must be medically prescribed and not done for cosmetic weight loss.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Can I buy insurance to cover bariatric surgery and get the operation done immediately?</h3>
-                        <p class="text-gray-600">No, you cannot buy a health insurance policy and get the surgery done immediately because most insurance companies impose a pre-existing disease waiting period of 2 to 4 years for bariatric surgery. The only exception is if you are covered under a corporate group insurance plan that waives the waiting period for its employees.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Does HDFC ERGO or Niva Bupa cover laparoscopic sleeve gastrectomy?</h3>
-                        <p class="text-gray-600">Yes, both HDFC ERGO General Insurance Co Ltd and Niva Bupa Health Insurance Company Ltd cover laparoscopic sleeve gastrectomy and other approved bariatric procedures like Roux-en-Y gastric bypass, provided the medical necessity is established and the policy's waiting period has been successfully completed.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">What are the common documents required by Medi Assist TPA for bariatric claim approval?</h3>
-                        <p class="text-gray-600">The common documents required by Medi Assist India TPA Pvt Ltd include a formal surgical recommendation letter from the surgeon, a detailed history of your BMI, diagnostic reports showing obesity-related complications (like HbA1c reports for diabetes or sleep study reports for sleep apnea), and records showing you tried non-surgical weight loss methods under medical supervision.</p>
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is bariatric surgery covered by insurance in India under standard policies?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, bariatric surgery is covered by health insurance in India under standard policies, provided the patient meets the strict medical criteria set by the IRDAI, such as having a BMI over 40, or a BMI over 35 with severe co-morbidities like type 2 diabetes or heart disease. The procedure must be medically prescribed and not done for cosmetic weight loss.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can I buy insurance to cover bariatric surgery and get the operation done immediately?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                No, you cannot buy a health insurance policy and get the surgery done immediately because most insurance companies impose a pre-existing disease waiting period of 2 to 4 years for bariatric surgery. The only exception is if you are covered under a corporate group insurance plan that waives the waiting period for its employees.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Does HDFC ERGO or Niva Bupa cover laparoscopic sleeve gastrectomy?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, both HDFC ERGO General Insurance Co Ltd and Niva Bupa Health Insurance Company Ltd cover laparoscopic sleeve gastrectomy and other approved bariatric procedures like Roux-en-Y gastric bypass, provided the medical necessity is established and the policy's waiting period has been successfully completed.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What are the common documents required by Medi Assist TPA for bariatric claim approval?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                The common documents required by Medi Assist India TPA Pvt Ltd include a formal surgical recommendation letter from the surgeon, a detailed history of your BMI, diagnostic reports showing obesity-related complications (like HbA1c reports for diabetes or sleep study reports for sleep apnea), and records showing you tried non-surgical weight loss methods under medical supervision.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <!-- Post Navigation -->
+<!-- Post Navigation -->
                 <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">
                     <a href="can-bariatric-surgery-cause-kidney-failure" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>

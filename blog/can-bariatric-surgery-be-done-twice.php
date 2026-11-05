@@ -121,32 +121,76 @@ include __DIR__ . '/../includes/header.php';
 
                 <p class="text-gray-600 mb-6">At SCOD Clinic, we focus on a comprehensive treatment model. We provide personalized metabolic profiling, continuous dietary follow-ups, and emotional support networks. Choosing an established center for <a href="https://scodclinic.com/services/bariatric-surgery" class="text-scod hover:text-blue-700 font-semibold">Bariatric Surgery in Delhi</a> allows patients to access high-quality care, advanced surgical techniques, and the long-term support system required to turn a secondary procedure into a lifetime victory.</p>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Frequently Asked Questions</h2>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-                <div class="space-y-4">
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Can bariatric surgery be done twice safely?</h3>
-                        <p class="text-gray-600">Yes, bariatric surgery can be done twice, which is known as revision surgery. While it is highly effective for addressing complications or significant weight regain, it carries higher risks than primary surgery and requires an experienced bariatric surgeon to minimize potential complications.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Can you have bariatric surgery twice if your stomach stretches?</h3>
-                        <p class="text-gray-600">Yes. If your stomach pouch or the stoma connection stretches over time, you can have revision bariatric surgery. The surgeon can resize the pouch, tighten the stoma connection using endoscopic suturing, or convert the procedure to a gastric bypass.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Can you get bariatric surgery twice if you did not lose enough weight?</h3>
-                        <p class="text-gray-600">Yes, you can get bariatric surgery twice if the initial weight loss was insufficient due to anatomical issues or mechanical failure of the primary procedure. A detailed clinical assessment is required to ensure that behavioral and dietary factors are optimized first.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">What is the recovery time for a second bariatric surgery?</h3>
-                        <p class="text-gray-600">Recovery for revision bariatric surgery is similar to the primary procedure, typically requiring 1 to 2 nights in the hospital and about 2 to 4 weeks off work, depending on the type of revision and whether it is performed laparoscopically.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Does insurance cover a second weight loss surgery?</h3>
-                        <p class="text-gray-600">Many insurance policies cover revision bariatric surgery if there is a clear medical necessity, such as severe mechanical complications (GERD, strictures, band erosion) or documented clinical failure despite active participation in a supervised weight management plan.</p>
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can bariatric surgery be done twice safely?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, bariatric surgery can be done twice, which is known as revision surgery. While it is highly effective for addressing complications or significant weight regain, it carries higher risks than primary surgery and requires an experienced bariatric surgeon to minimize potential complications.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can you have bariatric surgery twice if your stomach stretches?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes. If your stomach pouch or the stoma connection stretches over time, you can have revision bariatric surgery. The surgeon can resize the pouch, tighten the stoma connection using endoscopic suturing, or convert the procedure to a gastric bypass.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can you get bariatric surgery twice if you did not lose enough weight?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, you can get bariatric surgery twice if the initial weight loss was insufficient due to anatomical issues or mechanical failure of the primary procedure. A detailed clinical assessment is required to ensure that behavioral and dietary factors are optimized first.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What is the recovery time for a second bariatric surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Recovery for revision bariatric surgery is similar to the primary procedure, typically requiring 1 to 2 nights in the hospital and about 2 to 4 weeks off work, depending on the type of revision and whether it is performed laparoscopically.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Does insurance cover a second weight loss surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Many insurance policies cover revision bariatric surgery if there is a clear medical necessity, such as severe mechanical complications (GERD, strictures, band erosion) or documented clinical failure despite active participation in a supervised weight management plan.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <!-- Post Navigation -->
+<!-- Post Navigation -->
                 <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">
                     <a href="can-a-person-drink-alcohol-after-bariatric-surgery" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>

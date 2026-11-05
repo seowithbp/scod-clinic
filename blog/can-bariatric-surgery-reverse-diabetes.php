@@ -271,13 +271,88 @@ include __DIR__ . '/../includes/header.php';
 
 <p>However, diabetes reversal after bariatric surgery is not guaranteed for every patient and depends on factors such as the type and duration of diabetes, overall health, and long-term commitment to dietary and lifestyle guidelines. Consulting an experienced bariatric specialist like <a href="https://scodclinic.com/about.php" target="_blank" rel="noreferrer noopener"><strong>Dr. Arush Sabharwal</strong></a> ensures proper evaluation, personalized treatment planning, and ongoing medical support. With expert care and follow-up, <a href="https://scodclinic.com/services/bariatric-surgery.php" target="_blank" rel="noreferrer noopener"><strong>Bariatric Surgery in Delhi</strong></a> has become an effective option for patients seeking sustainable diabetes control and improved quality of life.</p>
 
-<h2 class="wp-block-heading">Frequently Asked Questions</h2>
+                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-<h3 class="rank-math-question">Can bariatric surgery reverse diabetes permanently?</h3>It can lead to long-term remission, but diabetes may return if weight is regained or lifestyle changes are not maintained.<h3 class="rank-math-question">How does bariatric surgery reverse diabetes so quickly?</h3>Hormonal changes and improved insulin sensitivity occur soon after surgery, even before major weight loss.<h3 class="rank-math-question">Does bariatric surgery reverse type 1 diabetes?</h3>No. Bariatric surgery does not reverse type 1 diabetes, as it is an autoimmune condition.<h3 class="rank-math-question">Which surgery is best for diabetes reversal?</h3>Gastric bypass and sleeve gastrectomy are commonly associated with high remission rates.<h3 class="rank-math-question">How soon can diabetes medications be stopped?</h3>Many patients reduce or stop medications within weeks, under medical supervision.<h3 class="rank-math-question">Can diabetes come back after surgery?</h3>Yes, especially if weight is regained or lifestyle guidelines are not followed.
-    
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can bariatric surgery reverse diabetes permanently?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                It can lead to long-term remission, but diabetes may return if weight is regained or lifestyle changes are not maintained.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How does bariatric surgery reverse diabetes so quickly?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Hormonal changes and improved insulin sensitivity occur soon after surgery, even before major weight loss.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Does bariatric surgery reverse type 1 diabetes?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                No. Bariatric surgery does not reverse type 1 diabetes, as it is an autoimmune condition.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Which surgery is best for diabetes reversal?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Gastric bypass and sleeve gastrectomy are commonly associated with high remission rates.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How soon can diabetes medications be stopped?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Many patients reduce or stop medications within weeks, under medical supervision.
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can diabetes come back after surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, especially if weight is regained or lifestyle guidelines are not followed.
+                            </div>
+                        </details>
+                    </div>
+                </div>
 
-    
-      <a href="how-does-gastric-bypass-work"> Previous: How Does Gastric Bypass Work?</a>
+<a href="how-does-gastric-bypass-work"> Previous: How Does Gastric Bypass Work?</a>
       <a href="how-long-is-robotic-gallbladder-surgery">Next: How Long is Robotic Gallbladder Surgery? {Doctor's Guide} </a>
     
   

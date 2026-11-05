@@ -302,74 +302,130 @@ include __DIR__ . '/../includes/header.php';
 
                 <p>Vitamin B12 shots are safe with minimal side effects because excess amounts leave the body naturally in urine. Mild, rare side effects include temporary soreness at the injection site, mild diarrhea, or slight headache. Always receive shots under medical supervision.</p>
 
-                <h2 class="wp-block-heading"><strong>Conclusion: Final Verdict on B12 Injections and Weight Loss</strong></h2>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-                <p>To conclude, <strong>can b12 injections cause weight loss</strong> directly? The clear medical answer is no—Vitamin B12 is not a direct fat-melting drug or a magic weight loss remedy. However, for individuals living with an undiagnosed B12 deficiency, receiving therapeutic B12 shots can be a major turning point. By restoring vital nutrient stores, B12 injections eliminate chronic fatigue, optimize cellular energy conversion, and increase physical stamina—making it significantly easier to maintain an active, calorie-burning lifestyle.</p>
-
-                <h3 class="wp-block-heading"><strong>Key Takeaways to Remember:</strong></h3>
-                <ul class="wp-block-list">
-                    <li><strong>Deficiency vs. Normal Levels:</strong> <strong>B12 injections cause weight loss</strong> indirectly only in people with low B12 stores. If your levels are already normal, taking extra shots will not burn fat or speed up metabolism beyond baseline.</li>
-                    <li><strong>Vitality Boost:</strong> The core connection between <strong>vitamin b12 injections and weight loss</strong> is energy restoration, enabling consistent exercise and higher daily movement.</li>
-                    <li><strong>Comprehensive Approach:</strong> Asking <strong>will b12 injections cause weight loss</strong> on their own reveals that no single nutrient replaces a healthy caloric deficit, proper nutrition, and physical activity.</li>
-                    <li><strong>Medical Evaluation:</strong> Always get professional blood testing before starting nutrient injections to identify true deficiencies.</li>
-                </ul>
-
-                <p>If you are struggling with obesity, sluggish metabolism, or plateaued weight loss despite diet and exercise, relying solely on vitamin shots may leave you disappointed. Instead, seek comprehensive metabolic care tailored to your unique health profile. Exploring clinically proven <a href="https://scodclinic.com/services/weight-loss-injectables" class="text-scod font-bold underline">Weight Loss Injections in Delhi</a> under the expert guidance of renowned specialist <a href="https://scodclinic.com/about" class="text-scod font-bold underline">Dr. Arush Sabharwal</a> at SCOD Clinic offers safe, evidence-based treatments for sustainable body transformation.</p>
-
-                <!-- Frequently Asked Questions Section -->
-                <h2 class="wp-block-heading"><strong>Frequently Asked Questions (FAQs)</strong></h2>
-
-                <div class="space-y-6 my-8">
-                    <div>
-                        <h3 class="rank-math-question font-bold text-lg text-gray-900 mb-2">Can B12 injections cause weight loss directly?</h3>
-                        <p class="text-gray-700">No, B12 injections do not burn body fat directly. They restore energy in people with B12 deficiency, enabling them to exercise and burn calories effectively.</p>
-                    </div>
-
-                    <div>
-                        <h3 class="rank-math-question font-bold text-lg text-gray-900 mb-2">Will B12 injections cause weight loss if my B12 levels are normal?</h3>
-                        <p class="text-gray-700">No. If your B12 levels are normal, extra injections will not boost metabolism or cause weight loss. The extra vitamin is excreted in urine.</p>
-                    </div>
-
-                    <div>
-                        <h3 class="rank-math-question font-bold text-lg text-gray-900 mb-2">Do b12 injections help with weight loss if you are tired all the time?</h3>
-                        <p class="text-gray-700">If your tiredness is caused by a B12 deficiency, injections will restore your stamina, making physical activity easier so you can burn calories and lose weight.</p>
-                    </div>
-
-                    <div>
-                        <h3 class="rank-math-question font-bold text-lg text-gray-900 mb-2">How quickly do B12 shots boost energy?</h3>
-                        <p class="text-gray-700">Most individuals with a deficiency feel an improvement in energy and focus within 24 to 72 hours after receiving an intramuscular B12 shot.</p>
-                    </div>
-
-                    <div>
-                        <h3 class="rank-math-question font-bold text-lg text-gray-900 mb-2">What is the difference between B12 shots and Weight Loss Injections in Delhi?</h3>
-                        <p class="text-gray-700">B12 shots are nutrient supplements for deficiency. Weight Loss Injections in Delhi are prescription medications that suppress appetite and regulate blood sugar for direct weight loss.</p>
-                    </div>
-
-                    <div>
-                        <h3 class="rank-math-question font-bold text-lg text-gray-900 mb-2">Are B12 injections safe to take regularly?</h3>
-                        <p class="text-gray-700">Yes, B12 injections are safe when prescribed by a doctor, as the body safely flushes out unused amounts.</p>
-                    </div>
-
-                    <div>
-                        <h3 class="rank-math-question font-bold text-lg text-gray-900 mb-2">Who should see Dr. Arush Sabharwal for weight loss treatment?</h3>
-                        <p class="text-gray-700">Anyone dealing with obesity, slow metabolism, or difficulty losing weight can consult Dr. Arush Sabharwal at SCOD Clinic for personalized treatment options.</p>
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Key Takeaways to Remember:</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                To conclude, can b12 injections cause weight loss directly? The clear medical answer is no—Vitamin B12 is not a direct fat-melting drug or a magic weight loss remedy. However, for individuals living with an undiagnosed B12 deficiency, receiving therapeutic B12 shots can be a major turning point. By restoring vital nutrient stores, B12 injections eliminate chronic fatigue, optimize cellular energy conversion, and increase physical stamina—making it significantly easier to maintain an active, calorie-burning lifestyle.<br />
+<br />
+If you are struggling with obesity, sluggish metabolism, or plateaued weight loss despite diet and exercise, relying solely on vitamin shots may leave you disappointed. Instead, seek comprehensive metabolic care tailored to your unique health profile. Exploring clinically proven Weight Loss Injections in Delhi under the expert guidance of renowned specialist Dr. Arush Sabharwal at SCOD Clinic offers safe, evidence-based treatments for sustainable body transformation.<br />
+<br />
+No, B12 injections do not burn body fat directly. They restore energy in people with B12 deficiency, enabling them to exercise and burn calories effectively.<br />
+<br />
+No. If your B12 levels are normal, extra injections will not boost metabolism or cause weight loss. The extra vitamin is excreted in urine.<br />
+<br />
+If your tiredness is caused by a B12 deficiency, injections will restore your stamina, making physical activity easier so you can burn calories and lose weight.<br />
+<br />
+Most individuals with a deficiency feel an improvement in energy and focus within 24 to 72 hours after receiving an intramuscular B12 shot.<br />
+<br />
+B12 shots are nutrient supplements for deficiency. Weight Loss Injections in Delhi are prescription medications that suppress appetite and regulate blood sugar for direct weight loss.<br />
+<br />
+Yes, B12 injections are safe when prescribed by a doctor, as the body safely flushes out unused amounts.<br />
+<br />
+Anyone dealing with obesity, slow metabolism, or difficulty losing weight can consult Dr. Arush Sabharwal at SCOD Clinic for personalized treatment options.<br />
+<br />
+© 2026 SCOD Clinic — All rights reserved
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can B12 injections cause weight loss directly?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                No, B12 injections do not burn body fat directly. They restore energy in people with B12 deficiency, enabling them to exercise and burn calories effectively.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Will B12 injections cause weight loss if my B12 levels are normal?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                No. If your B12 levels are normal, extra injections will not boost metabolism or cause weight loss. The extra vitamin is excreted in urine.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Do b12 injections help with weight loss if you are tired all the time?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                If your tiredness is caused by a B12 deficiency, injections will restore your stamina, making physical activity easier so you can burn calories and lose weight.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How quickly do B12 shots boost energy?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Most individuals with a deficiency feel an improvement in energy and focus within 24 to 72 hours after receiving an intramuscular B12 shot.
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What is the difference between B12 shots and Weight Loss Injections in Delhi?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                B12 shots are nutrient supplements for deficiency. Weight Loss Injections in Delhi are prescription medications that suppress appetite and regulate blood sugar for direct weight loss.
+                            </div>
+                        </details>
+                        <!-- FAQ 7 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Are B12 injections safe to take regularly?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, B12 injections are safe when prescribed by a doctor, as the body safely flushes out unused amounts.
+                            </div>
+                        </details>
+                        <!-- FAQ 8 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Who should see Dr. Arush Sabharwal for weight loss treatment?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Anyone dealing with obesity, slow metabolism, or difficulty losing weight can consult Dr. Arush Sabharwal at SCOD Clinic for personalized treatment options.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <!-- Navigation Links -->
-                <div class="flex flex-col sm:flex-row justify-between items-center gap-4 pt-8 border-t border-gray-200 my-8">
-                    <a href="/blog/are-weight-loss-injections-safe" class="text-scod hover:underline text-sm font-semibold">
-                        &larr; Previous: Are Weight Loss Injections Safe?
-                    </a>
-                    <a href="/blog/is-ozempic-used-for-weight-loss" class="text-scod hover:underline text-sm font-semibold">
-                        Next: Is Ozempic Used for Weight Loss? &rarr;
-                    </a>
-                </div>
-
-                <p class="text-xs text-gray-400 text-center">&copy; 2026 SCOD Clinic &mdash; All rights reserved</p>
-
-            </div>
-        </article>
+</article>
     </main>
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>

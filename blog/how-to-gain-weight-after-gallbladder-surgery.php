@@ -317,54 +317,124 @@ include __DIR__ . '/../includes/header.php';
                 <p class="mb-6">Patients under the care of <a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Arush Sabharwal</a> at SCOD Clinic receive comprehensive follow-up care to ensure seamless digestive recovery following <a href="https://scodclinic.com/services/laparoscopic-surgery" class="text-scod hover:text-blue-700 font-semibold">Laparoscopic Gallbladder Surgery in Delhi</a>.</p>
 
                 <!-- FAQ Section -->
-                <h2 class="text-2xl font-bold text-gray-900 mt-12 mb-6">Frequently Asked Questions (FAQs)</h2>
-                <div class="space-y-4 mb-12">
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Is weight gain after gallbladder removal surgery normal?</h3>
-                        <p class="text-gray-600">Yes, weight gain after gallbladder removal surgery can be normal for many individuals once post-operative dietary restrictions end and digestive symptoms improve. However, some patients experience temporary or persistent weight loss due to altered bile flow, making structured caloric intake essential.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">How to gain weight after gallbladder surgery without causing diarrhea?</h3>
-                        <p class="text-gray-600">To gain weight without triggering diarrhea, focus on small, frequent meals containing lean proteins, complex carbohydrates, and soluble fiber (such as oatmeal and sweet potatoes). Introduce healthy fats like olive oil, avocado, and MCT oil gradually rather than in large single servings.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Can I take protein powders to gain weight after gallbladder removal?</h3>
-                        <p class="text-gray-600">Yes, low-fat protein powders such as whey isolate, egg white protein, or plant-based protein powders (pea or soy) are excellent for increasing caloric and protein intake without stressing your digestive system after surgery.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">How long does it take for digestion to normalize after gallbladder surgery?</h3>
-                        <p class="text-gray-600">Most patients find that their digestive system adapts within 4 to 8 weeks following gallbladder removal. During this period, the liver adjusts to secreting bile continuously into the small intestine.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Why am I losing weight instead of gaining weight after my cholecystectomy?</h3>
-                        <p class="text-gray-600">Unintentional weight loss post-surgery often stems from reducing food intake out of fear of diarrhea or abdominal pain, reduced fat digestion efficiency, or lingering post-cholecystectomy diarrhea. If weight loss is rapid or severe, consult a specialist.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Are digestive enzymes or bile salts helpful for weight gain post-surgery?</h3>
-                        <p class="text-gray-600">Digestive enzyme supplements containing lipase or ox bile extract can help emulsify and absorb fats more efficiently, allowing you to consume higher-calorie foods without gastrointestinal discomfort. Always consult your doctor before starting supplements.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">What are the best healthy fats to eat after gallbladder surgery for weight gain?</h3>
-                        <p class="text-gray-600">The best fats include Medium-Chain Triglyceride (MCT) oil, small portions of extra virgin olive oil, avocados, nut butters, and fatty fish like salmon. MCT oil is particularly beneficial because it does not require bile for digestion.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Do you gain weight after gallbladder surgery in the long run?</h3>
-                        <p class="text-gray-600">Many patients do experience gradual weight gain after gallbladder surgery as pain resolves and appetite returns to normal. Maintaining a balanced, nutrient-dense diet helps ensure that any weight gained consists of lean body mass rather than excess body fat.</p>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
+
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is weight gain after gallbladder removal surgery normal?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, weight gain after gallbladder removal surgery can be normal for many individuals once post-operative dietary restrictions end and digestive symptoms improve. However, some patients experience temporary or persistent weight loss due to altered bile flow, making structured caloric intake essential.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How to gain weight after gallbladder surgery without causing diarrhea?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                To gain weight without triggering diarrhea, focus on small, frequent meals containing lean proteins, complex carbohydrates, and soluble fiber (such as oatmeal and sweet potatoes). Introduce healthy fats like olive oil, avocado, and MCT oil gradually rather than in large single servings.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can I take protein powders to gain weight after gallbladder removal?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, low-fat protein powders such as whey isolate, egg white protein, or plant-based protein powders (pea or soy) are excellent for increasing caloric and protein intake without stressing your digestive system after surgery.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How long does it take for digestion to normalize after gallbladder surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Most patients find that their digestive system adapts within 4 to 8 weeks following gallbladder removal. During this period, the liver adjusts to secreting bile continuously into the small intestine.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why am I losing weight instead of gaining weight after my cholecystectomy?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Unintentional weight loss post-surgery often stems from reducing food intake out of fear of diarrhea or abdominal pain, reduced fat digestion efficiency, or lingering post-cholecystectomy diarrhea. If weight loss is rapid or severe, consult a specialist.
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Are digestive enzymes or bile salts helpful for weight gain post-surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Digestive enzyme supplements containing lipase or ox bile extract can help emulsify and absorb fats more efficiently, allowing you to consume higher-calorie foods without gastrointestinal discomfort. Always consult your doctor before starting supplements.
+                            </div>
+                        </details>
+                        <!-- FAQ 7 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What are the best healthy fats to eat after gallbladder surgery for weight gain?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                The best fats include Medium-Chain Triglyceride (MCT) oil, small portions of extra virgin olive oil, avocados, nut butters, and fatty fish like salmon. MCT oil is particularly beneficial because it does not require bile for digestion.
+                            </div>
+                        </details>
+                        <!-- FAQ 8 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Do you gain weight after gallbladder surgery in the long run?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Many patients do experience gradual weight gain after gallbladder surgery as pain resolves and appetite returns to normal. Maintaining a balanced, nutrient-dense diet helps ensure that any weight gained consists of lean body mass rather than excess body fat.
+                            </div>
+                        </details>
+                        <!-- FAQ 9 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Need Expert Guidance Post-Gallbladder Surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Consult with Dr. Arush Sabharwal at SCOD Clinic for personalized surgical advice and post-operative recovery plans tailored to your health needs.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <!-- Doctor / Clinic CTA Banner -->
-                <div class="bg-gradient-to-r from-blue-50 via-sky-50 to-blue-100/70 border border-blue-200/60 rounded-2xl p-8 my-10 shadow-sm">
-                    <div class="md:flex items-center justify-between gap-6">
-                        <div class="mb-6 md:mb-0">
-                            <h3 class="text-2xl font-bold mb-2 text-gray-900">Need Expert Guidance Post-Gallbladder Surgery?</h3>
-                            <p class="text-gray-600 text-sm max-w-xl">Consult with Dr. Arush Sabharwal at SCOD Clinic for personalized surgical advice and post-operative recovery plans tailored to your health needs.</p>
-                        </div>
-                        <a href="https://scodclinic.com/about" class="inline-block bg-white text-scod font-bold px-6 py-3 rounded-xl hover:bg-blue-50 border border-blue-200 transition-all shadow-md shrink-0">Book Consultation</a>
-                    </div>
-                </div>
-
-                <!-- Post Navigation -->
+<!-- Post Navigation -->
                 <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">
                     <a href="/blog/is-laparoscopic-surgery-covered-by-insurance" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>

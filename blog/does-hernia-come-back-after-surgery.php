@@ -494,61 +494,112 @@ include __DIR__ . '/../includes/header.php';
                     Interested in the broader safety profile of keyhole procedures? Explore our clinical review on <a href="/blog/is-laparoscopic-surgery-safe" class="text-scod hover:underline font-semibold">laparoscopic surgery safety</a>.
                 </p>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-10 mb-4">Frequently Asked Questions (FAQs)</h2>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-                <div class="space-y-4 my-6">
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-2 text-lg">1. Can a hernia come back after surgery with mesh?</h3>
-                        <p class="text-gray-600 leading-relaxed">Yes, although it is uncommon. Modern surgical mesh has lowered recurrence rates to between 1% and 5%. Recurrence with mesh can occur if heavy lifting happens prematurely, an infection develops, or the patient's tissues fail to integrate into the mesh.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-2 text-lg">2. Does hernia come back after surgery if I lift something heavy?</h3>
-                        <p class="text-gray-600 leading-relaxed">Lifting heavy items during the first 4 to 6 weeks is one of the most common causes of hernia recurrence. The body needs at least 6 to 8 weeks for collagen to weave into the mesh. Straining early can tear new scar tissue or pull the mesh away from the muscle.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-2 text-lg">3. After hernia surgery can it come back in the exact same spot?</h3>
-                        <p class="text-gray-600 leading-relaxed">Yes. A recurrent hernia frequently develops at the exact site of the initial surgery, usually along the border of the previous mesh or suture line where natural tissue experienced mechanical stress.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-2 text-lg">4. How long after surgery can a hernia come back?</h3>
-                        <p class="text-gray-600 leading-relaxed">A recurrent hernia can appear within months or years. Many recurrences manifest within the first 1 to 3 years due to early healing disruptions. However, late recurrences can occur decades later as muscle tissues naturally thin with age or after weight gain.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-2 text-lg">5. What does a recurrent hernia feel like?</h3>
-                        <p class="text-gray-600 leading-relaxed">Patients usually notice a soft bulge near the surgical scar accompanied by a dull ache or dragging feeling when standing, coughing, or bending. The lump typically becomes more prominent with physical exertion.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-2 text-lg">6. Is it more difficult to fix a hernia the second time?</h3>
-                        <p class="text-gray-600 leading-relaxed">Second-time surgery is technically more complex because of existing scar tissue. However, skilled laparoscopic surgeons can enter through untouched tissue planes, allowing safe, effective repair with fast recovery times.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-2 text-lg">7. Can a recurrent hernia go away on its own with exercise or diet?</h3>
-                        <p class="text-gray-600 leading-relaxed">No. Hernias are structural tears in the muscle wall. Abdominal workouts and diet cannot close the opening and can even worsen it by increasing intra-abdominal pressure. Surgery is the only permanent solution.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-2 text-lg">8. When should I see a doctor if I suspect my hernia came back?</h3>
-                        <p class="text-gray-600 leading-relaxed">Consult a hernia specialist promptly if you notice an unexplained bulge or persistent discomfort near your scar. Seek emergency care immediately if the lump becomes firm, red, painful, or is accompanied by nausea and vomiting.</p>
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can a hernia come back after surgery with mesh?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, although it is uncommon. Modern surgical mesh has lowered recurrence rates to between 1% and 5%. Recurrence with mesh can occur if heavy lifting happens prematurely, an infection develops, or the patient's tissues fail to integrate into the mesh.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Does hernia come back after surgery if I lift something heavy?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Lifting heavy items during the first 4 to 6 weeks is one of the most common causes of hernia recurrence. The body needs at least 6 to 8 weeks for collagen to weave into the mesh. Straining early can tear new scar tissue or pull the mesh away from the muscle.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">After hernia surgery can it come back in the exact same spot?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes. A recurrent hernia frequently develops at the exact site of the initial surgery, usually along the border of the previous mesh or suture line where natural tissue experienced mechanical stress.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How long after surgery can a hernia come back?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                A recurrent hernia can appear within months or years. Many recurrences manifest within the first 1 to 3 years due to early healing disruptions. However, late recurrences can occur decades later as muscle tissues naturally thin with age or after weight gain.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What does a recurrent hernia feel like?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Patients usually notice a soft bulge near the surgical scar accompanied by a dull ache or dragging feeling when standing, coughing, or bending. The lump typically becomes more prominent with physical exertion.
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is it more difficult to fix a hernia the second time?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Second-time surgery is technically more complex because of existing scar tissue. However, skilled laparoscopic surgeons can enter through untouched tissue planes, allowing safe, effective repair with fast recovery times.
+                            </div>
+                        </details>
+                        <!-- FAQ 7 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can a recurrent hernia go away on its own with exercise or diet?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                No. Hernias are structural tears in the muscle wall. Abdominal workouts and diet cannot close the opening and can even worsen it by increasing intra-abdominal pressure. Surgery is the only permanent solution.
+                            </div>
+                        </details>
+                        <!-- FAQ 8 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">When should I see a doctor if I suspect my hernia came back?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Consult a hernia specialist promptly if you notice an unexplained bulge or persistent discomfort near your scar. Seek emergency care immediately if the lump becomes firm, red, painful, or is accompanied by nausea and vomiting.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-10 mb-4">Conclusion & Expert Care at SCOD Clinic</h2>
-
-                <p class="mb-6 leading-relaxed">
-                    Learning that a hernia can return might feel daunting, but modern surgical techniques have made recurrence remarkably rare. With tension-free mesh, advanced keyhole procedures, and diligent adherence to recovery guidelines, more than 95% to 99% of patients achieve permanent, complication-free relief.
-                </p>
-
-                <p class="mb-6 leading-relaxed">
-                    If you have noticed a bulge near an existing incision, are experiencing discomfort, or wish to explore second-opinion options, the expert team at <strong>SCOD Clinic</strong> is here to support you. Led by renowned surgical expert <a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold underline">Dr. Arush Sabharwal</a>, SCOD Clinic provides world-class evaluations, advanced imaging, and cutting-edge <a href="https://scodclinic.com/services/laparoscopic-surgery" class="text-scod hover:text-blue-700 font-semibold underline">Laparoscopic Hernia Surgery in Delhi</a>. Contact us today to schedule your consultation and restore your abdominal health with confidence.
-                </p>
-
-                <!-- Post Navigation -->
+<!-- Post Navigation -->
                 <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">
                     <a href="/blog/what-is-the-normal-size-of-appendix" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>

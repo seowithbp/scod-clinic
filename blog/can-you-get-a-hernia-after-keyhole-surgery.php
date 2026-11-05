@@ -261,57 +261,112 @@ include __DIR__ . '/../includes/header.php';
                     </div>
                 </div>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-10 mb-4">Frequently Asked Questions (FAQs)</h2>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-                <div class="space-y-4 my-6">
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-2 text-lg">1. Can you get a hernia after keyhole surgery?</h3>
-                        <p class="text-gray-600">Yes, you can get a hernia after keyhole surgery. Known as a port-site or trocar-site hernia, it occurs when internal fat or bowel tissue bulges through a small gap in the abdominal muscle wall where a keyhole instrument was inserted during surgery.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-2 text-lg">2. How common is a hernia after laparoscopic (keyhole) surgery?</h3>
-                        <p class="text-gray-600">Port-site hernias are relatively rare, occurring in approximately 1% to 3% of patients undergoing keyhole procedures. They are significantly less common than hernias following open abdominal surgery, which carry a risk of up to 15-20%.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-2 text-lg">3. What is the typical hernia recovery time after keyhole surgery?</h3>
-                        <p class="text-gray-600">Initial recovery from keyhole surgery takes about 1 to 2 weeks, while full fascial muscle healing takes 6 to 8 weeks. If a port-site hernia occurs and requires laparoscopic repair, most patients recover comfortably within 2 to 3 weeks following the repair.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-2 text-lg">4. How do I tell if a bulge near my incision is a hernia or normal swelling?</h3>
-                        <p class="text-gray-600">Normal post-operative swelling or fluid accumulation (seroma) typically decreases steadily over 2 to 4 weeks. A hernia, on the other hand, persists or enlarges when standing, coughing, or straining, and may feel soft or variable in size. An ultrasound or clinical examination by a surgeon can confirm the diagnosis.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-2 text-lg">5. Can a port-site hernia go away on its own without surgery?</h3>
-                        <p class="text-gray-600">No. Hernias represent a mechanical tear or opening in the muscular fascia and will not close spontaneously. While small, asymptomatic hernias may be monitored initially, elective surgical repair is generally recommended to prevent future complications like tissue incarceration.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-2 text-lg">6. Is laparoscopic hernia repair painful?</h3>
-                        <p class="text-gray-600">Laparoscopic hernia repair is designed to minimize post-operative pain. Patients usually experience mild to moderate soreness for a few days, which is easily managed with prescribed oral pain relievers, allowing a quick return to normal activities.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-2 text-lg">7. What happens if a hernia after keyhole surgery is left untreated?</h3>
-                        <p class="text-gray-600">If left untreated, a hernia can enlarge over time and carries the risk of tissue incarceration (tissue becoming stuck in the muscle wall) or strangulation (loss of blood supply to the trapped tissue), which requires emergency surgical intervention.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-2 text-lg">8. When can I safely resume gym workouts and heavy lifting after keyhole surgery?</h3>
-                        <p class="text-gray-600">Most surgeons recommend waiting at least 4 to 6 weeks before engaging in vigorous exercise, heavy weight lifting, or high-impact sports. Always obtain clearance from your surgical specialist before resuming strenuous activities.</p>
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can you get a hernia after keyhole surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, you can get a hernia after keyhole surgery. Known as a port-site or trocar-site hernia, it occurs when internal fat or bowel tissue bulges through a small gap in the abdominal muscle wall where a keyhole instrument was inserted during surgery.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How common is a hernia after laparoscopic (keyhole) surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Port-site hernias are relatively rare, occurring in approximately 1% to 3% of patients undergoing keyhole procedures. They are significantly less common than hernias following open abdominal surgery, which carry a risk of up to 15-20%.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What is the typical hernia recovery time after keyhole surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Initial recovery from keyhole surgery takes about 1 to 2 weeks, while full fascial muscle healing takes 6 to 8 weeks. If a port-site hernia occurs and requires laparoscopic repair, most patients recover comfortably within 2 to 3 weeks following the repair.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How do I tell if a bulge near my incision is a hernia or normal swelling?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Normal post-operative swelling or fluid accumulation (seroma) typically decreases steadily over 2 to 4 weeks. A hernia, on the other hand, persists or enlarges when standing, coughing, or straining, and may feel soft or variable in size. An ultrasound or clinical examination by a surgeon can confirm the diagnosis.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can a port-site hernia go away on its own without surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                No. Hernias represent a mechanical tear or opening in the muscular fascia and will not close spontaneously. While small, asymptomatic hernias may be monitored initially, elective surgical repair is generally recommended to prevent future complications like tissue incarceration.
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is laparoscopic hernia repair painful?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Laparoscopic hernia repair is designed to minimize post-operative pain. Patients usually experience mild to moderate soreness for a few days, which is easily managed with prescribed oral pain relievers, allowing a quick return to normal activities.
+                            </div>
+                        </details>
+                        <!-- FAQ 7 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What happens if a hernia after keyhole surgery is left untreated?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                If left untreated, a hernia can enlarge over time and carries the risk of tissue incarceration (tissue becoming stuck in the muscle wall) or strangulation (loss of blood supply to the trapped tissue), which requires emergency surgical intervention.
+                            </div>
+                        </details>
+                        <!-- FAQ 8 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">When can I safely resume gym workouts and heavy lifting after keyhole surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Most surgeons recommend waiting at least 4 to 6 weeks before engaging in vigorous exercise, heavy weight lifting, or high-impact sports. Always obtain clearance from your surgical specialist before resuming strenuous activities.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-10 mb-4">Conclusion & Expert Surgical Care at SCOD Clinic</h2>
-
-                <p class="mb-6">While keyhole surgery is exceptionally safe and offers a faster, smoother recovery than open surgery, developing a hernia after keyhole surgery remains a small but real possibility. By recognizing the early symptoms, following post-operative activity restrictions, and seeking prompt evaluation if you notice a unusual bulge around your surgical scars, you can protect your long-term health and peace of mind.</p>
-
-                <p class="mb-6">If you suspect you may have developed a hernia following a previous laparoscopic procedure or need guidance on abdominal surgery recovery, the expert surgical team at <strong>SCOD Clinic</strong> is here to help. Led by <a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold underline">Dr. Arush Sabharwal</a>, SCOD Clinic provides world-class evaluation and advanced minimally invasive solutions, including state-of-the-art <a href="https://scodclinic.com/services/laparoscopic-surgery" class="text-scod hover:text-blue-700 font-semibold underline">Laparoscopic Hernia Surgery in Delhi</a>. Contact us today to schedule your comprehensive consultation.</p>
-
-                <!-- Post Navigation -->
+<!-- Post Navigation -->
                 <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">
                     <a href="how-to-gain-weight-after-gallbladder-surgery" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>

@@ -464,66 +464,112 @@ include __DIR__ . '/../includes/header.php';
                     For optimal outcomes, choose an accredited center with skilled surgeons. Under the guidance of <a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold underline">Dr. Arush Sabharwal</a> at SCOD Clinic, patients receiving <a href="https://scodclinic.com/services/laparoscopic-surgery" class="text-scod hover:text-blue-700 font-semibold underline">Laparoscopic Surgery in Delhi</a> experience world-class care designed to restore long-term vitality quickly and safely.
                 </p>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-12 mb-6">Frequently Asked Questions</h2>
-                <div class="space-y-4">
-                    <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200">
-                        <h3 class="font-bold text-gray-900 text-base mb-2">1. Is laparoscopic surgery considered a major surgery?</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                            Yes, surgical boards classify laparoscopic procedures as major surgeries. Despite tiny incisions, they require general anesthesia, enter the sterile abdominal cavity, and involve dissecting or removing internal visceral organs.
-                        </p>
-                    </div>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-                    <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200">
-                        <h3 class="font-bold text-gray-900 text-base mb-2">2. Is laparoscopic cholecystectomy major or minor surgery?</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                            Laparoscopic cholecystectomy (gallbladder removal) is a major surgery. Excision of an internal organ, clipping the cystic artery, and dividing the cystic duct require deep abdominal intervention under general anesthesia.
-                        </p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200">
-                        <h3 class="font-bold text-gray-900 text-base mb-2">3. Why do people think laparoscopic surgery is a minor procedure?</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                            Small external puncture marks (0.5 to 1.5 cm) and rapid 24-hour discharge lead people to equate small bandages with minor surgery. However, internal healing needs are just as significant as open surgery.
-                        </p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200">
-                        <h3 class="font-bold text-gray-900 text-base mb-2">4. Do you need general anesthesia for laparoscopic surgery?</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                            Yes, abdominal keyhole procedures require general anesthesia. This ensures total muscular relaxation so the abdominal cavity can be insufflated with carbon dioxide gas while breathing is safely controlled.
-                        </p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200">
-                        <h3 class="font-bold text-gray-900 text-base mb-2">5. How long does it take to fully recover from laparoscopic surgery?</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                            Most individuals resume desk work and walking within 7 to 14 days. However, internal fascial layers and organ beds take 4 to 6 weeks to achieve full tensile strength.
-                        </p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200">
-                        <h3 class="font-bold text-gray-900 text-base mb-2">6. Can a laparoscopic surgery be converted to an open surgery?</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                            Yes. If the surgeon encounters unexpected internal anatomy, dense scar adhesions, or severe bleeding, converting to open surgery is a standard clinical protocol to protect patient safety.
-                        </p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200">
-                        <h3 class="font-bold text-gray-900 text-base mb-2">7. Why does my shoulder hurt after laparoscopic surgery?</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                            Residual carbon dioxide gas temporarily irritates the phrenic nerve near your diaphragm. Because this nerve shares pathways with the neck and shoulder, mild shoulder pain occurs. It resolves naturally within 24 to 48 hours.
-                        </p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200">
-                        <h3 class="font-bold text-gray-900 text-base mb-2">8. Does health insurance cover laparoscopic surgery as major surgery?</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                            Yes, health insurance policies cover medically necessary laparoscopic surgeries as major treatments, covering operating theater charges, surgeon fees, hospital room stay, pre-op tests, and post-op care.
-                        </p>
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is laparoscopic surgery considered a major surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, surgical boards classify laparoscopic procedures as major surgeries. Despite tiny incisions, they require general anesthesia, enter the sterile abdominal cavity, and involve dissecting or removing internal visceral organs.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is laparoscopic cholecystectomy major or minor surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Laparoscopic cholecystectomy (gallbladder removal) is a major surgery. Excision of an internal organ, clipping the cystic artery, and dividing the cystic duct require deep abdominal intervention under general anesthesia.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why do people think laparoscopic surgery is a minor procedure?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Small external puncture marks (0.5 to 1.5 cm) and rapid 24-hour discharge lead people to equate small bandages with minor surgery. However, internal healing needs are just as significant as open surgery.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Do you need general anesthesia for laparoscopic surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, abdominal keyhole procedures require general anesthesia. This ensures total muscular relaxation so the abdominal cavity can be insufflated with carbon dioxide gas while breathing is safely controlled.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How long does it take to fully recover from laparoscopic surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Most individuals resume desk work and walking within 7 to 14 days. However, internal fascial layers and organ beds take 4 to 6 weeks to achieve full tensile strength.
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can a laparoscopic surgery be converted to an open surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes. If the surgeon encounters unexpected internal anatomy, dense scar adhesions, or severe bleeding, converting to open surgery is a standard clinical protocol to protect patient safety.
+                            </div>
+                        </details>
+                        <!-- FAQ 7 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why does my shoulder hurt after laparoscopic surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Residual carbon dioxide gas temporarily irritates the phrenic nerve near your diaphragm. Because this nerve shares pathways with the neck and shoulder, mild shoulder pain occurs. It resolves naturally within 24 to 48 hours.
+                            </div>
+                        </details>
+                        <!-- FAQ 8 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Does health insurance cover laparoscopic surgery as major surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes, health insurance policies cover medically necessary laparoscopic surgeries as major treatments, covering operating theater charges, surgeon fees, hospital room stay, pre-op tests, and post-op care.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <!-- Post Navigation -->
+<!-- Post Navigation -->
                 <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">
                     <a href="/blog/how-does-our-digestive-system-work-after-weight-loss-surgery" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>

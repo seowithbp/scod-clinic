@@ -412,51 +412,112 @@ include __DIR__ . '/../includes/header.php';
 
 
                 <!-- FAQ Section for Answer Engine Optimization (AEO) -->
-                <h2 class="text-2xl font-bold text-gray-900 mt-12 mb-6">Frequently Asked Questions (FAQs)</h2>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-                <div class="space-y-4">
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 text-lg mb-2">1. How long does body contouring last on average?</h3>
-                        <p class="text-gray-700">Surgical body contouring procedures like tummy tucks, body lifts, and liposuction provide permanent results that can easily last a lifetime when you maintain a stable body weight. Non-surgical sculpting treatments destroy targeted fat cells permanently, but skin firming typically requires maintenance every 1 to 2 years.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 text-lg mb-2">2. Are the fat cells removed during body contouring gone permanently?</h3>
-                        <p class="text-gray-700">Yes. Adults have a fixed number of fat cells. Once fat cells are surgically suctioned out or destroyed through cryolipolysis, they cannot grow back or divide. Those specific cells are permanently eliminated.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 text-lg mb-2">3. What happens if I gain weight after body contouring?</h3>
-                        <p class="text-gray-700">Modest weight fluctuations of 1 to 3 kilograms will not alter your overall silhouette. However, significant weight gain will cause remaining fat cells across the body to expand, which can soften the sharpness of your sculpted contours.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 text-lg mb-2">4. Can pregnancy ruin my body contouring results?</h3>
-                        <p class="text-gray-700">Pregnancy expands the abdomen, which can stretch tightened skin and core muscles. While pregnancy does not restore removed fat cells, it can alter tummy tuck results. We recommend scheduling body contouring after you have finished having children.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 text-lg mb-2">5. How long do non-surgical body sculpting results last compared to surgery?</h3>
-                        <p class="text-gray-700">Non-surgical fat reduction is permanent for the treated cells. However, non-invasive treatments do not excise loose skin folds. Skin tightening benefits rely on collagen remodeling, which lasts 1 to 2 years before natural aging requires maintenance sessions.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 text-lg mb-2">6. Does loose skin return after surgical body contouring?</h3>
-                        <p class="text-gray-700">No. Excised skin cannot return. Although your skin continues to experience gradual, natural biological aging over decades, you will not experience the significant loose skin folds that were surgically eliminated.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 text-lg mb-2">7. What is the single best way to make body contouring last a lifetime?</h3>
-                        <p class="text-gray-700">Maintaining a stable body weight within 2 to 4 kilograms through balanced, nutrient-dense nutrition and consistent resistance exercise is the most dependable way to preserve your body contouring results permanently.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 text-lg mb-2">8. Where can I get expert Body Contouring treatment in Delhi?</h3>
-                        <p class="text-gray-700">You can undergo safe, advanced Body Contouring treatment in Delhi at SCOD Clinic under the supervision of Dr. Arush Sabharwal, providing tailored surgical and minimally invasive aesthetic solutions.</p>
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How long does body contouring last on average?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Surgical body contouring procedures like tummy tucks, body lifts, and liposuction provide permanent results that can easily last a lifetime when you maintain a stable body weight. Non-surgical sculpting treatments destroy targeted fat cells permanently, but skin firming typically requires maintenance every 1 to 2 years.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Are the fat cells removed during body contouring gone permanently?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Yes. Adults have a fixed number of fat cells. Once fat cells are surgically suctioned out or destroyed through cryolipolysis, they cannot grow back or divide. Those specific cells are permanently eliminated.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What happens if I gain weight after body contouring?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Modest weight fluctuations of 1 to 3 kilograms will not alter your overall silhouette. However, significant weight gain will cause remaining fat cells across the body to expand, which can soften the sharpness of your sculpted contours.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Can pregnancy ruin my body contouring results?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Pregnancy expands the abdomen, which can stretch tightened skin and core muscles. While pregnancy does not restore removed fat cells, it can alter tummy tuck results. We recommend scheduling body contouring after you have finished having children.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How long do non-surgical body sculpting results last compared to surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Non-surgical fat reduction is permanent for the treated cells. However, non-invasive treatments do not excise loose skin folds. Skin tightening benefits rely on collagen remodeling, which lasts 1 to 2 years before natural aging requires maintenance sessions.
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Does loose skin return after surgical body contouring?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                No. Excised skin cannot return. Although your skin continues to experience gradual, natural biological aging over decades, you will not experience the significant loose skin folds that were surgically eliminated.
+                            </div>
+                        </details>
+                        <!-- FAQ 7 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What is the single best way to make body contouring last a lifetime?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Maintaining a stable body weight within 2 to 4 kilograms through balanced, nutrient-dense nutrition and consistent resistance exercise is the most dependable way to preserve your body contouring results permanently.
+                            </div>
+                        </details>
+                        <!-- FAQ 8 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Where can I get expert Body Contouring treatment in Delhi?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                You can undergo safe, advanced Body Contouring treatment in Delhi at SCOD Clinic under the supervision of Dr. Arush Sabharwal, providing tailored surgical and minimally invasive aesthetic solutions.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <!-- Post Navigation -->
+<!-- Post Navigation -->
                 <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200" aria-label="Post Navigation">
                     <a href="does-body-contouring-really-work" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>

@@ -326,58 +326,124 @@ include __DIR__ . '/../includes/header.php';
                     <li><span class="text-gray-800 font-semibold">Take Gentle 5-Minute Walks:</span> Short, slow walks after eating stimulate bowel motility and accelerate the body's natural absorption of residual CO2 gas.</li>
                 </ol>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Frequently Asked Questions</h2>
+                                <div id="frequently-asked-questions" class="mt-14 pt-8 border-t border-gray-200">
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900 mb-6">
+                        Frequently Asked Questions
+                    </h2>
 
-                <div class="space-y-4">
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">What can I eat on the first day after laparoscopic surgery?</h3>
-                        <p class="text-gray-600">On the first day after laparoscopic surgery, focus strictly on clear liquids such as plain water, clear chicken or vegetable broth, electrolyte solutions, diluted apple juice, and warm herbal tea. Clear liquids keep you hydrated without taxing your gastrointestinal tract while your digestive system wakes up from general anesthesia.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">When can I start eating normal solid foods after keyhole surgery?</h3>
-                        <p class="text-gray-600">Most patients can gradually transition to soft solid foods by days 4 to 7 after laparoscopic surgery, and return to a balanced regular diet by week 2. However, the exact timing depends on the specific surgical procedure performed, bowel sound recovery, and individual tolerance. Always follow your surgeon's specific post-operative dietary protocol.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">How can I prevent gas and bloating from food after laparoscopic surgery?</h3>
-                        <p class="text-gray-600">To prevent dietary gas and bloating, avoid cruciferous vegetables (broccoli, cabbage, cauliflower), carbonated beverages, raw beans, and high-fat fried foods. Eat small, frequent meals throughout the day, chew your food slowly and thoroughly, sip warm peppermint tea, and engage in gentle walking after meals to stimulate bowel motility.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Why am I feeling nauseous after eating post-surgery?</h3>
-                        <p class="text-gray-600">Post-operative nausea is commonly caused by lingering general anesthesia, prescription pain medications, reduced gut motility, or eating solid foods too quickly. To manage nausea, stay hydrated with small sips of clear fluids, eat bland foods in tiny portions, sip ginger or peppermint tea, and take prescribed anti-nausea medications as directed by your clinical team.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">Is coffee or tea safe to drink after laparoscopic surgery?</h3>
-                        <p class="text-gray-600">Warm, non-caffeinated herbal teas (such as peppermint or chamomile) are safe and highly beneficial during early recovery. Highly caffeinated coffee or strong black tea should be avoided for the first few days because caffeine can irritate the stomach lining, cause hyperacidity, and contribute to dehydration.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">What are the best high-protein foods during recovery?</h3>
-                        <p class="text-gray-600">The best soft, high-protein foods for post-laparoscopic recovery include plain Greek yogurt, scrambled eggs, cottage cheese, whey or plant protein shakes, boiled white fish (such as cod or tilapia), tofu, and soft shredded chicken breast. Protein provides essential amino acids required for surgical wound repair and tissue regeneration.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">How much water should I drink every day after laparoscopic surgery?</h3>
-                        <p class="text-gray-600">Aim to drink between 2 to 3 liters (8 to 10 glasses) of fluids daily, unless restricted by your physician. Adequate hydration prevents constipation caused by pain medications, maintains optimal blood volume, and assists your circulatory system in carrying away residual carbon dioxide (CO2) gas used during keyhole surgery.</p>
-                    </div>
-                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                        <h3 class="font-semibold text-gray-900 mb-3">When should I contact my doctor regarding post-operative eating problems?</h3>
-                        <p class="text-gray-600">You should contact your doctor immediately if you experience severe persistent nausea, inability to keep liquids down for more than 12-24 hours, intractable abdominal pain, high fever above 101°F (38.3°C), continuous vomiting, or lack of bowel movement/gas passage after 3 days post-surgery.</p>
+                    <div class="space-y-4">
+                        <!-- FAQ 1 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What can I eat on the first day after laparoscopic surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                On the first day after laparoscopic surgery, focus strictly on clear liquids such as plain water, clear chicken or vegetable broth, electrolyte solutions, diluted apple juice, and warm herbal tea. Clear liquids keep you hydrated without taxing your gastrointestinal tract while your digestive system wakes up from general anesthesia.
+                            </div>
+                        </details>
+                        <!-- FAQ 2 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">When can I start eating normal solid foods after keyhole surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Most patients can gradually transition to soft solid foods by days 4 to 7 after laparoscopic surgery, and return to a balanced regular diet by week 2. However, the exact timing depends on the specific surgical procedure performed, bowel sound recovery, and individual tolerance. Always follow your surgeon's specific post-operative dietary protocol.
+                            </div>
+                        </details>
+                        <!-- FAQ 3 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How can I prevent gas and bloating from food after laparoscopic surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                To prevent dietary gas and bloating, avoid cruciferous vegetables (broccoli, cabbage, cauliflower), carbonated beverages, raw beans, and high-fat fried foods. Eat small, frequent meals throughout the day, chew your food slowly and thoroughly, sip warm peppermint tea, and engage in gentle walking after meals to stimulate bowel motility.
+                            </div>
+                        </details>
+                        <!-- FAQ 4 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Why am I feeling nauseous after eating post-surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Post-operative nausea is commonly caused by lingering general anesthesia, prescription pain medications, reduced gut motility, or eating solid foods too quickly. To manage nausea, stay hydrated with small sips of clear fluids, eat bland foods in tiny portions, sip ginger or peppermint tea, and take prescribed anti-nausea medications as directed by your clinical team.
+                            </div>
+                        </details>
+                        <!-- FAQ 5 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Is coffee or tea safe to drink after laparoscopic surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Warm, non-caffeinated herbal teas (such as peppermint or chamomile) are safe and highly beneficial during early recovery. Highly caffeinated coffee or strong black tea should be avoided for the first few days because caffeine can irritate the stomach lining, cause hyperacidity, and contribute to dehydration.
+                            </div>
+                        </details>
+                        <!-- FAQ 6 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">What are the best high-protein foods during recovery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                The best soft, high-protein foods for post-laparoscopic recovery include plain Greek yogurt, scrambled eggs, cottage cheese, whey or plant protein shakes, boiled white fish (such as cod or tilapia), tofu, and soft shredded chicken breast. Protein provides essential amino acids required for surgical wound repair and tissue regeneration.
+                            </div>
+                        </details>
+                        <!-- FAQ 7 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">How much water should I drink every day after laparoscopic surgery?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Aim to drink between 2 to 3 liters (8 to 10 glasses) of fluids daily, unless restricted by your physician. Adequate hydration prevents constipation caused by pain medications, maintains optimal blood volume, and assists your circulatory system in carrying away residual carbon dioxide (CO2) gas used during keyhole surgery.
+                            </div>
+                        </details>
+                        <!-- FAQ 8 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">When should I contact my doctor regarding post-operative eating problems?</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                You should contact your doctor immediately if you experience severe persistent nausea, inability to keep liquids down for more than 12-24 hours, intractable abdominal pain, high fever above 101°F (38.3°C), continuous vomiting, or lack of bowel movement/gas passage after 3 days post-surgery.
+                            </div>
+                        </details>
+                        <!-- FAQ 9 -->
+                        <details class="group bg-white rounded-2xl border border-gray-200 p-5 md:p-6 transition-all duration-200 shadow-sm hover:border-gray-300 [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between cursor-pointer list-none select-none text-gray-900 font-bold text-base md:text-lg">
+                                <span class="pr-4">Schedule Your Post-Surgical Consultation</span>
+                                <svg class="w-5 h-5 text-gray-400 transition-transform duration-300 group-open:rotate-180 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </summary>
+                            <div class="mt-4 pt-4 border-t border-gray-100 text-gray-600 text-sm md:text-base leading-relaxed">
+                                Get expert medical support, surgical care, and customized recovery advice from Delhi's leading laparoscopic specialists at SCOD Clinic.
+                            </div>
+                        </details>
                     </div>
                 </div>
 
-                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Conclusion</h2>
-                <p class="mb-6">Recovering from laparoscopic surgery is a smooth process when guided by proper dietary progression and mindful eating habits. By advancing step-by-step from clear liquids to soft, protein-rich foods, staying well-hydrated, and avoiding gas-triggering items, you protect your surgical sites, prevent digestive discomfort, and empower your body to heal rapidly.</p>
-
-                <p class="mb-6">At SCOD Clinic, under the leadership of <a href="https://scodclinic.com/about" class="text-scod hover:text-blue-700 font-semibold">Dr. Arush Sabharwal</a> and our multi-disciplinary surgical team, we provide personalized post-operative guidance to ensure every patient achieves an effortless recovery. If you are preparing for a laparoscopic procedure or have questions about your recovery plan, reach out to our specialists today.</p>
-
-                <!-- Call to Action Banner 2 (Light Theme) -->
-                <div class="bg-gradient-to-br from-blue-50 via-teal-50/50 to-slate-50 border border-blue-100/80 rounded-[2.5rem] py-10 px-6 md:py-12 md:px-12 my-12 text-center shadow-lg">
-                    <h3 class="text-gray-900 text-2xl md:text-3xl font-bold tracking-tight mb-3">Schedule Your Post-Surgical Consultation</h3>
-                    <p class="text-gray-600 text-sm md:text-base max-w-3xl mx-auto mb-6 leading-relaxed">Get expert medical support, surgical care, and customized recovery advice from Delhi's leading laparoscopic specialists at SCOD Clinic.</p>
-                    <a href="https://scodclinic.com/contact" class="inline-flex items-center justify-center bg-[#b88c4c] hover:bg-[#a67c3e] text-white font-semibold text-base px-8 py-3.5 rounded-full transition-all duration-300 shadow-md hover:shadow-lg">
-                        Book Your Appointment Today &rarr;
-                    </a>
-                </div>
-
-                <!-- Post Navigation -->
+<!-- Post Navigation -->
                 <nav class="flex justify-between items-center mt-12 pt-8 border-t border-gray-200">
                     <a href="/blog/can-umbilical-hernia-be-treated-without-surgery" class="flex items-center gap-2 text-gray-700 hover:text-scod font-semibold text-sm">
                         <i data-feather="arrow-left" class="w-4 h-4"></i>
