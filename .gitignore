@@ -11,6 +11,9 @@ blog/wp-activate.php
 # Logs
 *.log
 
+# Backups
+*.bak
+
 # OS files
 .DS_Store
 Thumbs.db

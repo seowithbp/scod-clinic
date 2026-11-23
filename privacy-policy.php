@@ -38,7 +38,7 @@
             <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 space-y-10">
                 
                 <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center text-xs md:text-sm text-gray-500 border-b border-gray-100 pb-6 gap-2">
-                    <span>Effective Date: October 2026</span>
+                    <span>Effective Date: November 2026</span>
                     <span class="inline-flex items-center px-3 py-1 rounded-full bg-blue-50 text-scod font-semibold">
                         DPDP Act 2023 Compliant
                     </span>
@@ -103,11 +103,36 @@
                     </p>
                 </div>
 
-                <!-- 4. Rights of the Data Principal Under Sections 11–14 -->
+                <!-- 4. Protection of Children's Personal Data (Section 9) -->
+                <div>
+                    <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                        <i data-feather="heart" class="w-6 h-6 mr-3 text-scod"></i>
+                        4. Protection of Children's Personal Data (Section 9)
+                    </h2>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        In strict adherence to Section 9 of the DPDP Act, 2023, SCOD Clinic upholds enhanced data protection standards for minors and persons with disabilities:
+                    </p>
+                    <div class="space-y-4">
+                        <div class="p-4 bg-gray-50 rounded-xl border border-gray-100">
+                            <h3 class="font-bold text-gray-900 text-sm mb-1">A. Verifiable Parental / Guardian Consent</h3>
+                            <p class="text-gray-600 text-sm mb-0">We do not knowingly collect, process, or store digital personal data of any child (an individual who has not completed eighteen years of age) or a person with a disability without obtaining prior verifiable consent from their parent or lawful guardian. Consultation requests for adolescent bariatric assessment must be initiated directly by a parent or legal guardian.</p>
+                        </div>
+                        <div class="p-4 bg-gray-50 rounded-xl border border-gray-100">
+                            <h3 class="font-bold text-gray-900 text-sm mb-1">B. Prohibition on Behavioral Tracking & Targeted Advertising</h3>
+                            <p class="text-gray-600 text-sm mb-0">SCOD Clinic strictly prohibits tracking, behavioral monitoring, or profiling of children across our digital properties, and never directs targeted advertising to children or adolescents under any circumstances.</p>
+                        </div>
+                        <div class="p-4 bg-gray-50 rounded-xl border border-gray-100">
+                            <h3 class="font-bold text-gray-900 text-sm mb-1">C. Safeguarding Well-Being</h3>
+                            <p class="text-gray-600 text-sm mb-0">We do not undertake any data processing activities that are likely to cause detrimental effects on the physical, psychological, or emotional well-being of a child.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Rights of the Data Principal Under Sections 11–14 -->
                 <div>
                     <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
                         <i data-feather="user-check" class="w-6 h-6 mr-3 text-scod"></i>
-                        4. Your Statutory Rights Under the DPDP Act, 2023
+                        5. Your Statutory Rights Under the DPDP Act, 2023
                     </h2>
                     <p class="text-gray-600 leading-relaxed mb-4">
                         As a Data Principal, the DPDP Act guarantees you the following enforceable rights:
@@ -118,7 +143,7 @@
                                 <i data-feather="eye" class="w-4 h-4 mr-2 text-scod"></i> Right to Access (Sec 11)
                             </h4>
                             <p class="text-gray-600 text-xs leading-relaxed mb-0">
-                                You have the right to obtain a summary of your personal data processed by SCOD Clinic and the identities of any third-party processors with whom it has been shared.
+                                You have the right to obtain a summary of your personal data processed by SCOD Clinic, the processing activities undertaken, and the identities of third-party processors with whom data has been shared.
                             </p>
                         </div>
 
@@ -127,7 +152,7 @@
                                 <i data-feather="edit-2" class="w-4 h-4 mr-2 text-scod"></i> Right to Correction & Erasure (Sec 12)
                             </h4>
                             <p class="text-gray-600 text-xs leading-relaxed mb-0">
-                                You may request the correction of inaccurate data, completion of incomplete records, or permanent erasure of your inquiry data when the purpose has been fulfilled.
+                                You may request the correction of inaccurate data, completion of incomplete records, updating of obsolete information, or permanent erasure of your inquiry data when the purpose has been fulfilled.
                             </p>
                         </div>
 
@@ -136,7 +161,7 @@
                                 <i data-feather="slash" class="w-4 h-4 mr-2 text-scod"></i> Right to Withdraw Consent (Sec 6(4))
                             </h4>
                             <p class="text-gray-600 text-xs leading-relaxed mb-0">
-                                You may withdraw your consent at any time as easily as it was given by emailing our Grievance Officer. Processing will cease within a reasonable statutory timeframe.
+                                You may withdraw your consent at any time as easily as it was given by emailing our Grievance Officer. Processing will cease within a reasonable statutory timeframe unless required by applicable medical record laws.
                             </p>
                         </div>
 
@@ -151,11 +176,35 @@
                     </div>
                 </div>
 
-                <!-- 5. Data Retention & Deletion Schedule -->
+                <!-- 6. Cookies & Tracking Telemetry -->
+                <div>
+                    <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                        <i data-feather="database" class="w-6 h-6 mr-3 text-scod"></i>
+                        6. Cookies & Tracking Telemetry
+                    </h2>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Cookies are small text files placed on your device to ensure core website functionality and evaluate aggregate usage patterns. In accordance with DPDP principles:
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                        <div class="p-4 bg-slate-50 rounded-xl border border-slate-200">
+                            <h4 class="font-bold text-gray-900 text-sm mb-2">Essential Cookies</h4>
+                            <p class="text-gray-600 text-xs leading-relaxed mb-0">Strictly necessary for security, CSRF protection, and storing your consent preferences. These cannot be disabled as the website cannot function properly without them.</p>
+                        </div>
+                        <div class="p-4 bg-slate-50 rounded-xl border border-slate-200">
+                            <h4 class="font-bold text-gray-900 text-sm mb-2">Analytical & Performance Cookies</h4>
+                            <p class="text-gray-600 text-xs leading-relaxed mb-0">Utilized via Google Analytics 4 (GA4) with IP anonymization to gather non-identifiable aggregate metrics (such as page visits and device type) to improve user experience.</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 text-sm">
+                        You can manage your cookie preferences at any time via the cookie notice banner located in our footer or by adjusting your browser settings to block or delete cookies.
+                    </p>
+                </div>
+
+                <!-- 7. Data Retention & Deletion Schedule -->
                 <div>
                     <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
                         <i data-feather="clock" class="w-6 h-6 mr-3 text-scod"></i>
-                        5. Data Retention & Deletion Schedule (Section 8(7))
+                        7. Data Retention & Deletion Schedule (Section 8(7))
                     </h2>
                     <p class="text-gray-600 leading-relaxed mb-3">
                         Under Section 8(7) of the DPDP Act, personal data is retained only for the duration necessary to satisfy the purpose for which it was collected or to comply with applicable statutory retention requirements:
@@ -167,11 +216,11 @@
                     </ul>
                 </div>
 
-                <!-- 6. Third-Party Data Processors & Security Safeguards -->
+                <!-- 8. Third-Party Data Processors & Security Safeguards -->
                 <div>
                     <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
                         <i data-feather="lock" class="w-6 h-6 mr-3 text-scod"></i>
-                        6. Third-Party Processors & Security Safeguards
+                        8. Third-Party Processors & Security Safeguards (Section 8(5))
                     </h2>
                     <p class="text-gray-600 leading-relaxed mb-4">
                         SCOD Clinic enforces technical, physical, and organizational safeguards (including 256-bit TLS transport encryption, role-based database access, and restricted administrative privileges) in compliance with Section 8(5) of the DPDP Act.
@@ -185,11 +234,11 @@
                     </ul>
                 </div>
 
-                <!-- 7. Grievance Redressal Mechanism & Data Protection Board -->
+                <!-- 9. Grievance Redressal Mechanism & Data Protection Board -->
                 <div class="bg-blue-50 p-8 rounded-2xl border border-blue-100">
                     <h2 class="text-xl font-bold text-gray-900 mb-4 flex items-center">
                         <i data-feather="alert-octagon" class="w-6 h-6 mr-3 text-scod"></i>
-                        7. Grievance Redressal & Right to Complain (Sections 13 & 18)
+                        9. Grievance Redressal & Right to Complain (Sections 13 & 18)
                     </h2>
                     <p class="text-gray-700 leading-relaxed mb-4 text-sm">
                         If you have any questions, wish to exercise your rights of access, correction, or erasure, or have concerns regarding the processing of your personal data, you may contact our designated <strong>Grievance Redressal Officer</strong>:

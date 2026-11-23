@@ -31,6 +31,106 @@ include __DIR__ . '/../includes/header.php';
     <!-- Blog Grid -->
     <main class="max-w-7xl mx-auto px-4 py-12 md:py-16">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Blog Card: When Can I start exercising after Bariatric Surgery? -->
+            <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="bariatric-surgery weight-loss recovery">
+                <div class="relative aspect-video overflow-hidden bg-blue-50">
+                    <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-xs font-bold text-gray-600 uppercase tracking-wider border shadow-sm z-10">Exercise &amp; Recovery</div>
+                    <img src="/blog/media/images/when-can-i-start-exercising-after-bariatric-surgery.jpg" alt="When Can I start exercising after Bariatric Surgery?" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center gap-3 text-xs text-gray-400 font-semibold uppercase tracking-wider mb-4">
+                        <i data-feather="calendar" class="w-3 h-3"></i>
+                        November 21, 2026
+                    </div>
+                    <h2 class="text-xl font-bold text-gray-900 mb-3 hover:text-scod transition-colors">
+                        <a href="/blog/when-can-i-start-exercising-after-bariatric-surgery">When Can I start exercising after Bariatric Surgery?</a>
+                    </h2>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-3">Wondering when can I start exercising after bariatric surgery? Discover safe walking guidelines, gym workout timelines, lifting restrictions, and recovery advice by Dr. Arush Sabharwal.</p>
+                    <div class="flex justify-between items-center pt-4 border-t border-gray-100">
+                        <span class="text-xs text-gray-400 font-bold uppercase tracking-wider">By SCOD Clinic</span>
+                        <a href="/blog/when-can-i-start-exercising-after-bariatric-surgery" class="flex items-center gap-2 text-scod text-sm font-semibold hover:text-blue-700 transition-colors">
+                            Read More
+                            <i data-feather="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Blog Card: Is Sagging Skin After Bariatric Surgery Normal? -->
+            <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="bariatric-surgery weight-loss recovery">
+                <div class="relative aspect-video overflow-hidden bg-blue-50">
+                    <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-xs font-bold text-gray-600 uppercase tracking-wider border shadow-sm z-10">Body &amp; Recovery</div>
+                    <img src="/blog/media/images/is-sagging-skin-after-bariatric-surgery-normal.jpg" alt="Is Sagging Skin After Bariatric Surgery Normal?" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center gap-3 text-xs text-gray-400 font-semibold uppercase tracking-wider mb-4">
+                        <i data-feather="calendar" class="w-3 h-3"></i>
+                        November 18, 2026
+                    </div>
+                    <h2 class="text-xl font-bold text-gray-900 mb-3 hover:text-scod transition-colors">
+                        <a href="/blog/is-sagging-skin-after-bariatric-surgery-normal">Is Sagging Skin After Bariatric Surgery Normal?</a>
+                    </h2>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-3">Wondering if sagging skin after bariatric surgery is normal? Understand why loose skin occurs, how skin elasticity works, non-surgical management, and body contouring by Dr. Arush Sabharwal.</p>
+                    <div class="flex justify-between items-center pt-4 border-t border-gray-100">
+                        <span class="text-xs text-gray-400 font-bold uppercase tracking-wider">By SCOD Clinic</span>
+                        <a href="/blog/is-sagging-skin-after-bariatric-surgery-normal" class="flex items-center gap-2 text-scod text-sm font-semibold hover:text-blue-700 transition-colors">
+                            Read More
+                            <i data-feather="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Blog Card: Can You Have Bariatric Surgery After a Heart Attack? {2026 Guide} -->
+            <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="bariatric-surgery weight-loss recovery">
+                <div class="relative aspect-video overflow-hidden bg-blue-50">
+                    <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-xs font-bold text-gray-600 uppercase tracking-wider border shadow-sm z-10">Heart Health</div>
+                    <img src="/blog/media/images/can-you-have-bariatric-surgery-after-a-heart-attack.jpg" alt="Can You Have Bariatric Surgery After a Heart Attack? {2026 Guide}" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center gap-3 text-xs text-gray-400 font-semibold uppercase tracking-wider mb-4">
+                        <i data-feather="calendar" class="w-3 h-3"></i>
+                        November 15, 2026
+                    </div>
+                    <h2 class="text-xl font-bold text-gray-900 mb-3 hover:text-scod transition-colors">
+                        <a href="/blog/can-you-have-bariatric-surgery-after-a-heart-attack">Can You Have Bariatric Surgery After a Heart Attack? {2026 Guide}</a>
+                    </h2>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-3">Can you have bariatric surgery after a heart attack? Learn about safe waiting timelines, cardiac clearance tests, medication protocols, and cardiovascular benefits by Dr. Arush Sabharwal.</p>
+                    <div class="flex justify-between items-center pt-4 border-t border-gray-100">
+                        <span class="text-xs text-gray-400 font-bold uppercase tracking-wider">By SCOD Clinic</span>
+                        <a href="/blog/can-you-have-bariatric-surgery-after-a-heart-attack" class="flex items-center gap-2 text-scod text-sm font-semibold hover:text-blue-700 transition-colors">
+                            Read More
+                            <i data-feather="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Blog Card: Can You Smoke After Bariatric Surgery? -->
+            <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="bariatric-surgery weight-loss recovery">
+                <div class="relative aspect-video overflow-hidden bg-blue-50">
+                    <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-xs font-bold text-gray-600 uppercase tracking-wider border shadow-sm z-10">Bariatric Safety</div>
+                    <img src="/blog/media/images/can-you-smoke-after-bariatric-surgery.jpg" alt="Can You Smoke After Bariatric Surgery?" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy">
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center gap-3 text-xs text-gray-400 font-semibold uppercase tracking-wider mb-4">
+                        <i data-feather="calendar" class="w-3 h-3"></i>
+                        November 12, 2026
+                    </div>
+                    <h2 class="text-xl font-bold text-gray-900 mb-3 hover:text-scod transition-colors">
+                        <a href="/blog/can-you-smoke-after-bariatric-surgery">Can You Smoke After Bariatric Surgery?</a>
+                    </h2>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-3">Can you smoke after bariatric surgery? Learn why smoking is strictly prohibited, risks of marginal ulcers, staple leaks, vaping safety, and cessation tips by Dr. Arush Sabharwal.</p>
+                    <div class="flex justify-between items-center pt-4 border-t border-gray-100">
+                        <span class="text-xs text-gray-400 font-bold uppercase tracking-wider">By SCOD Clinic</span>
+                        <a href="/blog/can-you-smoke-after-bariatric-surgery" class="flex items-center gap-2 text-scod text-sm font-semibold hover:text-blue-700 transition-colors">
+                            Read More
+                            <i data-feather="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
             <!-- Blog Card: Why Obesity is Health Problem? {Full Guide} -->
             <article class="blog-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-all hover:-translate-y-1" data-category="bariatric-surgery weight-loss diabetes">
                 <div class="relative aspect-video overflow-hidden bg-blue-50">

@@ -265,7 +265,7 @@ $footer_locations = [
                     class="hover:text-white transition-colors">Branding Pioneers</a>
             </div>
             <div class="flex flex-wrap justify-center gap-6 text-sm"><a
-                    href="/privacy-policy.php"
+                    href="/privacy-policy"
                     class="text-slate-500 hover:text-white transition-colors cursor-pointer">Privacy Policy</a></div>
         </div>
     </div>
@@ -302,39 +302,54 @@ $footer_locations = [
 feather.replace();
 </script>
 <script defer src="https://app.wacrs.com/install-widget/bundle.js?key=38216f1f-3e32-4677-9975-f76d1c14b48b"></script>
-</footer>
-<!-- Cookie Notice (DPDP Act 2023 Compliance) -->
-<div id="cookie-banner" class="fixed bottom-4 left-4 right-4 md:left-auto md:right-6 md:max-w-md bg-slate-900 text-white p-5 rounded-2xl shadow-2xl border border-slate-700 z-[999] transition-all text-xs">
+
+<!-- Cookie & Privacy Notice Banner (DPDP Act 2023 Compliance) -->
+<div id="cookie-banner" class="hidden fixed bottom-4 left-4 right-4 md:left-auto md:right-6 md:max-w-md bg-slate-900/95 backdrop-blur-md text-white p-5 rounded-2xl shadow-2xl border border-slate-700 z-[9999] transition-all text-xs">
     <div class="flex items-start gap-3">
-        <i data-feather="shield" class="w-5 h-5 text-scod flex-shrink-0 mt-0.5"></i>
+        <div class="w-8 h-8 rounded-full bg-blue-500/20 text-scod flex items-center justify-center shrink-0 mt-0.5">
+            <svg class="w-4 h-4 text-sky-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+        </div>
         <div class="flex-grow">
-            <p class="font-bold text-sm text-white mb-1">Privacy & Cookie Notice</p>
+            <p class="font-bold text-sm text-white mb-1">Privacy &amp; Cookie Consent</p>
             <p class="text-slate-300 leading-relaxed mb-3">
-                We use cookies and telemetry tools to ensure secure operation and analyze aggregate traffic in accordance with India's Digital Personal Data Protection (DPDP) Act, 2023. We do not sell your personal data.
+                SCOD Clinic processes your personal data and uses cookies in compliance with India's <strong>Digital Personal Data Protection (DPDP) Act, 2023</strong>. We never sell your healthcare or personal data.
             </p>
-            <div class="flex items-center gap-3">
-                <button id="accept-cookies-btn" class="bg-scod hover:bg-blue-600 text-white font-bold px-4 py-2 rounded-lg transition-colors cursor-pointer">
-                    Accept
+            <div class="flex flex-wrap items-center gap-2">
+                <button id="accept-cookies-btn" class="bg-scod hover:bg-blue-600 text-white font-semibold px-3.5 py-1.5 rounded-lg transition-colors cursor-pointer text-xs">
+                    Accept All
                 </button>
-                <a href="/privacy-policy" class="text-slate-400 hover:text-white underline">Learn More</a>
+                <button id="reject-cookies-btn" class="bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-600 font-semibold px-3 py-1.5 rounded-lg transition-colors cursor-pointer text-xs">
+                    Essential Only
+                </button>
+                <a href="/privacy-policy" class="text-sky-400 hover:text-sky-300 underline ml-auto text-xs font-medium">Privacy Policy</a>
             </div>
         </div>
     </div>
 </div>
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const banner = document.getElementById("cookie-banner");
-        const acceptBtn = document.getElementById("accept-cookies-btn");
-        if (banner && acceptBtn) {
-            if (localStorage.getItem("scod_cookie_consent") === "accepted") {
-                banner.classList.add("hidden");
-            }
+    (function() {
+        var consent = localStorage.getItem("scod_cookie_consent");
+        var banner = document.getElementById("cookie-banner");
+        var acceptBtn = document.getElementById("accept-cookies-btn");
+        var rejectBtn = document.getElementById("reject-cookies-btn");
+        if (!consent && banner) {
+            banner.classList.remove("hidden");
+        }
+        if (acceptBtn) {
             acceptBtn.addEventListener("click", function() {
                 localStorage.setItem("scod_cookie_consent", "accepted");
-                banner.classList.add("hidden");
+                if (banner) banner.classList.add("hidden");
             });
         }
-    });
+        if (rejectBtn) {
+            rejectBtn.addEventListener("click", function() {
+                localStorage.setItem("scod_cookie_consent", "essential");
+                if (banner) banner.classList.add("hidden");
+            });
+        }
+    })();
 </script>
 
 </body>
